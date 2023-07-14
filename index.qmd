@@ -1,5 +1,5 @@
 ---
-title: Student   |    Adventure   |    Unleashed. 
+title: Student   |    Adventurer   |    Unleashed. 
 image: files/Akbarimg.jpg
 about:
   template: jolla
