@@ -1,0 +1,29 @@
+---
+title: ""
+format: html
+---
+## about it  
+In my journey, I've had the privilege of attending remarkable projects and workshops. These transformative experiences have broadened my horizons, ignited my creativity, and fostered personal growth. Each endeavour has enriched my knowledge and expanded my perspective, from innovative projects that push the boundaries of technology to immersive workshops that cultivate new skills.
+  
+## Project
+1.  M.tech 2021  
+    Topic: Prediction model for Parkinson's Disease  
+    Advisor: Dr. saiyed umer Assistant professor,Dept. of CSE,
+     Aliah University, Kolkata 700156.
+
+2.  B.Tech2019  
+    Topic: Design of Home Automation using IoT  
+    Advisor: Dr. Zeenat Rehena, Assistant professor,Dept.
+    of CSE, Aliah University, Kolkata 700156.
+
+## Workshop
+1.  Participated in National Seminar on “Preparation & Publication of
+    Research Articles” organized by Department of Computer Science and
+    Engineering, Aliah University, Kolkata on 18th March 2019.
+
+
+
+2.  Participated in National Seminar on “Mathematical Modelling and its
+    Application in Natural and Engineering Science (NSMMANES-
+    2019)” organized by Department of Mathematics and Statistics, Aliah
+    University, Kolkata on 25th March 2019.

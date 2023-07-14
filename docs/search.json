@@ -1,0 +1,219 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Student | Adventure | Unleashed.",
+    "section": "",
+    "text": "Hey, world wanderer! What’s the haps?"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Akbar Ali",
+    "section": "",
+    "text": "M.Tech in Computer Science and Engineering\nAliah university , kol | july 2019-sep 2021\nB.Tech in Computer Science and Engineering\nAliah university , kol | july 2015-july 2019"
+  },
+  {
+    "objectID": "index.html#publication",
+    "href": "index.html#publication",
+    "title": "Akbar Ali",
+    "section": "",
+    "text": "Descriptive Predictive Model for Parkinson’s Disease Analysis"
+  },
+  {
+    "objectID": "index.html#awards",
+    "href": "index.html#awards",
+    "title": "Akbar Ali",
+    "section": "",
+    "text": "1st division scholarship in 10th.\naward in chemistary for excelent student.\nObtained Rank 1 in the university final exam in B.tech 2019.\nObtained Rank 2 in the university final exam in M.tech 2021.\nObtained rank 1 AuAT2019\nObtained rank 64 in AUAT2015\nWBJEE AND AIEEE Qualified in 2015."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "I, Me, Myself.",
+    "section": "",
+    "text": "I am Akbar Ali.As an enthusiastic learner, I am always eager to take up challenging tasks and push my limits to achieve excellence. My academic journey has give me a strong foundation in the concepts of computer science, and I have gained practical experience through various projects.Currently i am pursuing PH.D from IIT Gandhinagar since jan 2023, Gujarat, India."
+  },
+  {
+    "objectID": "index.html#project",
+    "href": "index.html#project",
+    "title": "Akbar Ali",
+    "section": "",
+    "text": "Prediction of parkinson disease.\nSmart home automation"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Setting Up Development Environment\n\n\n\n\n\n\n\nSetup\n\n\n\n\n\n\n\n\n\n\n\nApr 25, 2023\n\n\nKhush Shah\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Conference.html",
+    "href": "Conference.html",
+    "title": "Conference",
+    "section": "",
+    "text": "A conference paper is a written document that presents research, analysis, or findings on a specific topic within a particular academic or professional conference. It is a concise and structured piece of work that highlights the key aspects of a research project, including the objectives, methodology, results, and conclusions. Conference papers serve as a platform for scholars, researchers, and experts to share their insights, exchange knowledge, and contribute to the advancement of their respective fields."
+  },
+  {
+    "objectID": "workshop.html",
+    "href": "workshop.html",
+    "title": "Workshop",
+    "section": "",
+    "text": "Participated in National Seminar on “Preparation & Publication of Research Articles” organized by Department of Computer Science and Engineering, Aliah University, Kolkata on 18th March 2019.\nParticipated in National Seminar on “Mathematical Modelling and its Application in Natural and Engineering Science (NSMMANES- 2019)” organized by Department of Mathematics and Statistics, Aliah University, Kolkata on 25th March 2019."
+  },
+  {
+    "objectID": "Project.html",
+    "href": "Project.html",
+    "title": "Aamaan Akbar Ali",
+    "section": "",
+    "text": "In my journey, I’ve had the privilege of attending remarkable projects and workshops. These transformative experiences have broadened my horizons, ignited my creativity, and fostered personal growth. Each endeavour has enriched my knowledge and expanded my perspective, from innovative projects that push the boundaries of technology to immersive workshops that cultivate new skills."
+  },
+  {
+    "objectID": "Certification.html",
+    "href": "Certification.html",
+    "title": "image",
+    "section": "",
+    "text": "• Certified as “Elite” in the course “PHP WITH MYSQL” by WebTek Labs Pvt.Ltd. Jun-aug2018. • Certified as “Elite” in the course “Natural Language Processing(NLP) inpython” byudemy Online Certification Courses during Jan-Mar 2020. • Certified as “Solving International Quention” in “chegg expert learningplatform” by Chegg india Pvt. Ltd. Serial No. cert_dhg104nq. • Certified as “Q&A” in “chegg expert learning platform” by Chegg india Pvt.Ltd. Serial No. cert_cqbfzn14. • Certified as “Mastering the guidline” in “chegg expert learning platform” byChegg india Pvt. Ltd. Serial No. cert_172nvmdz. • Certified as “Elite” in the course “DCA” by OCSM Pvt. Ltd. Registration No.05/DCA/MZP-42/380/27717"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "GAllary",
+    "section": "",
+    "text": "Inox, Mission impossible_dead reckoning.\n\n\n\n\n\nIITGN Green Campus, Lal minar view\n\n\n\n\n\nladakh, khardungla"
+  },
+  {
+    "objectID": "posts/firs.html",
+    "href": "posts/firs.html",
+    "title": "Setting Up Development Environment",
+    "section": "",
+    "text": "This is my personal website made with quarto and github pages.\nMy learnings/tasks while working on it:\nFor Windows:-\n\nInstall VS-Code\nInstall Git and connect/configure with GitHub along with VS-Code\nInstall Quarto in the system and Quarto extension in VS-Code\nCreate a new repository in GitHub\nCreate a new project in Quarto\nCreate proper “_quarto.yml”, “index.qmd” files\nRender the files and push to GitHub\nConfigure GitHub pages to publish the website\n\nFor Linux:-\n\nInstall “Windows Subsystem for Linux” (WSL) from Microsoft Store\nInstall “Ubuntu” as distributor\nIf “WslRegisterDistribution failed with error: 0x80370114” error comes, refer https://www.cyberithub.com/solved-wslregisterdistribution-failed-with-error-0x80370114\nInstall Quarto in the Linux system and Quarto extension in VS-Code\nRun command wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.3.340/quarto-1.3.340-linux-amd64.deb in the Linux command Line Interface (CLI)\nRun command sudo dpkg -i quarto-1.3.340-linux-amd64.deb in the Linux Command Line Interface (CLI)\nRun command sudo apt-get install -f in the Linux command Line Interface (CLI)\nRun command quarto in the Linux command Line Interface (CLI) to check if Quarto is installed properly\nInstall Anaconda in the Linux system\nRun command wget https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh in the Linux command Line Interface (CLI)\nRun command bash Anaconda3-2023.03-1-Linux-x86_64.sh in the Linux command Line Interface (CLI)\nRun command ipython in the Linux command Line Interface (CLI) to check if Anaconda is installed properly\nConnect/configure with GitHub\nGo to https://github.com/settings/tokens to generate a new token and save it. It’ll be useful later\nClone the repository\nRun command git clone https://github.com/Khush24Shah/Khush24Shah.github.io in the Linux command Line Interface (CLI)\nEnter “username” and the “token” generated in the previous step"
+  },
+  {
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "Hyperspectral images analysis.\n\n\n\n\n\n\n\nMachine Learning\n\n\nOptimisation\n\n\n\n\n\n\n\n\n\n\n\nJul 12, 2023\n\n\nAkbar Ali\n\n\n\n\n\n\n  \n\n\n\n\nTypes of Losses and Optimisation.\n\n\n\n\n\n\n\nMachine Learning\n\n\nOptimisation\n\n\n\n\n\n\n\n\n\n\n\nJul 12, 2023\n\n\nAI lab Ph.d students\n\n\n\n\n\n\n  \n\n\n\n\nSetting Up Development Environment\n\n\n\n\n\n\n\nSetup.\n\n\n\n\n\n\n\n\n\n\n\nJul 12, 2023\n\n\nAkbar Ali\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blogs/Myfirst_blog.html",
+    "href": "blogs/Myfirst_blog.html",
+    "title": "Setting Up Development Environment",
+    "section": "",
+    "text": "This is my personal website made with quarto and github pages.\nMy learnings/tasks while working on it:\nFor Windows:-\n\nInstall VS-Code\nInstall Git and connect/configure with GitHub along with VS-Code\nInstall Quarto in the system and Quarto extension in VS-Code\nCreate a new repository in GitHub\nCreate a new project in Quarto\nCreate proper “_quarto.yml”, “index.qmd” files\nRender the files and push to GitHub\nConfigure GitHub pages to publish the website\n\nFor Linux:-\n\nInstall “Windows Subsystem for Linux” (WSL) from Microsoft Store\nInstall “Ubuntu” as distributor\nIf “WslRegisterDistribution failed with error: 0x80370114” error comes, refer https://www.cyberithub.com/solved-wslregisterdistribution-failed-with-error-0x80370114\nInstall Quarto in the Linux system and Quarto extension in VS-Code\nRun command wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.3.340/quarto-1.3.340-linux-amd64.deb in the Linux command Line Interface (CLI)\nRun command sudo dpkg -i quarto-1.3.340-linux-amd64.deb in the Linux Command Line Interface (CLI)\nRun command sudo apt-get install -f in the Linux command Line Interface (CLI)\nRun command quarto in the Linux command Line Interface (CLI) to check if Quarto is installed properly\nInstall Anaconda in the Linux system\nRun command wget https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh in the Linux command Line Interface (CLI)\nRun command bash Anaconda3-2023.03-1-Linux-x86_64.sh in the Linux command Line Interface (CLI)\nRun command ipython in the Linux command Line Interface (CLI) to check if Anaconda is installed properly\nConnect/configure with GitHub\nGo to https://github.com/settings/tokens to generate a new token and save it. It’ll be useful later\nClone the repository\nRun command git clone https://github.com/Khush24Shah/Khush24Shah.github.io in the Linux command Line Interface (CLI)\nEnter “username” and the “token” generated in the previous step"
+  },
+  {
+    "objectID": "blogs/MLLosses.html",
+    "href": "blogs/MLLosses.html",
+    "title": "Types of Losses and Optimisation.",
+    "section": "",
+    "text": "Loss or Objective Function is a measure of the model’s performance. It is optimised during the training to improve model’s performance.\nBroadly speaking, loss functions can be grouped into two major categories concerning the types of problems we come across in the real world: CLASSIFICATION and REGRESSION. In CLASSIFICATION problems, our task is to predict the respective probabilities of all classes the problem is dealing with. When it comes to REGRESSION, our task is to predict the continuous value concerning a given set of independent features to the learning algorithm."
+  },
+  {
+    "objectID": "blogs/MLLosses.html#mean-absolute-error-loss",
+    "href": "blogs/MLLosses.html#mean-absolute-error-loss",
+    "title": "Types of Losses and Optimisation.",
+    "section": "Mean Absolute Error Loss",
+    "text": "Mean Absolute Error Loss\nWe define MAE loss function as the average of absolute differences between the actual and the predicted value. It’s the second most commonly used regression loss function. It measures the average magnitude of errors in a set of predictions, without considering their directions.\n\\[\\mathrm{MAE}(\\boldsymbol{y}, \\boldsymbol{\\hat{y}}) = \\frac{1}{n}\\sum_{i=1}^{n}|y_i - \\hat{y_i}|\\]\nwhere \\(y_i\\) is the actual value and \\(\\hat{y_i}\\) is the predicted value.\nThe corresponding cost function is the mean of these absolute errors (MAE). It is also known as the \\(\\ell_1\\) loss function."
+  },
+  {
+    "objectID": "blogs/MLLosses.html#mean-squared-error-loss",
+    "href": "blogs/MLLosses.html#mean-squared-error-loss",
+    "title": "Types of Losses and Optimisation.",
+    "section": "Mean Squared Error Loss",
+    "text": "Mean Squared Error Loss\nWe define MSE loss function as the average of squared differences between the actual and the predicted value. It’s the most commonly used regression loss function.\n\\[\\mathrm{MSE}(\\boldsymbol{y}, \\boldsymbol{\\hat{y}}) = \\frac{1}{n}\\sum_{i=1}^{n}(y_i - \\hat{y_i})^2\\]\nwhere \\(y_i\\) is the actual value and \\(\\hat{y_i}\\) is the predicted value.\nThe corresponding cost function is the mean of these squared errors (MSE). It is also known as the \\(\\ell_2\\) loss function. The MSE loss function penalizes the model for making large errors by squaring them."
+  },
+  {
+    "objectID": "blogs/MLLosses.html#huber-loss",
+    "href": "blogs/MLLosses.html#huber-loss",
+    "title": "Types of Losses and Optimisation.",
+    "section": "Huber Loss",
+    "text": "Huber Loss\nWe define Huber loss function as the combination of MSE and MAE. It’s less sensitive to outliers than the MSE loss function and is differentiable at 0.\n\\[\\mathrm{Huber}(\\boldsymbol{y}, \\boldsymbol{\\hat{y}} ; \\delta) = \\frac{1}{n}\\sum_{i=1}^{n}\\mathrm{L}_{\\delta}(y_i - \\hat{y_i})\\]\n\\[\\mathrm{L}_{\\delta}(y_i - \\hat{y_i}) = \\begin{cases} \\frac{1}{2}(y_i - \\hat{y_i})^2 & \\text{for } |y_i - \\hat{y_i}| \\leq \\delta \\\\ \\delta|y_i - \\hat{y_i}| - \\frac{1}{2}\\delta^2 & \\mathrm{otherwise} \\end{cases}\\]\nwhere \\(y_i\\) is the actual value and \\(\\hat{y_i}\\) is the predicted value.\nThe corresponding cost function is the mean of these Huber errors. The Huber loss function is more robust to outliers compared to the MSE loss function."
+  },
+  {
+    "objectID": "blogs/MLLosses.html#example",
+    "href": "blogs/MLLosses.html#example",
+    "title": "Types of Losses and Optimisation.",
+    "section": "Example",
+    "text": "Example\nLet’s take a simple example to understand the above loss functions.\nSay for some data, the actual value is 100 and the predicted value is 110. The loss function for the above loss functions will be:\n\\[\\begin{align*}\n\\mathrm{MAE} &= |100 - 110| &= 10 \\\\\n\\mathrm{MSE} &= (100 - 110)^2 &= 100 \\\\\n\\mathrm{Huber}(\\delta = 5) &= \\mathrm{L}_{\\delta}(100 - 110)\\\\\n&= 5 \\times |100 - 110| - \\frac{1}{2}\\times5^2 = 50 - 12.5 &= 37.5 \\\\\n\\end{align*}\\]\nHere, we can see that the MAE loss function is the least sensitive to outliers. The MSE loss function is the most sensitive to outliers. The Huber loss function is less sensitive to outliers than the MSE loss function and is differentiable at 0."
+  },
+  {
+    "objectID": "blogs/MLLosses.html#implementation",
+    "href": "blogs/MLLosses.html#implementation",
+    "title": "Types of Losses and Optimisation.",
+    "section": "Implementation",
+    "text": "Implementation\n\nImporting Libraries\n\nimport plotly.graph_objects as go\nimport torch\nfrom torch.optim import Adam\n\nimport sklearn.metrics as metrics\n\n\n\nDefining the loss functions\n\n# MAE loss\ndef mae(y, y_pred, extra=None):\n    assert y.shape == y_pred.shape\n    val = torch.abs(y - y_pred)\n    return torch.mean(val)\n\n# MSE loss\ndef mse(y, y_pred, extra=None):\n    assert y.shape == y_pred.shape\n    val = (y - y_pred) ** 2\n    return torch.mean(val)\n\n# Huber loss\ndef huber(y, y_pred, extra=None):\n    assert y.shape == y_pred.shape\n    d = extra if extra else 1\n    diff = torch.abs(y - y_pred)\n    val = torch.where(diff &lt; d, 0.5 * diff ** 2, d * diff - 0.5 * d ** 2)\n    return torch.mean(val)\n\n# Binary Cross-Entropy loss\ndef bce(y, y_pred, extra=None):\n    assert y.shape == y_pred.shape\n    val = -y * torch.log(y_pred) - (1 - y) * torch.log(1 - y_pred)\n    return torch.mean(val)\n\n# Focal loss\ndef focal(y, y_pred, extra=None):\n    assert y.shape == y_pred.shape\n    g = extra if extra else 2\n    case_1 = -y * torch.log(y_pred) * (1 - y_pred) ** g\n    case_0 = -(1 - y) * torch.log(1 - y_pred) * y_pred ** g\n    val = case_1 + case_0\n    return torch.mean(val)\n\n\nloss_func = {\"mae\": mae, \"mse\": mse, \"huber\": huber, \"bce\": bce, \"focal\": focal}\n\n\n\nTraining Function\n\n# Train function\ndef train(x, y, w, loss_type, lr=0.01, epochs=100, extra=False):\n    if loss_type in (\"mae\", \"mse\", \"huber\"): # regression\n        classes = False\n        res = \"RMSE\"\n        res_func = metrics.mean_squared_error\n    elif loss_type in (\"bce\", \"focal\"): # classification\n        classes = True\n        res = \"Accuracy\"\n        res_func = metrics.accuracy_score\n    else:\n        raise ValueError(\"Unknown loss function\")\n    \n    result = []\n    loss_fn = loss_func[loss_type] # get loss function\n\n    opt = Adam([w], lr=lr)\n\n    for i in range(epochs):\n        y_pred = torch.matmul(x, w)\n        if classes: # classification\n            y_pred = torch.sigmoid(y_pred)\n\n        loss = loss_fn(y, y_pred, extra)\n        loss.backward()\n\n        opt.step()\n        opt.zero_grad()\n\n        if classes: # classification\n            y_pred = torch.where(y_pred &gt; 0.5, 1.0, 0.0) # threshold\n            result.append(res_func(y, y_pred.detach()))\n        else: # regression\n            result.append(res_func(y, y_pred.detach(), squared=False))\n\n        if i % (epochs // 10) == 0:\n            print(f'Epoch {i}, loss {loss:.4f}, {res} {result[-1]:.4f}')\n\n    return result, y_pred.detach()\n\n\n\nGenerating the data for regression\n\nx = torch.rand(500, 1)\ny = 2 * x + 3 + torch.randn(500, 1) * 0.5\n\nx = torch.concatenate([x, torch.ones((500, 1))], axis=1)\n\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=x[:, 0], y=y[:, 0], mode='markers', name='data'))\nfig.update_layout(title='Data', xaxis_title='x', yaxis_title='y')\nfig.show()\n\n\n                                                \n\n\n\n\nMAE Loss\n\nTraining\n\nw = torch.randn(2, 1, requires_grad=True)\n\nlr = 0.1\nloss_fn = \"mae\"\n\n\nresult, y_pred = train(x, y, w, loss_fn, lr=lr, epochs=200)\n\nEpoch 0, loss 5.0595, RMSE 5.1217\nEpoch 20, loss 2.1006, RMSE 2.1534\nEpoch 40, loss 0.5658, RMSE 0.7100\nEpoch 60, loss 0.4173, RMSE 0.5248\nEpoch 80, loss 0.3829, RMSE 0.4829\nEpoch 100, loss 0.3719, RMSE 0.4692\nEpoch 120, loss 0.3690, RMSE 0.4648\nEpoch 140, loss 0.3684, RMSE 0.4642\nEpoch 160, loss 0.3684, RMSE 0.4643\nEpoch 180, loss 0.3684, RMSE 0.4642\n\n\n\n\nPlot the loss\n\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=torch.arange(len(result)), y=result, mode='lines', name='loss'))\nfig.update_layout(title='Loss', xaxis_title='epoch', yaxis_title='loss')\nfig.show()\n\n\n                                                \n\n\n\n\nPlot the data with the regression line\n\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=x[:, 0], y=y.ravel(), mode='markers', name='data'))\nfig.add_trace(go.Scatter(x=x[:, 0], y=2 * x[:, 0] + 3, mode='lines', name='true line', line=dict(color='green')))\nfig.add_trace(go.Scatter(x=x[:, 0], y=y_pred[:, 0], mode='lines', name='regression line', line=dict(color='red')))\nfig.show()\n\n\n                                                \n\n\n\n\n\nMSE Loss\n\nTraining\n\nw = torch.randn(2, 1, requires_grad=True)\n\nlr = 0.1\nloss_fn = \"mse\"\n\n\nresult, y_pred = train(x, y, w, \"mse\", lr=lr, epochs=200)\n\nEpoch 0, loss 33.1759, RMSE 5.7599\nEpoch 20, loss 8.3986, RMSE 2.8980\nEpoch 40, loss 0.8111, RMSE 0.9006\nEpoch 60, loss 0.2259, RMSE 0.4752\nEpoch 80, loss 0.2344, RMSE 0.4842\nEpoch 100, loss 0.2175, RMSE 0.4664\nEpoch 120, loss 0.2172, RMSE 0.4660\nEpoch 140, loss 0.2166, RMSE 0.4654\nEpoch 160, loss 0.2163, RMSE 0.4651\nEpoch 180, loss 0.2161, RMSE 0.4648\n\n\n\n\nPlot the loss\n\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=torch.arange(len(result)), y=result, mode='lines', name='loss'))\nfig.update_layout(title='Loss', xaxis_title='epoch', yaxis_title='loss')\nfig.show()\n\n\n                                                \n\n\n\n\nPlot the data with the regression line\n\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=x[:, 0], y=y.ravel(), mode='markers', name='data'))\nfig.add_trace(go.Scatter(x=x[:, 0], y=2 * x[:, 0] + 3, mode='lines', name='true line', line=dict(color='green')))\nfig.add_trace(go.Scatter(x=x[:, 0], y=y_pred[:, 0], mode='lines', name='regression line', line=dict(color='red')))\nfig.update_layout(title='Data', xaxis_title='x', yaxis_title='y')\nfig.show()\n\n\n                                                \n\n\n\n\n\nHuber Loss\n\nTraining\n\nw = torch.randn(2, 1, requires_grad=True)\n\nlr = 0.1\nloss_fn = \"huber\"\n\n\nresult, y_pred = train(x, y, w, loss_fn, lr=lr, epochs=200, extra=0.5)\n\nEpoch 0, loss 0.9997, RMSE 2.3211\nEpoch 20, loss 0.1458, RMSE 0.6103\nEpoch 40, loss 0.1058, RMSE 0.4996\nEpoch 60, loss 0.0954, RMSE 0.4702\nEpoch 80, loss 0.0935, RMSE 0.4641\nEpoch 100, loss 0.0935, RMSE 0.4640\nEpoch 120, loss 0.0934, RMSE 0.4639\nEpoch 140, loss 0.0934, RMSE 0.4639\nEpoch 160, loss 0.0934, RMSE 0.4639\nEpoch 180, loss 0.0934, RMSE 0.4639\n\n\n\n\nPlot the loss\n\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=torch.arange(len(result)), y=result, mode='lines', name='loss'))\nfig.update_layout(title='Loss', xaxis_title='epoch', yaxis_title='loss')\nfig.show()\n\n\n                                                \n\n\n\n\nPlot the data with the regression line\n\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=x[:, 0], y=y.ravel(), mode='markers', name='data'))\nfig.add_trace(go.Scatter(x=x[:, 0], y=2 * x[:, 0] + 3, mode='lines', name='true line', line=dict(color='green')))\nfig.add_trace(go.Scatter(x=x[:, 0], y=y_pred[:, 0], mode='lines', name='regression line', line=dict(color='red')))\nfig.show()"
+  },
+  {
+    "objectID": "blogs/MLLosses.html#binary-cross-entropy-loss",
+    "href": "blogs/MLLosses.html#binary-cross-entropy-loss",
+    "title": "Types of Losses and Optimisation.",
+    "section": "Binary Cross-Entropy Loss",
+    "text": "Binary Cross-Entropy Loss\nThis is the most common loss function used in classification problems. The binary cross-entropy loss decreases as the predicted probability converges to the actual label. It measures the performance of a classification model whose predicted output is a probability value between 0 and 1.\n\\[\\mathrm{L}(\\boldsymbol{y}, \\boldsymbol{\\hat{y}}) = \\begin{cases} -\\log(\\hat{y_i}) & \\text{if } y_i = 1 \\\\ -\\log(1-\\hat{y_i}) & \\text{if } y_i = 0 \\end{cases}\\]\n\\[\\mathrm{L}(\\boldsymbol{y}, \\boldsymbol{\\hat{y}}) = - \\dfrac{1}{m} \\sum_{i=1}^{m} y_i \\log(\\hat{y_i}) + (1-y_i) \\log(1-\\hat{y_i})\\]\nwhere \\(y_i\\) is the actual value and \\(\\hat{y_i}\\) is the predicted value."
+  },
+  {
+    "objectID": "blogs/MLLosses.html#focal-loss",
+    "href": "blogs/MLLosses.html#focal-loss",
+    "title": "Types of Losses and Optimisation.",
+    "section": "Focal Loss",
+    "text": "Focal Loss\nWe define Focal loss function as the combination of Binary Cross-Entropy Loss and a modulating factor. The modulating factor \\(\\gamma\\) is used to reduce the relative loss for well-classified examples and put more focus on hard, misclassified examples. It’s less sensitive to outliers than the Binary Cross-Entropy Loss function and is differentiable at 0.\n\\[\\mathrm{FL}(\\boldsymbol{y}, \\boldsymbol{\\hat{y}}) = \\begin{cases} -(1-\\hat{y_i})^{\\gamma}\\log(\\hat{y_i}) & \\text{if } y_i = 1 \\\\ -(\\hat{y_i})^{\\gamma}\\log(1-\\hat{y_i}) & \\text{if } y_i = 0 \\end{cases}\\]\n\\[\\mathrm{FL}(\\boldsymbol{y}, \\boldsymbol{\\hat{y}}) = - \\dfrac{1}{m} \\sum_{i=1}^{m} y_i (1 - \\hat{y_i})^{\\gamma} \\log(\\hat{y_i}) + (1-y_i) (\\hat{y_i})^{\\gamma} \\log(1-\\hat{y_i})\\]\nwhere \\(y_i\\) is the actual label and \\(\\hat{y_i}\\) is the predicted probability of the label."
+  },
+  {
+    "objectID": "blogs/MLLosses.html#example-1",
+    "href": "blogs/MLLosses.html#example-1",
+    "title": "Types of Losses and Optimisation.",
+    "section": "Example",
+    "text": "Example\nLet’s take a simple example to understand the above loss functions.\nSay for some data, the actual label is 1 and the predicted probability of the label is 0.85. The loss function for the above loss functions will be:\n\\[\\begin{align*}\n\\mathrm{BCE} &= -\\log(0.85) &\\approx 0.162 \\\\\n\\mathrm{FL}(\\gamma = 2) &= -(1-0.85)^2\\log(0.85) &\\approx 0.004 \\\\\n\\end{align*}\\]\nAnd for some data, the actual label is 1 and the predicted probability of the label is 0.55. The loss function for the above loss functions will be:\n\\[\\begin{align*}\n\\mathrm{BCE} &= -\\log(0.55) &\\approx 0.598 \\\\\n\\mathrm{FL}(\\gamma = 2) &= -(1-0.55)^2\\log(0.55) &\\approx 0.121 \\\\\n\\end{align*}\\]\nHere, we can see that the propotional increase is approximately 3.6 times in the BCE loss function and approximately 30 times in the FL loss function. Hence, the FL loss function penalizes the model more for misclassifying the data."
+  },
+  {
+    "objectID": "blogs/MLLosses.html#implementation-1",
+    "href": "blogs/MLLosses.html#implementation-1",
+    "title": "Types of Losses and Optimisation.",
+    "section": "Implementation",
+    "text": "Implementation\n\nGenerating the data for classification\n\nfrom sklearn.datasets import make_blobs\n\n\nx, y = make_blobs(n_samples=500, centers=2, cluster_std=2, random_state=42)\n\nx = torch.from_numpy(x).float()\ny = torch.from_numpy(y).float().reshape(-1, 1)\n\nx = torch.concatenate([x, torch.ones((500, 1))], axis=1)\n\ncolor = ['red' if l == 0 else 'blue' for l in y]\n\n# plot data\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=x[:, 0], y=x[:, 1], mode='markers', marker=dict(color=color)))\nfig.update_layout(title='Data', xaxis_title='x', yaxis_title='y')\nfig.show()\n\n\n                                                \n\n\n\n\nBinary Cross-Entropy Loss\n\nTraining\n\nw = torch.randn(3, 1, requires_grad=True)\n\nlr = 0.1\nloss_fn = \"bce\"\n\n\nresult, y_pred = train(x, y, w, loss_fn, lr=lr, epochs=100)\n\nEpoch 0, loss 2.5939, Accuracy 0.4800\nEpoch 10, loss 0.2322, Accuracy 0.9520\nEpoch 20, loss 0.0507, Accuracy 0.9900\nEpoch 30, loss 0.0366, Accuracy 0.9860\nEpoch 40, loss 0.0330, Accuracy 0.9880\nEpoch 50, loss 0.0317, Accuracy 0.9900\nEpoch 60, loss 0.0310, Accuracy 0.9880\nEpoch 70, loss 0.0305, Accuracy 0.9880\nEpoch 80, loss 0.0301, Accuracy 0.9900\nEpoch 90, loss 0.0297, Accuracy 0.9900\n\n\n\n\nPlot the loss\n\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=torch.arange(len(result)), y=result, mode='lines', name='Accuracy'))\nfig.update_layout(title='Accuracy', xaxis_title='Epoch', yaxis_title='Accuracy')\nfig.show()\n\n\n                                                \n\n\n\n\nPlot the data with the separation line\n\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=x[:, 0], y=x[:, 1], mode='markers', marker=dict(color=color)))\nfig.add_trace(go.Scatter(x=x[:, 0], y=(-(w[0] * x[:, 0] + w[2]) / w[1]).detach(), mode='lines', name='separation line', line=dict(color='red')))\nfig.update_layout(title='Data', xaxis_title='x', yaxis_title='y', yaxis_range=(x[:, 1].min() - 5, x[:, 1].max() + 5))\nfig.show()\n\n\n                                                \n\n\n\n\n\nFocal Loss\n\nTraining\n\nw = torch.randn(3, 1, requires_grad=True)\n\nlr = 0.1\nloss_fn = \"focal\"\n\n\nresult, y_pred = train(x, y, w, loss_fn, lr=lr, epochs=100, extra=5)\n\nEpoch 0, loss 1.3781, Accuracy 0.5020\nEpoch 10, loss 0.0047, Accuracy 0.9820\nEpoch 20, loss 0.0156, Accuracy 0.9720\nEpoch 30, loss 0.0191, Accuracy 0.9720\nEpoch 40, loss 0.0163, Accuracy 0.9740\nEpoch 50, loss 0.0125, Accuracy 0.9800\nEpoch 60, loss 0.0097, Accuracy 0.9860\nEpoch 70, loss 0.0078, Accuracy 0.9820\nEpoch 80, loss 0.0068, Accuracy 0.9820\nEpoch 90, loss 0.0061, Accuracy 0.9820\n\n\n\n\nPlot the loss\n\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=torch.arange(len(result)), y=result, mode='lines', name='Accuracy'))\nfig.update_layout(title='Accuracy', xaxis_title='Epoch', yaxis_title='Accuracy')\nfig.show()\n\n\n                                                \n\n\n\n\nPlot the data with the separation line\n\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=x[:, 0], y=x[:, 1], mode='markers', marker=dict(color=color)))\nfig.add_trace(go.Scatter(x=x[:, 0], y=(-(w[0] * x[:, 0] + w[2]) / w[1]).detach(), mode='lines', name='separation line', line=dict(color='red')))\nfig.update_layout(title='Classification', xaxis_title='x', yaxis_title='y', yaxis_range=(x[:, 1].min() - 5, x[:, 1].max() + 5))\nfig.show()\n\n\n                                                \n\n\n\n\n\nComparison between BCE and FL\n\ndef ce(p):\n    return -torch.log(p)\n\ndef fl(p, gamma=2):\n    return (1 - p) ** gamma * -torch.log(p)\n\n\nx = torch.arange(0.01, 1, 0.01)\n\nfig = go.Figure()\nfor gamma in [0, 0.5, 1, 2, 5, 10]:\n    fig.add_trace(go.Scatter(x=x, y=fl(x, gamma)/ce(x), mode='lines', name=f'gamma={gamma}'))\nfig.update_layout(title='Focal Loss / Cross Entropy', xaxis_title='p', yaxis_title='Focal Loss / Cross Entropy')\nfig.show()\n\n\n                                                \n\n\n\nfig = go.Figure()\nfor gamma in [0, 0.5, 1, 2, 5, 10]:\n    fig.add_trace(go.Scatter(x=x, y=torch.log(ce(x)/fl(x, gamma)), mode='lines', name=f'gamma={gamma}'))\nfig.update_layout(title='log(Cross Entropy / Focal Loss)', xaxis_title='p', yaxis_title='log(Cross Entropy / Focal Loss)')\nfig.show()"
+  },
+  {
+    "objectID": "about.html#achievements",
+    "href": "about.html#achievements",
+    "title": "I, Me, Myself.",
+    "section": "Achievements",
+    "text": "Achievements\n• Obtained Second Rank in the University final exam in Master of technology(M.TECH ).\n• Obtain First Rank in AUAT2019.\n• Obtained First Rank in the University final exam in Bachelor of technology (B.TECH ).\n• Obtain 64 Rank in AUAT2015.\n• BCECE Qualified in 2015.\n• WB JEE & AIEEE Qualified in 2015.\n• National scholarship.\nThree times in B.tech and two times in M.tech.\n• 1st division scholaship\nMukhyamantri Balak/Balika protsahan yojana.\n• Scholarship\n1st prize in Chemistry."
+  },
+  {
+    "objectID": "Project.html#workshop",
+    "href": "Project.html#workshop",
+    "title": "Aamaan Akbar Ali",
+    "section": "Workshop",
+    "text": "Workshop\n\nParticipated in National Seminar on “Preparation & Publication of Research Articles” organized by Department of Computer Science and Engineering, Aliah University, Kolkata on 18th March 2019.\nParticipated in National Seminar on “Mathematical Modelling and its Application in Natural and Engineering Science (NSMMANES- 2019)” organized by Department of Mathematics and Statistics, Aliah University, Kolkata on 25th March 2019."
+  },
+  {
+    "objectID": "Conference.html#about-it",
+    "href": "Conference.html#about-it",
+    "title": "Conference",
+    "section": "",
+    "text": "A conference paper is a written document that presents research, analysis, or findings on a specific topic within a particular academic or professional conference. It is a concise and structured piece of work that highlights the key aspects of a research project, including the objectives, methodology, results, and conclusions. Conference papers serve as a platform for scholars, researchers, and experts to share their insights, exchange knowledge, and contribute to the advancement of their respective fields."
+  },
+  {
+    "objectID": "Conference.html#my-work",
+    "href": "Conference.html#my-work",
+    "title": "Conference",
+    "section": "My Work",
+    "text": "My Work\n\nDescriptive Predictive Model for Parkinson’s Disease Analysis"
+  },
+  {
+    "objectID": "Project.html#about-it",
+    "href": "Project.html#about-it",
+    "title": "Aamaan Akbar Ali",
+    "section": "",
+    "text": "In my journey, I’ve had the privilege of attending remarkable projects and workshops. These transformative experiences have broadened my horizons, ignited my creativity, and fostered personal growth. Each endeavour has enriched my knowledge and expanded my perspective, from innovative projects that push the boundaries of technology to immersive workshops that cultivate new skills."
+  },
+  {
+    "objectID": "Project.html#project",
+    "href": "Project.html#project",
+    "title": "Aamaan Akbar Ali",
+    "section": "Project",
+    "text": "Project\n\nM.tech 2021\nTopic: Prediction model for Parkinson’s Disease\nAdvisor: Dr. saiyed umer Assistant professor,Dept. of CSE, Aliah University, Kolkata 700156.\nB.Tech2019\nTopic: Design of Home Automation using IoT\nAdvisor: Dr. Zeenat Rehena, Assistant professor,Dept. of CSE, Aliah University, Kolkata 700156."
+  }
+]

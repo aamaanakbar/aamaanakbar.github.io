@@ -1,0 +1,45 @@
+---
+title: Setting Up Development Environment
+author:
+    name: Akbar Ali
+    url: https://Aamaangit.github.io/
+date: "jul 12, 2023"
+categories:
+    - "Setup."
+# format: html
+---
+
+This is my personal website made with quarto and github pages.
+
+My learnings/tasks while working on it:
+
+For Windows:-
+
+1) Install VS-Code
+2) Install Git and connect/configure with GitHub along with VS-Code
+3) Install Quarto in the system and Quarto extension in VS-Code
+4) Create a new repository in GitHub
+5) Create a new project in Quarto
+6) Create proper "_quarto.yml", "index.qmd" files
+7) Render the files and push to GitHub
+8) Configure GitHub pages to publish the website
+
+For Linux:-
+
+1) Install "Windows Subsystem for Linux" (WSL) from Microsoft Store
+2) Install "Ubuntu" as distributor
+3) If "WslRegisterDistribution failed with error: 0x80370114" error comes, refer <https://www.cyberithub.com/solved-wslregisterdistribution-failed-with-error-0x80370114>
+4) Install Quarto in the Linux system and Quarto extension in VS-Code
+5) Run command `wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.3.340/quarto-1.3.340-linux-amd64.deb` in the Linux command Line Interface (CLI)
+6) Run command `sudo dpkg -i quarto-1.3.340-linux-amd64.deb`  in the Linux Command Line Interface (CLI)
+7) Run command `sudo apt-get install -f` in the Linux command Line Interface (CLI)
+8) Run command `quarto` in the Linux command Line Interface (CLI) to check if Quarto is installed properly
+9) Install Anaconda in the Linux system
+10) Run command `wget https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh` in the Linux command Line Interface (CLI)
+11) Run command `bash Anaconda3-2023.03-1-Linux-x86_64.sh` in the Linux command Line Interface (CLI)
+12) Run command `ipython` in the Linux command Line Interface (CLI) to check if Anaconda is installed properly
+13) Connect/configure with GitHub
+14) Go to <https://github.com/settings/tokens> to generate a new token and save it. It'll be useful later
+15) Clone the repository
+16) Run command `git clone https://github.com/Khush24Shah/Khush24Shah.github.io` in the Linux command Line Interface (CLI)
+17) Enter "username" and the "token" generated in the previous step

@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/firs.html"
+    ]
+  },
+  {
+    "listing": "/blogs.html",
+    "items": [
+      "/blogs/hyperspectral.html",
+      "/blogs/MLLosses.html",
+      "/blogs/Myfirst_blog.html"
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+---
+title: Student   |    Adventure   |    Unleashed. 
+image: files/Akbarimg.jpg
+about:
+  template: marquee
+  image-width: 25em
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/aamaan-akbar-ali-a428b2157 
+    - icon: github
+      text: Github
+      href: https://github.com/Aamaangit
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/AamaanAkbar
+    - icon: envelope
+      text: Email
+      href: harmoniumchachaa@gmail.com  
+        
+---
+
+
+Hey, world wanderer! What's the haps?
+
+
+
+
+

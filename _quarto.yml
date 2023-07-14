@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Aamaan Akbar Ali"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: Conference.qmd 
+        text: Conference
+      - href: Project.qmd
+        text: Project
+      - href: blogs.qmd
+        text: blogs
+      - href: gallery.qmd
+        text: gallery
+      - href: files/CV.pdf
+        text: CV
+
+format:
+  html:
+    theme:
+      dark: [darkly, styles-dark.scss]
+      light: [litera, styles.scss]
+    highlight-style: a11y-dark
+    mainfont: "Roboto"
+    code-copy: true
+    code-overflow: wrap
+
+
+execute:
+  freeze: auto

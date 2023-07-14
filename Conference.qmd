@@ -1,0 +1,9 @@
+---
+title: "Conference"
+---
+## about it 
+A conference paper is a written document that presents research, analysis, or findings on a specific topic within a particular academic or professional conference. It is a concise and structured piece of work that highlights the key aspects of a research project, including the objectives, methodology, results, and conclusions. Conference papers serve as a platform for scholars, researchers, and experts to share their insights, exchange knowledge, and contribute to the advancement of their respective fields.  
+
+## My Work  
+
+1. Descriptive Predictive Model for Parkinson’s Disease Analysis 
