@@ -2,7 +2,7 @@
 title: Student   |    Adventure   |    Unleashed. 
 image: files/Akbarimg.jpg
 about:
-  template: marquee
+  template: jolla
   image-width: 25em
   image-shape: round
   links:
@@ -20,11 +20,10 @@ about:
       href: harmoniumchachaa@gmail.com  
         
 ---
-
-
-Hey, world wanderer! What's the haps?
-
-
+Hey, world wanderer! What's the haps?  
+   
+  
+### Señoras y señores, pueden contactarme 
 
 
 

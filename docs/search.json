@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Student | Adventure | Unleashed.",
     "section": "",
-    "text": "Hey, world wanderer! What’s the haps?"
+    "text": "Hey, world wanderer! What’s the haps?\n\nSeñoras y señores, pueden contactarme"
   },
   {
     "objectID": "index.html#education",
@@ -215,5 +215,40 @@
     "title": "Aamaan Akbar Ali",
     "section": "Project",
     "text": "Project\n\nM.tech 2021\nTopic: Prediction model for Parkinson’s Disease\nAdvisor: Dr. saiyed umer Assistant professor,Dept. of CSE, Aliah University, Kolkata 700156.\nB.Tech2019\nTopic: Design of Home Automation using IoT\nAdvisor: Dr. Zeenat Rehena, Assistant professor,Dept. of CSE, Aliah University, Kolkata 700156."
+  },
+  {
+    "objectID": "index.html#co",
+    "href": "index.html#co",
+    "title": "Student | Adventure | Unleashed.",
+    "section": "co",
+    "text": "co"
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "Student | Adventure | Unleashed.",
+    "section": "contact me",
+    "text": "contact me"
+  },
+  {
+    "objectID": "index.html#contra",
+    "href": "index.html#contra",
+    "title": "Student | Adventure | Unleashed.",
+    "section": "contra",
+    "text": "contra"
+  },
+  {
+    "objectID": "index.html#contr",
+    "href": "index.html#contr",
+    "title": "Student | Adventure | Unleashed.",
+    "section": "contr",
+    "text": "contr"
+  },
+  {
+    "objectID": "index.html#señoras-y-señores-pueden-contactarme",
+    "href": "index.html#señoras-y-señores-pueden-contactarme",
+    "title": "Student | Adventure | Unleashed.",
+    "section": "Señoras y señores, pueden contactarme",
+    "text": "Señoras y señores, pueden contactarme"
   }
 ]
