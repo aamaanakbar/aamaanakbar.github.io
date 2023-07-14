@@ -1,5 +1,5 @@
 ---
-title: Student   |    Adventurer   |    Unleashed 
+title: Student   |    Ambitious   |    Indian 
 image: files/Akbarimg.jpg
 about:
   template: jolla
