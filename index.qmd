@@ -3,7 +3,7 @@ title: Student   |    Adventurer   |    Unleashed
 image: files/Akbarimg.jpg
 about:
   template: jolla
-  image-width: 25em
+  image-width: 20em
   image-shape: round
   links:
     - icon: linkedin
@@ -20,7 +20,7 @@ about:
       href: harmoniumchachaa@gmail.com  
         
 ---
-Hey, world wanderer! What's the haps?  
+Hello There, I am Akbar.
    
   
 ### Señoras y señores, pueden contactarme 
