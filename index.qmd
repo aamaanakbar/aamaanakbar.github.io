@@ -3,7 +3,7 @@ title: Student   |    Ambitious   |    Indian
 image: files/Akbarimg.jpg
 about:
   template: jolla
-  image-width: 20em
+  image-width: 17em
   image-shape: round
   links:
     - icon: linkedin
