@@ -11,13 +11,13 @@ about:
       href: https://www.linkedin.com/in/aamaan-akbar-ali-a428b2157 
     - icon: github
       text: Github
-      href: https://github.com/Aamaangit
+      href: https://github.com/aamaanakbar
     - icon: twitter
       text: Twitter
       href: https://twitter.com/AamaanAkbar
     - icon: envelope
       text: Email
-      href: harmoniumchachaa@gmail.com  
+      href: aamaanakbarali@gmail.com  
         
 ---
 Hi There, I am Akbar. hope you are doing well!
