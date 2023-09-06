@@ -1,11 +1,11 @@
 ---
-title: "I, Me, Myself."
+title: "About me"
 ---
 
-I am Akbar Ali.As an enthusiastic learner, I am always eager to take up challenging tasks and push my limits to achieve excellence. My academic journey has give me a strong foundation in the concepts of computer science, and I have gained practical experience through various projects.Currently i am pursuing PH.D from IIT Gandhinagar since jan 2023, Gujarat, India. 
+As an enthusiastic learner, I am always eager to take up challenging tasks and push my limits to achieve excellence. My academic journey has give me a strong foundation in the concepts of computer science, and I have gained practical experience through various projects.
 
 
-![Library , iitrpr2022 ](files/iitrpr.jpg)  
+![Lab , iitgn2023 ](files/akbar2.jpeg)  
 
 ## Achievements
 • Obtained Second Rank in the University final exam in Master of
