@@ -1,5 +1,5 @@
 ---
-title: Aamaan Akbar Ali
+title: (Aamaan) Akbar Ali
 image: files/akbar1.jpeg
 about:
   template: jolla
@@ -20,7 +20,7 @@ about:
       href: aamaanakbarali@gmail.com  
         
 ---
-Hi, I’m Akbar! I am a First year PhD student at Indian Institute of Technology,Gandhinagar, India. studying Hyperspectral imaging in the Department of Computer science and Engineering. Prior to starting at IIT, I got my bachelor’s and master's in Computer scinece and engineering at Aliah university. In between, I worked as Project associate at IIT ropar. 
+Hi, I’m Akbar! I am a Second year PhD student at Indian Institute of Technology,Gandhinagar, India. studying Hyperspectral imaging and GAN in the Department of Computer science and Engineering. Prior to starting at IIT, I got my bachelor’s and master's in Computer scinece and engineering at Aliah university. In between, I worked as Project associate at IIT ropar. 
    
   
 
