@@ -18,7 +18,7 @@ website:
         text: blogs
       - href: gallery.qmd
         text: gallery
-      - href: files/CV.pdf
+      - href: files/Akbar.pdf
         text: CV
 
 format:
