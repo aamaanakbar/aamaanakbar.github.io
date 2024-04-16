@@ -1,5 +1,5 @@
 ---
-title: (Aamaan) Akbar Ali
+title: Akbar Ali
 image: files/akbar1.jpeg
 about:
   template: jolla
