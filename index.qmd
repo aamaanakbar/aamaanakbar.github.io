@@ -2,13 +2,13 @@
 title: Akbar Ali
 image: files/akbar1.jpeg
 about:
-  template: jolla
+  template: trestles
   image-width: 17em
-  image-shape: round
+  image-shape: rectangle
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/aamaan-akbar-ali-a428b2157 
+      href: www.linkedin.com/in/aamaanakbar
     - icon: github
       text: Github
       href: https://github.com/aamaanakbar
