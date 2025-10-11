@@ -7,8 +7,8 @@ In my journey, I've had the privilege of attending remarkable projects and works
   
 ## Project
 1.  M.tech 2021  
-    Topic: Prediction model for Parkinson's Disease  
-    Advisor: Dr. saiyed umer Assistant professor,Dept. of CSE,
+    Topic: Prediction Model for Parkinson's Disease  
+    Advisor: Dr. Saiyed Umer Assistant professor,Dept. of CSE,
      Aliah University, Kolkata 700156.
 
 2.  B.Tech2019  

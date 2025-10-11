@@ -1,17 +1,18 @@
 ---
-title: "About me"
+title: "About Me"
 ---
 
-As an enthusiastic learner, I am always eager to take up challenging tasks and push my limits to achieve excellence. My academic journey has give me a strong foundation in the concepts of computer science, and I have gained practical experience through various projects.
+As an enthusiastic learner, I am always eager to take up challenging tasks and push my limits to achieve excellence. My academic journey has given me a strong foundation in the concepts of computer science, and I have gained practical experience through various projects.
 
 
 ## Achievements
+.Qualified UGC NET (National Eligibility Test) for Lectureship in 2022.                  
 • Obtained Second Rank in the University final exam in Master of
 technology(M.TECH ).  
-• Obtain First Rank in AUAT2019.  
+• Obtained First Rank in AUAT2019.  
 • Obtained First Rank in the University final exam in Bachelor of technology
 (B.TECH ).  
-• Obtain 64 Rank in AUAT2015.  
+• Obtained 64 Rank in AUAT2015.  
 • BCECE Qualified in 2015.  
 • WB JEE & AIEEE Qualified in 2015.  
 • National scholarship.  
@@ -20,6 +21,7 @@ Three times in B.tech and two times in M.tech.
 Mukhyamantri Balak/Balika protsahan yojana.  
 • Scholarship  
 1st prize in Chemistry.  
+
 
 
 
