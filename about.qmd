@@ -5,8 +5,6 @@ title: "About me"
 As an enthusiastic learner, I am always eager to take up challenging tasks and push my limits to achieve excellence. My academic journey has give me a strong foundation in the concepts of computer science, and I have gained practical experience through various projects.
 
 
-![Lab , iitgn2023 ](files/akbar2.jpeg)  
-
 ## Achievements
 • Obtained Second Rank in the University final exam in Master of
 technology(M.TECH ).  

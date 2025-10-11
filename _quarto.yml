@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Akbar Ali"
+  title: "(Aamaan) Akbar Ali"
   navbar:
     right:
       - href: index.qmd
@@ -11,14 +11,12 @@ website:
       - href: about.qmd
         text: About
       - href: Conference.qmd 
-        text: Conference
+        text: Publications
       - href: Project.qmd
         text: Project
-      - href: blogs.qmd
-        text: blogs
       - href: gallery.qmd
         text: gallery
-      - href: files/Cv2.pdf
+      - href: files/CV.pdf
         text: CV
 
 format:
