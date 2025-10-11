@@ -15,6 +15,12 @@ about:
     - icon: twitter
       text: X/Twitter
       href: https://twitter.com/AamaanAkbar
+    - icon: envelope
+      text: Email
+      href: mailto:akbar.ali@iitgn.ac.in
+    - icon: book
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=g-2Aix8AAAAJ&hl=en
 
         
 ---
