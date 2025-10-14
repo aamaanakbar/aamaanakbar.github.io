@@ -17,9 +17,17 @@ format: html
 
 ## Workshops
 
-1. Participated in National Seminar on “Preparation & Publication of Research Articles” organized by Department of Computer Science and Engineering, Aliah University, Kolkata on 18th March 2019.
+1. Attained the 3D Vision Summer School, held at IIIT Bangalore, India, from June 22 to June 28, 2024 [In-Person].
+   The program offered in-depth exposure to Deep Learning techniques and their applications in 3D Vision, featuring lectures, hands-on sessions, and discussions led by leading researchers in the field.
 
-2. Participated in National Seminar on “Mathematical Modelling and its Application in Natural and Engineering Science (NSMMANES-2019)” organized by Department of Mathematics and Statistics, Aliah University, Kolkata on 25th March 2019.
+2.  Attained Vishveshvarya Workshop at IIT Mandi in May 2024, focused on cutting-edge knowledge presentations 
+   and talks designed for all "Vishveshvarya phd scheme" candidates.
+
+3. Participated in National Seminar on “Preparation & Publication of Research Articles” organized by Department 
+   of Computer Science and Engineering, Aliah University, Kolkata on 18th March 2019.
+
+4. Participated in National Seminar on “Mathematical Modelling and its Application in Natural and Engineering 
+   Science (NSMMANES-2019)” organized by Department of Mathematics and Statistics, Aliah University, Kolkata on 25th March 2019.
 
 ---
 
