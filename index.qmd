@@ -1,13 +1,32 @@
 ---
-title: Akbar Ali
+title: "Contact me"
+format: html
 image: files/akbar_latest.jpeg
 about:
   template: trestles
   image-width: 17em
   image-shape: rounded
 
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/AamaanAkbar
+    - icon: github
+      text: Github
+      href: https://github.com/aamaanakbar
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/aamaanakbar
+    - icon: envelope
+      text: Email
+      href: mailto:akbar.ali@iitgn.ac.in
+    - icon: book
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=g-2Aix8AAAAJ&hl=en
 ---
 
-👋
+Hi, I’m **Akbar**! I’m a third-year PhD student at the [Indian Institute of Technology Gandhinagar (IITGN)](https://iitgn.ac.in), India, studying **Computer Vision**, **Deep Generative Models**, and **Hyperspectral Imaging** in the Department of Computer Science and Engineering.
 
-Hi! I’m **Akbar Ali**, a third-year PhD student at [IIT Gandhinagar](https://iitgn.ac.in).  
+Before joining IITGN, I completed my Bachelor's and Master's degrees in Computer Science and Engineering at [Aliah University](https://aliah.ac.in).  
+
+In between, I worked as a Project Associate at [IIT Ropar](https://iitrpr.ac.in).

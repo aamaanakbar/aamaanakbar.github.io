@@ -1,0 +1,15 @@
+---
+title: Teaching
+---
+
+
+
+1. **Graduate Teaching Fellow, IIT Gandhinagar** (Aug 2024 - Nov 2024)  
+   - FP 602 Writing course: I mentored 35 students, managing their classwork, examinations, and overall progress. I ensured smooth communication, coordinated assignments, and provided ongoing support to help them meet academic standards.
+
+2. **Teaching Assistant, IIT Gandhinagar** (Dec 2022 - Apr 2024)  
+   - Probability, Statistics, and Data Visualization: Managed a batch of 20+ students and conducted lab sessions for Python data science libraries. Conducted exams and evaluations.  
+   - Probability and Randomization: Handled a class of 30+ students and handled various Python tutorial sessions.
+
+3. **Drone Data Acquisition, IIT Gandhinagar** (June 2023 - Jan 2024)  
+   - Engaged in Drone Data Acquisition at IIT Gandhinagar, contributing to the Smart Farming Project by collecting drone data, including RGB and multispectral data.

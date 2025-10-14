@@ -12,6 +12,8 @@ website:
         text: About
       - href: Conference.qmd
         text: Publications
+      - href: Teaching.qmd   # <-- added here
+        text: Teaching
       - href: Project.qmd
         text: Projects
       - href: gallery.qmd
