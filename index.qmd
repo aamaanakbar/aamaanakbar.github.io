@@ -8,9 +8,6 @@ about:
 
 ---
 
-# Welcome to My Website 👋
+👋
 
-Hi! I’m **Akbar Ali**, a passionate researcher and third-year PhD student at [IIT Gandhinagar](https://iitgn.ac.in).  
-Explore my [About](about.qmd), [Publications](Conference.qmd), [Projects](Project.qmd), [Gallery](gallery.qmd), or check out my [CV](files/CV.pdf).
-
-Feel free to connect via [LinkedIn](https://www.linkedin.com/in/aamaanakbar/) or [GitHub](https://github.com/aamaanakbar).
+Hi! I’m **Akbar Ali**, a third-year PhD student at [IIT Gandhinagar](https://iitgn.ac.in).  

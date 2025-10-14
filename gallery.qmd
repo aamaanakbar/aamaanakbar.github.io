@@ -7,10 +7,16 @@ format: html
 
 Welcome to my gallery! Here are some highlights from my research, projects, and conferences.
 
-<!-- Existing images -->
-![Conference icip25](files/icip1.jpeg){width=400px}
+### icip25
+<div style="text-align: center;">
+  <img src="files/icip1.jpeg" alt="Conference icip25" style="width: 100%; max-width: 900px; height: auto;" />
+</div>
 
-![Conference fun_with_pablo](files/icip3.jpeg){width=400px}
+### Fun with Pablo
+
+<div style="text-align: center; margin-top: 20px;">
+  <img src="files/icip3.jpeg" alt="fun_with_pablo" style="width: 100%; max-width: 900px; height: auto;" />
+</div>
 
 ---
 
@@ -18,12 +24,13 @@ Welcome to my gallery! Here are some highlights from my research, projects, and 
 
 ### Poster 1: "COT-AD"
 
-<!-- Thumbnail image linked to PDF -->
-[![Poster 1 Thumbnail](files/COT-AD.jpg){width=400px}](files/COT-AD.jpg)
+<div style="text-align: center; margin-top: 20px;">
+  <a href="files/COT-AD.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="files/COT-AD.jpg" alt="COT-AD Poster" style="width: 100%; max-width: 900px; height: auto;" />
+  </a>
+</div>
 
-
-
-<!-- Embed PDF viewer (optional) -->
+<!-- Optional embedded PDF viewer -->
 <!--
 <iframe src="files/icip_poster1.pdf" width="600" height="800" style="border:none;">
 This browser does not support PDFs. Please download the PDF to view it: <a href="files/icip_poster1.pdf">Download PDF</a>
@@ -34,10 +41,13 @@ This browser does not support PDFs. Please download the PDF to view it: <a href=
 
 ### Poster 2: "IRUSIR"
 
-<!-- Thumbnail image linked to PDF -->
-[![Poster 2 Thumbnail](files/IRUSIR.jpg){width=400px}](files/IRUSIR.jpg)
+<div style="text-align: center; margin-top: 20px;">
+  <a href="files/IRUSIR.jpg" target="_blank" rel="noopener noreferrer">
+    <img src="files/IRUSIR.jpg" alt="IRUSIR Poster" style="width: 100%; max-width: 900px; height: auto;" />
+  </a>
+</div>
 
-<!-- Embed PDF viewer (optional) -->
+<!-- Optional embedded PDF viewer -->
 <!--
 <iframe src="files/icip_poster2.pdf" width="600" height="800" style="border:none;">
 This browser does not support PDFs. Please download the PDF to view it: <a href="files/icip_poster2.pdf">Download PDF</a>
@@ -48,5 +58,7 @@ This browser does not support PDFs. Please download the PDF to view it: <a href=
 
 ## More Pictures
 
-![My Picture](files/ICIP2.jpeg){width=400px}
-
+<!-- Example for another full-width centered image
+<div style="text-align: center; margin-top: 20px;">
+  <img src="files/ICIP2.jpeg" alt="More Pictures" style="width: 100%; max-width: 900px; height: auto;" />
+</div> -->
