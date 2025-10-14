@@ -7,7 +7,7 @@ format: html
 
 Welcome to my gallery! Here are some highlights from my research, projects, and conferences.
 
-### icip25
+### ICIP25
 <div style="text-align: center;">
   <img src="files/icip1.jpeg" alt="Conference icip25" style="width: 100%; max-width: 900px; height: auto;" />
 </div>
