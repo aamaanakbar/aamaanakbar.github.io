@@ -27,7 +27,7 @@ format:
     mainfont: "Roboto"
     code-copy: true
     code-overflow: wrap
-    css: styles.scss  # Link to custom CSS
+    css: Styles.css  # Link to custom CSS
 
 execute:
   freeze: auto
