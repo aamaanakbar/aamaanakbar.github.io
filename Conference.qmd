@@ -3,7 +3,7 @@ title: "Publications"
 format: html
 ---
 
-# Publications
+
 
 ---
 
