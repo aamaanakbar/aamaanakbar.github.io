@@ -3,7 +3,7 @@ title: "Teaching"
 format: html
 ---
 
-## Teaching
+
 
 1. **Lead Teaching Assistant, IIT Gandhinagar** *(Jan 2025 – Apr 2025)*  
    - *Course: ES 113 – Data Centric Computing*  
