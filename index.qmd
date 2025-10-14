@@ -1,5 +1,5 @@
 ---
-title: "Contact me"
+title: "Akbar Ali"
 format: html
 image: files/akbar_latest.jpeg
 about:
