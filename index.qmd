@@ -5,29 +5,12 @@ about:
   template: trestles
   image-width: 17em
   image-shape: rounded
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/aamaanakbar/ 
-    - icon: github
-      text: Github
-      href: https://github.com/aamaanakbar
-    - icon: twitter
-      text: X/Twitter
-      href: https://twitter.com/AamaanAkbar
-    - icon: envelope
-      text: Email
-      href: mailto:akbar.ali@iitgn.ac.in
-    - icon: book
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=g-2Aix8AAAAJ&hl=en
 
-        
 ---
-Hi, I’m Akbar! I am a Third year PhD student at Indian Institute of Technology,Gandhinagar, India. studying Computer Vision, Deep Generative models  and  Hyperspectral Imaging  in the Department of Computer science and Engineering. Prior to starting at IIT, I got my bachelor’s and master's in Computer scinece and engineering at Aliah university. In between, I worked as Project associate at IIT ropar. 
-   
-  
 
+# Welcome to My Website 👋
 
+Hi! I’m **Akbar Ali**, a passionate researcher and third-year PhD student at [IIT Gandhinagar](https://iitgn.ac.in).  
+Explore my [About](about.qmd), [Publications](Conference.qmd), [Projects](Project.qmd), [Gallery](gallery.qmd), or check out my [CV](files/CV.pdf).
 
-
+Feel free to connect via [LinkedIn](https://www.linkedin.com/in/aamaanakbar/) or [GitHub](https://github.com/aamaanakbar).

@@ -1,11 +1,52 @@
 ---
-title: "GAllary"
+title: "Gallery"
+format: html
 ---
 
+# Gallery
 
-![IITGN Green Campus, Lal minar view ](files/iitgn.jpg)  
+Welcome to my gallery! Here are some highlights from my research, projects, and conferences.
+
+<!-- Existing images -->
+![Conference icip25](files/icip1.jpeg){width=400px}
+
+![Conference fun_with_pablo](files/icip3.jpeg){width=400px}
+
+---
+
+## ICIP 2025 Posters
+
+### Poster 1: "COT-AD"
+
+<!-- Thumbnail image linked to PDF -->
+[![Poster 1 Thumbnail](files/COT-AD.jpg){width=400px}](files/COT-AD.jpg)
 
 
-![ladakh, khardungla ](files/Akbarimg.jpg)  
 
+<!-- Embed PDF viewer (optional) -->
+<!--
+<iframe src="files/icip_poster1.pdf" width="600" height="800" style="border:none;">
+This browser does not support PDFs. Please download the PDF to view it: <a href="files/icip_poster1.pdf">Download PDF</a>
+</iframe>
+-->
+
+---
+
+### Poster 2: "IRUSIR"
+
+<!-- Thumbnail image linked to PDF -->
+[![Poster 2 Thumbnail](files/IRUSIR.jpg){width=400px}](files/IRUSIR.jpg)
+
+<!-- Embed PDF viewer (optional) -->
+<!--
+<iframe src="files/icip_poster2.pdf" width="600" height="800" style="border:none;">
+This browser does not support PDFs. Please download the PDF to view it: <a href="files/icip_poster2.pdf">Download PDF</a>
+</iframe>
+-->
+
+---
+
+## More Pictures
+
+![My Picture](files/ICIP2.jpeg){width=400px}
 

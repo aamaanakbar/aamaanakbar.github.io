@@ -1,27 +1,43 @@
 ---
 title: "About Me"
+format: html
 ---
 
-As an enthusiastic learner, I am always eager to take up challenging tasks and push my limits to achieve excellence. My academic journey has given me a strong foundation in the concepts of computer science, and I have gained practical experience through various projects.
+# About Me
 
+As an enthusiastic learner, I am always eager to take up challenging tasks and push my limits to achieve excellence. My academic journey has given me a strong foundation in computer science concepts, and I have gained practical experience through various projects.
 
 ## Achievements
-•Qualified UGC NET (National Eligibility Test) for Lectureship in 2022.                  
-• Obtained Second Rank in the University final exam in Master of
-technology(M.TECH 2021 ).  
-• Obtained First Rank in AUAT2019.  
-• Obtained First Rank in the University final exam in Bachelor of technology
-(B.TECH 2019).  
-• Obtained 64 Rank in AUAT2015.  
-• BCECE Qualified in 2015.  
-• WB JEE & AIEEE Qualified in 2015.  
-• National scholarship.  
-Three times in B.tech and two times in M.tech.  
-• 1st division scholaship  
-Mukhyamantri Balak/Balika protsahan yojana(2011).  
-• Scholarship  
-1st prize in Chemistry(2012).  
 
+- Qualified **UGC NET (National Eligibility Test)** for Lectureship in 2022  
+- Obtained **Second Rank** in the University final exam in Master of Technology (M.Tech, 2021)  
+- Secured **First Rank** in AUAT 2019  
+- Obtained **First Rank** in the University final exam in Bachelor of Technology (B.Tech, 2019)  
+- Achieved **64th Rank** in AUAT 2015  
+- Qualified **BCECE** in 2015  
+- Qualified **WB JEE & AIEEE** in 2015  
+- Awarded **National Scholarship** three times during B.Tech and twice during M.Tech  
+- Received **1st Division Scholarship** under Mukhyamantri Balak/Balika Protsahan Yojana (2011)  
+- Won **1st Prize in Chemistry** (2012)  
 
+---
 
+# Bio
 
+Hi, I’m **Akbar**! I’m a third-year PhD student at the [Indian Institute of Technology Gandhinagar (IITGN)](https://iitgn.ac.in), India, studying **Computer Vision**, **Deep Generative Models**, and **Hyperspectral Imaging** in the Department of Computer Science and Engineering.
+
+Before joining IITGN, I completed my Bachelor's and Master's degrees in Computer Science and Engineering at [Aliah University](https://aliah.ac.in).  
+
+In between, I worked as a Project Associate at [IIT Ropar](https://iitrpr.ac.in).
+
+Feel free to reach out if you want to talk about research or collaboration!
+
+---
+
+## Contact Me
+
+- [LinkedIn](https://www.linkedin.com/in/aamaanakbar/)  
+- [GitHub](https://github.com/aamaanakbar)  
+- [Twitter](https://twitter.com/AamaanAkbar)  
+- [Email](mailto:akbar.ali@iitgn.ac.in)  
+- [Google Scholar](https://scholar.google.com/citations?user=g-2Aix8AAAAJ&hl=en)

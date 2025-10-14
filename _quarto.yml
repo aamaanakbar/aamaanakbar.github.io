@@ -3,32 +3,28 @@ project:
   output-dir: docs
 
 website:
-  title: "(Aamaan) Akbar Ali"
+  title: "(Amaan) Akbar Ali"
   navbar:
     right:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
-      - href: Conference.qmd 
+      - href: Conference.qmd
         text: Publications
       - href: Project.qmd
-        text: Project
+        text: Projects
       - href: gallery.qmd
-        text: gallery
+        text: Gallery
       - href: files/CV.pdf
         text: CV
 
 format:
   html:
-    theme:
-      dark: [darkly, styles-dark.scss]
-      light: [litera, styles.scss]
-    highlight-style: a11y-dark
+    theme: litera
     mainfont: "Roboto"
     code-copy: true
     code-overflow: wrap
-
 
 execute:
   freeze: auto
