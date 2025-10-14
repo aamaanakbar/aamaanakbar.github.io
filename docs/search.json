@@ -327,5 +327,12 @@
     "title": "About Me",
     "section": "Education",
     "text": "Education\nIndian Institute of Technology Gandhinagar, Gujarat, India\nPhD in Computer Science & Engineering\nDec 2022 – Present\nGrade: 9.14/10 (CPI)\nAliah University, West Bengal, India\nM.Tech in Computer Science & Engineering\nJune 2019 – July 2021\nGrade: 9.03/10 (CPI)\nAliah University, West Bengal, India\nB.Tech in Computer Science & Engineering\nJune 2015 – July 2019\nGrade: 8.97/10 (CPI)"
+  },
+  {
+    "objectID": "Project.html#experimental-work",
+    "href": "Project.html#experimental-work",
+    "title": "Projects and Workshops",
+    "section": "Experimental Work",
+    "text": "Experimental Work\n\n3D geophysical image translated into photorealistic virtual outcrop geology using generative adversarial networks\nFeb 2024 - Jan 2025\n\nTranslated 3D geophysical images into photorealistic virtual outcrop geology using generative adversarial networks (GANs).\n\nDeveloped a methodology enabling the generation of diverse crop images at varying altitudes.\n\nSmart Farming of Cotton Using Aerial Imagery and Computer Vision\nJun 2023 - Jan 2024\n\nWe delve into the intricate relationship between weather conditions and crop health and the impact of different insects on cotton fields by harnessing the power of technology to revolutionize cotton farming practices. This holistic approach empowers us to provide farmers with actionable insights for optimized decision-making.\n\nConducted weekly aerial image acquisition missions at varying altitudes (10m, 15m, and 115m) from July 1, 2023, to December 30, 2023. This allows us to comprehensively capture the entire growth cycle of the cotton crop, from the initial stages to the development of buds."
   }
 ]
