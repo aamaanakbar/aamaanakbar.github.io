@@ -9,7 +9,7 @@ about:
 
   links:
     - icon: twitter
-      text: Twitter
+      text: X/Twitter
       href: https://twitter.com/AamaanAkbar
     - icon: github
       text: Github
