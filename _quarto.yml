@@ -8,10 +8,10 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
+      - href: Bio.qmd
+        text: Bio
       - href: Conference.qmd
-        text: Publications
+        text: Research
       - href: Teaching.qmd   # <-- added here
         text: Teaching
       - href: Project.qmd

@@ -2,7 +2,6 @@
 title: "About Me"
 format: html
 ---
-## Bio
 Hi, I’m **Akbar**! I’m a third-year PhD student at the [Indian Institute of Technology Gandhinagar (IITGN)](https://iitgn.ac.in), India, studying **Computer Vision**, **Deep Generative Models**, and **Hyperspectral Imaging** in the Department of Computer Science and Engineering.
 
 Before joining IITGN, I completed my Bachelor's and Master's degrees in Computer Science and Engineering at [Aliah University](https://aliah.ac.in).  
