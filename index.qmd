@@ -1,7 +1,7 @@
 ---
 title: ""
 format: html
-image: files/akbar.png
+image: files/aamaan.png
 about:
   template: marquee
   image-width: 34em
@@ -14,11 +14,6 @@ about:
       href: https://www.linkedin.com/in/aamaanakbar
     - icon: envelope
       href: mailto:akbar.ali@iitgn.ac.in
- 
-
-
 ---
 
-
 PhD Student at [IITGN](https://iitgn.ac.in/)
-
