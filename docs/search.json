@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Akbar Ali",
+    "title": "**Akbar Ali**",
     "section": "",
-    "text": "Hi, I’m Akbar! I’m a third-year PhD student at the Indian Institute of Technology Gandhinagar (IITGN), India, studying Computer Vision, Deep Generative Models, and Hyperspectral Imaging in the Department of Computer Science and Engineering.\nBefore joining IITGN, I completed my Bachelor’s and Master’s degrees in Computer Science and Engineering at Aliah University.\nIn between, I worked as a Project Associate at IIT Ropar."
+    "text": "PhD Student at IITGN"
   },
   {
     "objectID": "index.html#education",
@@ -32,7 +32,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "As an enthusiastic learner, I am always eager to take up challenging tasks and push my limits to achieve excellence. My academic journey has given me a strong foundation in computer science concepts, and I have gained practical experience through various projects."
+    "text": "Hi, I’m Akbar! I’m a third-year PhD student at the Indian Institute of Technology Gandhinagar (IITGN), India, studying Computer Vision, Deep Generative Models, and Hyperspectral Imaging in the Department of Computer Science and Engineering.\nBefore joining IITGN, I completed my Bachelor’s and Master’s degrees in Computer Science and Engineering at Aliah University.\nIn between, I worked as a Project Associate at IIT Ropar.\nAs an enthusiastic learner, I am always eager to take up challenging tasks and push my limits to achieve excellence. My academic journey has given me a strong foundation in computer science concepts, and I have gained practical experience through various projects."
   },
   {
     "objectID": "index.html#project",
@@ -348,5 +348,12 @@
     "title": "Projects and Workshops",
     "section": "Field Visits",
     "text": "Field Visits\n\nDrone Data Acquisition for Mineral and Rock Analysis\nDepartment: Earth Science\n\n\n\nPlace\nMonth/Year\n\n\n\n\nLadakh\nMay 2023\n\n\nAlibag\nAugust 2024\n\n\nAnjar\nNovember 2024\n\n\n\n\n\nSmart City and Transport Evaluation\nDepartment: Computer Science\n\n\n\nPlace\nMonth/Year\n\n\n\n\nSilvassa\nJuly 2024\n\n\nAurangabad\nJuly 2024"
+  },
+  {
+    "objectID": "about.html#bio",
+    "href": "about.html#bio",
+    "title": "About Me",
+    "section": "",
+    "text": "Hi, I’m Akbar! I’m a third-year PhD student at the Indian Institute of Technology Gandhinagar (IITGN), India, studying Computer Vision, Deep Generative Models, and Hyperspectral Imaging in the Department of Computer Science and Engineering.\nBefore joining IITGN, I completed my Bachelor’s and Master’s degrees in Computer Science and Engineering at Aliah University.\nIn between, I worked as a Project Associate at IIT Ropar.\nAs an enthusiastic learner, I am always eager to take up challenging tasks and push my limits to achieve excellence. My academic journey has given me a strong foundation in computer science concepts, and I have gained practical experience through various projects."
   }
 ]

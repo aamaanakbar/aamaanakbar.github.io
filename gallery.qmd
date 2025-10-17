@@ -12,7 +12,7 @@ Welcome to my gallery! Here are some highlights from my research, projects, and 
   <img src="files/icip1.jpeg" alt="Conference icip25" style="width: 100%; max-width: 900px; height: auto;" />
 </div>
 
-### Fun with Pablo
+### Fun with Pablo, Anchorage,USA
 
 <div style="text-align: center; margin-top: 20px;">
   <img src="files/icip3.jpeg" alt="fun_with_pablo" style="width: 100%; max-width: 900px; height: auto;" />
@@ -57,8 +57,7 @@ This browser does not support PDFs. Please download the PDF to view it: <a href=
 ---
 
 ## More Pictures
-
-<!-- Example for another full-width centered image
-<div style="text-align: center; margin-top: 20px;">
-  <img src="files/ICIP2.jpeg" alt="More Pictures" style="width: 100%; max-width: 900px; height: auto;" />
-</div> -->
+### IITGN Mess
+<div style="text-align: center;">
+  <img src="files/akbar_latest.jpeg" alt="Conference icip25" style="width: 100%; max-width: 900px; height: auto;" />
+</div>
