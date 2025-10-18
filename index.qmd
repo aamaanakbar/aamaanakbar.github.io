@@ -16,16 +16,7 @@ about:
       href: mailto:akbar.ali@iitgn.ac.in
 ---
 
-
-
-
-
 ---
-title: ""
-format: html
----
-
-```{=html}
 
 <h3 style="font-family:Poppins, sans-serif; color:#93c4fd; margin-top:0;">Ph.D. Student at 
   <a href="https://iitgn.ac.in/" target="_blank" rel="noopener" style="color:#60a5fa; text-decoration:none;">
@@ -33,4 +24,21 @@ format: html
   </a>
 </h3>
 
+<!-- News Section -->
+<section style="font-family:Poppins, sans-serif; margin-top:2em;">
+  <h2 style="color:#60a5fa; border-bottom:2px solid #60a5fa; display:inline-block; padding-bottom:4px;">
+    📰 News & Updates
+  </h2>
 
+  <ul style="list-style-type:none; padding-left:0; margin-top:1em;">
+    <li style="margin-bottom:0.5em;">
+      <strong>September 2025:</strong> Submitted a paper to <strong>WACV 2026</strong>.
+    </li>
+    <li style="margin-bottom:0.5em;">
+      <strong>September 2025:</strong> Presented two papers at an international conference.
+    </li>
+    <li style="margin-bottom:0.5em;">
+      <strong>July 2025:</strong> Two paper accepted in an international conference(ICIP25).
+    </li>
+  </ul>
+</section>
