@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "**Akbar Ali**",
+    "title": "Akbar Ali",
     "section": "",
-    "text": "PhD Student at IITGN"
+    "text": "Ph.D. Student at  IIT Gandhinagar"
   },
   {
     "objectID": "index.html#education",
@@ -53,7 +53,7 @@
     "href": "Conference.html",
     "title": "Publications",
     "section": "",
-    "text": "2025\n\nAkbar Ali, Indra Deep Mastan and Shanmuganathan Raman,\n“GenCleanAI: Generative Unsupervised Image Restoration in Latent Space”.\n(Manuscript under review in WACV26), Sept 2025\nAkbar Ali, Indra Deep Mastan and Shanmuganathan Raman,\n“Investigating Robustness of Unsupervised StyleGAN Image Restoration”.\n(Published) ICIP 2025\nAkbar Ali, Pankaj Khanna, Subramanian Sankaranarayanan, Shanmuganathan Raman,\n“COT-AD: Cotton Analysis Dataset”.\n(Published) ICIP 2025\n\n\n\n\n2023\n\nAkbar Ali, Ranjit Kumar Rout and Saiyed Umer,\n“Descriptive Predictive Model for Parkinson’s Disease Analysis”.\nSpringer Nature (Published) Feb 2023"
+    "text": "GenCleanAI: Generative Unsupervised Image Restoration in Latent Space\nAkbar Ali, Indra Deep Mastan, and Shanmuganathan Raman\n(Manuscript under review, WACV 2026) — September 2025\n[PDF] · [Project Page]\n\n\n\n\n\n\n\n\nInvestigating Robustness of Unsupervised StyleGAN Image Restoration\nAkbar Ali, Indra Deep Mastan, and Shanmuganathan Raman\n(Published by ICIP 2025)\nPDF · Project Page · Dataset\n\n\n\n\n\n\n\n\nCOT-AD: Cotton Analysis Dataset\nAkbar Ali, Pankaj Khanna, Subramanian Sankaranarayanan, and Shanmuganathan Raman\n(Published by ICIP 2025)\nPDF · Dataset · Project Page"
   },
   {
     "objectID": "workshop.html",
@@ -277,7 +277,7 @@
     "href": "Project.html#workshops",
     "title": "Projects and Workshops",
     "section": "Workshops",
-    "text": "Workshops\n\nAttained the 3D Vision Summer School, held at IIIT Bangalore, India, from June 22 to June 28, 2024 [In-Person].\nThe program offered in-depth exposure to Deep Learning techniques and their applications in 3D Vision, featuring lectures, hands-on sessions, and discussions led by leading researchers in the field.\nAttained Vishveshvarya Workshop at IIT Mandi in May 2024, focused on cutting-edge knowledge presentations and talks designed for all “Vishveshvarya phd scheme” candidates.\nParticipated in National Seminar on “Preparation & Publication of Research Articles” organized by Department of Computer Science and Engineering, Aliah University, Kolkata on 18th March 2019.\nParticipated in National Seminar on “Mathematical Modelling and its Application in Natural and Engineering Science (NSMMANES-2019)” organized by Department of Mathematics and Statistics, Aliah University, Kolkata on 25th March 2019."
+    "text": "Workshops\n\n3D Vision Summer School, IIIT Bangalore, India — June 22–28, 2024 (In-Person)\nGained exposure to Deep Learning applications in 3D Vision through lectures, hands-on sessions, and research discussions led by experts.\nVisvesvaraya Workshop, IIT Mandi — May 2024\nFocused on advanced presentations and interdisciplinary research under the Visvesvaraya PhD Scheme.\nNational Seminar: Preparation & Publication of Research Articles, Aliah University — March 18, 2019.\nNational Seminar: Mathematical Modelling & its Application in Natural and Engineering Science (NSMMANES-2019), Aliah University — March 25, 2019."
   },
   {
     "objectID": "gallery.html#my-poster",
@@ -333,7 +333,7 @@
     "href": "Project.html#experimental-work",
     "title": "Projects and Workshops",
     "section": "Experimental Work",
-    "text": "Experimental Work\n\n3D geophysical image translated into photorealistic virtual outcrop geology using generative adversarial networks\nFeb 2024 - Jan 2025\n\nTranslated 3D geophysical images into photorealistic virtual outcrop geology using generative adversarial networks (GANs).\n\nDeveloped a methodology enabling the generation of diverse crop images at varying altitudes.\n\nSmart Farming of Cotton Using Aerial Imagery and Computer Vision\nJun 2023 - Jan 2024\n\nWe delve into the intricate relationship between weather conditions and crop health and the impact of different insects on cotton fields by harnessing the power of technology to revolutionize cotton farming practices. This holistic approach empowers us to provide farmers with actionable insights for optimized decision-making.\n\nConducted weekly aerial image acquisition missions at varying altitudes (10m, 15m, and 115m) from July 1, 2023, to December 30, 2023. This allows us to comprehensively capture the entire growth cycle of the cotton crop, from the initial stages to the development of buds."
+    "text": "Experimental Work\n\n3D Geophysical Image Translation using GANs\nFeb 2024 – Jan 2025\n\nTranslated 3D geophysical images into photorealistic virtual outcrop geology using GANs.\n\nDeveloped a methodology for generating diverse geological outcrop images at varying altitudes.\n\nSmart Farming of Cotton using Aerial Imagery & Computer Vision\nJun 2023 – Jan 2024\n\nStudied the effect of weather and pests on crop health using aerial imaging.\n\nConducted weekly drone missions (10m, 15m, 115m altitudes) from July–December 2023, covering the full cotton growth cycle."
   },
   {
     "objectID": "Teaching.html#teaching",
@@ -347,7 +347,7 @@
     "href": "Project.html#field-visits",
     "title": "Projects and Workshops",
     "section": "Field Visits",
-    "text": "Field Visits\n\nDrone Data Acquisition for Mineral and Rock Analysis\nDepartment: Earth Science\n\n\n\nPlace\nMonth/Year\n\n\n\n\nLadakh\nMay 2023\n\n\nAlibag\nAugust 2024\n\n\nAnjar\nNovember 2024\n\n\n\n\n\nSmart City and Transport Evaluation\nDepartment: Computer Science\n\n\n\nPlace\nMonth/Year\n\n\n\n\nSilvassa\nJuly 2024\n\n\nAurangabad\nJuly 2024"
+    "text": "Field Visits\n\n\n🪨 Drone Data Acquisition\nDepartment: Earth Science\n\nLadakh — May 2023\n\nAlibag — Aug 2024\n\nAnjar — Nov 2024\n\n\n\n\n🏙 Transport Evaluation\nDepartment: Computer Science\n\nSilvassa — Jul 2024\n\nAurangabad — Jul 2024"
   },
   {
     "objectID": "about.html#bio",
@@ -359,9 +359,9 @@
   {
     "objectID": "Bio.html",
     "href": "Bio.html",
-    "title": "About Me",
+    "title": "Hi — I’m Akbar",
     "section": "",
-    "text": "Hi, I’m Akbar! I’m a third-year PhD student at the Indian Institute of Technology Gandhinagar (IITGN), India, studying Computer Vision, Deep Generative Models, and Hyperspectral Imaging in the Department of Computer Science and Engineering.\nBefore joining IITGN, I completed my Bachelor’s and Master’s degrees in Computer Science and Engineering at Aliah University.\nIn between, I worked as a Project Associate at IIT Ropar.\nAs an enthusiastic learner, I am always eager to take up challenging tasks and push my limits to achieve excellence. My academic journey has given me a strong foundation in computer science concepts, and I have gained practical experience through various projects."
+    "text": "A third-year PhD student at the Indian Institute of Technology Gandhinagar (IITGN), India, working on Computer Vision, Deep Generative Models, and Hyperspectral Imaging in the Department of Computer Science & Engineering.\nBefore IITGN, I completed my B.Tech & M.Tech at Aliah University and worked as a Project Associate at IIT Ropar.\n\nI enjoy tackling hard problems, building reproducible research code, and publishing robust models. I’m driven by curiosity and care about clean, well-documented work."
   },
   {
     "objectID": "Bio.html#bio",
@@ -373,22 +373,78 @@
   {
     "objectID": "Bio.html#education",
     "href": "Bio.html#education",
-    "title": "About Me",
+    "title": "Hi — I’m Akbar",
     "section": "Education",
-    "text": "Education\nIndian Institute of Technology Gandhinagar, Gujarat, India\nPhD in Computer Science & Engineering\nDec 2022 – Present\nGrade: 9.14/10 (CPI)\nAliah University, West Bengal, India\nM.Tech in Computer Science & Engineering\nJune 2019 – July 2021\nGrade: 9.03/10 (CPI)\nAliah University, West Bengal, India\nB.Tech in Computer Science & Engineering\nJune 2015 – July 2019\nGrade: 8.97/10 (CPI)"
+    "text": "Education\nIndian Institute of Technology Gandhinagar, Gujarat, India\nPhD in Computer Science & Engineering Dec 2022 – Present Grade: 9.14/10 (CPI)\nAliah University, West Bengal, India\nM.Tech in Computer Science & Engineering June 2019 – July 2021 Grade: 9.03/10 (CPI)\nAliah University, West Bengal, India\nB.Tech in Computer Science & Engineering June 2015 – July 2019 Grade: 8.97/10 (CPI)"
   },
   {
     "objectID": "Bio.html#academic-milestones",
     "href": "Bio.html#academic-milestones",
-    "title": "About Me",
-    "section": "Academic Milestones",
-    "text": "Academic Milestones\n\nQualified UGC NET (National Eligibility Test) for Lectureship in 2022\n\nObtained Second Rank in the University final exam in Master of Technology (M.Tech, 2021)\n\nSecured First Rank in AUAT 2019\n\nObtained First Rank in the University final exam in Bachelor of Technology (B.Tech, 2019)\n\nAchieved 64th Rank in AUAT 2015\n\nQualified BCECE in 2015\n\nQualified WB JEE & AIEEE in 2015\n\nAwarded National Scholarship three times during B.Tech and twice during M.Tech\n\nReceived 1st Division Scholarship under Mukhyamantri Balak/Balika Protsahan Yojana (2011)\n\nWon 1st Prize in Chemistry (2012)"
+    "title": "Hi — I’m Akbar",
+    "section": "Academic milestones",
+    "text": "Academic milestones\n\nUGC NET — Qualified (2022)\n\n2nd Rank — M.Tech final exam (2021)\n\n1st Rank — AUAT 2019\n\n1st Rank — B.Tech final exam (2019)\n\nNational Scholarship — awarded 3× (B.Tech) & 2× (M.Tech)\n\nOther — BCECE, WB JEE & AIEEE qualified; 1st Prize in Chemistry (2012)"
   },
   {
     "objectID": "Bio.html#uav-pilot-license-experience",
     "href": "Bio.html#uav-pilot-license-experience",
-    "title": "About Me",
+    "title": "Hi — I’m Akbar",
     "section": "UAV Pilot License & Experience",
-    "text": "UAV Pilot License & Experience\n\nEarned a UAV Pilot License\n\nCertified to fly UAVs weighing up to 25 kg\n\nExperienced in flying DJI Mavic and Bajrang drones"
+    "text": "UAV Pilot License & Experience\nUAV Pilot License — Certified to fly up to 25 kg\nExperienced with DJI Mavic and Bajrang drones.\nOperational tasks include data collection, aerial inspection, and spectral imaging.\nSafety & Compliance\n- Pre-flight checks\n- Flight mission planning\n- Data transfer and storage procedures"
+  },
+  {
+    "objectID": "Conference.html#section",
+    "href": "Conference.html#section",
+    "title": "Publications",
+    "section": "",
+    "text": "GenCleanAI: Generative Unsupervised Image Restoration in Latent Space\nAkbar Ali, Indra Deep Mastan, and Shanmuganathan Raman\n(Manuscript under review, WACV 2026) — September 2025\n[PDF] · [Project Page]\n\n\n\n\n\n\n\n\nInvestigating Robustness of Unsupervised StyleGAN Image Restoration\nAkbar Ali, Indra Deep Mastan, and Shanmuganathan Raman\n(Published by ICIP 2025)\nPDF · Project Page · Dataset\n\n\n\n\n\n\n\n\nCOT-AD: Cotton Analysis Dataset\nAkbar Ali, Pankaj Khanna, Subramanian Sankaranarayanan, and Shanmuganathan Raman\n(Published by ICIP 2025)\nPDF · Dataset · Project Page"
+  },
+  {
+    "objectID": "Conference.html#section-1",
+    "href": "Conference.html#section-1",
+    "title": "Publications",
+    "section": "📘 2023",
+    "text": "📘 2023\n\n\n\n\n\nDescriptive Predictive Model for Parkinson’s Disease Analysis\nAkbar Ali, Ranjit Kumar Rout, and Saiyed Umer\n(Published by Springer Nature) — February 2023\nPDF . Project Page"
+  },
+  {
+    "objectID": "Bio.html#skills-tools",
+    "href": "Bio.html#skills-tools",
+    "title": "Hi — I’m Akbar",
+    "section": "Skills & Tools",
+    "text": "Skills & Tools\nProgramming Languages\n🟢 Python\n🔵 C / C++\nFrameworks & Libraries\n🟣 PyTorch\n🟡 TensorFlow\n🟤 scikit-learn\nTools & Platforms\n🧰 Docker\n💻 Git\n📄 LaTeX\nResearch Areas\nComputer Vision · Generative Models · Hyperspectral Imaging · Image Restoration · Domain Adaptation"
+  },
+  {
+    "objectID": "Bio.html#visual-polish-optional-css",
+    "href": "Bio.html#visual-polish-optional-css",
+    "title": "About Me",
+    "section": "✨ Visual polish / optional CSS",
+    "text": "✨ Visual polish / optional CSS\nIf you want slightly nicer rounded cards and subtle hover shadows, add a CSS file styles.css to your project and include it via _quarto.yml (example below). This is optional.\nstyles.css (place in project root or styles/): ```css /* styles.css */ .callout { border-radius: 12px; padding: 18px; box-shadow: 0 6px 20px rgba(0,0,0,0.06); } .img-fluid.rounded.shadow { box-shadow: 0 8px 24px rgba(0,0,0,0.08); }"
+  },
+  {
+    "objectID": "Bio.html#contact",
+    "href": "Bio.html#contact",
+    "title": "Hi — I’m Akbar",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n\n\n\n. Email: akbar.ali@iitgn.ac.in\n· Google Scholar: profile · X/Twitter: akbarali"
+  },
+  {
+    "objectID": "Project.html#workshops-training",
+    "href": "Project.html#workshops-training",
+    "title": "Projects and Workshops",
+    "section": "🧑‍🏫 Workshops & Training",
+    "text": "🧑‍🏫 Workshops & Training\n\n\n\n\n\n\nNote\n\n\n\n3D Vision Summer School (IIIT Bangalore, June 2024)\nAttended the 3D Vision Summer School held at IIIT Bangalore, India (June 22–28, 2024).\nGained in-depth exposure to Deep Learning techniques and their applications in 3D Vision through lectures, hands-on sessions, and research discussions.\nVisvesvaraya Workshop (IIT Mandi, May 2024)\nAttended the Visvesvaraya PhD Scheme workshop at IIT Mandi, focusing on advanced research methodologies and interdisciplinary collaboration.\nNational Seminar — Research Article Preparation (2019)\nParticipated in a National Seminar on Preparation & Publication of Research Articles organized by the Department of CSE, Aliah University (March 18, 2019).\nNational Seminar — Mathematical Modelling (NSMMANES 2019)\nParticipated in the National Seminar on Mathematical Modelling and its Application in Natural and Engineering Science (NSMMANES 2019), Department of Mathematics and Statistics, Aliah University (March 25, 2019)."
+  },
+  {
+    "objectID": "Bio.html#section",
+    "href": "Bio.html#section",
+    "title": "Hi — I’m Akbar",
+    "section": "",
+    "text": "· Google Scholar: profile · X/Twitter: akbarali"
+  },
+  {
+    "objectID": "Bio.html#education-indian-institute-of-technology-gandhinagar-gujarat-india-phd-in-computer-science-engineering-dec-2022-present-grade-9.1410-cpi-aliah-university-west-bengal-india-m.tech-in-computer-science-engineering-june-2019-july-2021-grade-9.0310-cpi-aliah-university-west-bengal-india-b.tech-in-computer-science-engineering-june-2015-july-2019-grade-8.9710-cpi",
+    "href": "Bio.html#education-indian-institute-of-technology-gandhinagar-gujarat-india-phd-in-computer-science-engineering-dec-2022-present-grade-9.1410-cpi-aliah-university-west-bengal-india-m.tech-in-computer-science-engineering-june-2019-july-2021-grade-9.0310-cpi-aliah-university-west-bengal-india-b.tech-in-computer-science-engineering-june-2015-july-2019-grade-8.9710-cpi",
+    "title": "Hi — I’m Akbar",
+    "section": "Education Indian Institute of Technology Gandhinagar, Gujarat, India PhD in Computer Science & Engineering Dec 2022 – Present Grade: 9.14/10 (CPI) Aliah University, West Bengal, India M.Tech in Computer Science & Engineering June 2019 – July 2021 Grade: 9.03/10 (CPI) Aliah University, West Bengal, India B.Tech in Computer Science & Engineering June 2015 – July 2019 Grade: 8.97/10 (CPI)",
+    "text": "Education Indian Institute of Technology Gandhinagar, Gujarat, India PhD in Computer Science & Engineering Dec 2022 – Present Grade: 9.14/10 (CPI) Aliah University, West Bengal, India M.Tech in Computer Science & Engineering June 2019 – July 2021 Grade: 9.03/10 (CPI) Aliah University, West Bengal, India B.Tech in Computer Science & Engineering June 2015 – July 2019 Grade: 8.97/10 (CPI)"
   }
 ]

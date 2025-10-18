@@ -15,48 +15,54 @@ format: html
 
 ---
 
+
 ## Workshops
 
-1. Attained the 3D Vision Summer School, held at IIIT Bangalore, India, from June 22 to June 28, 2024 [In-Person].  
-   The program offered in-depth exposure to Deep Learning techniques and their applications in 3D Vision, featuring lectures, hands-on sessions, and discussions led by leading researchers in the field.
+1. **3D Vision Summer School**, [IIIT Bangalore](https://www.iiitb.ac.in/), India — *June 22–28, 2024 (In-Person)*  
+   Gained exposure to Deep Learning applications in 3D Vision through lectures, hands-on sessions, and research discussions led by experts.
 
-2. Attained Vishveshvarya Workshop at IIT Mandi in May 2024, focused on cutting-edge knowledge presentations and talks designed for all "Vishveshvarya phd scheme" candidates.
+2. **Visvesvaraya Workshop**, IIT Mandi — *May 2024*  
+   Focused on advanced presentations and interdisciplinary research under the [Visvesvaraya PhD Scheme](https://phd.dic.gov.in/about).
 
-3. Participated in National Seminar on “Preparation & Publication of Research Articles” organized by Department of Computer Science and Engineering, Aliah University, Kolkata on 18th March 2019.
+3. **National Seminar:** *Preparation & Publication of Research Articles*, Aliah University — *March 18, 2019.*
 
-4. Participated in National Seminar on “Mathematical Modelling and its Application in Natural and Engineering Science (NSMMANES-2019)” organized by Department of Mathematics and Statistics, Aliah University, Kolkata on 25th March 2019.
+4. **National Seminar:** *Mathematical Modelling & its Application in Natural and Engineering Science (NSMMANES-2019)*, Aliah University — *March 25, 2019.*
 
 ---
 
 ## Experimental Work
 
-1. **3D geophysical image translated into photorealistic virtual outcrop geology using generative adversarial networks**  
-   *Feb 2024 - Jan 2025*  
-   - Translated 3D geophysical images into photorealistic virtual outcrop geology using generative adversarial networks (GANs).  
-   - Developed a methodology enabling the generation of diverse crop images at varying altitudes.
+1. **3D Geophysical Image Translation using GANs**  
+   *Feb 2024 – Jan 2025*  
+   - Translated 3D geophysical images into photorealistic virtual outcrop geology using [GANs](https://en.wikipedia.org/wiki/Generative_adversarial_network).  
+   - Developed a methodology for generating diverse geological outcrop images at varying altitudes.
 
-2. **Smart Farming of Cotton Using Aerial Imagery and Computer Vision**  
-   *Jun 2023 - Jan 2024*  
-   - We delve into the intricate relationship between weather conditions and crop health and the impact of different insects on cotton fields by harnessing the power of technology to revolutionize cotton farming practices. This holistic approach empowers us to provide farmers with actionable insights for optimized decision-making.  
-   - Conducted weekly aerial image acquisition missions at varying altitudes (10m, 15m, and 115m) from July 1, 2023, to December 30, 2023. This allows us to comprehensively capture the entire growth cycle of the cotton crop, from the initial stages to the development of buds.
+2. **Smart Farming of Cotton using Aerial Imagery & Computer Vision**  
+   *Jun 2023 – Jan 2024*  
+   - Studied the effect of weather and pests on crop health using aerial imaging.  
+   - Conducted weekly drone missions (10m, 15m, 115m altitudes) from July–December 2023, covering the full cotton growth cycle.
 
 ---
 
 ## Field Visits
 
-### Drone Data Acquisition for Mineral and Rock Analysis  
-*Department: Earth Science*
+::: {.grid .gap-4}
 
-| **Place** | **Month/Year** |
-|-----------|----------------|
-| Ladakh    | May 2023       |
-| Alibag    | August 2024    |
-| Anjar     | November 2024  |
+::: {.g-col-6}
+### 🪨 Drone Data Acquisition  
+**Department:** *Earth Science*  
 
-### Smart City and Transport Evaluation  
-*Department: Computer Science*
+- **Ladakh** — May 2023  
+- **Alibag** — Aug 2024  
+- **Anjar** — Nov 2024  
+:::
 
-| **Place**    | **Month/Year** |
-|--------------|----------------|
-| Silvassa     | July 2024      |
-| Aurangabad   | July 2024      |
+::: {.g-col-6}
+### 🏙 Transport Evaluation  
+**Department:** *Computer Science*  
+
+- **Silvassa** — Jul 2024  
+- **Aurangabad** — Jul 2024  
+:::
+
+:::

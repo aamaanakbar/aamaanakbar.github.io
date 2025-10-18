@@ -3,7 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "**Akbar Ali**"
+  title: "Akbar Ali"
+  favicon: files/favicon.ico      # optional: add a small favicon in files/
   navbar:
     right:
       - href: index.qmd
@@ -12,7 +13,7 @@ website:
         text: Bio
       - href: Conference.qmd
         text: Research
-      - href: Teaching.qmd   # <-- added here
+      - href: Teaching.qmd
         text: Teaching
       - href: Project.qmd
         text: Projects
@@ -20,6 +21,8 @@ website:
         text: Gallery
       - href: files/CV.pdf
         text: CV
+        target: _blank
+    search: true                   # enable site search (built-in)
 
 format:
   html:
@@ -27,7 +30,10 @@ format:
     mainfont: "Roboto"
     code-copy: true
     code-overflow: wrap
-    css: Styles.css  # Link to custom CSS
+    css: Styles.css                # custom CSS (placed in project root)
+    toc: false
 
 execute:
   freeze: auto
+
+

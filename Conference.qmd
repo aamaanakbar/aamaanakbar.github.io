@@ -1,30 +1,80 @@
 ---
 title: "Publications"
-format: html
+format:
+  html:
+    toc: false
 ---
 
+## 🧠 2025
 
+::: {.grid .gap-4}
+
+::: {.g-col-2}
+![](files/daigram/wacv26.png){.img-fluid .rounded .shadow style="width:100%;border-radius:10px;"}
+:::
+
+::: {.g-col-10}
+**GenCleanAI: Generative Unsupervised Image Restoration in Latent Space**  
+*Akbar Ali, Indra Deep Mastan, and Shanmuganathan Raman*  
+*(Manuscript under review, [WACV 2026](https://wacv2025.org))* — September 2025  
+
+[PDF] · [Project Page]
+:::
+
+:::
 
 ---
 
-### 2025
+::: {.grid .gap-4}
 
-1. **Akbar Ali, Indra Deep Mastan and Shanmuganathan Raman**,  
-   “[GenCleanAI: Generative Unsupervised Image Restoration in Latent Space](https://example.com/gencleanai)”.  
-   *(Manuscript under review in [WACV26](https://wacv2025.org))*, Sept 2025
+::: {.g-col-2}
+![](files/daigram/irusir_daig.png){.img-fluid .rounded .shadow}
+:::
 
-2. **Akbar Ali, Indra Deep Mastan and Shanmuganathan Raman**,  
-   “[Investigating Robustness of Unsupervised StyleGAN Image Restoration](https://ieeexplore.ieee.org/abstract/document/11084742)”.  
-   *(Published) [ICIP 2025](https://icip2025.org)*
+::: {.g-col-10}
+**Investigating Robustness of Unsupervised StyleGAN Image Restoration**  
+*Akbar Ali, Indra Deep Mastan, and Shanmuganathan Raman*  
+*(Published by [ICIP 2025](https://2025.ieeeicip.org/))*  
 
-3. **Akbar Ali, Pankaj Khanna, Subramanian Sankaranarayanan, Shanmuganathan Raman**,  
-   “[COT-AD: Cotton Analysis Dataset](https://ieeexplore.ieee.org/abstract/document/11084734)”.  
-   *(Published) [ICIP 2025](https://icip2025.org)*
+[PDF](https://ieeexplore.ieee.org/abstract/document/11084742) · [Project Page](https://aamaanakbar.github.io/investigating_rusir/) · [Dataset](https://www.kaggle.com/datasets/aamaanakbar/cotton99-10)
+:::
+
+:::
 
 ---
 
-### 2023
+::: {.grid .gap-4}
 
-4. **Akbar Ali, Ranjit Kumar Rout and Saiyed Umer**,  
-   “[Descriptive Predictive Model for Parkinson’s Disease Analysis](https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10)”.  
-   Springer Nature *(Published) Feb 2023*
+::: {.g-col-2}
+![](files/daigram/cot_ad_main.jpg){.img-fluid .rounded .shadow}
+:::
+
+::: {.g-col-10}
+**COT-AD: Cotton Analysis Dataset**  
+*Akbar Ali, Pankaj Khanna, Subramanian Sankaranarayanan, and Shanmuganathan Raman*  
+*(Published by [ICIP 2025](https://2025.ieeeicip.org/))*  
+
+[PDF](https://ieeexplore.ieee.org/abstract/document/11084734) · [Dataset](https://www.kaggle.com/datasets/aamaanakbar/cot-ad1) · [Project Page](https://aamaanakbar.github.io/COT-AD/)
+:::
+
+:::
+
+---
+
+## 📘 2023
+
+::: {.grid .gap-4}
+
+::: {.g-col-2}
+![](files/daigram/imgpark.jpg){.img-fluid .rounded .shadow}
+:::
+
+::: {.g-col-10}
+**Descriptive Predictive Model for Parkinson’s Disease Analysis**  
+*Akbar Ali, Ranjit Kumar Rout, and Saiyed Umer*  
+*(Published by Springer Nature)* — February 2023  
+
+[PDF](https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10) . [Project Page](https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10)
+:::
+
+:::
