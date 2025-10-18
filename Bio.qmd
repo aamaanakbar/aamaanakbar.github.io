@@ -9,7 +9,7 @@ format:
 ::: {.grid .gap-4}
 
 ::: {.g-col-3}
-![](files/akbar_latest.jpeg)
+![](files/akbar_latest.jpeg){width=220px}
 :::
 
 ::: {.g-col-9}
@@ -68,18 +68,15 @@ Before IITGN, I completed my B.Tech & M.Tech at [Aliah University](https://aliah
 🔵 C / C++
 
 **Frameworks & Libraries**  
-🟣 PyTorch  
-🟡 TensorFlow  
+🟣 PyTorch   
 🟤 scikit-learn
 
-**Tools & Platforms**  
-🧰 Docker  
+**Tools & Platforms**   
 💻 Git  
 📄 LaTeX  
 
 **Research Areas**  
-Computer Vision · Generative Models · Hyperspectral Imaging · Image Restoration · Domain Adaptation
-
+Computer Vision · Generative Models · Hyperspectral Imaging · Image Restoration 
 
 
 ---

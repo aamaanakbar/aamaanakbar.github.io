@@ -65,7 +65,7 @@
   {
     "objectID": "Project.html",
     "href": "Project.html",
-    "title": "Projects and Workshops",
+    "title": "Akbar Ali",
     "section": "",
     "text": "M.Tech 2021\nTopic: Prediction Model for Parkinson’s Disease\nAdvisor: Dr. Saiyed Umer, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156.\nB.Tech 2019\nTopic: Design of Home Automation using IoT\nAdvisor: Dr. Zeenat Rehena, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156."
   },
@@ -268,14 +268,14 @@
   {
     "objectID": "Project.html#projects",
     "href": "Project.html#projects",
-    "title": "Projects and Workshops",
+    "title": "Akbar Ali",
     "section": "",
     "text": "M.Tech 2021\nTopic: Prediction Model for Parkinson’s Disease\nAdvisor: Dr. Saiyed Umer, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156.\nB.Tech 2019\nTopic: Design of Home Automation using IoT\nAdvisor: Dr. Zeenat Rehena, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156."
   },
   {
     "objectID": "Project.html#workshops",
     "href": "Project.html#workshops",
-    "title": "Projects and Workshops",
+    "title": "Akbar Ali",
     "section": "Workshops",
     "text": "Workshops\n\n3D Vision Summer School, IIIT Bangalore, India — June 22–28, 2024 (In-Person)\nGained exposure to Deep Learning applications in 3D Vision through lectures, hands-on sessions, and research discussions led by experts.\nVisvesvaraya Workshop, IIT Mandi — May 2024\nFocused on advanced presentations and interdisciplinary research under the Visvesvaraya PhD Scheme.\nNational Seminar: Preparation & Publication of Research Articles, Aliah University — March 18, 2019.\nNational Seminar: Mathematical Modelling & its Application in Natural and Engineering Science (NSMMANES-2019), Aliah University — March 25, 2019."
   },
@@ -331,7 +331,7 @@
   {
     "objectID": "Project.html#experimental-work",
     "href": "Project.html#experimental-work",
-    "title": "Projects and Workshops",
+    "title": "Akbar Ali",
     "section": "Experimental Work",
     "text": "Experimental Work\n\n3D Geophysical Image Translation using GANs\nFeb 2024 – Jan 2025\n\nTranslated 3D geophysical images into photorealistic virtual outcrop geology using GANs.\n\nDeveloped a methodology for generating diverse geological outcrop images at varying altitudes.\n\nSmart Farming of Cotton using Aerial Imagery & Computer Vision\nJun 2023 – Jan 2024\n\nStudied the effect of weather and pests on crop health using aerial imaging.\n\nConducted weekly drone missions (10m, 15m, 115m altitudes) from July–December 2023, covering the full cotton growth cycle."
   },
@@ -345,7 +345,7 @@
   {
     "objectID": "Project.html#field-visits",
     "href": "Project.html#field-visits",
-    "title": "Projects and Workshops",
+    "title": "Akbar Ali",
     "section": "Field Visits",
     "text": "Field Visits\n\n\n🪨 Drone Data Acquisition\nDepartment: Earth Science\n\nLadakh — May 2023\n\nAlibag — Aug 2024\n\nAnjar — Nov 2024\n\n\n\n\n🏙 Transport Evaluation\nDepartment: Computer Science\n\nSilvassa — Jul 2024\n\nAurangabad — Jul 2024"
   },
@@ -410,7 +410,7 @@
     "href": "Bio.html#skills-tools",
     "title": "Hi — I’m Akbar",
     "section": "Skills & Tools",
-    "text": "Skills & Tools\nProgramming Languages\n🟢 Python\n🔵 C / C++\nFrameworks & Libraries\n🟣 PyTorch\n🟡 TensorFlow\n🟤 scikit-learn\nTools & Platforms\n🧰 Docker\n💻 Git\n📄 LaTeX\nResearch Areas\nComputer Vision · Generative Models · Hyperspectral Imaging · Image Restoration · Domain Adaptation"
+    "text": "Skills & Tools\nProgramming Languages\n🟢 Python\n🔵 C / C++\nFrameworks & Libraries\n🟣 PyTorch\n🟤 scikit-learn\nTools & Platforms\n💻 Git\n📄 LaTeX\nResearch Areas\nComputer Vision · Generative Models · Hyperspectral Imaging · Image Restoration"
   },
   {
     "objectID": "Bio.html#visual-polish-optional-css",
