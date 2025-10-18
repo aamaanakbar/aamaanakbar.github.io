@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Akbar Ali",
     "section": "",
-    "text": "Ph.D. Student at  IIT Gandhinagar \n\n\n\n\n📰 News & Updates\n\n\n\nSeptember 2025: Submitted a paper to WACV 2026.\n\n\nSeptember 2025: Presented two papers at an international conference.\n\n\nJuly 2025: Two paper accepted in an international conference(ICIP25)."
+    "text": "Ph.D. Student at  IIT Gandhinagar \n\n\n\n\n📰 News & Updates\n\n\n\nSeptember 2025: Submitted a paper to WACV 2026.\n\n\nSeptember 2025: Presented two papers at an international conference.\n\n\nJuly 2025: Two paperS accepted in an international conference(ICIP25)."
   },
   {
     "objectID": "index.html#education",
@@ -382,7 +382,7 @@
     "href": "Bio.html#academic-milestones",
     "title": "Hi — I’m Akbar",
     "section": "Academic milestones",
-    "text": "Academic milestones\n\nUGC NET — Qualified (2022)\n\n2nd Rank — M.Tech final exam (2021)\n\n1st Rank — AUAT 2019\n\n1st Rank — B.Tech final exam (2019)\n\nNational Scholarship — awarded 3× (B.Tech) & 2× (M.Tech)\n\nOther — BCECE, WB JEE & AIEEE qualified; 1st Prize in Chemistry (2012)"
+    "text": "Academic milestones\n\nUGC NET — Qualified (2022)\n\n2nd Rank — Overall in M.Tech program (University Topper, 2021)\n1st Rank — AUAT M.Tech Entrance (2019), 64th Rank — AUAT B.Tech Entrance (2015)\n\n1st Rank — Overall in B.Tech program (University Topper, 2019)\nNational Scholarship — awarded 3× (B.Tech) & 2× (M.Tech)\n\nOther — BCECE, WB JEE & AIEEE qualified; 1st Prize in Chemistry (2012)"
   },
   {
     "objectID": "Bio.html#uav-pilot-license-experience",
@@ -453,5 +453,54 @@
     "title": "About Me",
     "section": "Contact & Profiles",
     "text": "Contact & Profiles\n\n\n\n\n\n\nGoogle Scholar: profile · X/Twitter: @AamaanAkbar · Email: your.email@domain"
+  },
+  {
+    "objectID": "index.html#iitgn-timeline",
+    "href": "index.html#iitgn-timeline",
+    "title": "Akbar Ali",
+    "section": "🕰️ IITGN Timeline",
+    "text": "🕰️ IITGN Timeline\n\n\n\nDec 2022\n\n\n&lt;h3&gt;Joined IIT Gandhinagar — PhD (CSE)&lt;/h3&gt;\n&lt;p&gt;Started PhD in Computer Science & Engineering. Research areas: Computer Vision, Deep Generative Models, Hyperspectral Imaging.&lt;/p&gt;\n\n\n\n\n2023\n\n\n&lt;h3&gt;Coursework & Lab rotations&lt;/h3&gt;\n&lt;p&gt;Completed core coursework and rotated through lab projects — established primary research direction in image restoration and generative models.&lt;/p&gt;\n\n\n\n\n2024\n\n\n&lt;h3&gt;First major project milestone&lt;/h3&gt;\n&lt;p&gt;Implemented experiments and baseline comparisons for hyperspectral image restoration. Built reproducible training pipelines and logging.&lt;/p&gt;\n\n\n\n\n2025\n\n\n&lt;h3&gt;Accepted conference paper & new submissions&lt;/h3&gt;\n&lt;p&gt;Accepted a paper at a peer-reviewed conference (2025). Also submitted a conference paper to WACV (Sep 2025).&lt;/p&gt;\n\n\n\n\nPresent\n\n\n&lt;h3&gt;Ongoing — experiments, writing & teaching&lt;/h3&gt;\n&lt;p&gt;Continuing research, preparing manuscripts, and contributing to lab teaching and mentorship. Focus on robust models and reproducible code.&lt;/p&gt;"
+  },
+  {
+    "objectID": "index.html#visual-iitgn-timeline",
+    "href": "index.html#visual-iitgn-timeline",
+    "title": "Akbar Ali",
+    "section": "Visual IITGN timeline",
+    "text": "Visual IITGN timeline\n\n\n&lt;div class=\"lab-date\"&gt;Dec 2022&lt;/div&gt;\n&lt;div class=\"lab-body\"&gt;\n  &lt;h4&gt;Admission — PhD (CSE)&lt;/h4&gt;\n  &lt;p&gt;Joined IITGN. Research: Computer Vision, Deep Generative Models, Hyperspectral Imaging.&lt;/p&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"lab-date\"&gt;Jan–May 2023&lt;/div&gt;\n&lt;div class=\"lab-body\"&gt;\n  &lt;h4&gt;Coursework & Rotations&lt;/h4&gt;\n  &lt;p&gt;Core courses, lab rotations; scoped thesis problems and datasets.&lt;/p&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"lab-date\"&gt;Jul 2023 – Mar 2024&lt;/div&gt;\n&lt;div class=\"lab-body\"&gt;\n  &lt;h4&gt;Baselines & Pipelines&lt;/h4&gt;\n  &lt;p&gt;Built training pipelines, evaluation scripts & initial baselines for HS image restoration.&lt;/p&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"lab-date\"&gt;Apr 2024 – Dec 2024&lt;/div&gt;\n&lt;div class=\"lab-body\"&gt;\n  &lt;h4&gt;GenCleanAI&lt;/h4&gt;\n  &lt;p&gt;Developed generative unsupervised restoration in latent space; experiments & ablations.&lt;/p&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"lab-date\"&gt;Jul 2025&lt;/div&gt;\n&lt;div class=\"lab-body\"&gt;\n  &lt;h4&gt;Conference Acceptances&lt;/h4&gt;\n  &lt;p&gt;Two papers accepted at ICIP 2025; further presentations at international venues.&lt;/p&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"lab-date\"&gt;Sep 2025&lt;/div&gt;\n&lt;div class=\"lab-body\"&gt;\n  &lt;h4&gt;WACV Submission&lt;/h4&gt;\n  &lt;p&gt;Submitted paper to WACV 2026; continuing experiments & writing.&lt;/p&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"lab-date\"&gt;Present&lt;/div&gt;\n&lt;div class=\"lab-body\"&gt;\n  &lt;h4&gt;Ongoing&lt;/h4&gt;\n  &lt;p&gt;Research, mentoring, teaching, and preparing further submissions.&lt;/p&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "index.html#iitgn-research-timeline",
+    "href": "index.html#iitgn-research-timeline",
+    "title": "Akbar Ali",
+    "section": "📘 IITGN — Research Timeline",
+    "text": "📘 IITGN — Research Timeline\n\n\n\n\n\n\nDec 2022 — Admission\n\n\n\nJoined the Ph.D. program in Computer Science & Engineering at IIT Gandhinagar.\nFocus: Computer Vision, Generative Models, and Hyperspectral Imaging.\n\n\n\n\n\n\n\n\nJan – Jun 2023 — Coursework & Lab Rotations\n\n\n\nCompleted foundational courses in Advanced CV, ML, and Optimization; explored early lab projects.\n\n\n\n\n\n\n\n\nJul 2023 – Mar 2024 — Baselines & Implementation\n\n\n\nBuilt reproducible training pipelines for hyperspectral restoration. Established experimental benchmarks.\n\n\n\n\n\n\n\n\nApr – Dec 2024 — GenCleanAI Project\n\n\n\nProposed and developed the GenCleanAI model for unsupervised image restoration in latent space.\n\n\n\nJul 2025 — Publications\nTwo papers accepted at ICIP 2025; presented results at an international conference.\n\n\n\n\n\n\n\nSep 2025 — WACV 2026 Submission\n\n\n\nSubmitted extended generative restoration paper to WACV 2026.\n\n\n\n\n\n\n\n\nPresent — Ongoing Work\n\n\n\nContinuing diffusion-based experiments, mentoring, and preparing new submissions."
+  },
+  {
+    "objectID": "index.html#iitgn-phd-journey-gantt-view",
+    "href": "index.html#iitgn-phd-journey-gantt-view",
+    "title": "Akbar Ali",
+    "section": "🎓 IITGN — PhD Journey (Gantt View)",
+    "text": "🎓 IITGN — PhD Journey (Gantt View)\ngantt title IIT Gandhinagar — PhD Timeline dateFormat YYYY-MM-DD axisFormat %b %Y\nsection Foundation\nAdmission & Joining         :a1, 2022-12-01, 2022-12-31\nCoursework & Rotations      :a2, 2023-01-01, 2023-06-30\nsection Research Development\nBaseline Experiments        :r1, 2023-07-01, 2024-03-31\nGenCleanAI Project          :r2, 2024-04-01, 2024-12-31\nsection Publications\nPaper Writing & Revision    :p1, 2024-01-01, 2025-03-31\nConference Acceptances (ICIP) :p2, 2025-04-01, 2025-07-31\nWACV 2026 Submission        :p3, 2025-09-01, 2025-09-30\nsection Current\nOngoing Research & Mentoring :c1, 2025-01-01, 2025-10-19"
+  },
+  {
+    "objectID": "index.html#option-b-timeline-table-fully-markdown-clean",
+    "href": "index.html#option-b-timeline-table-fully-markdown-clean",
+    "title": "Akbar Ali",
+    "section": "🅱️ Option B — Timeline Table (Fully Markdown, Clean)",
+    "text": "🅱️ Option B — Timeline Table (Fully Markdown, Clean)\nSimple, readable, and prints beautifully."
+  },
+  {
+    "objectID": "index.html#markdown",
+    "href": "index.html#markdown",
+    "title": "Akbar Ali",
+    "section": "```markdown",
+    "text": "```markdown\ntitle: “IITGN Timeline” format: html: toc: false —"
+  },
+  {
+    "objectID": "index.html#iitgn-timeline-summary",
+    "href": "index.html#iitgn-timeline-summary",
+    "title": "Akbar Ali",
+    "section": "🕰️ IITGN Timeline (Summary)",
+    "text": "🕰️ IITGN Timeline (Summary)\n\n\n\n\n\n\n\n\nPeriod\nMilestone\nDescription\n\n\n\n\nDec 2022\nAdmission\nJoined IIT Gandhinagar, Ph.D. (CSE) under Prof. Shanmuganathan Raman.\n\n\nJan – Jun 2023\nCoursework\nCompleted core courses: Advanced CV, ML, Optimization; lab rotations.\n\n\nJul 2023 – Mar 2024\nBaseline Experiments\nDeveloped initial pipelines for hyperspectral image restoration.\n\n\nApr – Dec 2024\nGenCleanAI Project\nDesigned unsupervised generative image restoration in latent space.\n\n\nJul 2025\nICIP 2025 Acceptances\nTwo papers accepted in international conference (ICIP 2025).\n\n\nSep 2025\nWACV 2026 Submission\nSubmitted generative restoration paper to WACV 2026.\n\n\nPresent\nOngoing Work\nConducting experiments, writing, and mentoring students."
   }
 ]
