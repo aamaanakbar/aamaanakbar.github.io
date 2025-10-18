@@ -29,20 +29,24 @@ Before IITGN, I completed my B.Tech & M.Tech at [Aliah University](https://aliah
 
 ---
 
-## Education 
- **Indian Institute of Technology Gandhinagar, Gujarat, India** 
+## 🎓 Education
 
-  *PhD in Computer Science & Engineering* Dec 2022 – Present Grade: 9.14/10 (CPI)
-
- **Aliah University, West Bengal, India** 
-
-   *M.Tech in Computer Science & Engineering* June 2019 – July 2021 Grade: 9.03/10 (CPI) 
-
- **Aliah University, West Bengal, India** 
- 
-  *B.Tech in Computer Science & Engineering* June 2015 – July 2019 Grade: 8.97/10 (CPI)
+**Indian Institute of Technology Gandhinagar**, Gujarat, India  
+*Ph.D., Computer Science & Engineering*  
+📅 **Dec 2022 – Present** · **CPI:** 9.14 / 10
 
 ---
+
+**Aliah University**, West Bengal, India  
+*M.Tech, Computer Science & Engineering*  
+📅 **Jun 2019 – Jul 2021** · **CPI:** 9.03 / 10
+
+---
+
+**Aliah University**, West Bengal, India  
+*B.Tech, Computer Science & Engineering*  
+📅 **Jun 2015 – Jul 2019** · **CPI:** 8.97 / 10
+
 
 ## Academic milestones
 
