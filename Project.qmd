@@ -51,7 +51,7 @@ format: html
 
 ::: {.g-col-6}
 ### 🪨 Drone Data Acquisition  
-**Department:** *Earth Science*  
+**Department:** [Earth Science](https://es.iitgn.ac.in/)  
 
 - **Ladakh** — May 2023  
 - **Alibag** — Aug 2024  
@@ -60,7 +60,7 @@ format: html
 
 ::: {.g-col-6}
 ### 🏙 Transport Evaluation  
-**Department:** *Computer Science*  
+**Department:** [Computer Science](https://cs.iitgn.ac.in/)  
 
 - **Silvassa** — Jul 2024  
 - **Aurangabad** — Jul 2024  
