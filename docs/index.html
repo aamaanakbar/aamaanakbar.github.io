@@ -145,19 +145,45 @@ Ph.D.&nbsp;Student at <a href="https://iitgn.ac.in/" target="_blank" rel="noopen
 <h2 style="color:#60a5fa; border-bottom:2px solid #60a5fa; display:inline-block; padding-bottom:4px;">
 📰 News &amp; Updates
 </h2>
+<!-- News List with fade-in animation -->
 <ul style="list-style-type:none; padding-left:0; margin-top:1em;">
-<li style="margin-bottom:0.5em;">
+<li class="news-item">
 <strong>September 2025:</strong> Submitted a paper to <strong>WACV 2026</strong>.
 </li>
-<li style="margin-bottom:0.5em;">
+<li class="news-item">
 <strong>September 2025:</strong> Presented two papers at an international conference.
 </li>
-<li style="margin-bottom:0.5em;">
-<strong>July 2025:</strong> Two paperS accepted in an international conference(ICIP25).
+<li class="news-item">
+<strong>July 2025:</strong> Two papers accepted at the <strong>ICIP 2025</strong> conference.
 </li>
 </ul>
 </section>
-<hr>
+<!-- CSS for fade-in effect -->
+<style>
+  .news-item {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  .news-item:nth-child(1) {
+    animation-delay: 1.5s;
+  }
+  .news-item:nth-child(2) {
+    animation-delay: 2.5s;
+  }
+  .news-item:nth-child(3) {
+    animation-delay: 3.5s;
+  }
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+</style>
 
 
 </main> 
