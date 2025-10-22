@@ -31,7 +31,7 @@ format: html
    - Assisted in conducting a short course for ~30 students on drone technology, including flight training, data acquisition, and processing techniques using RGB and multispectral imagery.  
    - Supported hands-on sessions and fieldwork to help students gain practical experience in drone operations and data interpretation.
 
-   ### Drone Image [Rangmanch, IITGN]
+**Drone Image [Rangmanch, IITGN]**
    <div>
-   <img src="files/dron1.jpeg" alt="Drone Image" style="width: auto; max-width: 800px; height: auto;" />
+   <img src="files/dron1.jpeg" alt="Drone Image" style="width: auto; max-width: 780px; height: auto;" />
    </div>
