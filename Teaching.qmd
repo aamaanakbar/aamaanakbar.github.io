@@ -33,5 +33,5 @@ format: html
 
 **Drone Image [Rangmanch, IITGN]**
    <div>
-   <img src="files/dron1.jpeg" alt="Drone Image" style="width: auto; max-width: 780px; height: auto;" />
+   <img src="files/dron1.jpeg" alt="Drone Image" style="width: auto; max-width: 800px; height: auto;" />
    </div>
