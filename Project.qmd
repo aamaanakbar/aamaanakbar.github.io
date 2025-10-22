@@ -58,7 +58,7 @@ format: html
 - **Field Visit 2** — Aug 2024  
 - **Field Visit 3** — Nov 2024 
 
-### somewhere on the earth 
+### Capturing the World Through Drone Eyes
    <div>
    <img src="files/ladakh.jpg" alt="Drone Image" style="width: auto; max-width: 500px; height: auto;" />
    </div>
