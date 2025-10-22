@@ -42,6 +42,7 @@ format: html
    - Studied the effect of weather and pests on crop health using aerial imaging.  
    - Conducted weekly drone missions (10m, 15m, 115m altitudes) from July–December 2023, covering the full cotton growth cycle.
 
+
 ---
 
 ## Field Visits
