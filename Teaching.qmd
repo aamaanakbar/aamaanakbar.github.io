@@ -33,5 +33,5 @@ format: html
 
    ### Drone Image [Rangmanch, IITGN]
    <div style="text-align: center;">
-   <img src="files/dron1.jpeg" alt="Conference icip25" style="width: 100%; max-width: 900px; height: auto;" />
+   <img src="files/dron1.jpeg" alt="Drone Image" style="width: 100%; max-width: 900px; height: auto;" />
    </div>
