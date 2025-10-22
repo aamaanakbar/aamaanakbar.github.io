@@ -56,11 +56,12 @@ format: html
 
 - **Field Visit 1** — May 2023  
 - **Field Visit 2** — Aug 2024  
-- **Field Visit 3** — Nov 2024 
+- **Field Visit 3** — Nov 2024
 
-### Capturing the World Through Drone Eyes
+
+**Capturing the World Through Drone Eyes**
    <div>
-   <img src="files/ladakh.jpg" alt="Drone Image" style="width: auto; max-width: 500px; height: auto;" />
+   <img src="files/ladakh.jpg" alt="Drone Image" style="width: auto; max-width: 880px; height: auto;" />
    </div>
 :::
 
