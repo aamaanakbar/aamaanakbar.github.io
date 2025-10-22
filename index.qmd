@@ -24,7 +24,7 @@ about:
 
 <!-- News Section -->
 <section style="font-family:Poppins, sans-serif; margin-top:2em;">
-  <h2 style="color:#60a5fa; border-bottom:2px solid #60a5fa; display:inline-block; padding-bottom:4px;">
+  <h2 style="color:#60a5fa; border-bottom:2px solid #60a5fa; display:inline-block; padding-bottom:8px;">
     📰 News & Updates
   </h2>
 
