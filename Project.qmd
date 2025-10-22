@@ -53,9 +53,13 @@ format: html
 ### 🪨 Drone Data Acquisition  
 **Department:** [Earth Science](https://es.iitgn.ac.in/)  
 
-- **Ladakh** — May 2023  
-- **Alibag** — Aug 2024  
-- **Anjar** — Nov 2024  
+- **Field Visit 1** — May 2023  
+- **Field Visit 2** — Aug 2024  
+- **Field Visit 3** — Nov 2024 
+   ### somewhere in india 
+   <div>
+   <img src="files/ladakh.jpg" alt="Drone Image" style="width: auto; max-width: 500px; height: auto;" />
+   </div>
 :::
 
 ::: {.g-col-6}
