@@ -52,11 +52,13 @@ format: html
 ::: {.g-col-6}
 ### 🪨 Drone Data Acquisition  
 **Department:** [Earth Science](https://es.iitgn.ac.in/)  
+**Note-Due to privacy or sensitivity reasons can not write the field name**
 
 - **Field Visit 1** — May 2023  
 - **Field Visit 2** — Aug 2024  
 - **Field Visit 3** — Nov 2024 
-   ### somewhere in india 
+
+### somewhere on the earth 
    <div>
    <img src="files/ladakh.jpg" alt="Drone Image" style="width: auto; max-width: 500px; height: auto;" />
    </div>
