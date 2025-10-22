@@ -52,7 +52,7 @@ format: html
 ::: {.g-col-6}
 ### 🪨 Drone Data Acquisition  
 **Department:** [Earth Science](https://es.iitgn.ac.in/)  
-**Note-Due to privacy or sensitivity reasons can not write the field name**
+**Note-Due to privacy reasons can not write the field name**
 
 - **Field Visit 1** — May 2023  
 - **Field Visit 2** — Aug 2024  
