@@ -7,11 +7,11 @@ format: html
 
 1. **M.Tech 2021**  
    **Topic:** Prediction Model for Parkinson's Disease  
-   **Advisor:** Dr. Saiyed Umer, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156.
+   **Advisor:** [Prof. Saiyed Umer](https://aliah.ac.in/department/people-details.php?key=computer-science-and-engineering&id=148), Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156.
 
 2. **B.Tech 2019**  
    **Topic:** Design of Home Automation using IoT  
-   **Advisor:** Dr. Zeenat Rehena, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156.
+   **Advisor:** [Prof. Zeenat Rehena](https://aliah.ac.in/department/people-details.php?key=computer-science-and-engineering&id=59), Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156.
 
 ---
 
@@ -21,7 +21,7 @@ format: html
 1. **3D Vision Summer School**, [IIIT Bangalore](https://www.iiitb.ac.in/), India — *June 22–28, 2024 (In-Person)*  
    Gained exposure to Deep Learning applications in 3D Vision through lectures, hands-on sessions, and research discussions led by experts.
 
-2. **Visvesvaraya Workshop**, IIT Mandi — *May 2024*  
+2. **Visvesvaraya Workshop**, [IIT Mandi](https://www.iitmandi.ac.in/) — *May 2024*  
    Focused on advanced presentations and interdisciplinary research under the [Visvesvaraya PhD Scheme](https://phd.dic.gov.in/about).
 
 3. **National Seminar:** *Preparation & Publication of Research Articles*, Aliah University — *March 18, 2019.*
