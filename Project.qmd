@@ -44,7 +44,7 @@ format: html
 
    <div style="text-align: center; margin-top: 20px;">
      <img src="files/gif_cotton.gif" alt="Smart Farming GIF" style="width: auto; max-width: 880px; height: auto; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);" />
-     <p><em>Visualization of cotton field monitoring </em></p>
+     <p><em>Field observation during cotton growth monitoring (captured using DSLR)</em></p>
    </div>
 
 ---
