@@ -10,7 +10,7 @@ format:
 ::: {.grid .gap-4}
 
 ::: {.g-col-2}
-![](files/daigram/wacv26.png){.img-fluid .rounded .shadow style="width:100%;border-radius:10px;"}
+![](files/daigram/denoi.gif){.img-fluid .rounded .shadow style="width:100%;border-radius:10px;"}
 :::
 
 ::: {.g-col-10}
@@ -28,7 +28,7 @@ format:
 ::: {.grid .gap-4}
 
 ::: {.g-col-2}
-![](files/daigram/irusir_daig.png){.img-fluid .rounded .shadow}
+![](files/daigram/upsam.gif){.img-fluid .rounded .shadow}
 :::
 
 ::: {.g-col-10}
@@ -46,7 +46,7 @@ format:
 ::: {.grid .gap-4}
 
 ::: {.g-col-2}
-![](files/daigram/cot_ad_main.jpg){.img-fluid .rounded .shadow}
+![](files/daigram/cot-ad.gif){.img-fluid .rounded .shadow}
 :::
 
 ::: {.g-col-10}
