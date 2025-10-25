@@ -361,7 +361,7 @@
     "href": "Bio.html",
     "title": "Hello! I’m Akbar",
     "section": "",
-    "text": "I am a third-year PhD student at the prestigious Indian Institute of Technology Gandhinagar (IITGN), where I delve into the world of Computer Vision, Deep Generative Models, and Hyperspectral Imaging within the Department of Computer Science & Engineering.\nMy journey so far has been a blend of academic rigor and hands-on research. Before embarking on my doctoral research, I completed both my B.Tech and M.Tech at Aliah University and worked as a Project Associate at IIT Ropar, contributing to projects that intersect technology, creativity, and real-world impact.\nMy Research Focus: - Developing cutting-edge techniques in computer vision to bridge the gap between visual understanding and machine intelligence. - Exploring the potential of deep generative models to revolutionize the way we generate and interpret visual data. - Applying hyperspectral imaging to gain deeper insights into visual data, enabling new ways to analyze complex environments.\n\nI enjoy tackling hard problems, building reproducible research code, and publishing robust models. I’m driven by curiosity and care about clean, well-documented work."
+    "text": "I am a third-year PhD student at the prestigious Indian Institute of Technology Gandhinagar (IITGN), where I delve into the world of Computer Vision, Deep Generative Models, and Hyperspectral Imaging within the Department of Computer Science & Engineering.\nMy journey so far has been a blend of academic rigor and hands-on research. Before embarking on my doctoral research, I completed both my B.Tech and M.Tech at Aliah University and worked as a Project Associate at IIT Ropar, contributing to projects that intersect technology, creativity, and real-world impact.\n\nI enjoy tackling hard problems, building reproducible research code, and publishing robust models. I’m driven by curiosity and care about clean, well-documented work."
   },
   {
     "objectID": "Bio.html#bio",
@@ -409,8 +409,8 @@
     "objectID": "Bio.html#skills-tools",
     "href": "Bio.html#skills-tools",
     "title": "Hello! I’m Akbar",
-    "section": "🧠 Skills & Tools",
-    "text": "🧠 Skills & Tools\nProgramming Languages\n🟢 Python · 🔵 C/C++\nFrameworks & Libraries\n🟣 PyTorch · 🟤 scikit-learn\nTools & Platforms\n💻 Git · 🧾 LaTeX · 🐧 Linux\nResearch Interests\nI am currently conducting research in Deep Generative Models, with a broader focus on Computer Vision and Hyperspectral Imaging. My work involves developing learning-based models for image restoration, visual understanding, and representation learning."
+    "section": "Skills & Tools",
+    "text": "Skills & Tools\nProgramming Languages\n🟢 Python · 🔵 C/C++\nFrameworks & Libraries\n🟣 PyTorch · 🟤 scikit-learn\nTools & Platforms\n💻 Git · 🧾 LaTeX · 🐧 Linux\nResearch Interests\nI am currently conducting research in Deep Generative Models, with a broader focus on Computer Vision and Hyperspectral Imaging. My work involves developing learning-based models for image restoration, visual understanding, and representation learning."
   },
   {
     "objectID": "Bio.html#visual-polish-optional-css",
