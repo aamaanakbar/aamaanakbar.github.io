@@ -60,37 +60,32 @@ I completed my undergraduate work under the supervision of [Prof. Zeenat Rehana]
 
 ---
 
-## Academic milestones
+## Academic Milestones
 
-- **UGC NET** — Qualified (2022)  
-- **2nd Rank** — Overall in M.Tech program *(University Topper, 2021)* 
-- **1st Rank** — AUAT M.Tech Entrance (2019) 
-- **1st Rank** — Overall in B.Tech program *(University Topper, 2019)* 
-- **64th Rank** — AUAT B.Tech Entrance (2015) 
-- **National Scholarship** — awarded 3× (B.Tech) & 2× (M.Tech)  
-- **Other Exams** — BCECE, WB JEE & AIEEE qualified; 1st Prize in Chemistry (2012)
+- **UGC-NET (Computer Applications)** — *Qualified in 2022*   
+- **University Topper (M.Tech, 2021)** — Secured **2nd Rank** in the overall program  
+- **University Topper (B.Tech, 2019)** — Secured **1st Rank** in the overall program  
+- **1st Rank**, AUAT M.Tech Entrance Examination — *2019*  
+- **64th Rank**, AUAT B.Tech Entrance Examination — *2015*  
+- **National Scholarship Recipient** — *Awarded five times* (3× (B.Tech) & 2× (M.Tech))  
+- **Competitive Exams Qualified** — BCECE, WB JEE, and AIEEE  
+- **Academic Excellence Award** — *1st Prize in Chemistry (2012)*
 
 ---
 
-## Skills & Tools
-
-
+## 🧠 Skills & Tools
 
 **Programming Languages**  
-🟢 Python  
-🔵 C / C++
+🟢 Python · 🔵 C/C++  
 
 **Frameworks & Libraries**  
-🟣 PyTorch   
-🟤 scikit-learn
+🟣 PyTorch · 🟤 scikit-learn  
 
-**Tools & Platforms**   
-💻 Git  
-📄 LaTeX  
+**Tools & Platforms**  
+💻 Git · 🧾 LaTeX · 🐧 Linux  
 
-**Research Areas**  
-Computer Vision · Generative Models · Hyperspectral Imaging · Image Restoration 
-
+**Research Interests**  
+I am currently conducting research in **Deep Generative Models**, with a broader focus on **Computer Vision** and **Hyperspectral Imaging**. My work involves developing learning-based models for **image restoration**, **visual understanding**, and **representation learning**.
 
 ---
 

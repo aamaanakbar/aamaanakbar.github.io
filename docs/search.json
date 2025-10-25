@@ -381,8 +381,8 @@
     "objectID": "Bio.html#academic-milestones",
     "href": "Bio.html#academic-milestones",
     "title": "Hello! I’m Akbar",
-    "section": "Academic milestones",
-    "text": "Academic milestones\n\nUGC NET — Qualified (2022)\n\n2nd Rank — Overall in M.Tech program (University Topper, 2021)\n1st Rank — AUAT M.Tech Entrance (2019)\n1st Rank — Overall in B.Tech program (University Topper, 2019)\n64th Rank — AUAT B.Tech Entrance (2015)\nNational Scholarship — awarded 3× (B.Tech) & 2× (M.Tech)\n\nOther Exams — BCECE, WB JEE & AIEEE qualified; 1st Prize in Chemistry (2012)"
+    "section": "Academic Milestones",
+    "text": "Academic Milestones\n\nUGC-NET (Computer Applications) — Qualified in 2022\n\nUniversity Topper (M.Tech, 2021) — Secured 2nd Rank in the overall program\n\nUniversity Topper (B.Tech, 2019) — Secured 1st Rank in the overall program\n\n1st Rank, AUAT M.Tech Entrance Examination — 2019\n\n64th Rank, AUAT B.Tech Entrance Examination — 2015\n\nNational Scholarship Recipient — Awarded five times (3× (B.Tech) & 2× (M.Tech))\n\nCompetitive Exams Qualified — BCECE, WB JEE, and AIEEE\n\nAcademic Excellence Award — 1st Prize in Chemistry (2012)"
   },
   {
     "objectID": "Bio.html#uav-pilot-license-experience",
@@ -409,8 +409,8 @@
     "objectID": "Bio.html#skills-tools",
     "href": "Bio.html#skills-tools",
     "title": "Hello! I’m Akbar",
-    "section": "Skills & Tools",
-    "text": "Skills & Tools\nProgramming Languages\n🟢 Python\n🔵 C / C++\nFrameworks & Libraries\n🟣 PyTorch\n🟤 scikit-learn\nTools & Platforms\n💻 Git\n📄 LaTeX\nResearch Areas\nComputer Vision · Generative Models · Hyperspectral Imaging · Image Restoration"
+    "section": "🧠 Skills & Tools",
+    "text": "🧠 Skills & Tools\nProgramming Languages\n🟢 Python · 🔵 C/C++\nFrameworks & Libraries\n🟣 PyTorch · 🟤 scikit-learn\nTools & Platforms\n💻 Git · 🧾 LaTeX · 🐧 Linux\nResearch Interests\nI am currently conducting research in Deep Generative Models, with a broader focus on Computer Vision and Hyperspectral Imaging. My work involves developing learning-based models for image restoration, visual understanding, and representation learning."
   },
   {
     "objectID": "Bio.html#visual-polish-optional-css",
