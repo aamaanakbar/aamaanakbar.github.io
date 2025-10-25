@@ -1,0 +1,148 @@
+/* ----- Base typography and colors ----- */
+:root{
+  --accent: #2816c3;
+  --muted: #6b7280;
+  --text: #2b2b2b;
+  --bg: #fbfbfb;
+  --card: #ffffff;
+  --shadow: rgba(17,17,17,0.06);
+}
+
+/* body base */
+body {
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  line-height: 1.6;
+  color: var(--text);
+  background-color: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+/* headings */
+h1, h2, h3 {
+  color: #1f2d3d;
+  margin-top: 0.6em;
+  margin-bottom: 0.35em;
+  font-weight: 700;
+}
+
+/* links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* global containers / sections */
+section {
+  margin-bottom: 2rem;
+}
+
+/* images */
+img {
+  border-radius: 10px;
+  box-shadow: 0 6px 18px var(--shadow);
+  max-width: 100%;
+  height: auto;
+}
+
+/* subtle cards for callouts/boxes */
+.callout, .card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 8px 24px var(--shadow);
+  margin-bottom: 1rem;
+}
+
+/* profile image small */
+.profile-img {
+  border-radius: 14px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* list & achievement styling */
+#achievements li {
+  margin-bottom: 0.45em;
+  font-weight: 500;
+  color: #34495e;
+}
+
+/* badges (for milestones, skills) */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  background: #eef2ff;
+  color: var(--accent);
+  margin-right: 0.4rem;
+  margin-bottom: 0.4rem;
+  border: 1px solid rgba(40,22,195,0.06);
+}
+
+/* grid tweaks for Quarto grids */
+.g-col-2 img, .g-col-3 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Navbar tweaks (works with Litera theme) */
+.navbar {
+  font-weight: 600;
+}
+.navbar a {
+  color: #2c3e50;
+}
+.navbar .active, .navbar a[aria-current="page"] {
+  color: var(--accent);
+  border-bottom: 2px solid rgba(40,22,195,0.12);
+  padding-bottom: 0.35rem;
+}
+
+/* code block improvements */
+pre, code {
+  background: #f6f8fa;
+  border-radius: 8px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;
+}
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+  border: 1px solid rgba(0,0,0,0.03);
+  box-shadow: none;
+}
+
+/* responsive utilities */
+@media (max-width: 900px) {
+  .g-col-3 { grid-column: span 12; }
+  .g-col-9 { grid-column: span 12; }
+  .callout, .card { padding: 0.85rem; }
+}
+
+/* dark mode support (respects system preference) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #e6eef8;
+    --bg: #0b1220;
+    --card: #071022;
+    --shadow: rgba(0,0,0,0.6);
+  }
+  body { background-color: var(--bg); color: var(--text); }
+  a { color: #66aaff; }
+  .callout, .card { box-shadow: none; border: 1px solid rgba(255,255,255,0.03); }
+  pre, code { background: #071026; color: #dbeafe; }
+}
+
+/* small helper: horizontal rule style */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(0,0,0,0.06), rgba(0,0,0,0.02));
+  margin: 2rem 0;
+}
