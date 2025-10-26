@@ -54,7 +54,7 @@ format: html
 ::: {.grid .gap-4}
 
 ::: {.g-col-6}
-### 🪨 Drone Data Acquisition  
+### Drone Data & core Acquisition  
 **Department:** [Earth Science](https://es.iitgn.ac.in/)  
 **Note-Due to privacy reasons can not write the field name**
 
@@ -62,11 +62,6 @@ format: html
 - **Field Visit 2** — Aug 2024  
 - **Field Visit 3** — Nov 2024
 
-
-**Capturing the World Through Drone Eyes**
-   <div>
-   <img src="files/ladakh.jpg" alt="Drone Image" style="width: auto; max-width: 880px; height: auto;" />
-   </div>
 :::
 
 ::: {.g-col-6}
