@@ -28,7 +28,7 @@ format:
 ::: {.grid .gap-4}
 
 ::: {.g-col-2}
-![](files/daigram/upsam.gif){.img-fluid .rounded .shadow}
+![](files/daigram/inpt.gif){.img-fluid .rounded .shadow}
 :::
 
 ::: {.g-col-10}
