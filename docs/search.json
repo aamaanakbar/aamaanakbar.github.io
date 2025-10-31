@@ -67,7 +67,7 @@
     "href": "Project.html",
     "title": "Akbar Ali",
     "section": "",
-    "text": "M.Tech 2021\nTopic: Prediction Model for Parkinson’s Disease\nAdvisor: Prof. Saiyed Umer, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156.\nB.Tech 2019\nTopic: Design of Home Automation using IoT\nAdvisor: Prof. Zeenat Rehena, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156."
+    "text": "3D Geophysical Image Translation using GANs\nFeb 2024 – Jan 2025\n\nTranslated 3D geophysical images into photorealistic virtual outcrop geology using GANs.\n\nDeveloped a methodology for generating diverse geological outcrop images at varying altitudes.\n\nSmart Farming of Cotton using Aerial Imagery & Computer Vision\nJun 2023 – Jan 2024\n\nStudied the effect of weather and pests on crop health using aerial imaging.\n\nConducted weekly drone missions (10m, 15m, 115m altitudes) from July–December 2023, covering the full cotton growth cycle.\n\n\n\n\nField observation during cotton growth monitoring (captured using DSLR)"
   },
   {
     "objectID": "Certification.html",
@@ -269,8 +269,8 @@
     "objectID": "Project.html#projects",
     "href": "Project.html#projects",
     "title": "Akbar Ali",
-    "section": "",
-    "text": "M.Tech 2021\nTopic: Prediction Model for Parkinson’s Disease\nAdvisor: Prof. Saiyed Umer, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156.\nB.Tech 2019\nTopic: Design of Home Automation using IoT\nAdvisor: Prof. Zeenat Rehena, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156."
+    "section": "Projects",
+    "text": "Projects\n\nM.Tech 2021\nTopic: Prediction Model for Parkinson’s Disease\nAdvisor: Prof. Saiyed Umer, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156.\nB.Tech 2019\nTopic: Design of Home Automation using IoT\nAdvisor: Prof. Zeenat Rehena, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156."
   },
   {
     "objectID": "Project.html#workshops",
@@ -523,5 +523,12 @@
     "title": "Akbar Ali",
     "section": "News & Updates",
     "text": "News & Updates\n\n\nSeptember 2025: Submitted a paper to WACV 2026.\n\n\nSeptember 2025: Presented two papers at an international conference.\n\n\nJuly 2025: Two papers accepted at the ICIP 2025 conference.\n\n\n\n\n\n\nDeartifacting\n\n\n\nInpainting\n\n\n\n\n\nDenoising\n\n\n\nUpsampling\n\n\n\n\n\n\nField observation during cotton growth monitoring (captured using DSLR)"
+  },
+  {
+    "objectID": "Project.html#recent-projects",
+    "href": "Project.html#recent-projects",
+    "title": "Akbar Ali",
+    "section": "",
+    "text": "3D Geophysical Image Translation using GANs\nFeb 2024 – Jan 2025\n\nTranslated 3D geophysical images into photorealistic virtual outcrop geology using GANs.\n\nDeveloped a methodology for generating diverse geological outcrop images at varying altitudes.\n\nSmart Farming of Cotton using Aerial Imagery & Computer Vision\nJun 2023 – Jan 2024\n\nStudied the effect of weather and pests on crop health using aerial imaging.\n\nConducted weekly drone missions (10m, 15m, 115m altitudes) from July–December 2023, covering the full cotton growth cycle.\n\n\n\n\nField observation during cotton growth monitoring (captured using DSLR)"
   }
 ]
