@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: ""
 format:
   html:
     toc: false
