@@ -79,7 +79,7 @@
   {
     "objectID": "gallery.html",
     "href": "gallery.html",
-    "title": "Gallery",
+    "title": "Akbar Ali",
     "section": "",
     "text": "Welcome to my gallery! Here are some highlights from my research, projects, and conferences."
   },
@@ -277,7 +277,7 @@
     "href": "Project.html#workshops",
     "title": "Akbar Ali",
     "section": "Workshops",
-    "text": "Workshops\n\n3D Vision Summer School, IIIT Bangalore, India — June 22–28, 2024 (In-Person)\nGained exposure to Deep Learning applications in 3D Vision through lectures, hands-on sessions, and research discussions led by experts.\nVisvesvaraya Workshop, IIT Mandi — May 2024\nFocused on advanced presentations and interdisciplinary research under the Visvesvaraya PhD Scheme.\nNational Seminar: Preparation & Publication of Research Articles, Aliah University — March 18, 2019.\nNational Seminar: Mathematical Modelling & its Application in Natural and Engineering Science (NSMMANES-2019), Aliah University — March 25, 2019."
+    "text": "Workshops\n\n3D Vision Summer School, IIIT Bangalore, India — June 22–28, 2024 (In-Person)\nGained exposure to Deep Learning applications in 3D Vision through lectures, hands-on sessions, and research discussions led by experts.\nVisvesvaraya Workshop, IIT Mandi — May 2024\nFocused on advanced presentations and interdisciplinary research under the Visvesvaraya PhD Scheme.\n\n\n\n\n Visvesvaraya Workshop (IITGN Mandi)\n\n\n\nNational Seminar: Preparation & Publication of Research Articles, Aliah University — March 18, 2019.\nNational Seminar: Mathematical Modelling & its Application in Natural and Engineering Science (NSMMANES-2019), Aliah University — March 25, 2019."
   },
   {
     "objectID": "gallery.html#my-poster",
@@ -289,14 +289,14 @@
   {
     "objectID": "gallery.html#icip-2025-posters",
     "href": "gallery.html#icip-2025-posters",
-    "title": "Gallery",
+    "title": "Akbar Ali",
     "section": "ICIP 2025 Posters",
     "text": "ICIP 2025 Posters\n\nPoster 1: “COT-AD”\n\n  \n\n\n\n\n\n\nPoster 2: “IRUSIR”"
   },
   {
     "objectID": "gallery.html#more-pictures",
     "href": "gallery.html#more-pictures",
-    "title": "Gallery",
+    "title": "Akbar Ali",
     "section": "More Pictures",
     "text": "More Pictures"
   },
@@ -347,7 +347,7 @@
     "href": "Project.html#field-visits",
     "title": "Akbar Ali",
     "section": "Field Visits",
-    "text": "Field Visits\n\n\nDrone Data & core Acquisition\nDepartment: Earth Science\nNote-Due to privacy reasons can not write the field name\n\nField Visit 1 — May 2023\n\nField Visit 2 — Aug 2024\n\nField Visit 3 — Nov 2024\n\n\n\n🏙 Transport Evaluation\nDepartment: Computer Science\n\nSilvassa — Jul 2024\n\nAurangabad — Jul 2024"
+    "text": "Field Visits\n\n\nDrone Data & core Acquisition\nDepartment: Earth Science\nNote-Due to privacy reasons can not write the field name\n\nField Visit 1 — May 2023\n\nField Visit 2 — Aug 2024\n\nField Visit 3 — Nov 2024\n\n\n\n🏙 Transport Evaluation\nDepartment: Computer Science\n\nSilvassa — Jul 2024\n\nAurangabad — Jul 2024\n\n\n\n\n\n\nSilvassa"
   },
   {
     "objectID": "about.html#bio",
@@ -530,5 +530,12 @@
     "title": "Akbar Ali",
     "section": "",
     "text": "3D Geophysical Image Translation using GANs\nFeb 2024 – Jan 2025\n\nTranslated 3D geophysical images into photorealistic virtual outcrop geology using GANs.\n\nDeveloped a methodology for generating diverse geological outcrop images at varying altitudes.\n\nSmart Farming of Cotton using Aerial Imagery & Computer Vision\nJun 2023 – Jan 2024\n\nStudied the effect of weather and pests on crop health using aerial imaging.\n\nConducted weekly drone missions (10m, 15m, 115m altitudes) from July–December 2023, covering the full cotton growth cycle.\n\n\n\n\nField observation during cotton growth monitoring (captured using DSLR)"
+  },
+  {
+    "objectID": "Project.html#thesis-projects",
+    "href": "Project.html#thesis-projects",
+    "title": "Akbar Ali",
+    "section": "Thesis Projects",
+    "text": "Thesis Projects\n\nM.Tech 2021\nTopic: Prediction Model for Parkinson’s Disease\nAdvisor: Prof. Saiyed Umer, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156.\nB.Tech 2019\nTopic: Design of Home Automation using IoT\nAdvisor: Prof. Zeenat Rehena, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156."
   }
 ]
