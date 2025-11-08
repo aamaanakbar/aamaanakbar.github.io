@@ -40,6 +40,13 @@ I am pursuing my Ph.D. under the Guidance of [Prof. Shanmuganathan Raman](https:
 
 ---
 
+**[Indian Institute of Technology Ropar](https://www.iitrpr.ac.in)**,   June 2021 – Nov 2022  
+*Project Associate*  
+I worked on the project "Volume Estimation of Complex Objects Using Hyperspectral Imaging and Stereo Vision Fusion." This research focused on applying advanced imaging techniques, including hyperspectral imaging and stereo vision, to estimate the volume of complex objects for various applications in industrial automation and robotics.
+
+
+---
+
 **[Aliah University](https://aliah.ac.in)**,Kolkata,  Aug 2019 – Jul 2021  
 *M.Tech in Computer Science & Engineering*,  CPI: 9.03 /10  
 
