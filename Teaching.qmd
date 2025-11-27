@@ -39,3 +39,11 @@ format: html
 
 <img src="files/dron1.jpeg" alt="Drone Image 2" style="width:100%; max-width:440px; height:auto; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.2);" />
 :::
+
+---
+
+## Additional Mentoring Experience
+
+- Mentored B.Tech and M.Tech students on projects related to **Hyperspectral Imaging**, **Image Editing**, and **GAN Inversion**, providing technical guidance throughout project development.
+
+---

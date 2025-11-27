@@ -305,7 +305,7 @@
     "href": "Teaching.html",
     "title": "Akbar Ali",
     "section": "",
-    "text": "Lead Teaching Assistant, IIT Gandhinagar (Jan 2025 – Apr 2025)\n\nCourse: ES 113 – Data Centric Computing\n\nMentored 45 students in topics including data structures, algorithms, data analysis with Python (Pandas, Matplotlib), SQL, and basic machine learning.\n\nSupported QA sessions, graded assignments, and collaborated with faculty for smooth course delivery.\n\n\n\n\nGraduate Teaching Fellow, IIT Gandhinagar (Aug 2024 – Nov 2024)\n\nCourse: FP 602 – Writing\n\nMentored 35 students, managing classwork, exams, and academic progress. Ensured effective communication and timely coordination of assignments.\n\n\n\n\nTeaching Assistant, IIT Gandhinagar (Dec 2022 – Apr 2024)\n\nCourse: ES 114 Probability, Statistics and Data Visualization\nCourses: Probability, Statistics, and Data Visualization; Probability and Randomization\n\nConducted lab/tutorial sessions for 50+ students using Python data science libraries. Managed evaluations and provided academic support.\n\n\n\n\nTeaching Assistant, IIT Gandhinagar (June 2024 – June 2024)\n\nCourse: SC 333 – Drone Data Acquisition, Processing, and Interpretation\n\nAssisted in conducting a short course for ~30 students on drone technology, including flight training, data acquisition, and processing techniques using RGB and multispectral imagery.\n\nSupported hands-on sessions and fieldwork to help students gain practical experience in drone operations and data interpretation.\n\n\nDrone Image [Captured During Class SC 333]"
+    "text": "Drone Image [Captured During Class SC 333]"
   },
   {
     "objectID": "about.html#uav-pilot-license-experience",
@@ -537,5 +537,26 @@
     "title": "Akbar Ali",
     "section": "Thesis Projects",
     "text": "Thesis Projects\n\nM.Tech 2021\nTopic: Prediction Model for Parkinson’s Disease\nAdvisor: Prof. Saiyed Umer, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156.\nB.Tech 2019\nTopic: Design of Home Automation using IoT\nAdvisor: Prof. Zeenat Rehena, Assistant Professor, Dept. of CSE, Aliah University, Kolkata 700156."
+  },
+  {
+    "objectID": "Teaching.html#teaching-experience",
+    "href": "Teaching.html#teaching-experience",
+    "title": "Akbar Ali",
+    "section": "",
+    "text": "Course: ES 113 – Data Centric Computing\n\nMentored 45 students in data structures, algorithms, Python for data analysis (Pandas, Matplotlib), SQL, and basic machine learning.\n\nSupported QA sessions, graded assignments, and collaborated with faculty for smooth course delivery.\n\n\n\n\n\nCourse: FP 602 – Writing\n\nMentored 35 students, managing classwork, exams, and academic progress.\n\nEnsured effective communication and timely assignment coordination.\n\n\n\n\n\nCourses: ES 114 – Probability, Statistics and Data Visualization; Probability and Randomization\n\nConducted lab/tutorial sessions for 50+ students using Python data science libraries.\n\nManaged evaluations and provided academic support.\n\n\n\n\n\nCourse: SC 333 – Drone Data Acquisition, Processing, and Interpretation\n\nAssisted in a short course for ~30 students on drone technology, including flight training, RGB and multispectral data acquisition, and processing workflows.\n\nSupported hands-on sessions and fieldwork for practical drone operations and data interpretation."
+  },
+  {
+    "objectID": "Teaching.html#drone-images-captured-during-sc-333",
+    "href": "Teaching.html#drone-images-captured-during-sc-333",
+    "title": "Akbar Ali",
+    "section": "Drone Images (Captured During SC 333)",
+    "text": "Drone Images (Captured During SC 333)"
+  },
+  {
+    "objectID": "Teaching.html#additional-mentoring-experience",
+    "href": "Teaching.html#additional-mentoring-experience",
+    "title": "Akbar Ali",
+    "section": "Additional Mentoring Experience",
+    "text": "Additional Mentoring Experience\n\nMentored B.Tech and M.Tech students on projects related to Hyperspectral Imaging, Image Editing, and GAN Inversion, providing technical guidance throughout project development."
   }
 ]
