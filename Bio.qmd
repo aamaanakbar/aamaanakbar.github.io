@@ -8,7 +8,7 @@ format: html
 ![](/files/akbar_latest.jpeg){fig-alt="Akbar" width="180px"}
 
  
-akbar@iitgn.ac.in  
+akbar.ali@iitgn.ac.in  
 :::
 ::: column
 
