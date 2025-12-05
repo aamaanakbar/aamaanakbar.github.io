@@ -17,7 +17,7 @@ A third-year PhD student at IIT Gandhinagar. I aim to contribute to impactful re
 ## Research Interests
 - Generative Models
 - Latent Inversion   
-- Zero shot Learning
+- Zero Shot Learning
 - Hyperspectral Imaging
 
 
