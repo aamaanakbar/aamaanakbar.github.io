@@ -361,7 +361,7 @@
     "href": "Bio.html",
     "title": "Hello! I’m Akbar",
     "section": "",
-    "text": "I am a third-year PhD student at the prestigious Indian Institute of Technology Gandhinagar (IITGN), where I delve into the world of Computer Vision, Deep Generative Models, and Hyperspectral Imaging within the Department of Computer Science & Engineering.\nMy journey so far has been a blend of academic rigor and hands-on research. Before embarking on my doctoral research, I completed both my B.Tech and M.Tech at Aliah University and worked as a Project Associate at IIT Ropar, contributing to projects that intersect technology, creativity, and real-world impact.\n\nI enjoy tackling hard problems, building reproducible research code, and publishing robust models. I’m driven by curiosity and care about clean, well-documented work."
+    "text": "akbar@iitgn.ac.in\n\nAs a third-year PhD student at IIT Gandhinagar. I aim to contribute to impactful research that integrates technology with real-world applications.\n\n\n\nComputer Vision\nDeep Generative Models\n\nHyperspectral Imaging"
   },
   {
     "objectID": "Bio.html#bio",
@@ -558,5 +558,40 @@
     "title": "Akbar Ali",
     "section": "Additional Mentoring Experience",
     "text": "Additional Mentoring Experience\n\nMentored B.Tech and M.Tech students on projects related to Hyperspectral Imaging, Image Editing, and GAN Inversion, providing technical guidance throughout project development."
+  },
+  {
+    "objectID": "Bio.html#objective",
+    "href": "Bio.html#objective",
+    "title": "Hello! I’m Akbar",
+    "section": "",
+    "text": "As a third-year PhD student at IIT Gandhinagar. I aim to contribute to impactful research that integrates technology with real-world applications."
+  },
+  {
+    "objectID": "Bio.html#expertise-skills",
+    "href": "Bio.html#expertise-skills",
+    "title": "Hello! I’m Akbar",
+    "section": "",
+    "text": "Programming: Python, C/C++\n\nDeep Learning: PyTorch, scikit-learn\n\nResearch, Academic Writing, Model Building\n\nGit, LaTeX, Linux"
+  },
+  {
+    "objectID": "Bio.html#research-interests",
+    "href": "Bio.html#research-interests",
+    "title": "Hello! I’m Akbar",
+    "section": "",
+    "text": "Computer Vision\nDeep Generative Models\n\nHyperspectral Imaging"
+  },
+  {
+    "objectID": "Bio.html#academic-background",
+    "href": "Bio.html#academic-background",
+    "title": "Hello! I’m Akbar",
+    "section": "",
+    "text": "B.Tech, M.Tech from Aliah University\n\nProject Associate at IIT Ropar"
+  },
+  {
+    "objectID": "Bio.html#interests",
+    "href": "Bio.html#interests",
+    "title": "Hello! I’m Akbar",
+    "section": "",
+    "text": "Problem-solving, Research, Clean Coding\n\nPublishing Reproducible Models\n\nCuriosity-driven Exploration"
   }
 ]

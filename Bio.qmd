@@ -1,35 +1,28 @@
 ---
-title: ""
-format:
-  html:
-    toc: false
-    code-fold: true
+title: "Hello! I'm Akbar"
+format: html
 ---
 
-::: {.grid .gap-4}
+::: columns
+::: column
+![](/files/akbar_latest.jpeg){fig-alt="Akbar" width="180px"}
 
-::: {.g-col-12}
-# Hello! I’m **Akbar** 
-   <div>
-   <img src="files/akbar_latest.jpeg" alt="Drone Image" style="width: auto; max-width: 800px; height: auto;" />
-   </div>
+ 
+akbar@iitgn.ac.in  
+:::
+::: column
+
+As a third-year PhD student at IIT Gandhinagar. I aim to contribute to impactful research that integrates technology with real-world applications.
+
+## Research Interests
+- Computer Vision 
+- Deep Generative Models   
+- Hyperspectral Imaging
+
 
 :::
-
-::: {.g-col-12}
-
-
-I am a third-year PhD student at the prestigious [Indian Institute of Technology Gandhinagar (IITGN)](https://iitgn.ac.in), where I delve into the world of **Computer Vision**, **Deep Generative Models**, and **Hyperspectral Imaging** within the Department of Computer Science & Engineering.
-
-My journey so far has been a blend of academic rigor and hands-on research. Before embarking on my doctoral research, I completed both my B.Tech and M.Tech at [Aliah University](https://aliah.ac.in) and worked as a Project Associate at [IIT Ropar](https://iitrpr.ac.in), contributing to projects that intersect technology, creativity, and real-world impact.
-
-
-> I enjoy tackling hard problems, building reproducible research code, and publishing robust models. I’m driven by curiosity and care about clean, well-documented work.
 :::
 
-:::
-
----
 
 ## 🎓 Education
 
@@ -76,21 +69,6 @@ I completed my undergraduate work under the supervision of [Prof. Zeenat Rehana]
 
 ---
 
-##  Skills & Tools
-
-**Programming Languages**  
-🟢 Python · 🔵 C/C++  
-
-**Frameworks & Libraries**  
-🟣 PyTorch · 🟤 scikit-learn  
-
-**Tools & Platforms**  
-💻 Git · 🧾 LaTeX · 🐧 Linux  
-
-**Research Interests**  
-I am currently conducting research in Deep Generative Models, with a broader focus on Computer Vision and Hyperspectral Imaging. My work involves developing learning-based models for image restoration, visual understanding, and representation learning.
-
----
 
 ## UAV Pilot License & Experience
 
@@ -112,6 +90,6 @@ Operational tasks include **data collection**, **aerial inspection**, and **spec
 
 
 · **Google Scholar:** [Akbar Ali](https://scholar.google.com/citations?user=g-2Aix8AAAAJ&hl=en)
-· **X/Twitter:** [Aamaan Akbar](https://x.com/AamaanAkbar)
+
 
 
