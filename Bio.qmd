@@ -15,8 +15,9 @@ akbar@iitgn.ac.in
 A third-year PhD student at IIT Gandhinagar. I aim to contribute to impactful research that integrates technology with real-world applications.
 
 ## Research Interests
-- Computer Vision 
-- Deep Generative Models   
+- Generative Models
+- Latent Inversion   
+- Zero shot Learning
 - Hyperspectral Imaging
 
 
