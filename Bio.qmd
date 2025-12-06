@@ -6,7 +6,7 @@ format: html
 ::: columns
 ::: column
 ![](/files/akbar_latest.jpeg){fig-alt="Akbar" width="380px"}
-akbar.ali@iitgn.ac.in  
+✉️ akbar.ali@iitgn.ac.in  
 :::
 ::: column
 
