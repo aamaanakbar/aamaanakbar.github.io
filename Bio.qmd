@@ -5,9 +5,8 @@ format: html
 
 ::: columns
 ::: column
-![](/files/akbar_latest.jpeg){fig-alt="Akbar" width="180px"}
+![](/files/akbar_latest.jpeg){fig-alt="Akbar" width="365px"}
 
- 
 akbar.ali@iitgn.ac.in  
 :::
 ::: column
@@ -15,11 +14,10 @@ akbar.ali@iitgn.ac.in
 A third-year PhD student at IIT Gandhinagar. I aim to contribute to impactful research that integrates technology with real-world applications.
 
 ## Research Interests
-- Generative Models
-- Latent Inversion   
-- Zero Shot Learning
-- Hyperspectral Imaging
-
+- Generative Models  
+- Latent Inversion  
+- Zero Shot Learning  
+- Hyperspectral Imaging  
 
 :::
 :::
