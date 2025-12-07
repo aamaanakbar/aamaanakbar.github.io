@@ -13,6 +13,7 @@ format: html
 A third-year PhD student at IIT Gandhinagar. I aim to contribute to impactful research that integrates technology with real-world applications.
 
 ## Research Interests
+- Computer Vision
 - Generative Models  
 - Latent Inversion  
 - Zero Shot Learning  
@@ -21,34 +22,31 @@ A third-year PhD student at IIT Gandhinagar. I aim to contribute to impactful re
 :::
 :::
 
+---
 
 ## 🎓 Education
 
 **[Indian Institute of Technology Gandhinagar](https://iitgn.ac.in)**,   Dec 2022 – Present  
-*Ph.D., Computer Science & Engineering*,   CPI: 9.14 /10            
-
+***Ph.D.**, Computer Science & Engineering*,   CPI: 9.14 /10            
 I am pursuing my Ph.D. under the Guidance of [Prof. Shanmuganathan Raman](https://iitgn.ac.in/faculty/cse/shanmuganathan) in the Computer Science and Engineering discipline at IIT Gandhinagar, focusing on visual learning and generative representations to develop interpretable and efficient AI systems.
 
 ---
 
 **[Indian Institute of Technology Ropar](https://www.iitrpr.ac.in)**,   Sept 2021 – Nov 2022  
 *Project Associate*  
-
 I worked on the project "Volume Estimation of Complex Objects Using Hyperspectral Imaging and Stereo Vision Fusion" under the Guidance of [Prof. Neeraj Goel](https://sites.google.com/view/neerajgoel). This research focused on applying advanced imaging techniques, including hyperspectral imaging and stereo vision, to estimate the volume of complex objects for various applications in industrial automation and robotics.
 
 
 ---
 
 **[Aliah University](https://aliah.ac.in)**,Kolkata,  Aug 2019 – Jul 2021  
-*M.Tech in Computer Science & Engineering*,  CPI: 9.03 /10  
-
+***M.Tech** in Computer Science & Engineering*,  CPI: 9.03 /10  
 I completed my M.Tech under the supervision of [Prof. Saiyed Umar](https://aliah.ac.in/department/people-details.php?key=computer-science-and-engineering&id=148), where I explored research at the intersection of machine learning and medical data analysis, designing predictive models for healthcare applications. My thesis proposed a descriptive predictive framework for Parkinson’s disease analysis, which was later published by Springer Nature (2023).   
 
 ---
 
 **[Aliah University](https://aliah.ac.in)**, Kolkata,  Jun 2015 – Jul 2019  
-*B.Tech in Computer Science & Engineering*,  CPI: 8.97 / 10  
-
+***B.Tech** in Computer Science & Engineering*,  CPI: 8.97 / 10  
 I completed my undergraduate work under the supervision of [Prof. Zeenat Rehana](https://aliah.ac.in/department/people-details.php?key=computer-science-and-engineering&id=59), where I developed an IoT-based home automation system to remotely control and monitor household devices using sensor integration and wireless communication technologies. This project sparked my interest in machine learning and deep learning, motivating me to explore intelligent systems and data-driven applications further.
 
 

@@ -69,7 +69,7 @@ format: html
 ::: {.column width="33%"}
 ::: {.panel style="padding:1rem; border:1px solid #4c4c4c50; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);"}
 ### Research
-Exploring generative models for robust, degradation-agnostic image restoration.  
+Exploring generative models, zero shot and Latent Inversion for robust, degradation-agnostic image restoration.  
 [See more →](Conference.qmd)
 :::
 :::
@@ -92,7 +92,7 @@ Building practical tools for GAN inversion and diffusion-based restoration.
 
 :::
 
-
+##
 
 <div style="display:flex; justify-content:center; gap:1.2rem; margin-top:0.6rem;">
 

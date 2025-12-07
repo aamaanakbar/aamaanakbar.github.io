@@ -35,7 +35,7 @@ format:
 
     # ⬇️ New options
     page-layout: full      # make pages use full window width
-    max-width: 1400px      # wider “website feel” content area
+    max-width: 1600px      # wider “website feel” content area
 
 execute:
   freeze: auto
