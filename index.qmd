@@ -62,46 +62,37 @@ format: html
 </style>
 
 
-### At a glance
+## At a glance
 
-<div class="home-cards">
+::: {.columns}
 
-<div class="home-card">
-
-#### Research
-
-Methods for degradation-agnostic restoration using generative priors,
-latent-space optimization, and diffusion-style guidance.
-
+::: {.column width="33%"}
+::: {.panel style="padding:1rem; border:1px solid #4c4c4c50; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);"}
+### Research
+Exploring generative models for robust, degradation-agnostic image restoration.  
 [See more →](Conference.qmd)
+:::
+:::
 
-</div>
-
-<div class="home-card">
-
-#### Teaching
-
-Teaching assistant experience and mentoring in computer vision,
-deep learning, and mathematical foundations.
-
+::: {.column width="33%"}
+::: {.panel style="padding:1rem; border:1px solid #4c4c4c50; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);"}
+### Teaching
+Supporting courses in computer vision, deep learning, and foundational computing.  
 [See more →](Teaching.qmd)
+:::
+:::
 
-</div>
-
-<div class="home-card">
-
-#### Projects
-
-Code, datasets, and demos for GAN inversion, zero-shot restoration,
-and diffusion-based enhancement.
-
+::: {.column width="33%"}
+::: {.panel style="padding:1rem; border:1px solid #4c4c4c50; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);"}
+### Projects
+Building practical tools for GAN inversion and diffusion-based restoration.  
 [See more →](Project.qmd)
+:::
+:::
 
-</div>
+:::
 
-</div>
 
-<div class="section-block">
 
 <div style="display:flex; justify-content:center; gap:1.2rem; margin-top:0.6rem;">
 
