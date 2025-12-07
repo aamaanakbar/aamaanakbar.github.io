@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Akbar Ali",
     "section": "",
-    "text": "Ph.D. Student at  IIT Gandhinagar \n\n\n\n\n📰 News & Updates\n\n\n\n\nDec 2025: Submitted a paper to PRL.\n\n\nNov 2025: Submitted a paper to CVPR 2026.\n\n\nSeptember 2025: Presented two papers at an international conference.\n\n\nJuly 2025: Two papers accepted at the ICIP 2025 conference."
+    "text": "Ph.D. Student at  IITGN \n\n\n\n\n\n\n\n📰 News & Updates\n\n\n\nDec 2025: Submitted a paper to PRL.\n\n\nNov 2025: Submitted a paper to CVPR 2026.\n\n\nSeptember 2025: Presented two papers at an international conference.\n\n\nJuly 2025: Two papers accepted at the ICIP 2025 conference.\n\n\n\n\n\n\n\n\nAt a glance\n\n\nResearch\nMethods for degradation-agnostic restoration using generative priors, latent-space optimization, and diffusion-style guidance.\nSee more →\n\n\nTeaching\nTeaching assistant experience and mentoring in computer vision, deep learning, and mathematical foundations.\nSee more →\n\n\nProjects\nCode, datasets, and demos for GAN inversion, zero-shot restoration, and diffusion-based enhancement.\nSee more →"
   },
   {
     "objectID": "index.html#education",
@@ -67,7 +67,7 @@
     "href": "Project.html",
     "title": "Akbar Ali",
     "section": "",
-    "text": "3D Geophysical Image Translation using GANs\nFeb 2024 – Jan 2025\n\nTranslated 3D geophysical images into photorealistic virtual outcrop geology using GANs.\n\nDeveloped a methodology for generating diverse geological outcrop images at varying altitudes.\n\nSmart Farming of Cotton using Aerial Imagery & Computer Vision\nJun 2023 – Jan 2024\n\nStudied the effect of weather and pests on crop health using aerial imaging.\n\nConducted weekly drone missions (10m, 15m, 115m altitudes) from July–December 2023, covering the full cotton growth cycle.\n\n\n\n\nField observation during cotton growth monitoring (captured using DSLR)"
+    "text": "3D Geophysical Image Translation using GANs Feb 2024 – Jan 2025\n\nTranslated 3D geophysical images into photorealistic virtual outcrop geology using GANs.\n\nDeveloped a methodology for generating diverse geological outcrop images at varying altitudes.\n\nSmart Farming of Cotton using Aerial Imagery & Computer Vision Jun 2023 – Jan 2024\n\nStudied the effect of weather and pests on crop health using aerial imaging.\n\nConducted weekly drone missions (10m, 15m, 115m altitudes) from July–December 2023, covering the full cotton growth cycle.\n\n\n\n\nField observation during cotton growth monitoring (captured using DSLR)"
   },
   {
     "objectID": "Certification.html",
@@ -291,14 +291,14 @@
     "href": "gallery.html#icip-2025-posters",
     "title": "Akbar Ali",
     "section": "ICIP 2025 Posters",
-    "text": "ICIP 2025 Posters\n\nPoster 1: “COT-AD”\n\n  \n\n\n\n\n\n\nPoster 2: “IRUSIR”"
+    "text": "ICIP 2025 Posters\n\n\n\nCOT-AD\n  \n\n\n\nIRUSIR"
   },
   {
     "objectID": "gallery.html#more-pictures",
     "href": "gallery.html#more-pictures",
     "title": "Akbar Ali",
     "section": "More Pictures",
-    "text": "More Pictures"
+    "text": "More Pictures\nMore photos coming soon."
   },
   {
     "objectID": "Teaching.html",
@@ -382,14 +382,14 @@
     "href": "Bio.html#academic-milestones",
     "title": "Hello! I’m Akbar",
     "section": "Academic Milestones",
-    "text": "Academic Milestones\n\nUGC-NET (Computer Applications) — Qualified in 2022\n\nUniversity Topper (M.Tech, 2021) — Secured 2nd Rank in the overall program\n\nUniversity Topper (B.Tech, 2019) — Secured 1st Rank in the overall program\n\n1st Rank, AUAT M.Tech Entrance Examination — 2019\n\n64th Rank, AUAT B.Tech Entrance Examination — 2015\n\nNational Scholarship Recipient — Awarded five times (3× (B.Tech) & 2× (M.Tech))\n\nCompetitive Exams Qualified — BCECE, WB JEE, and AIEEE\n\nAcademic Excellence Award — 1st Prize in Chemistry (2012)"
+    "text": "Academic Milestones\n\nUGC-NET (Computer Applications), qualified in 2022\n\nUniversity Topper, M.Tech (2021) — secured 2nd rank in the overall program\n\nUniversity Topper, B.Tech (2019) — secured 1st rank in the overall program\n\n1st rank in AUAT M.Tech Entrance Examination (2019)\n\n64th rank in AUAT B.Tech Entrance Examination (2015)\n\nNational Scholarship recipient — awarded five times (three during B.Tech and two during M.Tech)\n\nQualified competitive examinations: BCECE, WB JEE, AIEEE\n\nAcademic Excellence Award (2012) — 1st prize in Chemistry"
   },
   {
     "objectID": "Bio.html#uav-pilot-license-experience",
     "href": "Bio.html#uav-pilot-license-experience",
     "title": "Hello! I’m Akbar",
     "section": "UAV Pilot License & Experience",
-    "text": "UAV Pilot License & Experience\nUAV Pilot License — Certified to fly up to 25 kg\nExperienced with DJI Mavic and Bajrang drones.\nOperational tasks include data collection, aerial inspection, and spectral imaging.\nSafety & Compliance\n- Pre-flight checks\n- Flight mission planning\n- Data transfer and storage procedures"
+    "text": "UAV Pilot License & Experience\n\n\nUAV Pilot License — certified to fly up to 25 kg\nExperienced with DJI Mavic and Bajrang drones.\nOperational tasks include data collection, aerial inspection, and spectral imaging.\n\nSafety & Compliance\n- Pre-flight checks\n- Flight mission planning\n- Data transfer and storage procedures"
   },
   {
     "objectID": "Conference.html#section",
@@ -529,7 +529,7 @@
     "href": "Project.html#recent-projects",
     "title": "Akbar Ali",
     "section": "",
-    "text": "3D Geophysical Image Translation using GANs\nFeb 2024 – Jan 2025\n\nTranslated 3D geophysical images into photorealistic virtual outcrop geology using GANs.\n\nDeveloped a methodology for generating diverse geological outcrop images at varying altitudes.\n\nSmart Farming of Cotton using Aerial Imagery & Computer Vision\nJun 2023 – Jan 2024\n\nStudied the effect of weather and pests on crop health using aerial imaging.\n\nConducted weekly drone missions (10m, 15m, 115m altitudes) from July–December 2023, covering the full cotton growth cycle.\n\n\n\n\nField observation during cotton growth monitoring (captured using DSLR)"
+    "text": "3D Geophysical Image Translation using GANs Feb 2024 – Jan 2025\n\nTranslated 3D geophysical images into photorealistic virtual outcrop geology using GANs.\n\nDeveloped a methodology for generating diverse geological outcrop images at varying altitudes.\n\nSmart Farming of Cotton using Aerial Imagery & Computer Vision Jun 2023 – Jan 2024\n\nStudied the effect of weather and pests on crop health using aerial imaging.\n\nConducted weekly drone missions (10m, 15m, 115m altitudes) from July–December 2023, covering the full cotton growth cycle.\n\n\n\n\nField observation during cotton growth monitoring (captured using DSLR)"
   },
   {
     "objectID": "Project.html#thesis-projects",
@@ -593,5 +593,33 @@
     "title": "Hello! I’m Akbar",
     "section": "",
     "text": "Problem-solving, Research, Clean Coding\n\nPublishing Reproducible Models\n\nCuriosity-driven Exploration"
+  },
+  {
+    "objectID": "index.html#social",
+    "href": "index.html#social",
+    "title": "Akbar Ali",
+    "section": "Social",
+    "text": "Social"
+  },
+  {
+    "objectID": "index.html#social-1",
+    "href": "index.html#social-1",
+    "title": "Akbar Ali",
+    "section": "Social",
+    "text": "Social\n🌐 GitHub · 🔗 LinkedIn · 🐦 X · 🎓 Scholar"
+  },
+  {
+    "objectID": "Bio.html#academic-milestones-1",
+    "href": "Bio.html#academic-milestones-1",
+    "title": "Hello! I’m Akbar",
+    "section": "Academic Milestones",
+    "text": "Academic Milestones\n\n2022 — UGC-NET (Computer Applications), qualified\n\n2021 — University Topper (M.Tech), secured 2nd rank in the overall program\n\n2019 — University Topper (B.Tech), secured 1st rank in the overall program\n\n2019 — 1st rank in AUAT M.Tech Entrance Examination\n\n2015 — 64th rank in AUAT B.Tech Entrance Examination\n\n2012–2021 — National Scholarship recipient (five awards: three during B.Tech, two during M.Tech)\n\nVarious years — Qualified competitive examinations including BCECE, WB JEE, and AIEEE\n\n2012 — Academic Excellence Award, 1st prize in Chemistry"
+  },
+  {
+    "objectID": "gallery.html#fun-with-pablo-icip25-anchorage-usa",
+    "href": "gallery.html#fun-with-pablo-icip25-anchorage-usa",
+    "title": "Akbar Ali",
+    "section": "Fun with Pablo & ICIP25 (Anchorage, USA)",
+    "text": "Fun with Pablo & ICIP25 (Anchorage, USA)\n\n\n\nFun with Pablo\n\n\n\n\nICIP25\n{style=” border-radius:12px; width:100%; max-width:450px; height:260px; object-fit:cover; “}"
   }
 ]

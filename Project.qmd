@@ -6,13 +6,11 @@ format: html
 
 
 ## Recent Projects
-1. **3D Geophysical Image Translation using GANs**  
-   *Feb 2024 – Jan 2025*  
+1. **3D Geophysical Image Translation using GANs**  *Feb 2024 – Jan 2025*  
    - Translated 3D geophysical images into photorealistic virtual outcrop geology using [GANs](https://en.wikipedia.org/wiki/Generative_adversarial_network).  
    - Developed a methodology for generating diverse geological outcrop images at varying altitudes.
 
-2. **Smart Farming of Cotton using Aerial Imagery & Computer Vision**  
-   *Jun 2023 – Jan 2024*  
+2. **Smart Farming of Cotton using Aerial Imagery & Computer Vision**  *Jun 2023 – Jan 2024*  
    - Studied the effect of weather and pests on crop health using aerial imaging.  
    - Conducted weekly drone missions (10m, 15m, 115m altitudes) from July–December 2023, covering the full cotton growth cycle.
 

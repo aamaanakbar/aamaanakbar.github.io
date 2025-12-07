@@ -33,6 +33,10 @@ format:
     css: Styles.css                # custom CSS (placed in project root)
     toc: false
 
+    # ⬇️ New options
+    page-layout: full      # make pages use full window width
+    max-width: 1400px      # wider “website feel” content area
+
 execute:
   freeze: auto
 

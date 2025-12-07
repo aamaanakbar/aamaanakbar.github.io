@@ -35,9 +35,9 @@ format: html
 **Drone Image [Captured During Class SC 333]**
 
 ::: {layout-ncol=2 style="text-align:center; gap:1em;"}
-<img src="files/course_drone.jpg" alt="Drone Image 1" style="width:100%; max-width:440px; height:auto; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.2);" />
+<img src="files/course_drone.jpg" alt="Drone Image 1" style="width:100%; max-width:550px; height:auto; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.2);" />
 
-<img src="files/dron1.jpeg" alt="Drone Image 2" style="width:100%; max-width:440px; height:auto; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.2);" />
+<img src="files/dron1.jpeg" alt="Drone Image 2" style="width:100%; max-width:550px; height:auto; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.2);" />
 :::
 
 ---

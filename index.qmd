@@ -1,77 +1,150 @@
 ---
 title: ""
 format: html
-image: files/aamaan1.png
-about:
-  template: marquee
-  image-width: 34em
-  image-shape: rounded
-
-  links:
-    - icon: github
-      href: https://github.com/aamaanakbar
-    - icon: linkedin
-      href: https://www.linkedin.com/in/aamaanakbar
-    - icon: twitter
-      href: https://x.com/AamaanAkbar
 ---
 
-<h3 style="font-family:Poppins, sans-serif; color:#93c4fd; margin-top:0;">Ph.D. Student at 
-  <a href="https://iitgn.ac.in/" target="_blank" rel="noopener" style="color:#60a5fa; text-decoration:none;">
-    **IIT Gandhinagar**
-  </a>
-</h3>
 
-<!-- News Section -->
-<section style="font-family:Poppins, sans-serif; margin-top:2em;">
+<div style="text-align:center; margin-top:1.5rem;">
+
+<!-- Large Profile Image -->
+![](files/aamaan1.png){style="border-radius:14px; box-shadow:0 14px 32px rgba(0,0,0,0.32); width:100%; max-width:32em;"}
+
+<!-- Text Below Image (smaller font) -->
+<h2 style="font-family:Poppins, sans-serif; color:#93c4fd; margin-top:1rem; font-size:1.2rem;">
+  Ph.D. Student at 
+  <a href="https://iitgn.ac.in/"
+     target="_blank"
+     rel="noopener"
+     style="color:#60a5fa; text-decoration:none;">
+    <strong>IITGN</strong>
+  </a>
+</h2>
+
+</div>
+
+
+<!-- ========================= -->
+<!-- NEWS SECTION              -->
+<!-- ========================= -->
+
+<section style="font-family:Poppins, sans-serif; margin-top:3em;">
   <h2 style="color:#60a5fa; border-bottom:2px solid #60a5fa; display:inline-block; padding-bottom:8px;">
     📰 News & Updates
   </h2>
 
-  <!-- News List with fade-in animation -->
   <ul style="list-style-type:none; padding-left:0; margin-top:1em;">
-      <li class="news-item">
-      <strong>Dec 2025:</strong> Submitted a paper to <strong>PRL</strong>.
-    </li>
-    <li class="news-item">
-      <strong>Nov 2025:</strong> Submitted a paper to <strong>CVPR 2026</strong>.
-    </li>
-    <li class="news-item">
-      <strong>September 2025:</strong> Presented two papers at an international conference.
-    </li>
-    <li class="news-item">
-      <strong>July 2025:</strong> Two papers accepted at the <strong>ICIP 2025</strong> conference.
-    </li>
+    <li class="news-item"><strong>Dec 2025:</strong> Submitted a paper to <strong>PRL</strong>.</li>
+    <li class="news-item"><strong>Nov 2025:</strong> Submitted a paper to <strong>CVPR 2026</strong>.</li>
+    <li class="news-item"><strong>September 2025:</strong> Presented two papers at an international conference.</li>
+    <li class="news-item"><strong>July 2025:</strong> Two papers accepted at the <strong>ICIP 2025</strong> conference.</li>
   </ul>
 </section>
 
-<!-- CSS for fade-in effect -->
+<!-- ========================= -->
+<!-- ANIMATION FOR NEWS ITEMS -->
+<!-- ========================= -->
+
 <style>
   .news-item {
     opacity: 0;
     animation: fadeInUp 1s ease-out forwards;
   }
 
-  .news-item:nth-child(1) {
-    animation-delay: 1.5s;
-  }
-
-  .news-item:nth-child(2) {
-    animation-delay: 2.5s;
-  }
-
-  .news-item:nth-child(3) {
-    animation-delay: 3.5s;
-  }
+  .news-item:nth-child(1) { animation-delay: 1.2s; }
+  .news-item:nth-child(2) { animation-delay: 2.2s; }
+  .news-item:nth-child(3) { animation-delay: 3.2s; }
+  .news-item:nth-child(4) { animation-delay: 4.2s; }
 
   @keyframes fadeInUp {
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    from {
-      opacity: 0;
-      transform: translateY(50px);
-    }
+    from { opacity: 0; transform: translateY(50px); }
+    to   { opacity: 1; transform: translateY(0); }
   }
 </style>
+
+
+### At a glance
+
+<div class="home-cards">
+
+<div class="home-card">
+
+#### Research
+
+Methods for degradation-agnostic restoration using generative priors,
+latent-space optimization, and diffusion-style guidance.
+
+[See more →](Conference.qmd)
+
+</div>
+
+<div class="home-card">
+
+#### Teaching
+
+Teaching assistant experience and mentoring in computer vision,
+deep learning, and mathematical foundations.
+
+[See more →](Teaching.qmd)
+
+</div>
+
+<div class="home-card">
+
+#### Projects
+
+Code, datasets, and demos for GAN inversion, zero-shot restoration,
+and diffusion-based enhancement.
+
+[See more →](Project.qmd)
+
+</div>
+
+</div>
+
+<div class="section-block">
+
+<div style="display:flex; justify-content:center; gap:1.2rem; margin-top:0.6rem;">
+
+  <!-- GitHub -->
+  <a href="https://github.com/aamaanakbar" target="_blank" style="display:inline-block;">
+    <svg width="26" height="26" viewBox="0 0 16 16" fill="#93c4fd" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 
+      7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+      -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 
+      1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 
+      2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 
+      3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 
+      2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+    </svg>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/aamaanakbar" target="_blank" style="display:inline-block;">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="#93c4fd" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 
+      2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.1c.5-.9 
+      1.7-2.2 3.7-2.2 4 0 4.7 2.6 4.7 6V24h-4v-7.5c0-1.8 0-4-2.5-4s-2.8 
+      2-2.8 3.9V24h-4V8z"/>
+    </svg>
+  </a>
+
+  <!-- X/Twitter -->
+  <a href="https://x.com/AamaanAkbar" target="_blank" style="display:inline-block;">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="#93c4fd" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18.244 2H21.5l-7.42 8.49L23 22h-7.547l-5.288-6.634L4.64 
+      22H1.5l7.93-9.07L2 2h7.664l4.713 5.927L18.244 2zM16.69 
+      20h2.095L7.42 4H5.21l11.48 16z"/>
+    </svg>
+  </a>
+
+  <!-- Google Scholar -->
+  <a href="https://scholar.google.com/citations?user=g-2Aix8AAAAJ&hl=en" target="_blank" style="display:inline-block;">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="#93c4fd" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2L1 9l11 7 9-5.73V17h2V9L12 2zm0 9.27L5.74 
+      9 12 4.73 18.26 9 12 11.27zM5 13v6l7 4 7-4v-6l-7 
+      4-7-4z"/>
+    </svg>
+  </a>
+
+</div>

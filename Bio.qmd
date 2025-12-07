@@ -5,7 +5,7 @@ format: html
 
 ::: columns
 ::: column
-![](/files/akbar_latest.jpeg){fig-alt="Akbar" width="380px"}
+![](/files/akbar_latest.jpeg){fig-alt="Akbar" width="550px"}
 ✉️ akbar.ali@iitgn.ac.in  
 :::
 ::: column
@@ -53,41 +53,42 @@ I completed my undergraduate work under the supervision of [Prof. Zeenat Rehana]
 
 
 ---
-
 ## Academic Milestones
 
-- **UGC-NET (Computer Applications)** — Qualified in 2022   
-- **University Topper (M.Tech, 2021)** — Secured **2nd Rank** in the overall program  
-- **University Topper (B.Tech, 2019)** — Secured **1st Rank** in the overall program  
-- **1st Rank**, AUAT M.Tech Entrance Examination — 2019  
-- **64th Rank**, AUAT B.Tech Entrance Examination — 2015  
-- **National Scholarship Recipient** — Awarded five times (3× (B.Tech) & 2× (M.Tech))  
-- **Competitive Exams Qualified** — BCECE, WB JEE, and AIEEE  
-- **Academic Excellence Award** — 1st Prize in Chemistry (2012)
+- UGC-NET (Computer Applications), qualified in 2022  
+- University Topper, M.Tech (2021) — secured 2nd rank in the overall program  
+- University Topper, B.Tech (2019) — secured 1st rank in the overall program  
+- 1st rank in AUAT M.Tech Entrance Examination (2019)  
+- 64th rank in AUAT B.Tech Entrance Examination (2015)  
+- National Scholarship recipient — awarded five times (three during B.Tech and two during M.Tech)  
+- Qualified competitive examinations: BCECE, WB JEE, AIEEE  
+- Academic Excellence Award (2012) — 1st prize in Chemistry  
 
----
 
 
 ## UAV Pilot License & Experience
 
+::: {.columns}
 
+::: {.column width="50%"}
 
-**UAV Pilot License** — Certified to fly up to **25 kg**  
-Experienced with **DJI Mavic** and **Bajrang** drones.  
-Operational tasks include **data collection**, **aerial inspection**, and **spectral imaging**.
+**UAV Pilot** License — certified to fly up to 25 kg  
+Experienced with DJI Mavic and Bajrang drones.  
+Operational tasks include data collection, aerial inspection, and spectral imaging.
 
+:::
 
-**Safety & Compliance**  
+::: {.column width="50%"}
+
+Safety & Compliance  
 - Pre-flight checks  
 - Flight mission planning  
-- Data transfer and storage procedures
+- Data transfer and storage procedures  
 
+:::
 
+:::
 
-## 
-
-
-· **Google Scholar:** [Akbar Ali](https://scholar.google.com/citations?user=g-2Aix8AAAAJ&hl=en)
 
 
 

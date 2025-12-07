@@ -25,38 +25,26 @@ Welcome to my gallery! Here are some highlights from my research, projects, and 
 
 ## ICIP 2025 Posters
 
-### Poster 1: "COT-AD"
+::: {.columns .align-center}
 
-<div style="text-align: center; margin-top: 20px;">
-  <a href="files/COT-AD.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="files/COT-AD.jpg" alt="COT-AD Poster" style="width: 100%; max-width: 900px; height: auto;" />
-  </a>
-</div>
+::: {.column width="50%"}
+### COT-AD  
+<a href="files/COT-AD.jpg" target="_blank" rel="noopener noreferrer">
+![](files/COT-AD.jpg){style="border-radius:12px; width:100%; max-width:550px;"}
+</a>
+:::
 
-<!-- Optional embedded PDF viewer -->
-<!--
-<iframe src="files/icip_poster1.pdf" width="600" height="800" style="border:none;">
-This browser does not support PDFs. Please download the PDF to view it: <a href="files/icip_poster1.pdf">Download PDF</a>
-</iframe>
--->
+::: {.column width="50%"}
+### IRUSIR  
+<a href="files/IRUSIR.jpg" target="_blank" rel="noopener noreferrer">
+![](files/IRUSIR.jpg){style="border-radius:12px; width:100%; max-width:550px;"}
+</a>
+:::
 
----
-
-### Poster 2: "IRUSIR"
-
-<div style="text-align: center; margin-top: 20px;">
-  <a href="files/IRUSIR.jpg" target="_blank" rel="noopener noreferrer">
-    <img src="files/IRUSIR.jpg" alt="IRUSIR Poster" style="width: 100%; max-width: 900px; height: auto;" />
-  </a>
-</div>
-
-<!-- Optional embedded PDF viewer -->
-<!--
-<iframe src="files/icip_poster2.pdf" width="600" height="800" style="border:none;">
-This browser does not support PDFs. Please download the PDF to view it: <a href="files/icip_poster2.pdf">Download PDF</a>
-</iframe>
--->
+:::
 
 ---
 
 ## More Pictures
+
+More photos coming soon.
