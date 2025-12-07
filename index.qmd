@@ -10,13 +10,13 @@ format: html
 ![](files/aamaan1.png){style="border-radius:14px; box-shadow:0 14px 32px rgba(0,0,0,0.32); width:100%; max-width:32em;"}
 
 <!-- Text Below Image (smaller font) -->
-<h2 style="font-family:Poppins, sans-serif; color:#93c4fd; margin-top:1rem; font-size:1.2rem;">
+<h2 style="font-family:Poppins, sans-serif; color:#93c4fd; margin-top:1rem; font-size:1rem;">
   Ph.D. Student at 
   <a href="https://iitgn.ac.in/"
      target="_blank"
      rel="noopener"
      style="color:#60a5fa; text-decoration:none;">
-    <strong>IITGN</strong>
+    <strong>IIT Gandhinagar</strong>
   </a>
 </h2>
 
@@ -27,11 +27,10 @@ format: html
 <!-- NEWS SECTION              -->
 <!-- ========================= -->
 
-<section style="font-family:Poppins, sans-serif; margin-top:3em;">
-  <h2 style="color:#60a5fa; border-bottom:2px solid #60a5fa; display:inline-block; padding-bottom:8px;">
+<section style="font-family:Poppins, sans-serif; margin-top:2em;">
+  <h2 style="color:#60a5fa; border-bottom:2px solid #60a5fa; display:inline-block; padding-bottom:5px;">
     📰 News & Updates
   </h2>
-
   <ul style="list-style-type:none; padding-left:0; margin-top:1em;">
     <li class="news-item"><strong>Dec 2025:</strong> Submitted a paper to <strong>PRL</strong>.</li>
     <li class="news-item"><strong>Nov 2025:</strong> Submitted a paper to <strong>CVPR 2026</strong>.</li>
