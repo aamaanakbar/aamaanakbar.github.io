@@ -27,12 +27,12 @@ Anchorage, USA & ICIP 2025
 
 ::: {.column width="50%"}
 ### COT-AD
-[![](files/COT-AD.jpg){style="width:100%; max-width:520px; border-radius:12px;"}](files/COT-AD.jpg)
+[![](files/COT-AD.jpg){style="width:100%; max-width:500px; border-radius:12px;"}](files/COT-AD.jpg)
 :::
 
 ::: {.column width="50%"}
 ### IRUSIR
-[![](files/IRUSIR.jpg){style="width:100%; max-width:520px; border-radius:12px;"}](files/IRUSIR.jpg)
+[![](files/IRUSIR.jpg){style="width:100%; max-width:500px; border-radius:12px;"}](files/IRUSIR.jpg)
 :::
 
 :::
