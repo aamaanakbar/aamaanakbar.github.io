@@ -81,7 +81,7 @@
     "href": "gallery.html",
     "title": "Akbar Ali",
     "section": "",
-    "text": "Welcome to my gallery! Here are some highlights from my research, projects, and conferences."
+    "text": "Welcome to my gallery! Here are some highlights from my research, projects, and conferences.\nAnchorage, USA & ICIP 2025"
   },
   {
     "objectID": "posts/firs.html",
@@ -291,14 +291,14 @@
     "href": "gallery.html#icip-2025-posters",
     "title": "Akbar Ali",
     "section": "ICIP 2025 Posters",
-    "text": "ICIP 2025 Posters\n\n\n\nCOT-AD\n  \n\n\n\nIRUSIR"
+    "text": "ICIP 2025 Posters\n\n\n\nCOT-AD\n\n\n\n\nIRUSIR"
   },
   {
     "objectID": "gallery.html#more-pictures",
     "href": "gallery.html#more-pictures",
     "title": "Akbar Ali",
     "section": "More Pictures",
-    "text": "More Pictures\nMore photos coming soon."
+    "text": "More Pictures\n\nMore photos coming soon."
   },
   {
     "objectID": "Teaching.html",
@@ -628,5 +628,26 @@
     "title": "Akbar Ali",
     "section": "At a glance",
     "text": "At a glance\n\n\n\nResearch\nExploring generative models, zero shot and Latent Inversion for robust, degradation-agnostic image restoration.\nSee more →\n\n\n\nTeaching\nSupporting courses in computer vision, deep learning, and foundational computing.\nSee more →\n\n\n\nProjects\nBuilding practical tools for GAN inversion and diffusion-based restoration.\nSee more →"
+  },
+  {
+    "objectID": "gallery.html#fun-with-pablo-anchorage-usa",
+    "href": "gallery.html#fun-with-pablo-anchorage-usa",
+    "title": "Akbar Ali",
+    "section": "Fun with Pablo — Anchorage, USA",
+    "text": "Fun with Pablo — Anchorage, USA\n\n\n\n\n\nICIP 2025 — Anchorage, USA"
+  },
+  {
+    "objectID": "gallery.html#fun-with-pablo-anchorage-usa-icip-2025-anchorage-usa",
+    "href": "gallery.html#fun-with-pablo-anchorage-usa-icip-2025-anchorage-usa",
+    "title": "Akbar Ali",
+    "section": "Fun with Pablo — Anchorage, USA & ICIP 2025 — Anchorage, USA",
+    "text": "Fun with Pablo — Anchorage, USA & ICIP 2025 — Anchorage, USA"
+  },
+  {
+    "objectID": "gallery.html#anchorage-usa-icip-2025",
+    "href": "gallery.html#anchorage-usa-icip-2025",
+    "title": "Akbar Ali",
+    "section": "Anchorage, USA & ICIP 2025",
+    "text": "Anchorage, USA & ICIP 2025"
   }
 ]

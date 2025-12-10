@@ -3,23 +3,21 @@ title: ""
 format: html
 ---
 
-
-
 Welcome to my gallery! Here are some highlights from my research, projects, and conferences.
 
-### Fun with Pablo, Anchorage,USA
+Anchorage, USA & ICIP 2025 
 
-<div style="text-align: center; margin-top: 20px;">
-  <img src="files/icip3.jpeg" alt="fun_with_pablo" style="width: 100%; max-width: 900px; height: auto;" />
-</div>
+::: {.columns .align-center}
 
+::: {.column width="50%"}
+[![](files/icip3.jpeg){style="width:100%; max-width:500px; border-radius:12px;"}](files/icip3.jpeg)
+:::
 
+::: {.column width="50%"}
+[![](files/icip1.jpeg){style="width:100%; max-width:475px; border-radius:12px;"}](files/icip1.jpeg)
+:::
 
-### ICIP25, Anchorage,USA
-<div style="text-align: center;">
-  <img src="files/icip1.jpeg" alt="Conference icip25" style="width: 100%; max-width: 900px; height: auto;" />
-</div>
-
+:::
 
 ---
 
@@ -28,17 +26,13 @@ Welcome to my gallery! Here are some highlights from my research, projects, and 
 ::: {.columns .align-center}
 
 ::: {.column width="50%"}
-### COT-AD  
-<a href="files/COT-AD.jpg" target="_blank" rel="noopener noreferrer">
-![](files/COT-AD.jpg){style="border-radius:12px; width:100%; max-width:550px;"}
-</a>
+### COT-AD
+[![](files/COT-AD.jpg){style="width:100%; max-width:520px; border-radius:12px;"}](files/COT-AD.jpg)
 :::
 
 ::: {.column width="50%"}
-### IRUSIR  
-<a href="files/IRUSIR.jpg" target="_blank" rel="noopener noreferrer">
-![](files/IRUSIR.jpg){style="border-radius:12px; width:100%; max-width:550px;"}
-</a>
+### IRUSIR
+[![](files/IRUSIR.jpg){style="width:100%; max-width:520px; border-radius:12px;"}](files/IRUSIR.jpg)
 :::
 
 :::
@@ -47,4 +41,6 @@ Welcome to my gallery! Here are some highlights from my research, projects, and 
 
 ## More Pictures
 
+<div style="text-align:center;">
 More photos coming soon.
+</div>
