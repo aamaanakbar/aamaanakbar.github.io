@@ -43,11 +43,11 @@ format: html
 2. **Visvesvaraya Workshop**, [IIT Mandi](https://www.iitmandi.ac.in/) — *May 2024*  
    Focused on advanced presentations and interdisciplinary research under the [Visvesvaraya PhD Scheme](https://phd.dic.gov.in/about).
 
-<div style="text-align: center; margin-top: 15px;">
-  <img src="files/iit_mandi.jpeg" alt="Drone Field Visit" style="width: auto; max-width: 850px; height: auto; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);" />
-  <p><em> Visvesvaraya Workshop (IITGN Mandi)</em></p>
-</div>   
+::: {layout-ncol=2 style="text-align:center; gap:1em;"}
+<img src="files/iitmandi2.jpg" alt="Drone Image 1" style="width:100%; max-width:550px; height:auto; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.2);" />
 
+<img src="files/iitmandi1.jpg" alt="Drone Image 2" style="width:100%; max-width:550px; height:auto; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.2);" />
+:::
 3. **National Seminar:** *Preparation & Publication of Research Articles*, Aliah University — *March 18, 2019.*
 
 4. **National Seminar:** *Mathematical Modelling & its Application in Natural and Engineering Science (NSMMANES-2019)*, Aliah University — *March 25, 2019.*
@@ -82,7 +82,8 @@ format: html
 :::
 
 :::
-<div style="text-align: center; margin-top: 15px;">
-  <img src="files/silvassa.jpeg" alt="Transport Evaluation Field Trip" style="width: auto; max-width: 850px; height: auto; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);" />
-  <p><em>Silvassa</em></p>
-</div>
+::: {layout-ncol=2 style="text-align:center; gap:1em;"}
+<img src="files/field1.jpg" alt="Drone Image 1" style="width:100%; max-width:550px; height:auto; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.2);" />
+
+<img src="files/field2.jpg" alt="Drone Image 2" style="width:100%; max-width:550px; height:auto; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.2);" />
+:::
