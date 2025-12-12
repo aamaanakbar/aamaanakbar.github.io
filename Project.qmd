@@ -40,6 +40,12 @@ format: html
 1. **3D Vision Summer School**, [IIIT Bangalore](https://www.iiitb.ac.in/), India — *June 22–28, 2024 (In-Person)*  
    Gained exposure to Deep Learning applications in 3D Vision through lectures, hands-on sessions, and research discussions led by experts.
 
+::: {layout-ncol=2 style="text-align:center; gap:1em;"}
+<img src="files/iiit.jpg" alt="Drone Image 1" style="width:100%; max-width:550px; height:auto; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.2);" />
+
+<img src="files/iiitb1.jpg" alt="Drone Image 2" style="width:100%; max-width:550px; height:auto; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.2);" />
+:::
+
 2. **Visvesvaraya Workshop**, [IIT Mandi](https://www.iitmandi.ac.in/) — *May 2024*  
    Focused on advanced presentations and interdisciplinary research under the [Visvesvaraya PhD Scheme](https://phd.dic.gov.in/about).
 
