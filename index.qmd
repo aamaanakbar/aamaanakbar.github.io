@@ -7,7 +7,7 @@ format: html
 <div style="text-align:center; margin-top:1.5rem;">
 
 <!-- Large Profile Image -->
-![](files/aamaan1.png){style="border-radius:14px; box-shadow:0 14px 32px rgba(0,0,0,0.32); width:100%; max-width:32em;"}
+![](files/aamaan1.png){style="border-radius:14px; box-shadow:0 14px 32px rgba(0,0,0,0.32); width:100%; max-width:42em;"}
 
 <!-- Text Below Image (smaller font) -->
 <h2 style="font-family:Poppins, sans-serif; color:#93c4fd; margin-top:1rem; font-size:1rem;">
