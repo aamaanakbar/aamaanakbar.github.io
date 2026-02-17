@@ -5,7 +5,65 @@ format:
     toc: false
 ---
 
+##    2026
+::: {.grid .gap-4}
+
+::: {.g-col-2}
+![](files/daigram/blur.png){.img-fluid .rounded .shadow style="width:100%;border-radius:10px;"}
+:::
+
+::: {.g-col-10}
+[Unsupervised Image Deblurring in latent space using Pivotal Tuning Inversion](https://ieeexplore.ieee.org/abstract/document/11084742)  
+*Akbar Ali, Indra Deep Mastan, and Shanmuganathan Raman*  
+*(Manuscript under review, [ICIP 2026](https://cvpr.thecvf.com/))* — Feb 2026  
+
+[PDF] · [Project Page]
+:::
+
+:::
+
+---
+
+
+::: {.grid .gap-4}
+
+::: {.g-col-2}
+![](files/cvpr.png){.img-fluid .rounded .shadow style="width:100%;border-radius:10px;"}
+:::
+
+::: {.g-col-10}
+[ZS-CLIP2Clean: Zero-Shot CLIP-Guided Training-Free Single-Image Denoising](https://ieeexplore.ieee.org/abstract/document/11084742)  
+*Abhiyodaya Pandey, Akbar Ali, Indra Deep Mastan, and Shanmuganathan Raman*  
+*(Manuscript under review, [ICIP 2026](https://cvpr.thecvf.com/))* — Feb 2026  
+
+[PDF] · [Project Page]
+:::
+
+:::
+
+---
+
+
+::: {.grid .gap-4}
+
+::: {.g-col-2}
+![](files/daigram/jaidev.png){.img-fluid .rounded .shadow style="width:100%;border-radius:10px;"}
+:::
+
+::: {.g-col-10}
+[InscriptionOCR: A Dataset and Method for Understanding Inscriptions](https://ieeexplore.ieee.org/abstract/document/11084742)  
+*Jaidev Sanjay Khalane, Akbar Ali, V.N. Prabhakar, and Shanmuganathan Raman*  
+*(Manuscript under review, [ICIP 2026](https://cvpr.thecvf.com/))* — Feb 2026  
+
+[PDF] · [Project Page]
+:::
+
+:::
+
+
+
 ## 🧠 2025
+
 ::: {.grid .gap-4}
 
 ::: {.g-col-2}
@@ -22,23 +80,6 @@ format:
 
 :::
 
----
-
-::: {.grid .gap-4}
-
-::: {.g-col-2}
-![](files/cvpr.png){.img-fluid .rounded .shadow style="width:100%;border-radius:10px;"}
-:::
-
-::: {.g-col-10}
-[ZS-CLIP2Clean: Zero-Shot CLIP-Guided Training-Free Single-Image Denoising](https://ieeexplore.ieee.org/abstract/document/11084742)  
-*Abhiyodaya Pandey, Akbar Ali, Indra Deep Mastan, and Shanmuganathan Raman*  
-*(Manuscript under review, [cvpr 2026](https://cvpr.thecvf.com/))* — Nov 2025  
-
-[PDF] · [Project Page]
-:::
-
-:::
 
 ---
 
