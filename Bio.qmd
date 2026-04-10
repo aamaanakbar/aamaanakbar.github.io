@@ -26,6 +26,12 @@ A third-year PhD student at IIT Gandhinagar. I aim to contribute to impactful re
 
 ## 🎓 Education
 
+**[Helmholtz-Zentrum Dresden-Rossendorf (HZDR), Germany](https://www.hzdr.de)**,   Mar 2026 – Present   
+*Research Lab Abroad Program (HiF)*  
+I have been selected for a prestigious international research program at HZDR, Germany, where I will engage in advanced research in collaboration with global experts, focusing on cutting-edge developments in computational imaging and AI-driven scientific applications.
+
+---
+
 **[Indian Institute of Technology Gandhinagar](https://iitgn.ac.in)**,   Dec 2022 – Present  
 ***Ph.D.**, Computer Science & Engineering*,   CPI: 9.14 /10            
 I am pursuing my Ph.D. under the Guidance of [Prof. Shanmuganathan Raman](https://iitgn.ac.in/faculty/cse/shanmuganathan) in the Computer Science and Engineering discipline at IIT Gandhinagar, focusing on visual learning and generative representations to develop interpretable and efficient AI systems.

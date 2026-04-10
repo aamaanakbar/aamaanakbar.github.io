@@ -15,7 +15,7 @@ format:
 ::: {.g-col-10}
 [Unsupervised Image Deblurring in latent space using Pivotal Tuning Inversion](https://ieeexplore.ieee.org/abstract/document/11084742)  
 *Akbar Ali, Indra Deep Mastan, and Shanmuganathan Raman*  
-*(Manuscript under review, [ICIP 2026](https://cvpr.thecvf.com/))* — Feb 2026  
+*(Manuscript under review, [IEEE SPL 2026](https://cvpr.thecvf.com/))* — Feb 2026  
 
 [PDF] · [Project Page]
 :::
@@ -34,7 +34,7 @@ format:
 ::: {.g-col-10}
 [ZS-CLIP2Clean: Zero-Shot CLIP-Guided Training-Free Single-Image Denoising](https://ieeexplore.ieee.org/abstract/document/11084742)  
 *Abhiyodaya Pandey, Akbar Ali, Indra Deep Mastan, and Shanmuganathan Raman*  
-*(Manuscript under review, [ICIP 2026](https://cvpr.thecvf.com/))* — Feb 2026  
+*(Manuscript under review, [IEEE SPL 2026](https://cvpr.thecvf.com/))* — Feb 2026  
 
 [PDF] · [Project Page]
 :::
