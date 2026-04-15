@@ -32,7 +32,7 @@ format: html
     📰 News & Updates
   </h2>
   <ul style="list-style-type:none; padding-left:0; margin-top:1em;">
-    <li class="news-item"><strong>March–Aug 2026:</strong> Visiting Scholar at Helmholtz-Zentrum Dresden-Rossendorf <strong>(HIF)</strong>, Germany.</li>
+    <li class="news-item"><strong>March 2026:</strong> Visiting Scholar at HZDR <strong>(HIF)</strong>, Germany.</li>
     <li class="news-item"><strong>March 2026:</strong> Submitted 2 paper to <strong>IEEE SPL</strong>.</li>
     <li class="news-item"><strong>Dec 2025:</strong> Submitted a paper to <strong>PRL</strong>.</li>
     <li class="news-item"><strong>September 2025:</strong> Presented two papers at an international conference.</li>
