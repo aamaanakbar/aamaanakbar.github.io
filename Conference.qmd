@@ -6,6 +6,27 @@ format:
 ---
 
 ##    2026
+
+
+::: {.grid .gap-4}
+
+::: {.g-col-2}
+![](files/daigram/denoi.gif){.img-fluid .rounded .shadow style="width:100%;border-radius:10px;"}
+:::
+
+::: {.g-col-10}
+[GenR: Robust Generative Face Image Restoration in Latent Space](https://ieeexplore.ieee.org/abstract/document/11084742)  
+*Akbar Ali, Indra Deep Mastan, and Shanmuganathan Raman*  
+*(Published by, [PRL 2026](https://www.sciencedirect.com/journal/pattern-recognition-letters))* — Apr 2026  
+
+[PDF](https://doi.org/10.1016/j.patrec.2026.04.021) · [Code](https://github.com/aamaanakbar/GenR) 
+:::
+
+:::
+
+---
+
+
 ::: {.grid .gap-4}
 
 ::: {.g-col-2}
@@ -64,24 +85,7 @@ format:
 
 ## 🧠 2025
 
-::: {.grid .gap-4}
 
-::: {.g-col-2}
-![](files/daigram/denoi.gif){.img-fluid .rounded .shadow style="width:100%;border-radius:10px;"}
-:::
-
-::: {.g-col-10}
-[GenR: Robust Generative Face Image Restoration in Latent Space](https://ieeexplore.ieee.org/abstract/document/11084742)  
-*Akbar Ali, Indra Deep Mastan, and Shanmuganathan Raman*  
-*(Manuscript under review, [PRL 2026](https://www.sciencedirect.com/journal/pattern-recognition-letters))* — Dec 2025  
-
-[PDF] · [Project Page]
-:::
-
-:::
-
-
----
 
 ::: {.grid .gap-4}
 
