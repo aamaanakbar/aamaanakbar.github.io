@@ -18,7 +18,7 @@ A fourth-year PhD student at IIT Gandhinagar. I aim to contribute to impactful r
 - Latent Inversion  
 - Zero Shot Learning  
 - Hyperspectral Imaging 
-- 2D&3D Gaussian splattering 
+- 2D&3D Gaussian splatting 
 
 :::
 :::
