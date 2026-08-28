@@ -99,10 +99,17 @@ h2 {
 .pic {
   display: table-cell;
   vertical-align: top;
-  width: 350px;
-  padding-right: 32px;
+  width: 175px;
+  padding-right: 24px;
 }
-.pic img { width: 100%; display: block; border-radius: 3px; }
+.pic img {
+  width: 100%;
+  max-height: 170px;
+  object-fit: contain;
+  object-position: left top;
+  display: block;
+  border-radius: 3px;
+}
 
 .info { display: table-cell; vertical-align: top; }
 
@@ -192,7 +199,7 @@ footer {
   .intro-pic img { width: 170px; height: 170px; margin: 0 auto; }
   .intro-text p { text-align: left; }
   .pic { margin-bottom: 12px; }
-  .pic img { max-width: 400px; }
+  .pic img { max-width: 200px; max-height: none; }
   .when { margin-bottom: 2px; }
   .pair span { margin-bottom: 10px; }
   .gallery span { margin-bottom: 10px; }
