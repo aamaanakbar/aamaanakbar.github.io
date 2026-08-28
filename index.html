@@ -50,7 +50,7 @@ h1 {
 
 .toplinks {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 28px;
   line-height: 1;
 }
 .toplinks a {
@@ -68,20 +68,15 @@ h1 {
 .toplinks a:hover svg,
 .toplinks a:focus-visible svg { fill: #f09228; }
 
-.contact {
-  text-align: center;
-  font-size: 15px;
-  color: #555;
-  margin-bottom: 26px;
-}
+
 
 .intro { display: table; width: 100%; }
 .intro-text { display: table-cell; vertical-align: top; padding-right: 45px; }
-.intro-pic  { display: table-cell; vertical-align: top; width: 265px; }
+.intro-pic  { display: table-cell; vertical-align: top; width: 160px; }
 
 .intro-pic img {
-  width: 265px;
-  height: 265px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -168,10 +163,11 @@ h2 {
 
 /* ---------- figures ---------- */
 
-.pair { display: table; width: 100%; margin-top: 12px; }
+.pair { display: table; width: 60%; margin-top: 12px; }
 .pair span { display: table-cell; width: 50%; padding-right: 10px; }
 .pair span:last-child { padding-right: 0; }
-.pair img, .wide img { width: 100%; display: block; border-radius: 4px; }
+.pair img { width: 100%; display: block; border-radius: 4px; }
+.wide img { width: 60%; display: block; border-radius: 4px; }
 .wide { margin-top: 12px; }
 .cap { color: #777; font-size: 13px; margin-top: 6px; }
 
@@ -221,6 +217,8 @@ footer {
   .pic { margin-bottom: 12px; }
   .pic img { max-width: 200px; max-height: none; }
   .when { margin-bottom: 2px; }
+  .pair { width: 100%; }
+  .wide img { width: 100%; }
   .pair span { margin-bottom: 10px; }
   .gallery span { margin-bottom: 10px; }
   .gallery img { height: auto; }
@@ -256,13 +254,6 @@ footer {
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 3 7.17 5H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-3.17L15 3H9zm3 5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zm0 2a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/></svg>
   </a>
 </div>
-
-<div class="contact">
-  <a href="mailto:akbar.ali@iitgn.ac.in">akbar.ali@iitgn.ac.in</a>
-  &nbsp;&middot;&nbsp;
-  <a href="memories.html">Some beautiful memories</a>
-</div>
-
 <div class="intro">
   <div class="intro-text">
     <p>
@@ -586,17 +577,63 @@ footer {
 
 
 <h2>Awards and Certifications</h2>
-<ul class="plain">
-  <li>UGC-NET, Computer Applications &mdash; qualified 2022.</li>
-  <li>Second rank overall, M.Tech, Aliah University, 2021.</li>
-  <li>First rank overall, B.Tech, Aliah University, 2019.</li>
-  <li>First rank, AUAT M.Tech entrance examination, 2019.</li>
-  <li>64th rank, AUAT B.Tech entrance examination, 2015.</li>
-  <li>National Scholarship &mdash; awarded five times (three in B.Tech, two in M.Tech).</li>
-  <li>Qualified BCECE, WBJEE and AIEEE.</li>
-  <li>UAV pilot licence, certified up to 25 kg &mdash; DJI Mavic and Bajrang platforms. Experienced in mission
-    planning, pre-flight checks, spectral data capture and aerial inspection.</li>
-</ul>
+
+<div class="row">
+  <div class="when">2023</div>
+  <div class="what">
+    <b>UAV Pilot Licence</b>
+    <div class="where">Certified for platforms up to 25 kg</div>
+    <p>DJI Mavic and Bajrang platforms. Mission planning, pre-flight checks, spectral data capture and aerial inspection.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">2022</div>
+  <div class="what">
+    <b>UGC-NET</b>
+    <div class="where">Computer Applications</div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">2021</div>
+  <div class="what">
+    <b>Second rank overall, M.Tech</b>
+    <div class="where">Aliah University, Kolkata</div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">2019</div>
+  <div class="what">
+    <b>First rank overall, B.Tech</b>
+    <div class="where">Aliah University, Kolkata</div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">2019</div>
+  <div class="what">
+    <b>First rank, AUAT M.Tech entrance examination</b>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">2015 &ndash; 2021</div>
+  <div class="what">
+    <b>National Scholarship</b>
+    <div class="where">Awarded five times</div>
+    <p>Three during B.Tech and two during M.Tech.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">2015</div>
+  <div class="what">
+    <b>64th rank, AUAT B.Tech entrance examination</b>
+    <div class="where">Also qualified BCECE, WBJEE and AIEEE</div>
+  </div>
+</div>
 
 
 <footer>
