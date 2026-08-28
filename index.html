@@ -1,555 +1,557 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
+<html lang="en">
+<head>
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akbar Ali</title>
+<meta name="description" content="Akbar Ali is a PhD student at IIT Gandhinagar working on generative priors for image restoration, Gaussian splatting and hyperspectral imaging.">
+<meta property="og:title" content="Akbar Ali">
+<meta property="og:description" content="PhD student at IIT Gandhinagar. Generative models, latent inversion, Gaussian splatting, hyperspectral imaging.">
+<meta property="og:image" content="https://aamaanakbar.github.io/files/aamaan1.png">
+<meta property="og:url" content="https://aamaanakbar.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="files/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>index</title>
 <style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+#wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 45px 20px 60px;
+}
+
+a { color: #1772d0; text-decoration: none; }
+a:hover { color: #f09228; }
+a:focus-visible { outline: 2px solid #f09228; outline-offset: 2px; }
+
+/* ---------- header ---------- */
+
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 12px;
+  letter-spacing: -0.5px;
+}
+
+.toplinks {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 28px;
+  color: #555;
+}
+
+.intro { display: table; width: 100%; }
+.intro-text { display: table-cell; vertical-align: top; padding-right: 32px; }
+.intro-pic  { display: table-cell; vertical-align: top; width: 220px; }
+
+.intro-pic img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.intro-text p { text-align: justify; margin: 0 0 14px; }
+
+/* ---------- sections ---------- */
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 45px 0 14px;
+}
+
+/* ---------- news ---------- */
+
+.news {
+  max-height: 250px;
+  overflow-y: auto;
+  padding-right: 14px;
+}
+.news ul { margin: 0; padding-left: 22px; }
+.news li { margin-bottom: 6px; }
+
+/* ---------- papers ---------- */
+
+.paper {
+  display: table;
+  width: 100%;
+  padding: 18px 14px;
+  border-radius: 5px;
+}
+.paper.hl { background: #ffffd0; }
+
+.pic {
+  display: table-cell;
+  vertical-align: top;
+  width: 300px;
+  padding-right: 26px;
+}
+.pic img { width: 100%; display: block; border-radius: 3px; }
+
+.info { display: table-cell; vertical-align: top; }
+
+.ptitle { font-size: 19px; line-height: 1.25; }
+.ptitle.plain { color: #000; }
+.ptitle.new { color: #f09228; }
+
+.authors { margin-top: 2px; }
+.venue { font-style: italic; font-weight: 700; }
+.plinks { margin-bottom: 8px; }
+.desc { margin: 0; font-size: 16px; color: #222; }
+
+/* ---------- rows (teaching / projects / education) ---------- */
+
+.row {
+  display: table;
+  width: 100%;
+  padding: 14px 0;
+  border-top: 1px solid #eee;
+}
+.row:first-of-type { border-top: none; }
+
+.when {
+  display: table-cell;
+  vertical-align: top;
+  width: 175px;
+  padding-right: 22px;
+  color: #777;
+  font-size: 15px;
+  padding-top: 2px;
+}
+.what { display: table-cell; vertical-align: top; }
+.what b { font-size: 17px; }
+.where { color: #777; font-size: 15px; }
+.what p { margin: 6px 0 0; font-size: 16px; }
+
+/* ---------- figures ---------- */
+
+.pair { display: table; width: 100%; margin-top: 12px; }
+.pair span { display: table-cell; width: 50%; padding-right: 10px; }
+.pair span:last-child { padding-right: 0; }
+.pair img, .wide img { width: 100%; display: block; border-radius: 4px; }
+.wide { margin-top: 12px; }
+.cap { color: #777; font-size: 14px; margin-top: 6px; }
+
+/* ---------- misc ---------- */
+
+ul.plain { margin: 0; padding-left: 22px; }
+ul.plain li { margin-bottom: 5px; }
+
+.gallery { display: table; width: 100%; margin-top: 6px; }
+.gallery span { display: table-cell; width: 25%; padding-right: 10px; }
+.gallery span:last-child { padding-right: 0; }
+.gallery img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+.gallery a:hover img { opacity: .85; }
+
+footer {
+  margin-top: 45px;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+  color: #777;
+  font-size: 14px;
+  text-align: right;
+}
+
+/* ---------- mobile ---------- */
+
+@media (max-width: 800px) {
+  body { font-size: 16px; }
+  #wrap { padding: 26px 16px 40px; }
+  h1 { font-size: 32px; }
+  h2 { font-size: 25px; }
+
+  .intro, .intro-text, .intro-pic,
+  .paper, .pic, .info,
+  .row, .when, .what,
+  .pair, .pair span,
+  .gallery, .gallery span { display: block; width: 100%; padding-right: 0; }
+
+  .intro-pic { margin-bottom: 20px; }
+  .intro-pic img { width: 170px; height: 170px; margin: 0 auto; }
+  .intro-text p { text-align: left; }
+  .pic { margin-bottom: 12px; }
+  .pic img { max-width: 400px; }
+  .when { margin-bottom: 2px; }
+  .pair span { margin-bottom: 10px; }
+  .gallery span { margin-bottom: 10px; }
+  .gallery img { height: auto; }
 }
 </style>
-
-
-<script src="index_files/libs/clipboard/clipboard.min.js"></script>
-<script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="index_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="index_files/libs/quarto-html/popper.min.js"></script>
-<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="index_files/libs/quarto-html/anchor.min.js"></script>
-<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="index_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-
-
 </head>
 
-<body class="fullcontent quarto-light">
+<body>
+<div id="wrap">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<h1>Akbar Ali</h1>
 
-<main class="content" id="quarto-document-content">
-
-
-
-
-<div style="text-align:center; margin-top:1.5rem;">
-<!-- Large Profile Image -->
-<p><img src="files/aamaan1.png" class="img-fluid" style="border-radius:14px; box-shadow:0 14px 32px rgba(0,0,0,0.32); width:100%; max-width:30em;"></p>
-<!-- Text Below Image (smaller font) -->
-<h2 style="font-family:Poppins, sans-serif; color:#93c4fd; margin-top:1rem; font-size:1rem;" class="anchored">
-Ph.D.&nbsp;Student at <a href="https://iitgn.ac.in/" target="_blank" rel="noopener" style="color:#60a5fa; text-decoration:none;"> <strong>IIT Gandhinagar</strong> </a>
-</h2>
+<div class="toplinks">
+  <a href="mailto:akbar.ali@iitgn.ac.in">Email</a> /
+  <a href="https://www.linkedin.com/in/aamaanakbar" target="_blank" rel="noopener">LinkedIn</a> /
+  <a href="https://scholar.google.com/citations?user=g-2Aix8AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a> /
+  <a href="https://github.com/aamaanakbar" target="_blank" rel="noopener">GitHub</a> /
+  <a href="https://x.com/AamaanAkbar" target="_blank" rel="noopener">Twitter</a> /
+  <a href="files/CV.pdf" target="_blank" rel="noopener">CV</a>
 </div>
-<!-- ========================= -->
-<!-- NEWS SECTION              -->
-<!-- ========================= -->
-<section style="font-family:Poppins, sans-serif; margin-top:2em;">
-<h2 style="color:#60a5fa; border-bottom:2px solid #60a5fa; display:inline-block; padding-bottom:5px;" class="anchored">
-📰 News &amp; Updates
-</h2>
-<ul style="list-style-type:none; padding-left:0; margin-top:1em;">
-<li class="news-item">
-<strong>July 2026:</strong> Submitted 2 paper to <strong>ACCV26</strong>.
-</li>
-<li class="news-item">
-<strong>Apr 2026:</strong> Accepted a paper in <strong>PRL</strong>.
-</li>
-<li class="news-item">
-<strong>March 2026:</strong> Visiting Scholar at HZDR <strong>(HIF)</strong>, Germany.
-</li>
-<li class="news-item">
-<strong>September 2025:</strong> Presented two papers at an international conference.
-</li>
+
+<div class="intro">
+  <div class="intro-text">
+    <p>
+      I am a fourth-year Ph.D. student in Computer Science and Engineering at
+      <a href="https://iitgn.ac.in/" target="_blank" rel="noopener">IIT Gandhinagar</a>, advised by
+      <a href="https://iitgn.ac.in/faculty/cse/shanmuganathan" target="_blank" rel="noopener">Prof. Shanmuganathan Raman</a>.
+      My research is on generative priors for image restoration &mdash; latent inversion in StyleGAN and diffusion
+      models, zero-shot and training-free restoration, and 2D/3D Gaussian splatting for hyperspectral imaging.
+      I am currently a visiting researcher at
+      <a href="https://www.hzdr.de" target="_blank" rel="noopener">HZDR</a> in Germany through the
+      Helmholtz Institute Freiberg research-abroad program.
+    </p>
+    <p>
+      Before the Ph.D. I was a project associate at
+      <a href="https://www.iitrpr.ac.in" target="_blank" rel="noopener">IIT Ropar</a>, working on volume estimation
+      of complex objects from hyperspectral and stereo imaging. I am also a licensed UAV pilot and have run drone
+      campaigns for agricultural and geological data collection.
+    </p>
+  </div>
+  <div class="intro-pic">
+    <img src="files/aamaan1.png" alt="Akbar Ali">
+  </div>
+</div>
+
+
+<h2>News</h2>
+<div class="news">
+<ul>
+  <li><b>[July 2026]</b> Submitted two papers to <b>ACCV 2026</b>.</li>
+  <li><b>[April 2026]</b> <i>GenR</i> accepted to <b>Pattern Recognition Letters</b>.
+      <a href="https://doi.org/10.1016/j.patrec.2026.04.021" target="_blank" rel="noopener">[paper]</a>
+      <a href="https://github.com/aamaanakbar/GenR" target="_blank" rel="noopener">[code]</a></li>
+  <li><b>[March 2026]</b> Started as a visiting researcher at <b>HZDR (HIF)</b>, Germany.</li>
+  <li><b>[September 2025]</b> Presented two papers at <b>ICIP 2025</b> in Anchorage, USA.</li>
+  <li><b>[June 2024]</b> Attended the <b>3D Vision Summer School</b> at IIIT Bangalore.</li>
+  <li><b>[May 2024]</b> Attended the <b>Visvesvaraya PhD Scheme</b> workshop at IIT Mandi.</li>
+  <li><b>[February 2023]</b> Parkinson's disease prediction chapter published by <b>Springer Nature</b>.</li>
+  <li><b>[December 2022]</b> Joined <b>IIT Gandhinagar</b> as a Ph.D. scholar.</li>
+  <li><b>[2022]</b> Qualified <b>UGC-NET</b> in Computer Applications.</li>
+  <li><b>[September 2021]</b> Joined <b>IIT Ropar</b> as a project associate.</li>
 </ul>
-</section>
-<!-- ========================= -->
-<!-- ANIMATION FOR NEWS ITEMS -->
-<!-- ========================= -->
-<style>
-  .news-item {
-    opacity: 0;
-    animation: fadeInUp 1s ease-out forwards;
-  }
-
-  .news-item:nth-child(1) { animation-delay: 1.2s; }
-  .news-item:nth-child(2) { animation-delay: 2.2s; }
-  .news-item:nth-child(3) { animation-delay: 3.2s; }
-  .news-item:nth-child(4) { animation-delay: 4.2s; }
-
-  @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(50px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-</style>
-<section id="at-a-glance" class="level2">
-<h2 class="anchored" data-anchor-id="at-a-glance">At a glance</h2>
-<div class="columns">
-<div class="column" style="width:33%;">
-<section id="research" class="level3 panel" style="padding:1rem; border:1px solid #4c4c4c50; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);">
-<h3 class="anchored" data-anchor-id="research">Research</h3>
-<p>Exploring generative models, zero shot and Latent Inversion for robust, degradation-agnostic image restoration.<br>
-<a href="Conference.qmd">See more →</a></p>
-</section>
-</div><div class="column" style="width:33%;">
-<section id="teaching" class="level3 panel" style="padding:1rem; border:1px solid #4c4c4c50; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);">
-<h3 class="anchored" data-anchor-id="teaching">Teaching</h3>
-<p>Supporting courses in computer vision, deep learning, and foundational computing.<br>
-<a href="Teaching.qmd">See more →</a></p>
-</section>
-</div><div class="column" style="width:33%;">
-<section id="projects" class="level3 panel" style="padding:1rem; border:1px solid #4c4c4c50; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);">
-<h3 class="anchored" data-anchor-id="projects">Projects</h3>
-<p>Building practical tools for GAN inversion and diffusion-based restoration.<br>
-<a href="Project.qmd">See more →</a></p>
-</section>
 </div>
+
+
+<h2>Research</h2>
+
+<div class="paper hl">
+  <div class="pic"><img src="files/daigram/denoi.gif" alt="GenR"></div>
+  <div class="info">
+    <a class="ptitle" href="https://doi.org/10.1016/j.patrec.2026.04.021" target="_blank" rel="noopener">GenR: Robust Generative Face Image Restoration in Latent Space</a>
+    <div class="authors"><b>Akbar Ali</b>, Indra Deep Mastan, Shanmuganathan Raman.</div>
+    <div class="venue">Pattern Recognition Letters, 2026</div>
+    <div class="plinks">
+      <a href="https://doi.org/10.1016/j.patrec.2026.04.021" target="_blank" rel="noopener">paper</a> /
+      <a href="https://github.com/aamaanakbar/GenR" target="_blank" rel="noopener">code</a>
+    </div>
+    <p class="desc">A degradation-agnostic face restoration method that optimises directly in the latent space of a
+      pretrained generator, so one model handles denoising, deblurring and inpainting without retraining per degradation.</p>
+  </div>
 </div>
-</section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
-<div style="display:flex; justify-content:center; gap:1.2rem; margin-top:0.6rem;">
-<p><!-- GitHub --> <a href="https://github.com/aamaanakbar" target="_blank" style="display:inline-block;"> <svg width="26" height="26" viewbox="0 0 16 16" fill="#93c4fd" xmlns="http://www.w3.org/2000/svg"> <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 
-      7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
-      -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
-      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 
-      1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 
-      2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 
-      3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 
-      2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path> </svg> </a></p>
-<p><!-- LinkedIn --> <a href="https://www.linkedin.com/in/aamaanakbar" target="_blank" style="display:inline-block;"> <svg width="26" height="26" viewbox="0 0 24 24" fill="#93c4fd" xmlns="http://www.w3.org/2000/svg"> <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 
-      2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.1c.5-.9 
-      1.7-2.2 3.7-2.2 4 0 4.7 2.6 4.7 6V24h-4v-7.5c0-1.8 0-4-2.5-4s-2.8 
-      2-2.8 3.9V24h-4V8z"></path> </svg> </a></p>
-<p><!-- X/Twitter --> <a href="https://x.com/AamaanAkbar" target="_blank" style="display:inline-block;"> <svg width="26" height="26" viewbox="0 0 24 24" fill="#93c4fd" xmlns="http://www.w3.org/2000/svg"> <path d="M18.244 2H21.5l-7.42 8.49L23 22h-7.547l-5.288-6.634L4.64 
-      22H1.5l7.93-9.07L2 2h7.664l4.713 5.927L18.244 2zM16.69 
-      20h2.095L7.42 4H5.21l11.48 16z"></path> </svg> </a></p>
-<p><!-- Google Scholar --> <a href="https://scholar.google.com/citations?user=g-2Aix8AAAAJ&amp;hl=en" target="_blank" style="display:inline-block;"> <svg width="26" height="26" viewbox="0 0 24 24" fill="#93c4fd" xmlns="http://www.w3.org/2000/svg"> <path d="M12 2L1 9l11 7 9-5.73V17h2V9L12 2zm0 9.27L5.74 
-      9 12 4.73 18.26 9 12 11.27zM5 13v6l7 4 7-4v-6l-7 
-      4-7-4z"></path> </svg> </a></p>
+
+<div class="paper">
+  <div class="pic"><img src="files/daigram/blur.png" alt="Deblurring"></div>
+  <div class="info">
+    <span class="ptitle plain">Unsupervised Image Deblurring in Latent Space using Pivotal Tuning Inversion</span>
+    <div class="authors"><b>Akbar Ali</b>, Indra Deep Mastan, Shanmuganathan Raman.</div>
+    <div class="venue">Under review, 2026</div>
+    <p class="desc">Pivotal tuning inversion anchors a blurred observation to a generator's latent manifold, recovering
+      sharp detail without paired supervision or a known blur kernel.</p>
+  </div>
 </div>
-</section>
 
-</main>
-<!-- /main column -->
-<script id="quarto-html-after-body" type="application/javascript">
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
-      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
-      var isInternal = (href) => {
-          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-      }
-      // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-      for (var i=0; i<links.length; i++) {
-        const link = links[i];
-        if (!isInternal(link.href)) {
-          // undo the damage that might have been done by quarto-nav.js in the case of
-          // links that we want to consider external
-          if (link.dataset.originalHref !== undefined) {
-            link.href = link.dataset.originalHref;
-          }
-        }
-      }
-    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-      const config = {
-        allowHTML: true,
-        maxWidth: 500,
-        delay: 100,
-        arrow: false,
-        appendTo: function(el) {
-            return el.parentElement;
-        },
-        interactive: true,
-        interactiveBorder: 10,
-        theme: 'quarto',
-        placement: 'bottom-start',
-      };
-      if (contentFn) {
-        config.content = contentFn;
-      }
-      if (onTriggerFn) {
-        config.onTrigger = onTriggerFn;
-      }
-      if (onUntriggerFn) {
-        config.onUntrigger = onUntriggerFn;
-      }
-      window.tippy(el, config); 
-    }
-    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-    for (var i=0; i<noterefs.length; i++) {
-      const ref = noterefs[i];
-      tippyHover(ref, function() {
-        // use id or data attribute instead here
-        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-        try { href = new URL(href).hash; } catch {}
-        const id = href.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note) {
-          return note.innerHTML;
-        } else {
-          return "";
-        }
-      });
-    }
-    const xrefs = window.document.querySelectorAll('a.quarto-xref');
-    const processXRef = (id, note) => {
-      // Strip column container classes
-      const stripColumnClz = (el) => {
-        el.classList.remove("page-full", "page-columns");
-        if (el.children) {
-          for (const child of el.children) {
-            stripColumnClz(child);
-          }
-        }
-      }
-      stripColumnClz(note)
-      if (id === null || id.startsWith('sec-')) {
-        // Special case sections, only their first couple elements
-        const container = document.createElement("div");
-        if (note.children && note.children.length > 2) {
-          container.appendChild(note.children[0].cloneNode(true));
-          for (let i = 1; i < note.children.length; i++) {
-            const child = note.children[i];
-            if (child.tagName === "P" && child.innerText === "") {
-              continue;
-            } else {
-              container.appendChild(child.cloneNode(true));
-              break;
-            }
-          }
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(container);
-          }
-          return container.innerHTML
-        } else {
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(note);
-          }
-          return note.innerHTML;
-        }
-      } else {
-        // Remove any anchor links if they are present
-        const anchorLink = note.querySelector('a.anchorjs-link');
-        if (anchorLink) {
-          anchorLink.remove();
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        if (note.classList.contains("callout")) {
-          return note.outerHTML;
-        } else {
-          return note.innerHTML;
-        }
-      }
-    }
-    for (var i=0; i<xrefs.length; i++) {
-      const xref = xrefs[i];
-      tippyHover(xref, undefined, function(instance) {
-        instance.disable();
-        let url = xref.getAttribute('href');
-        let hash = undefined; 
-        if (url.startsWith('#')) {
-          hash = url;
-        } else {
-          try { hash = new URL(url).hash; } catch {}
-        }
-        if (hash) {
-          const id = hash.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note !== null) {
-            try {
-              const html = processXRef(id, note.cloneNode(true));
-              instance.setContent(html);
-            } finally {
-              instance.enable();
-              instance.show();
-            }
-          } else {
-            // See if we can fetch this
-            fetch(url.split('#')[0])
-            .then(res => res.text())
-            .then(html => {
-              const parser = new DOMParser();
-              const htmlDoc = parser.parseFromString(html, "text/html");
-              const note = htmlDoc.getElementById(id);
-              if (note !== null) {
-                const html = processXRef(id, note);
-                instance.setContent(html);
-              } 
-            }).finally(() => {
-              instance.enable();
-              instance.show();
-            });
-          }
-        } else {
-          // See if we can fetch a full url (with no hash to target)
-          // This is a special case and we should probably do some content thinning / targeting
-          fetch(url)
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.querySelector('main.content');
-            if (note !== null) {
-              // This should only happen for chapter cross references
-              // (since there is no id in the URL)
-              // remove the first header
-              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-                note.children[0].remove();
-              }
-              const html = processXRef(null, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      }, function(instance) {
-      });
-    }
-        let selectedAnnoteEl;
-        const selectorForAnnotation = ( cell, annotation) => {
-          let cellAttr = 'data-code-cell="' + cell + '"';
-          let lineAttr = 'data-code-annotation="' +  annotation + '"';
-          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-          return selector;
-        }
-        const selectCodeLines = (annoteEl) => {
-          const doc = window.document;
-          const targetCell = annoteEl.getAttribute("data-target-cell");
-          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-          const lineIds = lines.map((line) => {
-            return targetCell + "-" + line;
-          })
-          let top = null;
-          let height = null;
-          let parent = null;
-          if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
-            }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
-            }
-            selectedAnnoteEl = annoteEl;
-          }
-        };
-        const unselectCodeLines = () => {
-          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-          elementsIds.forEach((elId) => {
-            const div = window.document.getElementById(elId);
-            if (div) {
-              div.remove();
-            }
-          });
-          selectedAnnoteEl = undefined;
-        };
-          // Handle positioning of the toggle
-      window.addEventListener(
-        "resize",
-        throttle(() => {
-          elRect = undefined;
-          if (selectedAnnoteEl) {
-            selectCodeLines(selectedAnnoteEl);
-          }
-        }, 10)
-      );
-      function throttle(fn, ms) {
-      let throttle = false;
-      let timer;
-        return (...args) => {
-          if(!throttle) { // first call gets through
-              fn.apply(this, args);
-              throttle = true;
-          } else { // all the others get throttled
-              if(timer) clearTimeout(timer); // cancel #2
-              timer = setTimeout(() => {
-                fn.apply(this, args);
-                timer = throttle = false;
-              }, ms);
-          }
-        };
-      }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
-            }
-          });
-        }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
-      } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
-        });
-      }
-    }
-  });
-  </script>
-</div> <!-- /content -->
+<div class="paper">
+  <div class="pic"><img src="files/cvpr.png" alt="ZS-CLIP2Clean"></div>
+  <div class="info">
+    <span class="ptitle plain">ZS-CLIP2Clean: Zero-Shot CLIP-Guided Training-Free Single-Image Denoising</span>
+    <div class="authors">Abhiyodaya Pandey, <b>Akbar Ali</b>, Indra Deep Mastan, Shanmuganathan Raman.</div>
+    <div class="venue">Under review, 2026</div>
+    <p class="desc">Denoising a single image with no training and no clean reference, using CLIP as a semantic critic
+      to steer restoration towards a perceptually faithful result.</p>
+  </div>
+</div>
+
+<div class="paper">
+  <div class="pic"><img src="files/daigram/jaidev.png" alt="InscriptionOCR"></div>
+  <div class="info">
+    <span class="ptitle plain">InscriptionOCR: A Dataset and Method for Understanding Inscriptions</span>
+    <div class="authors">Jaidev Sanjay Khalane, <b>Akbar Ali</b>, V. N. Prabhakar, Shanmuganathan Raman.</div>
+    <div class="venue">Under review, 2026</div>
+    <p class="desc">A dataset and recognition pipeline for historical stone inscriptions, where weathering, low contrast
+      and archaic glyph forms break standard scene-text OCR.</p>
+  </div>
+</div>
+
+<div class="paper">
+  <div class="pic"><img src="files/daigram/inpt.gif" alt="StyleGAN restoration"></div>
+  <div class="info">
+    <a class="ptitle" href="https://ieeexplore.ieee.org/document/11084742" target="_blank" rel="noopener">Investigating Robustness of Unsupervised StyleGAN Image Restoration</a>
+    <div class="authors"><b>Akbar Ali</b>, Indra Deep Mastan, Shanmuganathan Raman.</div>
+    <div class="venue">IEEE ICIP, 2025</div>
+    <div class="plinks">
+      <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=11084742" target="_blank" rel="noopener">paper</a> /
+      <a href="https://aamaanakbar.github.io/investigating_rusir/" target="_blank" rel="noopener">project page</a> /
+      <a href="https://www.kaggle.com/datasets/aamaanakbar/cotton99-10" target="_blank" rel="noopener">data</a>
+    </div>
+    <p class="desc">A stress test of unsupervised StyleGAN restoration under degradations it was never tuned for,
+      showing where latent-space optimisation holds up and where it silently fails.</p>
+  </div>
+</div>
+
+<div class="paper">
+  <div class="pic"><img src="files/daigram/cot-ad.gif" alt="COT-AD"></div>
+  <div class="info">
+    <a class="ptitle" href="https://ieeexplore.ieee.org/document/11084734" target="_blank" rel="noopener">COT-AD: Cotton Analysis Dataset</a>
+    <div class="authors"><b>Akbar Ali</b>, Pankaj Khanna, Subramanian Sankaranarayanan, Shanmuganathan Raman.</div>
+    <div class="venue">IEEE ICIP, 2025</div>
+    <div class="plinks">
+      <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=11084734" target="_blank" rel="noopener">paper</a> /
+      <a href="https://aamaanakbar.github.io/COT-AD/" target="_blank" rel="noopener">project page</a> /
+      <a href="https://www.kaggle.com/datasets/aamaanakbar/cot-ad1" target="_blank" rel="noopener">data</a>
+    </div>
+    <p class="desc">An aerial and ground image dataset covering a full cotton growth cycle, collected over weekly drone
+      missions at 10 m, 15 m and 115 m from July to December 2023, for crop health and pest analysis.</p>
+  </div>
+</div>
+
+<div class="paper">
+  <div class="pic"><img src="files/daigram/imgpark.jpg" alt="Parkinson's"></div>
+  <div class="info">
+    <a class="ptitle" href="https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10" target="_blank" rel="noopener">Descriptive Predictive Model for Parkinson's Disease Analysis</a>
+    <div class="authors"><b>Akbar Ali</b>, Ranjit Kumar Rout, Saiyed Umer.</div>
+    <div class="venue">Springer Nature, 2023</div>
+    <div class="plinks">
+      <a href="https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10" target="_blank" rel="noopener">chapter</a>
+    </div>
+    <p class="desc">A predictive framework for Parkinson's disease analysis pairing classification accuracy with
+      descriptive feature analysis, so clinicians can see which measurements drive each prediction.</p>
+  </div>
+</div>
 
 
+<h2>Teaching</h2>
+
+<div class="row">
+  <div class="when">Jan &ndash; Apr 2025</div>
+  <div class="what">
+    <b>Lead Teaching Assistant &mdash; ES 113, Data Centric Computing</b>
+    <div class="where">IIT Gandhinagar</div>
+    <p>Mentored 45 students in data structures, algorithms, data analysis in Python (Pandas, Matplotlib), SQL and
+      introductory machine learning. Ran QA sessions and coordinated grading with the instructor.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">Aug &ndash; Nov 2024</div>
+  <div class="what">
+    <b>Graduate Teaching Fellow &mdash; FP 602, Writing</b>
+    <div class="where">IIT Gandhinagar</div>
+    <p>Mentored 35 students through classwork, exams and academic progress tracking.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">June 2024</div>
+  <div class="what">
+    <b>Teaching Assistant &mdash; SC 333, Drone Data Acquisition and Processing</b>
+    <div class="where">IIT Gandhinagar</div>
+    <p>Short course for ~30 students on flight training, data acquisition and processing with RGB and multispectral
+      imagery, including hands-on fieldwork.</p>
+    <div class="pair">
+      <span><img src="files/course_drone.jpg" alt="SC 333 drone session"></span>
+      <span><img src="files/dron1.jpeg" alt="SC 333 field session"></span>
+    </div>
+    <div class="cap">Captured during SC 333.</div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">Dec 2022 &ndash; Apr 2024</div>
+  <div class="what">
+    <b>Teaching Assistant &mdash; ES 114, Probability, Statistics and Data Visualization</b>
+    <div class="where">IIT Gandhinagar</div>
+    <p>Ran labs and tutorials for 50+ students using the Python data science stack; also assisted the Probability and
+      Randomization course.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">Ongoing</div>
+  <div class="what">
+    <b>Student mentoring</b>
+    <div class="where">IIT Gandhinagar</div>
+    <p>Mentored B.Tech and M.Tech students on hyperspectral imaging, image editing and GAN inversion projects.</p>
+  </div>
+</div>
 
 
-</body></html>
+<h2>Projects and Field Work</h2>
+
+<div class="row">
+  <div class="when">Feb 2024 &ndash; Jan 2025</div>
+  <div class="what">
+    <b>3D Geophysical Image Translation using GANs</b>
+    <p>Translated 3D geophysical scans into photorealistic virtual outcrop geology, with a method for generating
+      diverse outcrop appearances at varying altitudes.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">Jun 2023 &ndash; Jan 2024</div>
+  <div class="what">
+    <b>Smart farming of cotton using aerial imagery</b>
+    <p>Studied the effect of weather and pests on crop health across a full growth cycle, flying weekly drone missions
+      at 10 m, 15 m and 115 m from July to December 2023.</p>
+    <div class="wide"><img src="files/gif_cotton.gif" alt="Cotton growth monitoring"></div>
+    <div class="cap">Field observation during cotton growth monitoring (DSLR).</div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">2023 &ndash; 2024</div>
+  <div class="what">
+    <b>Drone and core data acquisition &mdash; Earth Science, IIT Gandhinagar</b>
+    <p>Three field campaigns (May 2023, Aug 2024, Nov 2024) for aerial and core sample collection.
+      Site names withheld for confidentiality.</p>
+    <div class="pair">
+      <span><img src="files/field1.jpg" alt="Field campaign"></span>
+      <span><img src="files/field2.jpg" alt="Field campaign"></span>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">Jul 2024</div>
+  <div class="what">
+    <b>Transport evaluation &mdash; Computer Science, IIT Gandhinagar</b>
+    <p>Data collection visits to Silvassa and Aurangabad.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">Jun 2024</div>
+  <div class="what">
+    <b>3D Vision Summer School, IIIT Bangalore</b>
+    <p>Week-long school on deep learning for 3D vision: lectures, hands-on sessions and research discussions.</p>
+    <div class="pair">
+      <span><img src="files/iiit.jpg" alt="3D Vision Summer School"></span>
+      <span><img src="files/iiitb1.jpg" alt="3D Vision Summer School"></span>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">May 2024</div>
+  <div class="what">
+    <b>Visvesvaraya PhD Scheme Workshop, IIT Mandi</b>
+    <p>Workshop on research presentation and interdisciplinary collaboration.</p>
+    <div class="pair">
+      <span><img src="files/iitmandi2.jpg" alt="IIT Mandi workshop"></span>
+      <span><img src="files/iitmandi1.jpg" alt="IIT Mandi workshop"></span>
+    </div>
+  </div>
+</div>
+
+
+<h2>Education</h2>
+
+<div class="row">
+  <div class="when">Mar 2026 &ndash; present</div>
+  <div class="what">
+    <b>Visiting Researcher, Helmholtz-Zentrum Dresden-Rossendorf</b>
+    <div class="where">Research Lab Abroad Program, Helmholtz Institute Freiberg &middot; Germany</div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">Dec 2022 &ndash; present</div>
+  <div class="what">
+    <b>Ph.D., Computer Science and Engineering</b>
+    <div class="where">IIT Gandhinagar &middot; advised by Prof. Shanmuganathan Raman &middot; CPI 9.14/10</div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">Sep 2021 &ndash; Nov 2022</div>
+  <div class="what">
+    <b>Project Associate</b>
+    <div class="where">IIT Ropar &middot; with Prof. Neeraj Goel</div>
+    <p>Volume estimation of complex objects using hyperspectral imaging and stereo vision fusion.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">Aug 2019 &ndash; Jul 2021</div>
+  <div class="what">
+    <b>M.Tech, Computer Science and Engineering</b>
+    <div class="where">Aliah University, Kolkata &middot; with Prof. Saiyed Umer &middot; CPI 9.03/10</div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="when">Jun 2015 &ndash; Jul 2019</div>
+  <div class="what">
+    <b>B.Tech, Computer Science and Engineering</b>
+    <div class="where">Aliah University, Kolkata &middot; with Prof. Zeenat Rehena &middot; CPI 8.97/10</div>
+  </div>
+</div>
+
+
+<h2>Awards and Certifications</h2>
+<ul class="plain">
+  <li>UGC-NET, Computer Applications &mdash; qualified 2022.</li>
+  <li>Second rank overall, M.Tech, Aliah University, 2021.</li>
+  <li>First rank overall, B.Tech, Aliah University, 2019.</li>
+  <li>First rank, AUAT M.Tech entrance examination, 2019.</li>
+  <li>64th rank, AUAT B.Tech entrance examination, 2015.</li>
+  <li>National Scholarship &mdash; awarded five times (three in B.Tech, two in M.Tech).</li>
+  <li>Qualified BCECE, WBJEE and AIEEE.</li>
+  <li>UAV pilot licence, certified up to 25 kg &mdash; DJI Mavic and Bajrang platforms. Experienced in mission
+    planning, pre-flight checks, spectral data capture and aerial inspection.</li>
+</ul>
+
+
+<h2>Gallery</h2>
+<div class="gallery">
+  <span><a href="files/icip3.jpeg" target="_blank" rel="noopener"><img src="files/icip3.jpeg" alt="ICIP 2025"></a></span>
+  <span><a href="files/icip1.jpeg" target="_blank" rel="noopener"><img src="files/icip1.jpeg" alt="ICIP 2025"></a></span>
+  <span><a href="files/COT-AD.jpg" target="_blank" rel="noopener"><img src="files/COT-AD.jpg" alt="COT-AD poster"></a></span>
+  <span><a href="files/IRUSIR.jpg" target="_blank" rel="noopener"><img src="files/IRUSIR.jpg" alt="IRUSIR poster"></a></span>
+</div>
+<div class="cap">ICIP 2025, Anchorage, Alaska.</div>
+
+
+<footer>
+  Template adapted from <a href="https://jonbarron.info/" target="_blank" rel="noopener">Jon Barron</a>.
+</footer>
+
+</div>
+</body>
+</html>
