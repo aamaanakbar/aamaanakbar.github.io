@@ -8,7 +8,7 @@
 <link rel="icon" href="files/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
 
 <style>
 * { box-sizing: border-box; }
@@ -16,8 +16,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: #fff;
-  color: #000;
+  background: #fdfdfc;
+  color: #1c1c1c;
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.45;
@@ -36,11 +36,13 @@ a:focus-visible { outline: 2px solid #f09228; outline-offset: 2px; }
 /* ---------- header ---------- */
 
 h1 {
-  font-size: 36px;
-  font-weight: 400;
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 42px;
+  font-weight: 500;
   text-align: center;
-  margin: 0 0 10px;
-  letter-spacing: -0.5px;
+  margin: 0 0 14px;
+  letter-spacing: -0.4px;
+  color: #141414;
 }
 
 .toplinks {
@@ -66,9 +68,13 @@ h1 {
 /* ---------- sections ---------- */
 
 h2 {
-  font-size: 27px;
-  font-weight: 700;
-  margin: 40px 0 12px;
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 29px;
+  font-weight: 600;
+  color: #141414;
+  margin: 46px 0 14px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #e6e6e2;
 }
 
 /* ---------- news ---------- */
@@ -167,7 +173,9 @@ footer {
   color: #777;
   font-size: 13px;
   text-align: right;
+  overflow: hidden;
 }
+.foot-left { float: left; }
 
 /* ---------- mobile ---------- */
 
@@ -195,6 +203,8 @@ footer {
 }
 </style>
 <style>
+html { scroll-behavior: smooth; }
+::selection { background: #ffe9c9; }
 .back { font-size: 16px; margin-bottom: 26px; }
 
 .mem { display: table; width: 100%; margin-bottom: 26px; }
@@ -207,12 +217,18 @@ footer {
 .mem > span:last-child { padding-right: 0; }
 .mem img {
   width: 100%;
-  height: 300px;
+  height: 290px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.09);
   object-fit: cover;
   border-radius: 5px;
   display: block;
 }
 .mem p { margin: 9px 0 0; font-size: 15px; color: #222; }
+
+.mem.portrait img {
+  height: 400px;
+  object-position: center 62%;
+}
 
 .solo img { max-width: 640px; height: auto; }
 
@@ -237,25 +253,55 @@ hr.sep { border: none; border-top: 1px solid #eee; margin: 32px 0; }
 
 <hr class="sep">
 
+<h2>Helmholtz Institute Freiberg &mdash; HZDR</h2>
+<p style="color:#555; margin-top:-4px;">Six months in Germany on the Research Lab Abroad Fellowship.</p>
+
+
+<div class="mem">
+  <span>
+    <img loading="lazy" src="files/lastday1.jpeg" alt="Farewell lunch with colleagues in Freiberg">
+    <p>Last day &mdash; farewell lunch with the friends and mentor</p>
+  </span>
+  <span>
+    <img loading="lazy" src="files/lastday2.jpeg" alt="Farewell coffee with the group at HIF">
+    <p>Coffee and cake in the kitchen on the last day. </p>
+  </span>
+</div>
+
+<div class="mem portrait">
+  <span>
+    <img loading="lazy" src="files/hif1.jpeg" alt="HZDR and HIF banners in the institute lobby">
+    <p>First day. Walking into the building and seeing these in the lobby made the whole thing feel real.</p>
+  </span>
+  <span>
+    <img loading="lazy" src="files/hif2.jpeg" alt="Outside the Helmholtz Institute Freiberg building">
+    <p>Outside the institute on day one. A long way from Gandhinagar, and considerably colder.</p>
+  </span>
+</div>
+
+
+
+<hr class="sep">
+
 <h2>ICIP 2025 &mdash; Anchorage, Alaska</h2>
 <div class="mem">
   <span>
-    <img src="files/icip3.jpeg" alt="ICIP 2025, Anchorage">
+    <img loading="lazy" src="files/icip3.jpeg" alt="ICIP 2025, Anchorage">
     <p>My first international conference. Anchorage in September is something else &mdash; we finished sessions and still had daylight to wander.</p>
   </span>
   <span>
-    <img src="files/icip1.jpeg" alt="ICIP 2025, Anchorage">
+    <img loading="lazy" src="files/icip1.jpeg" alt="ICIP 2025, Anchorage">
     <p>Met people whose papers I had been reading for two years. That part never quite stops feeling strange.</p>
   </span>
 </div>
 
 <div class="mem">
   <span>
-    <img src="files/COT-AD.jpg" alt="COT-AD poster">
+    <img loading="lazy" src="files/COT-AD.jpg" alt="COT-AD poster">
     <p>Presenting <b>COT-AD</b>, the cotton dataset &mdash; the payoff for six months of weekly drone flights over a single field.</p>
   </span>
   <span>
-    <img src="files/IRUSIR.jpg" alt="IRUSIR poster">
+    <img loading="lazy" src="files/IRUSIR.jpg" alt="IRUSIR poster">
     <p>Presenting <b>IRUSIR</b> on the robustness of unsupervised StyleGAN restoration, the second of the two ICIP papers.</p>
   </span>
 </div>
@@ -265,11 +311,11 @@ hr.sep { border: none; border-top: 1px solid #eee; margin: 32px 0; }
 <h2>3D Vision Summer School &mdash; IIIT Bangalore, 2024</h2>
 <div class="mem">
   <span>
-    <img src="files/iiit.jpg" alt="3D Vision Summer School">
+    <img loading="lazy" src="files/iiit.jpg" alt="3D Vision Summer School">
     <p>A week of lectures and hands-on sessions on deep learning for 3D vision. This is where Gaussian splatting stopped being a paper I had skimmed and started being something I wanted to build on.</p>
   </span>
   <span>
-    <img src="files/iiitb1.jpg" alt="3D Vision Summer School">
+    <img loading="lazy" src="files/iiitb1.jpg" alt="3D Vision Summer School">
     <p>Long days, good company. Half the value of a summer school is the conversations between sessions.</p>
   </span>
 </div>
@@ -279,11 +325,11 @@ hr.sep { border: none; border-top: 1px solid #eee; margin: 32px 0; }
 <h2>Visvesvaraya Workshop &mdash; IIT Mandi, 2024</h2>
 <div class="mem">
   <span>
-    <img src="files/iitmandi2.jpg" alt="IIT Mandi workshop">
+    <img loading="lazy" src="files/iitmandi2.jpg" alt="IIT Mandi workshop">
     <p>Presenting to an interdisciplinary room in the Himalayas. Explaining your work to people outside your field is the fastest way to find out which parts you actually understand.</p>
   </span>
   <span>
-    <img src="files/iitmandi1.jpg" alt="IIT Mandi workshop">
+    <img loading="lazy" src="files/iitmandi1.jpg" alt="IIT Mandi workshop">
     <p>Mandi has a view you have to work not to get distracted by.</p>
   </span>
 </div>
@@ -293,11 +339,11 @@ hr.sep { border: none; border-top: 1px solid #eee; margin: 32px 0; }
 <h2>Learning to fly &mdash; SC 333, IIT Gandhinagar</h2>
 <div class="mem">
   <span>
-    <img src="files/course_drone.jpg" alt="Drone session">
+    <img loading="lazy" src="files/course_drone.jpg" alt="Drone session">
     <p>I picked up drone flying after joining IITGN, and later came back to the same course as a teaching assistant &mdash; this time on the other side of it.</p>
   </span>
   <span>
-    <img src="files/dron1.jpeg" alt="Field session">
+    <img loading="lazy" src="files/dron1.jpeg" alt="Field session">
     <p>Teaching around thirty students to plan a mission, fly it, and bring back data worth processing.</p>
   </span>
 </div>
@@ -307,11 +353,11 @@ hr.sep { border: none; border-top: 1px solid #eee; margin: 32px 0; }
 <h2>Field campaigns</h2>
 <div class="mem">
   <span>
-    <img src="files/field1.jpg" alt="Field campaign">
+    <img loading="lazy" src="files/field1.jpg" alt="Field campaign">
     <p>Out with the Earth Science group for drone and core acquisition. Three campaigns between 2023 and 2024.</p>
   </span>
   <span>
-    <img src="files/field2.jpg" alt="Field campaign">
+    <img loading="lazy" src="files/field2.jpg" alt="Field campaign">
     <p>Fieldwork teaches you things about your own data that no amount of processing will.</p>
   </span>
 </div>
@@ -321,14 +367,15 @@ hr.sep { border: none; border-top: 1px solid #eee; margin: 32px 0; }
 <h2>A season of cotton</h2>
 <div class="mem solo">
   <span>
-    <img src="files/gif_cotton.gif" alt="Cotton growth monitoring">
+    <img loading="lazy" src="files/gif_cotton.gif" alt="Cotton growth monitoring">
     <p>Weekly flights at 10 m, 15 m and 115 m from July to December 2023, following one field through a full growth cycle. The dataset that came out of it became COT-AD.</p>
   </span>
   <span></span>
 </div>
 
 <footer>
-  <a href="index.html">&larr; back to homepage</a>
+  <span class="foot-left"><a href="index.html">&larr; back to homepage</a></span>
+  <a href="old/index.html">Previous version of this site</a>
 </footer>
 
 </div>
