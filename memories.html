@@ -207,15 +207,23 @@ img { display: block; max-width: 100%; }
 /* full width single */
 .grid-full { }
 
-.photo-block { position: relative; overflow: hidden; border-radius: 6px; }
+.photo-block { position: relative; overflow: hidden; border-radius: 6px; background: #0a0c10; }
 .photo-block img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  background: #0a0c10;
   display: block;
   transition: transform .4s ease;
 }
-.photo-block:hover img { transform: scale(1.025); }
+.photo-block:hover img { transform: none; }
+
+/* crop from center — used on first two chapters only */
+.photo-block.crop img {
+  object-fit: cover;
+  object-position: center center;
+  background: none;
+}
 
 /* height variants */
 .h-tall  { height: 400px; }
@@ -325,22 +333,22 @@ img { display: block; max-width: 100%; }
     <p class="chapter-sub">On the Research Lab Abroad Fellowship, Mar &mdash; Sep 2026.</p>
 
     <div class="grid-2" style="margin-bottom:10px;">
-      <div class="photo-block h-tall">
+      <div class="photo-block h-tall crop">
         <img loading="lazy" src="files/hif1.jpeg" alt="HZDR HIF lobby">
         <div class="cap">First day. Walking into the building and seeing these in the lobby made the whole thing feel real.</div>
       </div>
-      <div class="photo-block h-tall">
+      <div class="photo-block h-tall crop">
         <img loading="lazy" src="files/hif2.jpeg" alt="Outside Helmholtz Institute Freiberg">
         <div class="cap">Outside the institute on day one. A long way from Gandhinagar, and considerably colder.</div>
       </div>
     </div>
 
     <div class="grid-2">
-      <div class="photo-block h-med">
+      <div class="photo-block h-med crop">
         <img loading="lazy" src="files/lastday1.jpeg" alt="Farewell lunch">
         <div class="cap">Last day &mdash; farewell lunch with the friends and mentor.</div>
       </div>
-      <div class="photo-block h-med">
+      <div class="photo-block h-med crop">
         <img loading="lazy" src="files/lastday2.jpeg" alt="Coffee on last day">
         <div class="cap">Coffee and cake in the kitchen on the last day.</div>
       </div>
@@ -359,22 +367,22 @@ img { display: block; max-width: 100%; }
     <p class="chapter-sub">Anchorage in September still has daylight after sessions. Two papers, one trip.</p>
 
     <div class="grid-6040" style="margin-bottom:10px;">
-      <div class="photo-block h-tall">
+      <div class="photo-block h-tall crop">
         <img loading="lazy" src="files/icip3.jpeg" alt="ICIP 2025 Anchorage">
         <div class="cap">We finished sessions and still had daylight to wander. Anchorage in September is something else.</div>
       </div>
-      <div class="photo-block h-tall">
+      <div class="photo-block h-tall crop">
         <img loading="lazy" src="files/icip1.jpeg" alt="ICIP 2025">
         <div class="cap">Met people whose papers I had been reading for two years. That part never quite stops feeling strange.</div>
       </div>
     </div>
 
     <div class="grid-2">
-      <div class="photo-block h-med">
+      <div class="photo-block h-med crop">
         <img loading="lazy" src="files/COT-AD.jpg" alt="COT-AD poster">
         <div class="cap">Presenting COT-AD &mdash; the payoff for six months of weekly drone flights over a single field.</div>
       </div>
-      <div class="photo-block h-med">
+      <div class="photo-block h-med crop">
         <img loading="lazy" src="files/IRUSIR.jpg" alt="IRUSIR poster">
         <div class="cap">Presenting IRUSIR on the robustness of unsupervised StyleGAN restoration.</div>
       </div>
