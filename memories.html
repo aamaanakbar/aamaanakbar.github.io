@@ -214,14 +214,23 @@ img { display: block; max-width: 100%; }
   object-fit: contain;
   background: #0a0c10;
   display: block;
-  transition: transform .4s ease;
 }
 .photo-block:hover img { transform: none; }
 
-/* crop from center — used on first two chapters only */
+/* non-crop blocks: let the image show at natural ratio, no letterbox */
+.photo-block:not(.crop) {
+  height: auto !important;
+}
+.photo-block:not(.crop) img {
+  height: auto;
+  object-fit: unset;
+  background: none;
+}
+
+/* crop 70% from above */
 .photo-block.crop img {
   object-fit: cover;
-  object-position: center center;
+  object-position: center 70%;
   background: none;
 }
 
