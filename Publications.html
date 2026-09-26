@@ -270,6 +270,58 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
   .site-footer{flex-direction:column;gap:5px;text-align:center;padding:12px 18px}
 }
 </style>
+
+<style>
+/* ---------- portfolio enhancements ---------- */
+.research-grid,.focus-grid,.skill-grid,.metric-grid{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0 6px;
+}
+.research-card,.focus-card,.skill-card,.metric-card{
+  background:#fff;border:1px solid #d8dee4;border-radius:10px;padding:16px;
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;
+}
+.research-card:hover,.focus-card:hover,.skill-card:hover,.metric-card:hover{
+  transform:translateY(-3px);box-shadow:0 8px 22px rgba(31,35,40,.08);border-color:#b7c5d3;
+}
+.research-card h4,.focus-card h4,.skill-card h4{margin:0 0 6px;font-size:.94rem;color:#18181b}
+.research-card p,.focus-card p,.skill-card p{margin:0!important;font-size:.84rem!important;line-height:1.6!important;text-align:left!important;color:#57606a!important}
+.badge-row{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0 4px}
+.badge{
+  display:inline-flex;align-items:center;padding:4px 9px;border-radius:999px;
+  background:#eef4ff;color:#3157a5;border:1px solid #d9e5ff;font-size:.72rem;font-weight:600;
+}
+.section-intro{font-size:.92rem!important;color:#57606a!important;text-align:left!important;margin-top:-10px}
+.callout{
+  margin:16px 0;padding:14px 16px;border-left:3px solid #6e40c9;
+  background:linear-gradient(90deg,#f7f3ff,#fff);border-radius:0 8px 8px 0;
+}
+.callout strong{color:#4c2f8f}
+.metric-grid{grid-template-columns:repeat(4,minmax(0,1fr));}
+.metric-card{text-align:center;padding:14px 10px}
+.metric-number{font-family:'Playfair Display',Georgia,serif;font-size:1.55rem;font-weight:700;color:#3157a5;line-height:1.1}
+.metric-label{font-size:.72rem;color:#6e7781;margin-top:4px}
+.filter-bar{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 14px}
+.filter-btn{
+  border:1px solid #d0d7de;background:#fff;color:#57606a;border-radius:999px;
+  padding:6px 11px;font:600 .74rem Inter,sans-serif;cursor:pointer;transition:.15s;
+}
+.filter-btn:hover,.filter-btn.active{background:#0969da;color:#fff;border-color:#0969da}
+.paper[data-type].is-hidden{display:none}
+details.research-detail{margin-top:10px;border-top:1px solid #edf0f2;padding-top:8px}
+details.research-detail summary{cursor:pointer;color:#0969da;font-size:.78rem;font-weight:600}
+details.research-detail p{margin-top:7px!important}
+.top-button{
+  position:fixed;right:20px;bottom:20px;width:38px;height:38px;border-radius:50%;
+  border:1px solid #d0d7de;background:#fff;color:#0969da;box-shadow:0 4px 14px rgba(0,0,0,.1);
+  cursor:pointer;opacity:0;pointer-events:none;transition:.2s;z-index:250;
+}
+.top-button.show{opacity:1;pointer-events:auto}
+@media(max-width:800px){
+  .research-grid,.focus-grid,.skill-grid{grid-template-columns:1fr}
+  .metric-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+</style>
+
 </head>
 <body>
 <nav class="nav">
@@ -307,7 +359,23 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
   <main class="content">
     <h1 class="page-title">Publications</h1>
 
-    <div class="paper hl">
+
+    <div class="metric-grid">
+      <div class="metric-card"><div class="metric-number">7</div><div class="metric-label">listed publications</div></div>
+      <div class="metric-card"><div class="metric-number">2</div><div class="metric-label">IEEE ICIP papers</div></div>
+      <div class="metric-card"><div class="metric-number">1</div><div class="metric-label">journal publication</div></div>
+      <div class="metric-card"><div class="metric-number">4</div><div class="metric-label">2026 submissions / reviews</div></div>
+    </div>
+    <p class="section-intro" style="margin:12px 0 8px;">Selected work spanning generative restoration, aerial imaging, scientific data and applied machine learning.</p>
+    <div class="filter-bar" aria-label="Filter publications">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="restoration">Restoration</button>
+      <button class="filter-btn" data-filter="hsi">Scientific / HSI</button>
+      <button class="filter-btn" data-filter="aerial">Aerial / Agriculture</button>
+      <button class="filter-btn" data-filter="other">Other</button>
+    </div>
+
+    <div class="paper hl" data-type="restoration">
       <div class="paper-img"><img loading="lazy" src="files/daigram/denoi.gif" alt="GenR"></div>
       <div>
         <div class="ptitle"><a href="https://doi.org/10.1016/j.patrec.2026.04.021" target="_blank">GenR: Robust Generative Face Image Restoration in Latent Space</a></div>
@@ -320,8 +388,8 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
         <p class="pabstract">A degradation-agnostic face restoration method that optimises in the latent space of a pretrained generator, handling denoising, deblurring and inpainting without retraining per degradation.</p>
       </div>
     </div>
-    <div class="paper">
-      <div class="paper-img"><img loading="lazy" src="files/daigram/blur.png" alt="Deblurring"></div>
+    <div class="paper" data-type="restoration">
+      <div class="paper-img"><img loading="lazy" src="files/daigram/blur.png alt="Deblurring"></div>
       <div>
         <div class="ptitle">Unsupervised Image Deblurring in Latent Space using Pivotal Tuning Inversion</div>
         <div class="pauthors"><strong>Akbar Ali</strong>, Indra Deep Mastan, Shanmuganathan Raman.</div>
@@ -329,8 +397,8 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
         <p class="pabstract">Pivotal tuning inversion anchors a blurred observation to a generator's latent manifold, recovering sharp detail without paired supervision or a known blur kernel.</p>
       </div>
     </div>
-    <div class="paper">
-      <div class="paper-img"><img loading="lazy" src="files/cvpr.png" alt="ZS-CLIP2Clean"></div>
+    <div class="paper" data-type="restoration">
+      <div class="paper-img"><img loading="lazy" src="files/cvpr.png alt="ZS-CLIP2Clean"></div>
       <div>
         <div class="ptitle">ZS-CLIP2Clean: Zero-Shot CLIP-Guided Training-Free Single-Image Denoising</div>
         <div class="pauthors">Abhiyodaya Pandey, <strong>Akbar Ali</strong>, Indra Deep Mastan, Shanmuganathan Raman.</div>
@@ -338,8 +406,8 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
         <p class="pabstract">Denoising a single image with no training and no clean reference, using CLIP as a semantic critic to steer restoration towards a perceptually faithful result.</p>
       </div>
     </div>
-    <div class="paper">
-      <div class="paper-img"><img loading="lazy" src="files/daigram/jaidev.png" alt="InscriptionOCR"></div>
+    <div class="paper" data-type="other">
+      <div class="paper-img"><img loading="lazy" src="files/daigram/jaidev.png alt="InscriptionOCR"></div>
       <div>
         <div class="ptitle">InscriptionOCR: A Dataset and Method for Understanding Inscriptions</div>
         <div class="pauthors">Jaidev Sanjay Khalane, <strong>Akbar Ali</strong>, V. N. Prabhakar, Shanmuganathan Raman.</div>
@@ -347,8 +415,8 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
         <p class="pabstract">A dataset and recognition pipeline for historical stone inscriptions, where weathering and archaic glyph forms break standard scene-text OCR.</p>
       </div>
     </div>
-    <div class="paper">
-      <div class="paper-img"><img loading="lazy" src="files/daigram/inpt.gif" alt="IRUSIR"></div>
+    <div class="paper" data-type="restoration">
+      <div class="paper-img"><img loading="lazy" src="files/daigram/inpt.gif alt="IRUSIR"></div>
       <div>
         <div class="ptitle"><a href="https://ieeexplore.ieee.org/document/11084742" target="_blank">Investigating Robustness of Unsupervised StyleGAN Image Restoration</a></div>
         <div class="pauthors"><strong>Akbar Ali</strong>, Indra Deep Mastan, Shanmuganathan Raman.</div>
@@ -360,8 +428,8 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
         <p class="pabstract">A stress test of unsupervised StyleGAN restoration under degradations it was never tuned for, showing where latent-space optimisation holds up and where it silently fails.</p>
       </div>
     </div>
-    <div class="paper">
-      <div class="paper-img"><img loading="lazy" src="files/daigram/cot-ad.gif" alt="COT-AD"></div>
+    <div class="paper" data-type="aerial">
+      <div class="paper-img"><img loading="lazy" src="files/daigram/cot-ad.gif alt="COT-AD"></div>
       <div>
         <div class="ptitle"><a href="https://ieeexplore.ieee.org/document/11084734" target="_blank">COT-AD: Cotton Analysis Dataset</a></div>
         <div class="pauthors"><strong>Akbar Ali</strong>, Pankaj Khanna, Subramanian Sankaranarayanan, Shanmuganathan Raman.</div>
@@ -373,8 +441,8 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
         <p class="pabstract">An aerial and ground image dataset covering a full cotton growth cycle from weekly drone missions at 10 m, 15 m and 115 m, for crop health and pest analysis.</p>
       </div>
     </div>
-    <div class="paper">
-      <div class="paper-img"><img loading="lazy" src="files/daigram/imgpark.jpg" alt="Parkinson"></div>
+    <div class="paper" data-type="other">
+      <div class="paper-img"><img loading="lazy" src="files/daigram/imgpark.jpg alt="Parkinson"></div>
       <div>
         <div class="ptitle"><a href="https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10" target="_blank">Descriptive Predictive Model for Parkinson's Disease Analysis</a></div>
         <div class="pauthors"><strong>Akbar Ali</strong>, Ranjit Kumar Rout, Saiyed Umer.</div>
@@ -391,5 +459,28 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
   <span>Akbar Ali &mdash; aamaanakbar.github.io &mdash; updated September 2026</span>
   <span><a href="index.html">Home</a> &middot; <a href="memories.html">Memories</a> &middot; <a href="mailto:akbar.ali@iitgn.ac.in">Email</a></span>
 </footer>
+
+<script>
+(function(){
+  const buttons=document.querySelectorAll('.filter-btn');
+  const papers=document.querySelectorAll('.paper[data-type]');
+  buttons.forEach(btn=>btn.addEventListener('click',()=>{
+    buttons.forEach(b=>b.classList.remove('active')); btn.classList.add('active');
+    const f=btn.dataset.filter;
+    papers.forEach(p=>p.classList.toggle('is-hidden',f!=='all' && p.dataset.type!==f));
+  }));
+})();
+</script>
+
+<script>
+(function(){
+  const btn=document.createElement('button');
+  btn.className='top-button'; btn.setAttribute('aria-label','Back to top'); btn.textContent='↑';
+  document.body.appendChild(btn);
+  window.addEventListener('scroll',()=>btn.classList.toggle('show',window.scrollY>420),{passive:true});
+  btn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+})();
+</script>
+
 </body>
 </html>
