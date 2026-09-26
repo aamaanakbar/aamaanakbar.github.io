@@ -31,15 +31,13 @@ body {
 }
 
 #page {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 2.5rem 3rem;
+  max-width: none;
+  padding: 0 4vw 3rem;
 }
 
 .inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 2.5rem;
+  max-width: none;
+  padding: 0 4vw;
 }
 
 a { color: var(--link); text-decoration: none; }
@@ -356,7 +354,7 @@ footer a:hover { color: var(--link-h); }
 
 .hero {
   background: #1c2130;
-  padding: 52px 1.5rem 48px;
+  padding: 52px 4vw 48px;
   position: relative;
   overflow: hidden;
 }
@@ -378,8 +376,7 @@ footer a:hover { color: var(--link-h); }
 }
 
 .hero-inner {
-  max-width: 1100px;
-  margin: 0 auto;
+  max-width: none;
   display: grid;
   grid-template-columns: 1fr 220px;
   gap: 36px;
@@ -467,9 +464,7 @@ footer a:hover { color: var(--link-h); }
 
 /* about block padding */
 .about-block {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 2.2rem 2.5rem 0;
+  padding: 2.2rem 4vw 0;
 }
 .about-block p {
   font-size: 0.97rem;
@@ -484,12 +479,11 @@ footer a:hover { color: var(--link-h); }
 .footer-dark {
   background: #1c2130;
   margin-top: 4rem;
-  padding: 60px 1.5rem 36px;
+  padding: 60px 4vw 36px;
 }
 
 .footer-inner {
-  max-width: 1100px;
-  margin: 0 auto;
+  max-width: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
@@ -534,8 +528,7 @@ footer a:hover { color: var(--link-h); }
 .footer-links a:hover { color: #2a9d8f; }
 
 .footer-footnote {
-  max-width: 1100px;
-  margin: 0 auto;
+  max-width: none;
   border-top: 1px solid rgba(255,255,255,.08);
   padding-top: 20px;
   display: flex;
@@ -644,7 +637,7 @@ footer a:hover { color: var(--link-h); }
 .edu-band .inner,
 .teaching-band .inner,
 .projects-band .inner,
-.awards-band .inner { max-width: 1100px; margin: 0 auto; padding: 0 2.5rem; }
+.awards-band .inner { max-width: none; padding: 0 4vw; }
 
 /* band-header for projects */
 .band-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 0; gap: 40px; }
