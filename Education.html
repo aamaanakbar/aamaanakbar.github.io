@@ -76,6 +76,11 @@ img{display:block;max-width:100%}
 .etitle{font-size:.95rem;font-weight:700;color:#111;margin-bottom:2px}
 .ewhere{font-size:.84rem;color:#666;margin-bottom:3px}
 .ewhat p{font-size:.90rem;color:#444;line-height:1.6;margin-top:3px}
+.t-header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:3px}
+.t-title{font-size:.96rem;font-weight:700;color:#111;line-height:1.35}
+.t-date{font-size:.83rem;color:#888;white-space:nowrap;flex-shrink:0}
+.t-where{font-size:.84rem;color:#666;margin-bottom:4px}
+.t-desc{font-size:.90rem;color:#444;line-height:1.6;margin-top:3px}
 .fig-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
 .fig-pair figure{margin:0}
 .fig-pair img{width:100%;height:190px;object-fit:cover;border-radius:5px}
@@ -150,46 +155,62 @@ figcaption{font-size:.78rem;color:#888;margin-top:4px}
     <h1 class="page-title">Education</h1>
 
     <div class="entries">
+
       <div class="entry">
-        <div class="ewhen">Mar 2026 &mdash; Sep 2026</div>
-        <div class="ewhat">
-          <div class="etitle">Visiting Researcher &mdash; Helmholtz-Zentrum Dresden-Rossendorf</div>
-          <div class="ewhere"><a href="https://www.hzdr.de" target="_blank">Helmholtz Institute Freiberg</a>, Germany &middot; Supervised by Prof. Dr. Richard Gloaguen &middot; mentored by Dr. Sam T. Thiele</div>
-          <p>Research Lab Abroad Fellowship (Visvesvaraya PhD Scheme, MeitY). Worked on hyperspectral image restoration with generative models.</p>
+        <div class="ewhat" style="grid-column:1/-1;">
+          <div class="t-header">
+            <div class="t-title">Visiting Researcher &mdash; Helmholtz-Zentrum Dresden-Rossendorf</div>
+            <div class="t-date">Mar 2026 &mdash; Sep 2026</div>
+          </div>
+          <div class="t-where"><a href="https://www.hzdr.de" target="_blank">Helmholtz Institute Freiberg</a>, Germany &middot; Supervised by Prof. Dr. Richard Gloaguen &middot; mentored by Dr. Sam T. Thiele</div>
+          <div class="t-desc">Research Lab Abroad Fellowship (Visvesvaraya PhD Scheme, MeitY). Worked on hyperspectral image restoration with generative models.</div>
         </div>
       </div>
+
       <div class="entry">
-        <div class="ewhen">Dec 2022 &mdash; present</div>
-        <div class="ewhat">
-          <div class="etitle">Ph.D., Computer Science and Engineering &mdash; CPI 9.14/10</div>
-          <div class="ewhere"><a href="https://iitgn.ac.in/" target="_blank">IIT Gandhinagar</a> &middot; advised by <a href="https://iitgn.ac.in/faculty/cse/shanmuganathan" target="_blank">Prof. Shanmuganathan Raman</a></div>
-          <p>Working on visual learning and generative representations for image restoration and hyperspectral imaging.</p>
+        <div class="ewhat" style="grid-column:1/-1;">
+          <div class="t-header">
+            <div class="t-title">Ph.D., Computer Science and Engineering &mdash; CPI 9.14/10</div>
+            <div class="t-date">Dec 2022 &mdash; present</div>
+          </div>
+          <div class="t-where"><a href="https://iitgn.ac.in/" target="_blank">IIT Gandhinagar</a> &middot; advised by <a href="https://iitgn.ac.in/faculty/cse/shanmuganathan" target="_blank">Prof. Shanmuganathan Raman</a></div>
+          <div class="t-desc">Working on visual learning and generative representations for image restoration and hyperspectral imaging.</div>
         </div>
       </div>
+
       <div class="entry">
-        <div class="ewhen">Sep 2021 &mdash; Nov 2022</div>
-        <div class="ewhat">
-          <div class="etitle">Project Associate &mdash; IIT Ropar</div>
-          <div class="ewhere"><a href="https://www.iitrpr.ac.in" target="_blank">IIT Ropar</a> &middot; with Prof. Neeraj Goel</div>
-          <p>Volume estimation using hyperspectral imaging and stereo vision fusion for industrial automation.</p>
+        <div class="ewhat" style="grid-column:1/-1;">
+          <div class="t-header">
+            <div class="t-title">Project Associate &mdash; IIT Ropar</div>
+            <div class="t-date">Sep 2021 &mdash; Nov 2022</div>
+          </div>
+          <div class="t-where"><a href="https://www.iitrpr.ac.in" target="_blank">IIT Ropar</a> &middot; with Prof. Neeraj Goel</div>
+          <div class="t-desc">Volume estimation using hyperspectral imaging and stereo vision fusion for industrial automation.</div>
         </div>
       </div>
+
       <div class="entry">
-        <div class="ewhen">Aug 2019 &mdash; Jul 2021</div>
-        <div class="ewhat">
-          <div class="etitle">M.Tech, Computer Science and Engineering &mdash; CPI 9.03/10 &middot; 2nd rank</div>
-          <div class="ewhere"><a href="https://aliah.ac.in" target="_blank">Aliah University</a>, Kolkata &middot; with Prof. Saiyed Umar</div>
-          <p>Thesis on a predictive framework for Parkinson's disease analysis. Published by Springer Nature, 2023.</p>
+        <div class="ewhat" style="grid-column:1/-1;">
+          <div class="t-header">
+            <div class="t-title">M.Tech, Computer Science and Engineering &mdash; CPI 9.03/10 &middot; 2nd rank</div>
+            <div class="t-date">Aug 2019 &mdash; Jul 2021</div>
+          </div>
+          <div class="t-where"><a href="https://aliah.ac.in" target="_blank">Aliah University</a>, Kolkata &middot; with Prof. Saiyed Umar</div>
+          <div class="t-desc">Thesis on a predictive framework for Parkinson's disease analysis. Published by Springer Nature, 2023.</div>
         </div>
       </div>
+
       <div class="entry">
-        <div class="ewhen">Jun 2015 &mdash; Jul 2019</div>
-        <div class="ewhat">
-          <div class="etitle">B.Tech, Computer Science and Engineering &mdash; CPI 8.97/10 &middot; 1st rank</div>
-          <div class="ewhere"><a href="https://aliah.ac.in" target="_blank">Aliah University</a>, Kolkata</div>
-          <p>IoT-based home automation system using sensor integration and wireless communication.</p>
+        <div class="ewhat" style="grid-column:1/-1;">
+          <div class="t-header">
+            <div class="t-title">B.Tech, Computer Science and Engineering &mdash; CPI 8.97/10 &middot; 1st rank</div>
+            <div class="t-date">Jun 2015 &mdash; Jul 2019</div>
+          </div>
+          <div class="t-where"><a href="https://aliah.ac.in" target="_blank">Aliah University</a>, Kolkata</div>
+          <div class="t-desc">IoT-based home automation system using sensor integration and wireless communication.</div>
         </div>
       </div>
+
     </div>
 
   </main>
