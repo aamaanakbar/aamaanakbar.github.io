@@ -168,9 +168,11 @@ img{display:block;max-width:100%}
 }
 .paper.hl:hover{background:linear-gradient(100deg,#fef3c7 0%,#fffbf0 65%)}
 .paper-img img{
-  width:155px;height:95px;object-fit:cover;
+  width:155px;height:110px;object-fit:contain;
+  background:#fff;
   border-radius:5px;border:1px solid #d0d7de;
   box-shadow:0 1px 5px rgba(0,0,0,.08);
+  padding:4px;
 }
 .ptitle{font-size:.95rem;font-weight:600;color:#18181b;line-height:1.4;margin-bottom:3px}
 .ptitle a{color:#18181b}
@@ -207,15 +209,17 @@ img{display:block;max-width:100%}
 .fig-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
 .fig-pair figure{margin:0}
 .fig-pair img{
-  width:100%;height:230px;object-fit:cover;
+  width:100%;height:220px;object-fit:cover;object-position:center center;
   border-radius:7px;border:1px solid #d0d7de;
   box-shadow:0 2px 8px rgba(0,0,0,.08);
 }
 .fig-wide{margin-top:14px}
 .fig-wide img{
-  width:65%;height:200px;object-fit:cover;
+  width:70%;height:auto;max-height:220px;object-fit:contain;
+  background:#fff;
   border-radius:7px;border:1px solid #d0d7de;
   box-shadow:0 2px 8px rgba(0,0,0,.08);
+  padding:4px;
 }
 figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
 
@@ -265,7 +269,7 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
   .paper-img{display:none}
   .t-header{flex-direction:column;gap:4px}
   .fig-pair{grid-template-columns:1fr}
-  .fig-pair img{height:auto;max-height:260px;object-fit:contain}
+  .fig-pair img{height:180px;object-fit:cover;object-position:center center}
   .awards-grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
   .site-footer{flex-direction:column;gap:5px;text-align:center;padding:12px 18px}
 }
