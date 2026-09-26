@@ -76,6 +76,10 @@ img{display:block;max-width:100%}
 .etitle{font-size:.95rem;font-weight:700;color:#111;margin-bottom:2px}
 .ewhere{font-size:.84rem;color:#666;margin-bottom:3px}
 .ewhat p{font-size:.90rem;color:#444;line-height:1.6;margin-top:3px}
+.t-header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:3px}
+.t-title{font-size:.96rem;font-weight:700;color:#111;line-height:1.35}
+.t-date{font-size:.83rem;color:#888;white-space:nowrap;flex-shrink:0}
+.t-desc{font-size:.90rem;color:#444;line-height:1.6;margin-top:3px}
 .fig-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
 .fig-pair figure{margin:0}
 .fig-pair img{width:100%;height:190px;object-fit:cover;border-radius:5px}
@@ -117,12 +121,11 @@ figcaption{font-size:.78rem;color:#888;margin-top:4px}
     <ul class="nav-links">
       <li class="brand"><a href="index.html">Akbar Ali</a></li>
       <li><a href="index.html">Home</a></li>
+      <li><a href="Education.html">Education</a></li>
       <li><a href="Publications.html">Publications</a></li>
       <li><a href="Teaching.html">Teaching</a></li>
       <li><a href="Projects.html" class="active">Projects</a></li>
       <li><a href="Awards.html">Awards</a></li>
-      <li><a href="Education.html">Education</a></li>
-      <li><a href="News.html">News</a></li>
       <li><a href="memories.html">Memories</a></li>
     </ul>
   </div>
@@ -150,57 +153,73 @@ figcaption{font-size:.78rem;color:#888;margin-top:4px}
     <h1 class="page-title">Collaborations and Field Leadership</h1>
 
     <div class="entries">
+
       <div class="entry">
-        <div class="ewhen">Feb 2024 &mdash; Jan 2025</div>
-        <div class="ewhat">
-          <div class="etitle">3D Geophysical Image Translation using GANs</div>
-          <p>A year-long collaboration with geoscientists, translating 3D geophysical scans into photorealistic virtual outcrop geology.</p>
+        <div class="ewhat" style="grid-column:1/-1;">
+          <div class="t-header">
+            <div class="t-title">3D Geophysical Image Translation using GANs</div>
+            <div class="t-date">Feb 2024 &mdash; Jan 2025</div>
+          </div>
+          <div class="t-desc">A year-long collaboration with geoscientists, translating 3D geophysical scans into photorealistic virtual outcrop geology.</div>
         </div>
       </div>
+
       <div class="entry">
-        <div class="ewhen">Jun 2023 &mdash; Jan 2024</div>
-        <div class="ewhat">
-          <div class="etitle">Smart farming of cotton using aerial imagery &mdash; COT-AD</div>
-          <p>Designed and ran a six-month acquisition campaign with agricultural researchers, flying weekly missions at 10 m, 15 m and 115 m. I owned the flight schedule, the multi-altitude protocol, and the dataset that became COT-AD.</p>
-          <div class="fig-wide">
+        <div class="ewhat" style="grid-column:1/-1;">
+          <div class="t-header">
+            <div class="t-title">Smart farming of cotton using aerial imagery &mdash; COT-AD</div>
+            <div class="t-date">Jun 2023 &mdash; Jan 2024</div>
+          </div>
+          <div class="t-desc">Designed and ran a six-month acquisition campaign with agricultural researchers, flying weekly missions at 10 m, 15 m and 115 m. I owned the flight schedule, the multi-altitude protocol, and the dataset that became COT-AD.</div>
+          <div class="fig-wide" style="margin-top:10px;">
             <img loading="lazy" src="files/gif_cotton.gif" alt="Cotton growth monitoring">
             <figcaption>Weekly flights tracking one field through a full growth cycle.</figcaption>
           </div>
         </div>
       </div>
+
       <div class="entry">
-        <div class="ewhen">2023 &mdash; 2024</div>
-        <div class="ewhat">
-          <div class="etitle">Drone and core data acquisition &mdash; Earth Science, IIT Gandhinagar</div>
-          <p>Planned and led three multi-day campaigns for aerial and core sample collection. Site names withheld for confidentiality.</p>
-          <div class="fig-pair">
+        <div class="ewhat" style="grid-column:1/-1;">
+          <div class="t-header">
+            <div class="t-title">Drone and core data acquisition &mdash; Earth Science, IIT Gandhinagar</div>
+            <div class="t-date">2023 &mdash; 2024</div>
+          </div>
+          <div class="t-desc">Planned and led three multi-day campaigns for aerial and core sample collection. Site names withheld for confidentiality.</div>
+          <div class="fig-pair" style="margin-top:10px;">
             <figure><img loading="lazy" src="files/field1.jpg" alt="Field campaign"></figure>
             <figure><img loading="lazy" src="files/field2.jpg" alt="Field campaign"></figure>
           </div>
         </div>
       </div>
+
       <div class="entry">
-        <div class="ewhen">Jun 2024</div>
-        <div class="ewhat">
-          <div class="etitle">3D Vision Summer School &mdash; IIIT Bangalore</div>
-          <p>Week-long school on deep learning for 3D vision. The Gaussian splatting sessions shaped the direction my hyperspectral work took afterwards.</p>
-          <div class="fig-pair">
+        <div class="ewhat" style="grid-column:1/-1;">
+          <div class="t-header">
+            <div class="t-title">3D Vision Summer School &mdash; IIIT Bangalore</div>
+            <div class="t-date">Jun 2024</div>
+          </div>
+          <div class="t-desc">Week-long school on deep learning for 3D vision. The Gaussian splatting sessions shaped the direction my hyperspectral work took afterwards.</div>
+          <div class="fig-pair" style="margin-top:10px;">
             <figure><img loading="lazy" src="files/iiit.jpg" alt="3D Vision Summer School"></figure>
             <figure><img loading="lazy" src="files/iiitb1.jpg" alt="3D Vision Summer School"></figure>
           </div>
         </div>
       </div>
+
       <div class="entry">
-        <div class="ewhen">May 2024</div>
-        <div class="ewhat">
-          <div class="etitle">Visvesvaraya PhD Scheme Workshop &mdash; IIT Mandi</div>
-          <p>Presented my work to an interdisciplinary audience of scholars from across engineering disciplines.</p>
-          <div class="fig-pair">
+        <div class="ewhat" style="grid-column:1/-1;">
+          <div class="t-header">
+            <div class="t-title">Visvesvaraya PhD Scheme Workshop &mdash; IIT Mandi</div>
+            <div class="t-date">May 2024</div>
+          </div>
+          <div class="t-desc">Presented my work to an interdisciplinary audience of scholars from across engineering disciplines.</div>
+          <div class="fig-pair" style="margin-top:10px;">
             <figure><img loading="lazy" src="files/iitmandi2.jpg" alt="IIT Mandi workshop"></figure>
             <figure><img loading="lazy" src="files/iitmandi1.jpg" alt="IIT Mandi workshop"></figure>
           </div>
         </div>
       </div>
+
     </div>
 
   </main>
