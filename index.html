@@ -9,217 +9,313 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap');
 
-/* ── reset ── */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{font-size:16px;scroll-behavior:smooth}
 body{
-  font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
-  font-size:15px;line-height:1.7;color:#1a1a2e;background:#fafaf8;
+  font-family:'DM Sans',-apple-system,BlinkMacSystemFont,sans-serif;
+  font-size:15.5px;line-height:1.72;color:#18181b;background:#f9f9f7;
   -webkit-font-smoothing:antialiased;
 }
-a{color:#2563eb;text-decoration:none;transition:color .15s}
+a{color:#1e40af;text-decoration:none;transition:color .15s}
 a:hover{color:#1d4ed8;text-decoration:underline}
 img{display:block;max-width:100%}
 
-/* ── navbar ── */
+/* ════════════════════  NAVBAR  ════════════════════ */
 .nav{
-  position:sticky;top:0;z-index:100;
-  background:rgba(250,250,248,.97);
-  backdrop-filter:blur(8px);
-  border-bottom:1px solid #e8e8e4;
+  position:sticky;top:0;z-index:200;
+  background:rgba(249,249,247,.95);
+  backdrop-filter:saturate(180%) blur(12px);
+  -webkit-backdrop-filter:saturate(180%) blur(12px);
+  border-bottom:1px solid rgba(0,0,0,.08);
+  box-shadow:0 1px 0 rgba(0,0,0,.04);
 }
 .nav-inner{
-  max-width:1160px;margin:0 auto;padding:0 32px;
-  display:flex;align-items:center;
+  max-width:1180px;margin:0 auto;padding:0 36px;
+  display:flex;align-items:stretch;
 }
 .nav-brand{
-  font-family:'Crimson Pro',Georgia,serif;
-  font-size:1.15rem;font-weight:600;color:#1a1a2e;
-  padding:12px 24px 12px 0;margin-right:4px;
-  border-right:1px solid #e0e0d8;white-space:nowrap;
-  text-decoration:none;
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:1.13rem;font-weight:700;color:#18181b;
+  display:flex;align-items:center;
+  padding:0 28px 0 0;margin-right:8px;
+  border-right:1px solid rgba(0,0,0,.1);
+  white-space:nowrap;letter-spacing:-.01em;
 }
-.nav-brand:hover{color:#2563eb;text-decoration:none}
-.nav-links{display:flex;list-style:none;flex-wrap:wrap}
+.nav-brand:hover{color:#1e40af;text-decoration:none}
+.nav-links{display:flex;list-style:none;align-items:stretch}
 .nav-links li a{
-  display:block;padding:14px 13px;
-  font-size:.82rem;font-weight:500;letter-spacing:.01em;
-  color:#4a4a5a;
-  border-bottom:2px solid transparent;
-  transition:color .15s,border-color .15s;
+  display:flex;align-items:center;
+  padding:0 14px;height:52px;
+  font-size:.83rem;font-weight:500;
+  color:#52525b;letter-spacing:.005em;
+  border-bottom:2.5px solid transparent;
+  transition:color .15s,border-color .2s;
   white-space:nowrap;
 }
-.nav-links li a:hover{color:#1a1a2e;border-bottom-color:#94a3b8;text-decoration:none}
-.nav-links li a.active{color:#2563eb;font-weight:600;border-bottom-color:#2563eb}
-
-/* ── page layout ── */
-.page-wrap{
-  display:grid;grid-template-columns:210px 1fr;
-  max-width:1160px;margin:0 auto;
-  padding:40px 32px 80px;gap:0;align-items:start;
+.nav-links li a:hover{color:#18181b;border-bottom-color:#a1a1aa;text-decoration:none}
+.nav-links li a.active{
+  color:#1e40af;font-weight:600;
+  border-bottom-color:#1e40af;
 }
 
-/* ── sidebar ── */
-.sidebar{position:sticky;top:58px;padding-right:32px}
+/* ════════════════════  LAYOUT  ════════════════════ */
+.page-wrap{
+  display:grid;grid-template-columns:220px 1fr;
+  max-width:1180px;margin:0 auto;
+  padding:44px 36px 90px;align-items:start;
+}
+
+/* ════════════════════  SIDEBAR  ════════════════════ */
+.sidebar{position:sticky;top:62px;padding-right:36px}
+.sb-photo{margin-bottom:18px}
 .sb-photo img{
-  width:178px;height:178px;
+  width:182px;height:182px;
   object-fit:cover;object-position:center top;
-  border-radius:8px;margin-bottom:14px;
-  border:1px solid #e8e8e4;
+  border-radius:10px;
+  box-shadow:0 4px 16px rgba(0,0,0,.12);
+  border:3px solid #fff;
 }
 .sb-name{
-  font-family:'Crimson Pro',Georgia,serif;
-  font-size:1.18rem;font-weight:600;color:#1a1a2e;margin-bottom:2px;
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:1.22rem;font-weight:700;color:#18181b;
+  margin-bottom:3px;letter-spacing:-.01em;
 }
-.sb-role{font-size:.8rem;font-weight:500;color:#5a5a6e;margin-bottom:1px;text-transform:uppercase;letter-spacing:.05em}
-.sb-inst{font-size:.8rem;color:#777;margin-bottom:1px}
-.sb-links{
-  list-style:none;border-top:1px solid #e8e8e4;
-  margin-top:14px;padding-top:13px;
-  display:flex;flex-direction:column;gap:9px;
+.sb-role{
+  display:inline-block;
+  font-size:.72rem;font-weight:600;color:#fff;
+  background:linear-gradient(135deg,#1e40af,#3b82f6);
+  padding:2px 9px;border-radius:20px;
+  letter-spacing:.06em;text-transform:uppercase;
+  margin-bottom:8px;
 }
+.sb-inst{font-size:.81rem;color:#71717a;margin-bottom:2px;line-height:1.4}
+.sb-divider{border:none;border-top:1px solid #e4e4e7;margin:14px 0}
+.sb-links{list-style:none;display:flex;flex-direction:column;gap:10px}
 .sb-links li a{
-  display:flex;align-items:center;gap:8px;
-  font-size:.82rem;color:#4a4a5a;font-weight:500;
-  transition:color .15s;
+  display:flex;align-items:center;gap:9px;
+  font-size:.83rem;font-weight:500;color:#3f3f46;
+  padding:4px 0;
+  transition:color .15s,transform .15s;
 }
-.sb-links li a:hover{color:#2563eb;text-decoration:none}
-.sb-links svg{opacity:.55;flex-shrink:0}
+.sb-links li a:hover{color:#1e40af;text-decoration:none;transform:translateX(2px)}
+.sb-icon{
+  width:28px;height:28px;border-radius:6px;
+  background:#f4f4f5;
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;transition:background .15s;
+}
+.sb-links li a:hover .sb-icon{background:#dbeafe}
+.sb-icon svg{opacity:.7}
 
-/* ── content area ── */
-.content{min-width:0;padding-left:2px}
+/* ════════════════════  CONTENT  ════════════════════ */
+.content{min-width:0}
 .page-title{
-  font-family:'Crimson Pro',Georgia,serif;
-  font-size:1.75rem;font-weight:600;color:#1a1a2e;
-  margin-bottom:20px;padding-bottom:12px;
-  border-bottom:2px solid #e8e8e4;line-height:1.25;
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:2rem;font-weight:700;color:#18181b;
+  margin-bottom:24px;padding-bottom:16px;
+  border-bottom:2px solid #e4e4e7;line-height:1.2;
+  letter-spacing:-.02em;
 }
-.content h3{
-  font-size:.92rem;font-weight:700;color:#1a1a2e;
-  margin:24px 0 10px;text-transform:uppercase;
-  letter-spacing:.06em;
-}
-.content p{font-size:.94rem;line-height:1.75;color:#2a2a3a;margin-bottom:14px;text-align:justify}
-.content ul{padding-left:20px;margin-bottom:14px}
-.content li{margin-bottom:7px;font-size:.92rem;line-height:1.65;color:#2a2a3a}
 
-/* ── news box ── */
-.news-box{
-  max-height:340px;overflow-y:auto;
-  border:1px solid #e8e8e4;border-radius:6px;
-  background:#fff;
+/* section headings */
+.content h3{
+  font-size:.75rem;font-weight:700;
+  color:#6366f1;
+  letter-spacing:.1em;text-transform:uppercase;
+  margin:28px 0 12px;
+  display:flex;align-items:center;gap:8px;
 }
-.news-box::-webkit-scrollbar{width:4px}
-.news-box::-webkit-scrollbar-thumb{background:#d0d0c8;border-radius:2px}
+.content h3::after{
+  content:'';flex:1;height:1px;background:#e4e4e7;
+}
+
+.content p{font-size:.96rem;line-height:1.8;color:#27272a;margin-bottom:15px;text-align:justify}
+.content ul{padding-left:0;margin-bottom:14px;list-style:none}
+.content li{
+  margin-bottom:8px;font-size:.93rem;line-height:1.65;color:#27272a;
+  padding-left:18px;position:relative;
+}
+.content li::before{
+  content:'›';position:absolute;left:0;
+  color:#6366f1;font-weight:700;font-size:1rem;
+}
+
+/* ════════════════════  NEWS BOX  ════════════════════ */
+.news-box{
+  border:1px solid #e4e4e7;border-radius:10px;
+  background:#fff;overflow:hidden;
+  box-shadow:0 1px 4px rgba(0,0,0,.05);
+}
+.news-scroll{max-height:320px;overflow-y:auto}
+.news-scroll::-webkit-scrollbar{width:4px}
+.news-scroll::-webkit-scrollbar-thumb{background:#d1d5db;border-radius:2px}
 .news-box ul{list-style:none;padding:0}
 .news-box li{
-  padding:9px 16px;border-bottom:1px solid #f0f0ec;
-  font-size:.875rem;line-height:1.6;color:#2a2a3a;
+  display:flex;gap:12px;
+  padding:10px 16px;border-bottom:1px solid #f4f4f5;
+  font-size:.875rem;line-height:1.55;color:#3f3f46;
+  align-items:flex-start;
 }
 .news-box li:last-child{border-bottom:none}
-.news-box b{color:#1a1a2e}
+.news-tag{
+  flex-shrink:0;font-size:.72rem;font-weight:700;
+  color:#1e40af;background:#eff6ff;
+  padding:1px 7px;border-radius:4px;
+  white-space:nowrap;margin-top:2px;
+}
 
-/* ── papers ── */
+/* ════════════════════  PAPERS  ════════════════════ */
 .paper{
-  display:grid;grid-template-columns:148px 1fr;gap:18px;
-  padding:18px 12px;border-bottom:1px solid #f0f0ec;
-}
-.paper.hl{
-  background:linear-gradient(to right,#fffbeb,#fff);
-  border-left:3px solid #d97706;
-  padding-left:14px;border-radius:0 6px 6px 0;
-}
-.paper-img img{
-  width:148px;height:90px;object-fit:cover;
-  border-radius:4px;border:1px solid #e8e8e4;
-}
-.ptitle{font-size:.95rem;font-weight:600;color:#1a1a2e;line-height:1.4;margin-bottom:3px}
-.ptitle a{color:#1a1a2e}
-.ptitle a:hover{color:#2563eb;text-decoration:none}
-.pauthors{font-size:.83rem;color:#555;margin:3px 0}
-.pvenue{font-size:.83rem;font-style:italic;font-weight:600;color:#2563eb;margin-bottom:6px}
-.plinks a{
-  display:inline-block;font-size:.78rem;font-weight:600;
-  color:#fff;background:#2563eb;
-  padding:2px 8px;border-radius:3px;margin-right:6px;margin-bottom:6px;
+  display:grid;grid-template-columns:155px 1fr;gap:20px;
+  padding:20px 14px;
+  border-bottom:1px solid #f4f4f5;
   transition:background .15s;
 }
-.plinks a:hover{background:#1d4ed8;text-decoration:none;color:#fff}
-.pabstract{font-size:.84rem;color:#555;line-height:1.6;margin:0}
+.paper:hover{background:#fafafa}
+.paper.hl{
+  background:linear-gradient(100deg,#fffbeb 0%,#fff 60%);
+  border-left:3px solid #f59e0b;
+  padding-left:16px;
+  border-radius:0 8px 8px 0;
+  box-shadow:0 1px 6px rgba(245,158,11,.1);
+}
+.paper.hl:hover{background:linear-gradient(100deg,#fef3c7 0%,#fffbf0 60%)}
+.paper-img img{
+  width:155px;height:95px;object-fit:cover;
+  border-radius:6px;border:1px solid #e4e4e7;
+  box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+.ptitle{font-size:.97rem;font-weight:600;color:#18181b;line-height:1.4;margin-bottom:4px}
+.ptitle a{color:#18181b;transition:color .15s}
+.ptitle a:hover{color:#1e40af;text-decoration:none}
+.pauthors{font-size:.84rem;color:#71717a;margin:3px 0}
+.pvenue{
+  font-size:.82rem;font-weight:600;font-style:italic;
+  color:#1e40af;margin-bottom:8px;
+}
+.plinks{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.plinks a{
+  font-size:.75rem;font-weight:700;
+  letter-spacing:.03em;text-transform:uppercase;
+  color:#1e40af;background:#eff6ff;
+  padding:3px 10px;border-radius:4px;
+  border:1px solid #bfdbfe;
+  transition:all .15s;
+}
+.plinks a:hover{background:#1e40af;color:#fff;text-decoration:none;border-color:#1e40af}
+.pabstract{font-size:.85rem;color:#52525b;line-height:1.62;margin:0}
 
-/* ── timeline rows (Teaching, Education, Projects) ── */
-.t-list{margin-top:2px}
-.t-row{padding:16px 0;border-top:1px solid #f0f0ec}
-.t-list .t-row:first-child{border-top:none}
+/* ════════════════════  TIMELINE  ════════════════════ */
+.t-list{margin-top:4px}
+.t-row{
+  padding:18px 0;
+  border-bottom:1px solid #f4f4f5;
+  position:relative;
+}
+.t-list .t-row:last-child{border-bottom:none}
 .t-header{
-  display:flex;justify-content:space-between;align-items:flex-start;
-  gap:16px;margin-bottom:4px;
+  display:flex;justify-content:space-between;
+  align-items:flex-start;gap:16px;margin-bottom:5px;
 }
-.t-title{font-size:.95rem;font-weight:600;color:#1a1a2e;line-height:1.35}
+.t-title{
+  font-size:.97rem;font-weight:600;color:#18181b;
+  line-height:1.35;
+}
 .t-date{
-  font-size:.78rem;font-weight:600;color:#fff;
-  background:#64748b;padding:2px 8px;border-radius:12px;
-  white-space:nowrap;flex-shrink:0;margin-top:2px;
+  flex-shrink:0;font-size:.73rem;font-weight:700;
+  letter-spacing:.04em;color:#fff;
+  background:linear-gradient(135deg,#64748b,#94a3b8);
+  padding:3px 10px;border-radius:20px;
+  white-space:nowrap;margin-top:1px;
 }
-.t-where{font-size:.82rem;color:#6b7280;margin-bottom:4px}
-.t-desc{font-size:.88rem;color:#3a3a4a;line-height:1.65;margin-top:4px}
+.t-where{font-size:.83rem;color:#71717a;margin-bottom:5px}
+.t-where a{color:#71717a}
+.t-where a:hover{color:#1e40af}
+.t-desc{font-size:.89rem;color:#3f3f46;line-height:1.68}
 
-/* ── figures ── */
-.fig-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+/* ════════════════════  FIGURES  ════════════════════ */
+.fig-pair{
+  display:grid;grid-template-columns:1fr 1fr;gap:12px;
+  margin-top:14px;
+}
 .fig-pair figure{margin:0}
-.fig-pair img{width:100%;height:185px;object-fit:cover;border-radius:6px;border:1px solid #e8e8e4}
-.fig-wide img{width:62%;height:160px;object-fit:cover;border-radius:6px;border:1px solid #e8e8e4;margin-top:12px}
-figcaption{font-size:.75rem;color:#9ca3af;margin-top:5px}
+.fig-pair img{
+  width:100%;height:188px;object-fit:cover;
+  border-radius:8px;border:1px solid #e4e4e7;
+  box-shadow:0 2px 8px rgba(0,0,0,.07);
+}
+.fig-wide{margin-top:14px}
+.fig-wide img{
+  width:60%;height:158px;object-fit:cover;
+  border-radius:8px;border:1px solid #e4e4e7;
+  box-shadow:0 2px 8px rgba(0,0,0,.07);
+}
+figcaption{font-size:.76rem;color:#a1a1aa;margin-top:6px}
 
-/* ── awards grid ── */
+/* ════════════════════  AWARDS  ════════════════════ */
 .awards-grid{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-  gap:12px;margin-top:14px;
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(178px,1fr));
+  gap:14px;margin-top:16px;
 }
 .award-card{
-  background:#fff;border:1px solid #e8e8e4;border-radius:8px;
-  padding:16px 15px;transition:box-shadow .15s;
+  background:#fff;
+  border:1px solid #e4e4e7;
+  border-radius:10px;padding:18px 16px;
+  transition:box-shadow .2s,transform .2s;
+  position:relative;overflow:hidden;
 }
-.award-card:hover{box-shadow:0 2px 12px rgba(0,0,0,.07)}
+.award-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,#1e40af,#6366f1);
+}
+.award-card:hover{
+  box-shadow:0 6px 24px rgba(0,0,0,.1);
+  transform:translateY(-2px);
+}
 .award-year{
-  font-size:1.2rem;font-weight:700;color:#2563eb;
-  font-family:'Crimson Pro',Georgia,serif;margin-bottom:5px;
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:1.35rem;font-weight:700;
+  color:#1e40af;margin-bottom:7px;
 }
-.award-title{font-size:.88rem;font-weight:600;color:#1a1a2e;margin-bottom:3px}
-.award-sub{font-size:.79rem;color:#6b7280;line-height:1.5}
+.award-title{font-size:.89rem;font-weight:600;color:#18181b;margin-bottom:4px;line-height:1.35}
+.award-sub{font-size:.8rem;color:#71717a;line-height:1.5}
 
-/* ── footer ── */
+/* ════════════════════  FOOTER  ════════════════════ */
 .site-footer{
-  border-top:1px solid #e8e8e4;padding:16px 32px;
-  font-size:.8rem;color:#9ca3af;
-  max-width:1160px;margin:0 auto;
+  border-top:1px solid #e4e4e7;
+  padding:18px 36px;
+  font-size:.8rem;color:#a1a1aa;
+  max-width:1180px;margin:0 auto;
   display:flex;justify-content:space-between;align-items:center;
 }
-.site-footer a{color:#9ca3af;transition:color .15s}
-.site-footer a:hover{color:#2563eb;text-decoration:none}
+.site-footer a{color:#a1a1aa;transition:color .15s}
+.site-footer a:hover{color:#1e40af;text-decoration:none}
 
-/* ── responsive ── */
-@media(max-width:840px){
-  .page-wrap{grid-template-columns:1fr;padding:20px 18px 50px}
-  .sidebar{position:static;padding-right:0;margin-bottom:24px;
-    display:grid;grid-template-columns:auto 1fr;gap:0 20px;align-items:start}
+/* ════════════════════  RESPONSIVE  ════════════════════ */
+@media(max-width:860px){
+  .page-wrap{grid-template-columns:1fr;padding:24px 20px 60px}
+  .sidebar{
+    position:static;padding-right:0;margin-bottom:28px;
+    display:grid;grid-template-columns:auto 1fr;gap:0 20px;align-items:start;
+  }
   .sb-photo img{width:110px;height:110px}
-  .sb-links{grid-column:1/-1;border-top:1px solid #e8e8e4;padding-top:12px;margin-top:12px}
-  .nav-inner{padding:0 16px;flex-wrap:wrap}
-  .nav-brand{padding:10px 16px 10px 0;font-size:1rem}
-  .nav-links li a{padding:10px 9px;font-size:.78rem}
+  .sb-links{grid-column:1/-1}
+  .nav-inner{padding:0 18px}
+  .nav-brand{padding:0 16px 0 0;font-size:1rem}
+  .nav-links li a{padding:0 9px;height:46px;font-size:.78rem}
   .paper{grid-template-columns:1fr}
   .paper-img{display:none}
-  .t-header{flex-direction:column;gap:4px}
+  .t-header{flex-direction:column;gap:5px}
   .fig-pair{grid-template-columns:1fr}
-  .site-footer{flex-direction:column;gap:4px;text-align:center;padding:12px 18px}
+  .awards-grid{grid-template-columns:repeat(auto-fill,minmax(145px,1fr))}
+  .site-footer{flex-direction:column;gap:6px;text-align:center;padding:14px 20px}
 }
 </style>
 </head>
 <body>
-
 <nav class="nav">
   <div class="nav-inner">
     <a class="nav-brand" href="index.html">Akbar Ali</a>
@@ -234,22 +330,22 @@ figcaption{font-size:.75rem;color:#9ca3af;margin-top:5px}
     </ul>
   </div>
 </nav>
-
 <div class="page-wrap">
 <aside class="sidebar">
   <div class="sb-photo"><img src="files/aamaan1.png" alt="Akbar Ali"></div>
   <div>
     <div class="sb-name">Akbar Ali</div>
-    <div class="sb-role">PhD Candidate, CSE</div>
+    <div class="sb-role">PhD Candidate &middot; CSE</div>
     <div class="sb-inst">IIT Gandhinagar, India</div>
-    <div class="sb-inst">Visiting Researcher, HZDR</div>
+    <div class="sb-inst">Visiting Researcher, HZDR Germany</div>
+    <hr class="sb-divider">
     <ul class="sb-links">
-      <li><a href="mailto:akbar.ali@iitgn.ac.in"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.4-8 5-8-5V6l8 5 8-5v2.4z"/></svg>Email</a></li>
-      <li><a href="https://scholar.google.com/citations?user=g-2Aix8AAAAJ&hl=en" target="_blank"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 1 9l11 7 9-5.73V17h2V9L12 2zm0 9.27L5.74 9 12 4.73 18.26 9 12 11.27zM5 13v6l7 4 7-4v-6l-7 4-7-4z"/></svg>Google Scholar</a></li>
-      <li><a href="https://github.com/aamaanakbar" target="_blank"><svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/aamaanakbar" target="_blank"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4v16h-4V8zm7.5 0h3.8v2.2h.1c.5-.9 1.7-2.2 3.7-2.2 4 0 4.7 2.6 4.7 6V24h-4v-7.5c0-1.8 0-4-2.5-4s-2.8 2-2.8 3.9V24h-4V8z"/></svg>LinkedIn</a></li>
-      <li><a href="https://x.com/AamaanAkbar" target="_blank"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2H21.5l-7.42 8.49L23 22h-7.547l-5.288-6.634L4.64 22H1.5l7.93-9.07L2 2h7.664l4.713 5.927L18.244 2zM16.69 20h2.095L7.42 4H5.21l11.48 16z"/></svg>X / Twitter</a></li>
-      <li><a href="files/CV.pdf" target="_blank"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>CV / Resume</a></li>
+      <li><a href="mailto:akbar.ali@iitgn.ac.in"><span class="sb-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1e40af"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.4-8 5-8-5V6l8 5 8-5v2.4z"/></svg></span>Email</a></li>
+      <li><a href="https://scholar.google.com/citations?user=g-2Aix8AAAAJ&hl=en" target="_blank"><span class="sb-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1e40af"><path d="M12 2 1 9l11 7 9-5.73V17h2V9L12 2zm0 9.27L5.74 9 12 4.73 18.26 9 12 11.27zM5 13v6l7 4 7-4v-6l-7 4-7-4z"/></svg></span>Google Scholar</a></li>
+      <li><a href="https://github.com/aamaanakbar" target="_blank"><span class="sb-icon"><svg width="13" height="13" viewBox="0 0 16 16" fill="#1e40af"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></span>GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/aamaanakbar" target="_blank"><span class="sb-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1e40af"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4v16h-4V8zm7.5 0h3.8v2.2h.1c.5-.9 1.7-2.2 3.7-2.2 4 0 4.7 2.6 4.7 6V24h-4v-7.5c0-1.8 0-4-2.5-4s-2.8 2-2.8 3.9V24h-4V8z"/></svg></span>LinkedIn</a></li>
+      <li><a href="https://x.com/AamaanAkbar" target="_blank"><span class="sb-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1e40af"><path d="M18.244 2H21.5l-7.42 8.49L23 22h-7.547l-5.288-6.634L4.64 22H1.5l7.93-9.07L2 2h7.664l4.713 5.927L18.244 2zM16.69 20h2.095L7.42 4H5.21l11.48 16z"/></svg></span>X / Twitter</a></li>
+      <li><a href="files/CV.pdf" target="_blank"><span class="sb-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1e40af"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg></span>CV / Resume</a></li>
     </ul>
   </div>
 </aside>
@@ -285,31 +381,32 @@ figcaption{font-size:.75rem;color:#9ca3af;margin-top:5px}
 
     <h3>News</h3>
     <div class="news-box">
-      <ul>
-        <li><b>[Sep 2026]</b> Submitted <b>three papers</b> to <b>ICASSP 2027</b>.</li>
-        <li><b>[Sep 2026]</b> Submitted one paper to <b>AISTATS 2027</b>.</li>
-        <li><b>[Apr 2026]</b> Paper <b>GenR</b> accepted in <b>Pattern Recognition Letters</b> (Elsevier), 2026.</li>
-        <li><b>[Mar 2026]</b> Completed six months at the Helmholtz Institute Freiberg, Germany, on the <b>Research Lab Abroad Fellowship</b>.</li>
-        <li><b>[Sep 2025]</b> Presented two papers at <b>IEEE ICIP 2025</b>, Anchorage, Alaska.</li>
-        <li><b>[Jul 2025]</b> Both ICIP papers <b>published</b> on IEEE Xplore.</li>
-        <li><b>[May 2025]</b> Awarded the <b>Research Lab Abroad Fellowship</b> (Visvesvaraya PhD Scheme, MeitY).</li>
-        <li><b>[May 2025]</b> Two papers accepted at <b>IEEE ICIP 2025</b> (COT-AD and IRUSIR).</li>
-        <li><b>[Jun 2024]</b> Attended <b>3D Vision Summer School</b>, IIIT Bangalore.</li>
-        <li><b>[May 2024]</b> Presented at the <b>Visvesvaraya PhD Scheme Workshop</b>, IIT Mandi.</li>
-        <li><b>[May 2023]</b> First field campaign with the Earth Science group.</li>
-        <li><b>[Early 2023]</b> Certified as a <b>UAV Pilot</b> for platforms up to 25 kg.</li>
-        <li><b>[Feb 2023]</b> Parkinson's disease prediction chapter published by <b>Springer Nature</b>.</li>
-        <li><b>[Dec 2022]</b> Joined <b>IIT Gandhinagar</b> as a Ph.D. scholar.</li>
-        <li><b>[2022]</b> Qualified <b>UGC-NET</b> in Computer Applications.</li>
-        <li><b>[Sep 2021]</b> Joined <b>IIT Ropar</b> as a project associate.</li>
-        <li><b>[Jul 2021]</b> Completed M.Tech at Aliah University, second rank overall.</li>
-        <li><b>[Jul 2019]</b> Completed B.Tech at Aliah University, first rank overall.</li>
-      </ul>
+      <div class="news-scroll">
+        <ul>
+          <li><span class="news-tag">Sep 2026</span> Submitted <strong>three papers</strong> to ICASSP 2027.</li>
+          <li><span class="news-tag">Sep 2026</span> Submitted one paper to AISTATS 2027.</li>
+          <li><span class="news-tag">Apr 2026</span> Paper <strong>GenR</strong> accepted in <em>Pattern Recognition Letters</em> (Elsevier).</li>
+          <li><span class="news-tag">Mar 2026</span> Completed six months at Helmholtz Institute Freiberg on the <strong>Research Lab Abroad Fellowship</strong>.</li>
+          <li><span class="news-tag">Sep 2025</span> Presented two papers at <strong>IEEE ICIP 2025</strong>, Anchorage, Alaska.</li>
+          <li><span class="news-tag">Jul 2025</span> Both ICIP papers published on IEEE Xplore.</li>
+          <li><span class="news-tag">May 2025</span> Awarded the <strong>Research Lab Abroad Fellowship</strong> (Visvesvaraya PhD Scheme, MeitY).</li>
+          <li><span class="news-tag">May 2025</span> Two papers accepted at <strong>IEEE ICIP 2025</strong> (COT-AD and IRUSIR).</li>
+          <li><span class="news-tag">Jun 2024</span> Attended <strong>3D Vision Summer School</strong>, IIIT Bangalore.</li>
+          <li><span class="news-tag">May 2024</span> Presented at the <strong>Visvesvaraya PhD Scheme Workshop</strong>, IIT Mandi.</li>
+          <li><span class="news-tag">May 2023</span> First field campaign with the Earth Science group.</li>
+          <li><span class="news-tag">Early 2023</span> Certified as a <strong>UAV Pilot</strong> for platforms up to 25 kg.</li>
+          <li><span class="news-tag">Feb 2023</span> Parkinson's disease chapter published by <strong>Springer Nature</strong>.</li>
+          <li><span class="news-tag">Dec 2022</span> Joined <strong>IIT Gandhinagar</strong> as a Ph.D. scholar.</li>
+          <li><span class="news-tag">2022</span> Qualified <strong>UGC-NET</strong> in Computer Applications.</li>
+          <li><span class="news-tag">Sep 2021</span> Joined IIT Ropar as a project associate.</li>
+          <li><span class="news-tag">Jul 2021</span> Completed M.Tech at Aliah University, second rank overall.</li>
+          <li><span class="news-tag">Jul 2019</span> Completed B.Tech at Aliah University, first rank overall.</li>
+        </ul>
+      </div>
     </div>
 
   </main>
 </div>
-
 <footer class="site-footer">
   <span>Akbar Ali &mdash; aamaanakbar.github.io &mdash; updated September 2026</span>
   <span><a href="index.html">Home</a> &middot; <a href="memories.html">Memories</a> &middot; <a href="mailto:akbar.ali@iitgn.ac.in">Email</a></span>
