@@ -4,118 +4,226 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Akbar Ali &mdash; Publications</title>
-<meta name="description" content="Akbar Ali, PhD Candidate at IIT Gandhinagar.">
+<meta name="description" content="Akbar Ali, PhD Candidate at IIT Gandhinagar. Computer Vision, Generative Models, Hyperspectral Imaging.">
 <link rel="icon" href="files/favicon.ico">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ── reset ── */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{font-size:16px;scroll-behavior:smooth}
-body{font-family:"Lato",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px;line-height:1.65;color:#222;background:#fff;-webkit-font-smoothing:antialiased}
-a{color:#1a73e8;text-decoration:none}
-a:hover{color:#c45000;text-decoration:underline}
+body{
+  font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  font-size:15px;line-height:1.7;color:#1a1a2e;background:#fafaf8;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:#2563eb;text-decoration:none;transition:color .15s}
+a:hover{color:#1d4ed8;text-decoration:underline}
 img{display:block;max-width:100%}
 
-/* NAVBAR */
-.masthead{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #ddd}
-.nav-inner{max-width:1200px;margin:0 auto;padding:0 28px}
-.nav-links{display:flex;list-style:none;align-items:center;flex-wrap:wrap}
-.nav-links li a{display:block;padding:14px 14px;font-size:0.9rem;font-weight:500;color:#333;border-bottom:3px solid transparent;transition:color .15s,border-color .15s;white-space:nowrap}
-.nav-links li a:hover{color:#111;border-bottom-color:#1a73e8;text-decoration:none}
-.nav-links li a.active{color:#111;font-weight:700;border-bottom-color:#1a73e8}
-.nav-links li.brand a{font-size:1rem;font-weight:700;color:#111;padding-right:20px}
+/* ── navbar ── */
+.nav{
+  position:sticky;top:0;z-index:100;
+  background:rgba(250,250,248,.97);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid #e8e8e4;
+}
+.nav-inner{
+  max-width:1160px;margin:0 auto;padding:0 32px;
+  display:flex;align-items:center;
+}
+.nav-brand{
+  font-family:'Crimson Pro',Georgia,serif;
+  font-size:1.15rem;font-weight:600;color:#1a1a2e;
+  padding:12px 24px 12px 0;margin-right:4px;
+  border-right:1px solid #e0e0d8;white-space:nowrap;
+  text-decoration:none;
+}
+.nav-brand:hover{color:#2563eb;text-decoration:none}
+.nav-links{display:flex;list-style:none;flex-wrap:wrap}
+.nav-links li a{
+  display:block;padding:14px 13px;
+  font-size:.82rem;font-weight:500;letter-spacing:.01em;
+  color:#4a4a5a;
+  border-bottom:2px solid transparent;
+  transition:color .15s,border-color .15s;
+  white-space:nowrap;
+}
+.nav-links li a:hover{color:#1a1a2e;border-bottom-color:#94a3b8;text-decoration:none}
+.nav-links li a.active{color:#2563eb;font-weight:600;border-bottom-color:#2563eb}
 
-/* LAYOUT */
-.page-wrap{display:grid;grid-template-columns:200px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:32px 28px 60px;align-items:start}
+/* ── page layout ── */
+.page-wrap{
+  display:grid;grid-template-columns:210px 1fr;
+  max-width:1160px;margin:0 auto;
+  padding:40px 32px 80px;gap:0;align-items:start;
+}
 
-/* SIDEBAR */
-.sidebar{position:sticky;top:60px;padding-right:24px}
-.sidebar-photo img{width:175px;height:175px;object-fit:cover;object-position:center top;border-radius:6px;margin-bottom:12px}
-.sidebar-name{font-size:.98rem;font-weight:700;color:#111;margin-bottom:3px}
-.sidebar-role{font-size:.84rem;color:#555;margin-bottom:1px}
-.sidebar-info p{font-size:.82rem;color:#666;line-height:1.45;margin-bottom:1px}
-.sidebar-links{list-style:none;border-top:1px solid #eee;margin-top:12px;padding-top:11px;display:flex;flex-direction:column;gap:8px}
-.sidebar-links li a{display:flex;align-items:center;gap:7px;font-size:.87rem;color:#333}
-.sidebar-links li a:hover{color:#1a73e8;text-decoration:none}
-.sidebar-links svg{opacity:.5;flex-shrink:0}
+/* ── sidebar ── */
+.sidebar{position:sticky;top:58px;padding-right:32px}
+.sb-photo img{
+  width:178px;height:178px;
+  object-fit:cover;object-position:center top;
+  border-radius:8px;margin-bottom:14px;
+  border:1px solid #e8e8e4;
+}
+.sb-name{
+  font-family:'Crimson Pro',Georgia,serif;
+  font-size:1.18rem;font-weight:600;color:#1a1a2e;margin-bottom:2px;
+}
+.sb-role{font-size:.8rem;font-weight:500;color:#5a5a6e;margin-bottom:1px;text-transform:uppercase;letter-spacing:.05em}
+.sb-inst{font-size:.8rem;color:#777;margin-bottom:1px}
+.sb-links{
+  list-style:none;border-top:1px solid #e8e8e4;
+  margin-top:14px;padding-top:13px;
+  display:flex;flex-direction:column;gap:9px;
+}
+.sb-links li a{
+  display:flex;align-items:center;gap:8px;
+  font-size:.82rem;color:#4a4a5a;font-weight:500;
+  transition:color .15s;
+}
+.sb-links li a:hover{color:#2563eb;text-decoration:none}
+.sb-links svg{opacity:.55;flex-shrink:0}
 
-/* CONTENT */
-.content{min-width:0}
-.page-title{font-size:1.4rem;font-weight:700;color:#111;margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid #e5e5e1;line-height:1.3}
-.content h3{font-size:1.02rem;font-weight:700;color:#222;margin:20px 0 8px}
-.content p{font-size:.96rem;line-height:1.72;color:#222;margin-bottom:13px;text-align:justify}
-.content ul{padding-left:22px;margin-bottom:12px}
-.content li{margin-bottom:6px;font-size:.93rem;line-height:1.6}
+/* ── content area ── */
+.content{min-width:0;padding-left:2px}
+.page-title{
+  font-family:'Crimson Pro',Georgia,serif;
+  font-size:1.75rem;font-weight:600;color:#1a1a2e;
+  margin-bottom:20px;padding-bottom:12px;
+  border-bottom:2px solid #e8e8e4;line-height:1.25;
+}
+.content h3{
+  font-size:.92rem;font-weight:700;color:#1a1a2e;
+  margin:24px 0 10px;text-transform:uppercase;
+  letter-spacing:.06em;
+}
+.content p{font-size:.94rem;line-height:1.75;color:#2a2a3a;margin-bottom:14px;text-align:justify}
+.content ul{padding-left:20px;margin-bottom:14px}
+.content li{margin-bottom:7px;font-size:.92rem;line-height:1.65;color:#2a2a3a}
 
-/* NEWS */
-.news-box{max-height:380px;overflow-y:auto;padding:10px 14px;border:1px solid #eee;border-radius:4px}
+/* ── news box ── */
+.news-box{
+  max-height:340px;overflow-y:auto;
+  border:1px solid #e8e8e4;border-radius:6px;
+  background:#fff;
+}
 .news-box::-webkit-scrollbar{width:4px}
-.news-box::-webkit-scrollbar-thumb{background:#ccc;border-radius:2px}
+.news-box::-webkit-scrollbar-thumb{background:#d0d0c8;border-radius:2px}
 .news-box ul{list-style:none;padding:0}
-.news-box li{padding:7px 0;border-bottom:1px solid #f0f0ee;font-size:.92rem;line-height:1.55}
+.news-box li{
+  padding:9px 16px;border-bottom:1px solid #f0f0ec;
+  font-size:.875rem;line-height:1.6;color:#2a2a3a;
+}
 .news-box li:last-child{border-bottom:none}
+.news-box b{color:#1a1a2e}
 
-/* PAPERS */
-.paper{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:15px 10px;border-bottom:1px solid #f5f5f3}
-.paper.hl{background:#fffdf0;border-left:3px solid #e9a820;padding-left:12px}
-.paper-img img{width:150px;height:92px;object-fit:cover;border-radius:3px}
-.ptitle{font-size:.96rem;font-weight:700;color:#111;line-height:1.4;margin-bottom:2px}
-.ptitle a{color:#111}
-.ptitle a:hover{color:#1a73e8;text-decoration:none}
-.pauthors{font-size:.87rem;color:#444;margin:2px 0}
-.pvenue{font-size:.87rem;font-style:italic;font-weight:700;color:#555;margin-bottom:5px}
-.plinks{margin-bottom:5px}
-.plinks a{font-size:.87rem;color:#1a73e8;margin-right:10px}
-.plinks a:hover{color:#c45000}
-.pabstract{font-size:.87rem;color:#444;line-height:1.55;margin:0}
+/* ── papers ── */
+.paper{
+  display:grid;grid-template-columns:148px 1fr;gap:18px;
+  padding:18px 12px;border-bottom:1px solid #f0f0ec;
+}
+.paper.hl{
+  background:linear-gradient(to right,#fffbeb,#fff);
+  border-left:3px solid #d97706;
+  padding-left:14px;border-radius:0 6px 6px 0;
+}
+.paper-img img{
+  width:148px;height:90px;object-fit:cover;
+  border-radius:4px;border:1px solid #e8e8e4;
+}
+.ptitle{font-size:.95rem;font-weight:600;color:#1a1a2e;line-height:1.4;margin-bottom:3px}
+.ptitle a{color:#1a1a2e}
+.ptitle a:hover{color:#2563eb;text-decoration:none}
+.pauthors{font-size:.83rem;color:#555;margin:3px 0}
+.pvenue{font-size:.83rem;font-style:italic;font-weight:600;color:#2563eb;margin-bottom:6px}
+.plinks a{
+  display:inline-block;font-size:.78rem;font-weight:600;
+  color:#fff;background:#2563eb;
+  padding:2px 8px;border-radius:3px;margin-right:6px;margin-bottom:6px;
+  transition:background .15s;
+}
+.plinks a:hover{background:#1d4ed8;text-decoration:none;color:#fff}
+.pabstract{font-size:.84rem;color:#555;line-height:1.6;margin:0}
 
-/* ENTRIES */
-.entry{display:grid;grid-template-columns:165px 1fr;gap:0 16px;padding:13px 0;border-top:1px solid #eee}
-.entries .entry:first-child{border-top:none}
-.ewhen{font-size:.84rem;color:#888;padding-top:2px;line-height:1.5}
-.etitle{font-size:.95rem;font-weight:700;color:#111;margin-bottom:2px}
-.ewhere{font-size:.84rem;color:#666;margin-bottom:3px}
-.ewhat p{font-size:.90rem;color:#444;line-height:1.6;margin-top:3px}
-.fig-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+/* ── timeline rows (Teaching, Education, Projects) ── */
+.t-list{margin-top:2px}
+.t-row{padding:16px 0;border-top:1px solid #f0f0ec}
+.t-list .t-row:first-child{border-top:none}
+.t-header{
+  display:flex;justify-content:space-between;align-items:flex-start;
+  gap:16px;margin-bottom:4px;
+}
+.t-title{font-size:.95rem;font-weight:600;color:#1a1a2e;line-height:1.35}
+.t-date{
+  font-size:.78rem;font-weight:600;color:#fff;
+  background:#64748b;padding:2px 8px;border-radius:12px;
+  white-space:nowrap;flex-shrink:0;margin-top:2px;
+}
+.t-where{font-size:.82rem;color:#6b7280;margin-bottom:4px}
+.t-desc{font-size:.88rem;color:#3a3a4a;line-height:1.65;margin-top:4px}
+
+/* ── figures ── */
+.fig-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
 .fig-pair figure{margin:0}
-.fig-pair img{width:100%;height:190px;object-fit:cover;border-radius:5px}
-.fig-wide{margin-top:10px}
-.fig-wide img{width:65%;height:165px;object-fit:cover;border-radius:5px}
-figcaption{font-size:.78rem;color:#888;margin-top:4px}
+.fig-pair img{width:100%;height:185px;object-fit:cover;border-radius:6px;border:1px solid #e8e8e4}
+.fig-wide img{width:62%;height:160px;object-fit:cover;border-radius:6px;border:1px solid #e8e8e4;margin-top:12px}
+figcaption{font-size:.75rem;color:#9ca3af;margin-top:5px}
 
-/* AWARDS */
-.awards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:1px;background:#e5e5e1;border:1px solid #e5e5e1;border-radius:4px;overflow:hidden;margin-top:12px}
-.award-card{background:#fff;padding:15px 14px}
-.award-year{font-size:1.3rem;font-weight:700;color:#1a73e8;margin-bottom:5px}
-.award-title{font-size:.90rem;font-weight:700;color:#111;margin-bottom:3px}
-.award-sub{font-size:.81rem;color:#666}
+/* ── awards grid ── */
+.awards-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:12px;margin-top:14px;
+}
+.award-card{
+  background:#fff;border:1px solid #e8e8e4;border-radius:8px;
+  padding:16px 15px;transition:box-shadow .15s;
+}
+.award-card:hover{box-shadow:0 2px 12px rgba(0,0,0,.07)}
+.award-year{
+  font-size:1.2rem;font-weight:700;color:#2563eb;
+  font-family:'Crimson Pro',Georgia,serif;margin-bottom:5px;
+}
+.award-title{font-size:.88rem;font-weight:600;color:#1a1a2e;margin-bottom:3px}
+.award-sub{font-size:.79rem;color:#6b7280;line-height:1.5}
 
-/* FOOTER */
-.site-footer{border-top:1px solid #eee;padding:14px 28px;font-size:.83rem;color:#888;max-width:1200px;margin:0 auto;display:flex;justify-content:space-between}
-.site-footer a{color:#888}
-.site-footer a:hover{color:#1a73e8;text-decoration:none}
+/* ── footer ── */
+.site-footer{
+  border-top:1px solid #e8e8e4;padding:16px 32px;
+  font-size:.8rem;color:#9ca3af;
+  max-width:1160px;margin:0 auto;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.site-footer a{color:#9ca3af;transition:color .15s}
+.site-footer a:hover{color:#2563eb;text-decoration:none}
 
-/* RESPONSIVE */
-@media(max-width:820px){
-  .page-wrap{grid-template-columns:1fr;padding:20px 16px 40px}
-  .sidebar{position:static;padding-right:0;margin-bottom:20px}
-  .nav-inner{padding:0 12px}
-  .nav-links li a{padding:10px 8px;font-size:.82rem}
+/* ── responsive ── */
+@media(max-width:840px){
+  .page-wrap{grid-template-columns:1fr;padding:20px 18px 50px}
+  .sidebar{position:static;padding-right:0;margin-bottom:24px;
+    display:grid;grid-template-columns:auto 1fr;gap:0 20px;align-items:start}
+  .sb-photo img{width:110px;height:110px}
+  .sb-links{grid-column:1/-1;border-top:1px solid #e8e8e4;padding-top:12px;margin-top:12px}
+  .nav-inner{padding:0 16px;flex-wrap:wrap}
+  .nav-brand{padding:10px 16px 10px 0;font-size:1rem}
+  .nav-links li a{padding:10px 9px;font-size:.78rem}
   .paper{grid-template-columns:1fr}
   .paper-img{display:none}
-  .entry{grid-template-columns:1fr;gap:3px}
+  .t-header{flex-direction:column;gap:4px}
   .fig-pair{grid-template-columns:1fr}
-  .site-footer{flex-direction:column;gap:4px;text-align:center;padding:12px 16px}
+  .site-footer{flex-direction:column;gap:4px;text-align:center;padding:12px 18px}
 }
 </style>
-
 </head>
 <body>
 
-<nav class="masthead">
+<nav class="nav">
   <div class="nav-inner">
+    <a class="nav-brand" href="index.html">Akbar Ali</a>
     <ul class="nav-links">
-      <li class="brand"><a href="index.html">Akbar Ali</a></li>
       <li><a href="index.html">Home</a></li>
       <li><a href="Education.html">Education</a></li>
       <li><a href="Publications.html" class="active">Publications</a></li>
@@ -129,22 +237,22 @@ figcaption{font-size:.78rem;color:#888;margin-top:4px}
 
 <div class="page-wrap">
 <aside class="sidebar">
-    <div class="sidebar-photo"><img src="files/aamaan1.png" alt="Akbar Ali"></div>
-    <div class="sidebar-name">Akbar Ali</div>
-    <div class="sidebar-role">PhD Candidate, CSE</div>
-    <div class="sidebar-info">
-      <p>IIT Gandhinagar, India</p>
-      <p>Visiting Researcher, HZDR</p>
-    </div>
-    <ul class="sidebar-links">
-      <li><a href="mailto:akbar.ali@iitgn.ac.in"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.4-8 5-8-5V6l8 5 8-5v2.4z"/></svg>Email</a></li>
-      <li><a href="https://scholar.google.com/citations?user=g-2Aix8AAAAJ&hl=en" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 1 9l11 7 9-5.73V17h2V9L12 2zm0 9.27L5.74 9 12 4.73 18.26 9 12 11.27zM5 13v6l7 4 7-4v-6l-7 4-7-4z"/></svg>Google Scholar</a></li>
-      <li><a href="https://github.com/aamaanakbar" target="_blank"><svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/aamaanakbar" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4v16h-4V8zm7.5 0h3.8v2.2h.1c.5-.9 1.7-2.2 3.7-2.2 4 0 4.7 2.6 4.7 6V24h-4v-7.5c0-1.8 0-4-2.5-4s-2.8 2-2.8 3.9V24h-4V8z"/></svg>LinkedIn</a></li>
-      <li><a href="https://x.com/AamaanAkbar" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2H21.5l-7.42 8.49L23 22h-7.547l-5.288-6.634L4.64 22H1.5l7.93-9.07L2 2h7.664l4.713 5.927L18.244 2zM16.69 20h2.095L7.42 4H5.21l11.48 16z"/></svg>X / Twitter</a></li>
-      <li><a href="files/CV.pdf" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>CV / Resume</a></li>
+  <div class="sb-photo"><img src="files/aamaan1.png" alt="Akbar Ali"></div>
+  <div>
+    <div class="sb-name">Akbar Ali</div>
+    <div class="sb-role">PhD Candidate, CSE</div>
+    <div class="sb-inst">IIT Gandhinagar, India</div>
+    <div class="sb-inst">Visiting Researcher, HZDR</div>
+    <ul class="sb-links">
+      <li><a href="mailto:akbar.ali@iitgn.ac.in"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.4-8 5-8-5V6l8 5 8-5v2.4z"/></svg>Email</a></li>
+      <li><a href="https://scholar.google.com/citations?user=g-2Aix8AAAAJ&hl=en" target="_blank"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 1 9l11 7 9-5.73V17h2V9L12 2zm0 9.27L5.74 9 12 4.73 18.26 9 12 11.27zM5 13v6l7 4 7-4v-6l-7 4-7-4z"/></svg>Google Scholar</a></li>
+      <li><a href="https://github.com/aamaanakbar" target="_blank"><svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/aamaanakbar" target="_blank"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4v16h-4V8zm7.5 0h3.8v2.2h.1c.5-.9 1.7-2.2 3.7-2.2 4 0 4.7 2.6 4.7 6V24h-4v-7.5c0-1.8 0-4-2.5-4s-2.8 2-2.8 3.9V24h-4V8z"/></svg>LinkedIn</a></li>
+      <li><a href="https://x.com/AamaanAkbar" target="_blank"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2H21.5l-7.42 8.49L23 22h-7.547l-5.288-6.634L4.64 22H1.5l7.93-9.07L2 2h7.664l4.713 5.927L18.244 2zM16.69 20h2.095L7.42 4H5.21l11.48 16z"/></svg>X / Twitter</a></li>
+      <li><a href="files/CV.pdf" target="_blank"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>CV / Resume</a></li>
     </ul>
-  </aside>
+  </div>
+</aside>
   <main class="content">
     <h1 class="page-title">Publications</h1>
 
@@ -153,65 +261,82 @@ figcaption{font-size:.78rem;color:#888;margin-top:4px}
       <div>
         <div class="ptitle"><a href="https://doi.org/10.1016/j.patrec.2026.04.021" target="_blank">GenR: Robust Generative Face Image Restoration in Latent Space</a></div>
         <div class="pauthors"><b>Akbar Ali</b>, Indra Deep Mastan, Shanmuganathan Raman.</div>
-        <div class="pvenue"><a href="https://www.sciencedirect.com/journal/pattern-recognition-letters" target="_blank">Pattern Recognition Letters</a>, 2026</div>
-        <div class="plinks"><a href="https://doi.org/10.1016/j.patrec.2026.04.021" target="_blank">[paper]</a> <a href="https://github.com/aamaanakbar/GenR" target="_blank">[code]</a></div>
+        <div class="pvenue">Pattern Recognition Letters, Elsevier &mdash; 2026</div>
+        <div class="plinks">
+          <a href="https://doi.org/10.1016/j.patrec.2026.04.021" target="_blank">paper</a>
+          <a href="https://github.com/aamaanakbar/GenR" target="_blank">code</a>
+        </div>
         <p class="pabstract">A degradation-agnostic face restoration method that optimises in the latent space of a pretrained generator, handling denoising, deblurring and inpainting without retraining per degradation.</p>
       </div>
     </div>
+
     <div class="paper">
       <div class="paper-img"><img loading="lazy" src="files/daigram/blur.png" alt="Deblurring"></div>
       <div>
         <div class="ptitle">Unsupervised Image Deblurring in Latent Space using Pivotal Tuning Inversion</div>
         <div class="pauthors"><b>Akbar Ali</b>, Indra Deep Mastan, Shanmuganathan Raman.</div>
-        <div class="pvenue">Under review, 2026</div>
+        <div class="pvenue">Under review &mdash; 2026</div>
         <p class="pabstract">Pivotal tuning inversion anchors a blurred observation to a generator's latent manifold, recovering sharp detail without paired supervision or a known blur kernel.</p>
       </div>
     </div>
+
     <div class="paper">
       <div class="paper-img"><img loading="lazy" src="files/cvpr.png" alt="ZS-CLIP2Clean"></div>
       <div>
         <div class="ptitle">ZS-CLIP2Clean: Zero-Shot CLIP-Guided Training-Free Single-Image Denoising</div>
         <div class="pauthors">Abhiyodaya Pandey, <b>Akbar Ali</b>, Indra Deep Mastan, Shanmuganathan Raman.</div>
-        <div class="pvenue">Under review, 2026</div>
+        <div class="pvenue">Under review &mdash; 2026</div>
         <p class="pabstract">Denoising a single image with no training and no clean reference, using CLIP as a semantic critic to steer restoration towards a perceptually faithful result.</p>
       </div>
     </div>
+
     <div class="paper">
       <div class="paper-img"><img loading="lazy" src="files/daigram/jaidev.png" alt="InscriptionOCR"></div>
       <div>
         <div class="ptitle">InscriptionOCR: A Dataset and Method for Understanding Inscriptions</div>
         <div class="pauthors">Jaidev Sanjay Khalane, <b>Akbar Ali</b>, V. N. Prabhakar, Shanmuganathan Raman.</div>
-        <div class="pvenue">Under review, 2026</div>
+        <div class="pvenue">Under review &mdash; 2026</div>
         <p class="pabstract">A dataset and recognition pipeline for historical stone inscriptions, where weathering and archaic glyph forms break standard scene-text OCR.</p>
       </div>
     </div>
+
     <div class="paper">
       <div class="paper-img"><img loading="lazy" src="files/daigram/inpt.gif" alt="IRUSIR"></div>
       <div>
         <div class="ptitle"><a href="https://ieeexplore.ieee.org/document/11084742" target="_blank">Investigating Robustness of Unsupervised StyleGAN Image Restoration</a></div>
         <div class="pauthors"><b>Akbar Ali</b>, Indra Deep Mastan, Shanmuganathan Raman.</div>
-        <div class="pvenue">IEEE ICIP, 2025</div>
-        <div class="plinks"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11084742" target="_blank">[paper]</a> <a href="https://www.kaggle.com/datasets/aamaanakbar/cotton99-10" target="_blank">[data]</a></div>
+        <div class="pvenue">IEEE ICIP &mdash; 2025</div>
+        <div class="plinks">
+          <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11084742" target="_blank">paper</a>
+          <a href="https://www.kaggle.com/datasets/aamaanakbar/cotton99-10" target="_blank">data</a>
+        </div>
         <p class="pabstract">A stress test of unsupervised StyleGAN restoration under degradations it was never tuned for, showing where latent-space optimisation holds up and where it silently fails.</p>
       </div>
     </div>
+
     <div class="paper">
       <div class="paper-img"><img loading="lazy" src="files/daigram/cot-ad.gif" alt="COT-AD"></div>
       <div>
         <div class="ptitle"><a href="https://ieeexplore.ieee.org/document/11084734" target="_blank">COT-AD: Cotton Analysis Dataset</a></div>
         <div class="pauthors"><b>Akbar Ali</b>, Pankaj Khanna, Subramanian Sankaranarayanan, Shanmuganathan Raman.</div>
-        <div class="pvenue">IEEE ICIP, 2025</div>
-        <div class="plinks"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11084734" target="_blank">[paper]</a> <a href="https://www.kaggle.com/datasets/aamaanakbar/cot-ad1" target="_blank">[data]</a></div>
+        <div class="pvenue">IEEE ICIP &mdash; 2025</div>
+        <div class="plinks">
+          <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11084734" target="_blank">paper</a>
+          <a href="https://www.kaggle.com/datasets/aamaanakbar/cot-ad1" target="_blank">data</a>
+        </div>
         <p class="pabstract">An aerial and ground image dataset covering a full cotton growth cycle from weekly drone missions at 10 m, 15 m and 115 m, for crop health and pest analysis.</p>
       </div>
     </div>
+
     <div class="paper">
       <div class="paper-img"><img loading="lazy" src="files/daigram/imgpark.jpg" alt="Parkinson"></div>
       <div>
         <div class="ptitle"><a href="https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10" target="_blank">Descriptive Predictive Model for Parkinson's Disease Analysis</a></div>
         <div class="pauthors"><b>Akbar Ali</b>, Ranjit Kumar Rout, Saiyed Umer.</div>
-        <div class="pvenue">Springer Nature, 2023</div>
-        <div class="plinks"><a href="https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10" target="_blank">[paper]</a></div>
+        <div class="pvenue">Springer Nature &mdash; 2023</div>
+        <div class="plinks">
+          <a href="https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10" target="_blank">paper</a>
+        </div>
         <p class="pabstract">A predictive framework for Parkinson's disease analysis pairing classification accuracy with descriptive feature analysis so clinicians can see which measurements drive each prediction.</p>
       </div>
     </div>
@@ -220,7 +345,7 @@ figcaption{font-size:.78rem;color:#888;margin-top:4px}
 </div>
 
 <footer class="site-footer">
-  <span>Akbar Ali &mdash; aamaanakbar.github.io &mdash; last updated September 2026</span>
+  <span>Akbar Ali &mdash; aamaanakbar.github.io &mdash; updated September 2026</span>
   <span><a href="index.html">Home</a> &middot; <a href="memories.html">Memories</a> &middot; <a href="mailto:akbar.ali@iitgn.ac.in">Email</a></span>
 </footer>
 </body>
