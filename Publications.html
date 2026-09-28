@@ -363,18 +363,16 @@ details.research-detail p{margin-top:7px!important}
   <main class="content">
     <h1 class="page-title">Publications</h1>
 
-
     <div class="metric-grid">
-      <div class="metric-card"><div class="metric-number">7</div><div class="metric-label">listed publications</div></div>
-      <div class="metric-card"><div class="metric-number">2</div><div class="metric-label">IEEE ICIP papers</div></div>
-      <div class="metric-card"><div class="metric-number">1</div><div class="metric-label">journal publication</div></div>
-      <div class="metric-card"><div class="metric-number">4</div><div class="metric-label">2026 submissions / reviews</div></div>
+      <div class="metric-card"><div class="metric-number">7</div><div class="metric-label">publications</div></div>
+      <div class="metric-card"><div class="metric-number">2</div><div class="metric-label">IEEE ICIP</div></div>
+      <div class="metric-card"><div class="metric-number">1</div><div class="metric-label">journal</div></div>
+      <div class="metric-card"><div class="metric-number">4</div><div class="metric-label">under review</div></div>
     </div>
-    <p class="section-intro" style="margin:12px 0 8px;">Selected work spanning generative restoration, aerial imaging, scientific data and applied machine learning.</p>
-    <div class="filter-bar" aria-label="Filter publications">
+
+    <div class="filter-bar" aria-label="Filter publications" style="margin-top:14px;">
       <button class="filter-btn active" data-filter="all">All</button>
       <button class="filter-btn" data-filter="restoration">Restoration</button>
-      <button class="filter-btn" data-filter="hsi">Scientific / HSI</button>
       <button class="filter-btn" data-filter="aerial">Aerial / Agriculture</button>
       <button class="filter-btn" data-filter="other">Other</button>
     </div>
@@ -385,80 +383,89 @@ details.research-detail p{margin-top:7px!important}
         <div class="ptitle"><a href="https://doi.org/10.1016/j.patrec.2026.04.021" target="_blank">GenR: Robust Generative Face Image Restoration in Latent Space</a></div>
         <div class="pauthors"><strong>Akbar Ali</strong>, Indra Deep Mastan, Shanmuganathan Raman.</div>
         <div class="pvenue">Pattern Recognition Letters, Elsevier &mdash; 2026</div>
-        <div class="plinks">
-          <a href="https://doi.org/10.1016/j.patrec.2026.04.021" target="_blank">paper</a>
-          <a href="https://github.com/aamaanakbar/GenR" target="_blank">code</a>
-        </div>
-        <p class="pabstract">A degradation-agnostic face restoration method that optimises in the latent space of a pretrained generator, handling denoising, deblurring and inpainting without retraining per degradation.</p>
+        <div class="plinks"><a href="https://doi.org/10.1016/j.patrec.2026.04.021" target="_blank">paper</a> <a href="https://github.com/aamaanakbar/GenR" target="_blank">code</a></div>
+        <p class="pabstract">Degradation-agnostic face restoration by optimising in the latent space of a pretrained StyleGAN generator, handling denoising, deblurring and inpainting without per-degradation retraining.</p>
       </div>
     </div>
+
     <div class="paper" data-type="restoration">
       <div class="paper-img"><img loading="lazy" src="files/daigram/blur.png" alt="Deblurring"></div>
       <div>
         <div class="ptitle">Unsupervised Image Deblurring in Latent Space using Pivotal Tuning Inversion</div>
         <div class="pauthors"><strong>Akbar Ali</strong>, Indra Deep Mastan, Shanmuganathan Raman.</div>
         <div class="pvenue">Under review &mdash; 2026</div>
-        <p class="pabstract">Pivotal tuning inversion anchors a blurred observation to a generator's latent manifold, recovering sharp detail without paired supervision or a known blur kernel.</p>
+        <p class="pabstract">Anchors a blurred observation to a generator's latent manifold via pivotal tuning inversion, recovering sharp detail without paired supervision or a known blur kernel.</p>
       </div>
     </div>
+
     <div class="paper" data-type="restoration">
       <div class="paper-img"><img loading="lazy" src="files/cvpr.png" alt="ZS-CLIP2Clean"></div>
       <div>
         <div class="ptitle">ZS-CLIP2Clean: Zero-Shot CLIP-Guided Training-Free Single-Image Denoising</div>
         <div class="pauthors">Abhiyodaya Pandey, <strong>Akbar Ali</strong>, Indra Deep Mastan, Shanmuganathan Raman.</div>
         <div class="pvenue">Under review &mdash; 2026</div>
-        <p class="pabstract">Denoising a single image with no training and no clean reference, using CLIP as a semantic critic to steer restoration towards a perceptually faithful result.</p>
+        <p class="pabstract">Denoises a single image with no training and no clean reference, using CLIP as a semantic critic to guide restoration.</p>
       </div>
     </div>
+
     <div class="paper" data-type="other">
       <div class="paper-img"><img loading="lazy" src="files/daigram/jaidev.png" alt="InscriptionOCR"></div>
       <div>
         <div class="ptitle">InscriptionOCR: A Dataset and Method for Understanding Inscriptions</div>
         <div class="pauthors">Jaidev Sanjay Khalane, <strong>Akbar Ali</strong>, V. N. Prabhakar, Shanmuganathan Raman.</div>
         <div class="pvenue">Under review &mdash; 2026</div>
-        <p class="pabstract">A dataset and recognition pipeline for historical stone inscriptions, where weathering and archaic glyph forms break standard scene-text OCR.</p>
+        <p class="pabstract">Dataset and recognition pipeline for historical stone inscriptions, where weathering and archaic glyphs break standard scene-text OCR.</p>
       </div>
     </div>
+
     <div class="paper" data-type="restoration">
       <div class="paper-img"><img loading="lazy" src="files/daigram/inpt.gif" alt="IRUSIR"></div>
       <div>
         <div class="ptitle"><a href="https://ieeexplore.ieee.org/document/11084742" target="_blank">Investigating Robustness of Unsupervised StyleGAN Image Restoration</a></div>
         <div class="pauthors"><strong>Akbar Ali</strong>, Indra Deep Mastan, Shanmuganathan Raman.</div>
         <div class="pvenue">IEEE ICIP &mdash; 2025</div>
-        <div class="plinks">
-          <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11084742" target="_blank">paper</a>
-          <a href="https://www.kaggle.com/datasets/aamaanakbar/cotton99-10" target="_blank">data</a>
-        </div>
-        <p class="pabstract">A stress test of unsupervised StyleGAN restoration under degradations it was never tuned for, showing where latent-space optimisation holds up and where it silently fails.</p>
+        <div class="plinks"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11084742" target="_blank">paper</a> <a href="https://www.kaggle.com/datasets/aamaanakbar/cotton99-10" target="_blank">data</a></div>
+        <p class="pabstract">Stress-tests unsupervised StyleGAN restoration across degradations it was never tuned for, showing where latent-space optimisation holds and where it fails.</p>
       </div>
     </div>
+
     <div class="paper" data-type="aerial">
       <div class="paper-img"><img loading="lazy" src="files/daigram/cot-ad.gif" alt="COT-AD"></div>
       <div>
         <div class="ptitle"><a href="https://ieeexplore.ieee.org/document/11084734" target="_blank">COT-AD: Cotton Analysis Dataset</a></div>
         <div class="pauthors"><strong>Akbar Ali</strong>, Pankaj Khanna, Subramanian Sankaranarayanan, Shanmuganathan Raman.</div>
         <div class="pvenue">IEEE ICIP &mdash; 2025</div>
-        <div class="plinks">
-          <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11084734" target="_blank">paper</a>
-          <a href="https://www.kaggle.com/datasets/aamaanakbar/cot-ad1" target="_blank">data</a>
-        </div>
-        <p class="pabstract">An aerial and ground image dataset covering a full cotton growth cycle from weekly drone missions at 10 m, 15 m and 115 m, for crop health and pest analysis.</p>
+        <div class="plinks"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11084734" target="_blank">paper</a> <a href="https://www.kaggle.com/datasets/aamaanakbar/cot-ad1" target="_blank">data</a></div>
+        <p class="pabstract">Aerial and ground dataset covering a full cotton growth cycle from weekly drone missions at 10 m, 15 m and 115 m altitude.</p>
       </div>
     </div>
+
     <div class="paper" data-type="other">
       <div class="paper-img"><img loading="lazy" src="files/daigram/imgpark.jpg" alt="Parkinson"></div>
       <div>
         <div class="ptitle"><a href="https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10" target="_blank">Descriptive Predictive Model for Parkinson's Disease Analysis</a></div>
         <div class="pauthors"><strong>Akbar Ali</strong>, Ranjit Kumar Rout, Saiyed Umer.</div>
         <div class="pvenue">Springer Nature &mdash; 2023</div>
-        <div class="plinks">
-          <a href="https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10" target="_blank">paper</a>
-        </div>
-        <p class="pabstract">A predictive framework for Parkinson's disease analysis pairing classification accuracy with descriptive feature analysis so clinicians can see which measurements drive each prediction.</p>
+        <div class="plinks"><a href="https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10" target="_blank">paper</a></div>
+        <p class="pabstract">Predictive framework for Parkinson's disease pairing classification accuracy with descriptive feature analysis.</p>
       </div>
     </div>
+
+    <script>
+    (function(){
+      const buttons=document.querySelectorAll('.filter-btn');
+      const papers=document.querySelectorAll('.paper[data-type]');
+      buttons.forEach(btn=>btn.addEventListener('click',()=>{
+        buttons.forEach(b=>b.classList.remove('active')); btn.classList.add('active');
+        const f=btn.dataset.filter;
+        papers.forEach(p=>p.classList.toggle('is-hidden',f!=='all' && p.dataset.type!==f));
+      }));
+    })();
+    </script>
+
   </main>
 </div>
+
 <footer class="site-footer">
   <span>Akbar Ali &mdash; aamaanakbar.github.io &mdash; updated September 2026</span>
   <span><a href="index.html">Home</a> &middot; <a href="memories.html">Memories</a> &middot; <a href="mailto:akbar.ali@iitgn.ac.in">Email</a></span>
