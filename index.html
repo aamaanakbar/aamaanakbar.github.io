@@ -455,8 +455,8 @@ details.research-detail p{margin-top:7px!important}
 
   const greetings = [
     getTimeGreeting(),
-    "नमस्ते",
-    "السلام علیکم"
+    "Hi, नमस्ते",
+    "Hi, السلام علیکم"
   ];
 
   let index = 0;
@@ -466,7 +466,7 @@ details.research-detail p{margin-top:7px!important}
   setInterval(() => {
     index = (index + 1) % greetings.length;
     greeting.textContent = greetings[index];
-  }, 5000);
+  }, 20000);
 </script>
 
 </body>
