@@ -364,7 +364,7 @@ details.research-detail p{margin-top:7px!important}
     <h1 class="page-title">Brief Bio</h1>
 
 
-<p><span id="greeting">Hi, Good morning</span>, I am Akbar Ali. I am a Ph.D. researcher in Computer Science and Engineering at
+<p><span id="greeting">Hi</span>,  I’m Akbar Ali. I am a Ph.D. researcher in Computer Science and Engineering at
   <a href="https://iitgn.ac.in/" target="_blank">IIT Gandhinagar</a>, working under the guidance of
   <a href="https://iitgn.ac.in/faculty/cse/shanmuganathan" target="_blank">Prof. Shanmuganathan Raman</a>.
   My research focuses on <strong>computer vision, generative models, image restoration, and hyperspectral imaging</strong>,
@@ -439,29 +439,13 @@ details.research-detail p{margin-top:7px!important}
 <script>
   const greeting = document.getElementById("greeting");
 
-  function getTimeGreeting() {
-    const hour = new Date().getHours();
-
-    if (hour >= 5 && hour < 12) {
-      return "Hi, Good morning";
-    } else if (hour >= 12 && hour < 17) {
-      return "Hi, Good afternoon";
-    } else if (hour >= 17 && hour < 21) {
-      return "Hi, Good evening";
-    } else {
-      return "Hi, Good night";
-    }
-  }
-
   const greetings = [
-    getTimeGreeting(),
-    "Hi, नमस्ते",
-    "Hi, السلام علیکم"
+    "Hi",
+    "नमस्ते",
+    "السلام علیکم"
   ];
 
   let index = 0;
-
-  greeting.textContent = greetings[index];
 
   setInterval(() => {
     index = (index + 1) % greetings.length;
