@@ -363,19 +363,24 @@ details.research-detail p{margin-top:7px!important}
   <main class="content">
     <h1 class="page-title">Brief Bio</h1>
 
-    <p>I am a fourth-year Ph.D. student in Computer Science and Engineering at
-      <a href="https://iitgn.ac.in/" target="_blank">IIT Gandhinagar</a>, advised by
-      <a href="https://iitgn.ac.in/faculty/cse/shanmuganathan" target="_blank">Prof. Shanmuganathan Raman</a>.
-      My research is on <strong>generative priors for image restoration</strong> &mdash; latent inversion in
-      StyleGAN and diffusion models, zero-shot restoration, and Gaussian splatting for hyperspectral imaging.</p>
-    <p>I collaborate with computer scientists, earth scientists and agricultural researchers, and I have
-      built and released datasets that serve all three. Before IIT Gandhinagar I was a Project Associate
-      at <a href="https://www.iitrpr.ac.in" target="_blank">IIT Ropar</a>. I hold an M.Tech (2nd rank)
-      and B.Tech (1st rank) from <a href="https://aliah.ac.in" target="_blank">Aliah University</a>,
-      Kolkata, and a UAV Pilot Licence for platforms up to 25 kg.</p>
-    <p>I am open to research positions at the boundary of visual learning, generative modelling and
-      real-world sensing. Reach me at <a href="mailto:akbar.ali@iitgn.ac.in">akbar.ali@iitgn.ac.in</a>.</p>
 
+<p><span id="greeting">Hi, Good morning</span>, I am Akbar Ali. I am a Ph.D. researcher in Computer Science and Engineering at
+  <a href="https://iitgn.ac.in/" target="_blank">IIT Gandhinagar</a>, working under the guidance of
+  <a href="https://iitgn.ac.in/faculty/cse/shanmuganathan" target="_blank">Prof. Shanmuganathan Raman</a>.
+  My research focuses on <strong>computer vision, generative models, image restoration, and hyperspectral imaging</strong>,
+  with particular interest in generative priors, latent-space optimization, Gaussian splatting, image restoration,
+  and hyperspectral image denoising and super-resolution.</p>
+<p>Before joining IIT Gandhinagar, I worked as a Project Associate at
+  <a href="https://www.iitrpr.ac.in" target="_blank">IIT Ropar</a>, where I worked on computer vision and
+  interdisciplinary sensing problems. I completed my M.Tech. in Computer Science and Engineering from
+  <a href="https://aliah.ac.in" target="_blank">Aliah University</a>, Kolkata, graduating second rank overall,
+  and my B.Tech. from the same university, graduating first rank overall. I also hold a UAV Pilot Licence
+  for platforms up to 25 kg.</p>
+
+<p>During my Ph.D., I have worked with interdisciplinary Earth science and agricultural research groups
+  and spent six months at the Helmholtz Institute Freiberg through the Research Lab Abroad Fellowship.
+  My current research aims to develop robust vision and computational imaging methods that connect
+  generative learning with real-world sensing, particularly for RGB, aerial, and hyperspectral imagery.</p>
     <h3>Research Interests</h3>
     <ul>
       <li>Generative priors for image restoration (denoising, deblurring, inpainting)</li>
@@ -389,8 +394,8 @@ details.research-detail p{margin-top:7px!important}
     <div class="news-box">
       <div class="news-scroll">
         <ul>
+          <li><span class="news-tag">[Sep 2026]</span> Submitted one paper to <strong>AISTATS</strong> 2027.</li>
           <li><span class="news-tag">[Sep 2026]</span> Submitted <strong>three papers</strong> to ICASSP 2027.</li>
-          <li><span class="news-tag">[Sep 2026]</span> Submitted one paper to AISTATS 2027.</li>
           <li><span class="news-tag">[Apr 2026]</span> <strong>GenR</strong> accepted in <em>Pattern Recognition Letters</em> (Elsevier).</li>
           <li><span class="news-tag">[Mar 2026]</span> Completed six months at Helmholtz Institute Freiberg on the <strong>Research Lab Abroad Fellowship</strong>.</li>
           <li><span class="news-tag">[Sep 2025]</span> Presented two papers at <strong>IEEE ICIP 2025</strong>, Anchorage, Alaska.</li>
@@ -427,6 +432,23 @@ details.research-detail p{margin-top:7px!important}
   window.addEventListener('scroll',()=>btn.classList.toggle('show',window.scrollY>420),{passive:true});
   btn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
 })();
+</script>
+
+
+<!-- Put the JavaScript here -->
+<script>
+  const hour = new Date().getHours();
+  const greeting = document.getElementById("greeting");
+
+  if (hour >= 5 && hour < 12) {
+    greeting.textContent = "Hi, Good morning";
+  } else if (hour >= 12 && hour < 17) {
+    greeting.textContent = "Hi, Good afternoon";
+  } else if (hour >= 17 && hour < 21) {
+    greeting.textContent = "Hi, Good evening";
+  } else {
+    greeting.textContent = "Hi, Good night";
+  }
 </script>
 
 </body>
