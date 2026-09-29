@@ -273,6 +273,51 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
   .awards-grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
   .site-footer{flex-direction:column;gap:5px;text-align:center;padding:12px 18px}
 }
+
+/* ── metric cards (Publications stats) ── */
+.metric-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;margin-bottom:16px}
+.metric-card{background:#fff;border:1px solid #d0d7de;border-radius:8px;padding:14px 12px;text-align:center}
+.metric-number{font-family:'Playfair Display',Georgia,serif;font-size:1.8rem;font-weight:700;color:#0969da;line-height:1}
+.metric-label{font-size:.75rem;color:#57606a;margin-top:4px;font-weight:500}
+
+/* ── badge rows (Projects research cards) ── */
+.badge-row{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.badge{font-size:.7rem;font-weight:600;color:#0969da;background:#ddf4ff;
+  border:1px solid #b6daff;padding:2px 8px;border-radius:12px;letter-spacing:.02em}
+
+/* ── focus cards (Projects current research) ── */
+.focus-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:24px}
+.focus-card{background:#fff;border:1px solid #d0d7de;border-radius:8px;padding:16px 15px;position:relative;overflow:hidden}
+.focus-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#0969da,#6e40c9)}
+.focus-card h4{font-size:.92rem;font-weight:700;color:#18181b;margin-bottom:6px}
+.focus-card p{font-size:.84rem;color:#57606a;line-height:1.6;margin:0}
+
+/* ── skill cards (Teaching focus) ── */
+.skill-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:20px}
+.skill-card{background:#f6f8fa;border:1px solid #d0d7de;border-radius:8px;padding:14px 14px}
+.skill-card h4{font-size:.88rem;font-weight:700;color:#18181b;margin-bottom:5px}
+.skill-card p{font-size:.83rem;color:#57606a;line-height:1.55;margin:0}
+
+/* ── research cards (Home current research) ── */
+.research-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:20px}
+.research-card{background:#fff;border:1px solid #d0d7de;border-radius:8px;padding:16px 15px;position:relative;overflow:hidden}
+.research-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#0969da,#6e40c9)}
+.research-card h4{font-size:.92rem;font-weight:700;color:#18181b;margin-bottom:6px}
+.research-card p{font-size:.84rem;color:#57606a;line-height:1.6;margin:0}
+
+/* ── callout box ── */
+.callout{background:#f0f7ff;border-left:3px solid #0969da;border-radius:0 6px 6px 0;
+  padding:12px 16px;margin:16px 0;font-size:.88rem;color:#24292f;line-height:1.6}
+
+/* ── section intro ── */
+.section-intro{font-size:.93rem;color:#57606a;margin-bottom:16px;font-style:italic}
+
+/* ── research detail expand ── */
+.research-detail{margin-top:8px;font-size:.84rem;color:#57606a}
+.research-detail summary{cursor:pointer;color:#0969da;font-weight:500;font-size:.83rem;list-style:none}
+.research-detail summary::-webkit-details-marker{display:none}
+.research-detail p{margin-top:6px;padding-left:4px;line-height:1.6}
+
 </style>
 
 <style>

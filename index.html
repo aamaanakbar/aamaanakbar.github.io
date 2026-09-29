@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Akbar Ali &mdash; Academic Profile</title>
+<title>Akbar Ali &mdash; Brief Bio</title>
 <meta name="description" content="Akbar Ali, PhD Candidate at IIT Gandhinagar. Computer Vision, Generative Models, Hyperspectral Imaging.">
 <link rel="icon" href="files/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -274,54 +274,119 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
   .site-footer{flex-direction:column;gap:5px;text-align:center;padding:12px 18px}
 }
 
-html { scroll-behavior: smooth; }
-.section-anchor { scroll-margin-top: 62px; }
-.section-divider {
-  display: flex; align-items: center; gap: 14px;
-  margin: 52px 0 22px;
-}
-.section-divider:first-child { margin-top: 0; }
-.section-divider h2 {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.4rem; font-weight: 700; color: #18181b;
-  white-space: nowrap; letter-spacing: -.02em;
-}
-.section-divider::after {
-  content: ''; flex: 1; height: 1px; background: #d0d7de;
-}
-.nav-links li a.active {
-  color: #0969da; font-weight: 600; border-bottom-color: #0969da;
-}
-.top-button {
-  position: fixed; right: 22px; bottom: 22px;
-  width: 38px; height: 38px; border-radius: 50%;
-  border: 1px solid #d0d7de; background: #fff;
-  color: #0969da; font-size: 18px;
-  box-shadow: 0 4px 14px rgba(0,0,0,.1);
-  cursor: pointer; opacity: 0; pointer-events: none;
-  transition: opacity .2s; z-index: 250;
-}
-.top-button.show { opacity: 1; pointer-events: auto; }
+/* ── metric cards (Publications stats) ── */
+.metric-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;margin-bottom:16px}
+.metric-card{background:#fff;border:1px solid #d0d7de;border-radius:8px;padding:14px 12px;text-align:center}
+.metric-number{font-family:'Playfair Display',Georgia,serif;font-size:1.8rem;font-weight:700;color:#0969da;line-height:1}
+.metric-label{font-size:.75rem;color:#57606a;margin-top:4px;font-weight:500}
+
+/* ── badge rows (Projects research cards) ── */
+.badge-row{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.badge{font-size:.7rem;font-weight:600;color:#0969da;background:#ddf4ff;
+  border:1px solid #b6daff;padding:2px 8px;border-radius:12px;letter-spacing:.02em}
+
+/* ── focus cards (Projects current research) ── */
+.focus-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:24px}
+.focus-card{background:#fff;border:1px solid #d0d7de;border-radius:8px;padding:16px 15px;position:relative;overflow:hidden}
+.focus-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#0969da,#6e40c9)}
+.focus-card h4{font-size:.92rem;font-weight:700;color:#18181b;margin-bottom:6px}
+.focus-card p{font-size:.84rem;color:#57606a;line-height:1.6;margin:0}
+
+/* ── skill cards (Teaching focus) ── */
+.skill-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:20px}
+.skill-card{background:#f6f8fa;border:1px solid #d0d7de;border-radius:8px;padding:14px 14px}
+.skill-card h4{font-size:.88rem;font-weight:700;color:#18181b;margin-bottom:5px}
+.skill-card p{font-size:.83rem;color:#57606a;line-height:1.55;margin:0}
+
+/* ── research cards (Home current research) ── */
+.research-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:20px}
+.research-card{background:#fff;border:1px solid #d0d7de;border-radius:8px;padding:16px 15px;position:relative;overflow:hidden}
+.research-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#0969da,#6e40c9)}
+.research-card h4{font-size:.92rem;font-weight:700;color:#18181b;margin-bottom:6px}
+.research-card p{font-size:.84rem;color:#57606a;line-height:1.6;margin:0}
+
+/* ── callout box ── */
+.callout{background:#f0f7ff;border-left:3px solid #0969da;border-radius:0 6px 6px 0;
+  padding:12px 16px;margin:16px 0;font-size:.88rem;color:#24292f;line-height:1.6}
+
+/* ── section intro ── */
+.section-intro{font-size:.93rem;color:#57606a;margin-bottom:16px;font-style:italic}
+
+/* ── research detail expand ── */
+.research-detail{margin-top:8px;font-size:.84rem;color:#57606a}
+.research-detail summary{cursor:pointer;color:#0969da;font-weight:500;font-size:.83rem;list-style:none}
+.research-detail summary::-webkit-details-marker{display:none}
+.research-detail p{margin-top:6px;padding-left:4px;line-height:1.6}
 
 </style>
+
+<style>
+/* ---------- portfolio enhancements ---------- */
+.research-grid,.focus-grid,.skill-grid,.metric-grid{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0 6px;
+}
+.research-card,.focus-card,.skill-card,.metric-card{
+  background:#fff;border:1px solid #d8dee4;border-radius:10px;padding:16px;
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;
+}
+.research-card:hover,.focus-card:hover,.skill-card:hover,.metric-card:hover{
+  transform:translateY(-3px);box-shadow:0 8px 22px rgba(31,35,40,.08);border-color:#b7c5d3;
+}
+.research-card h4,.focus-card h4,.skill-card h4{margin:0 0 6px;font-size:.94rem;color:#18181b}
+.research-card p,.focus-card p,.skill-card p{margin:0!important;font-size:.84rem!important;line-height:1.6!important;text-align:left!important;color:#57606a!important}
+.badge-row{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0 4px}
+.badge{
+  display:inline-flex;align-items:center;padding:4px 9px;border-radius:999px;
+  background:#eef4ff;color:#3157a5;border:1px solid #d9e5ff;font-size:.72rem;font-weight:600;
+}
+.section-intro{font-size:.92rem!important;color:#57606a!important;text-align:left!important;margin-top:-10px}
+.callout{
+  margin:16px 0;padding:14px 16px;border-left:3px solid #6e40c9;
+  background:linear-gradient(90deg,#f7f3ff,#fff);border-radius:0 8px 8px 0;
+}
+.callout strong{color:#4c2f8f}
+.metric-grid{grid-template-columns:repeat(4,minmax(0,1fr));}
+.metric-card{text-align:center;padding:14px 10px}
+.metric-number{font-family:'Playfair Display',Georgia,serif;font-size:1.55rem;font-weight:700;color:#3157a5;line-height:1.1}
+.metric-label{font-size:.72rem;color:#6e7781;margin-top:4px}
+.filter-bar{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 14px}
+.filter-btn{
+  border:1px solid #d0d7de;background:#fff;color:#57606a;border-radius:999px;
+  padding:6px 11px;font:600 .74rem Inter,sans-serif;cursor:pointer;transition:.15s;
+}
+.filter-btn:hover,.filter-btn.active{background:#0969da;color:#fff;border-color:#0969da}
+.paper[data-type].is-hidden{display:none}
+details.research-detail{margin-top:10px;border-top:1px solid #edf0f2;padding-top:8px}
+details.research-detail summary{cursor:pointer;color:#0969da;font-size:.78rem;font-weight:600}
+details.research-detail p{margin-top:7px!important}
+.top-button{
+  position:fixed;right:20px;bottom:20px;width:38px;height:38px;border-radius:50%;
+  border:1px solid #d0d7de;background:#fff;color:#0969da;box-shadow:0 4px 14px rgba(0,0,0,.1);
+  cursor:pointer;opacity:0;pointer-events:none;transition:.2s;z-index:250;
+}
+.top-button.show{opacity:1;pointer-events:auto}
+@media(max-width:800px){
+  .research-grid,.focus-grid,.skill-grid{grid-template-columns:1fr}
+  .metric-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+</style>
+
 </head>
 <body>
-
 <nav class="nav">
   <div class="nav-inner">
-    <a class="nav-brand" href="#bio">Akbar Ali</a>
+    <a class="nav-brand" href="index.html" class="active">Akbar Ali</a>
     <ul class="nav-links">
-      <li><a href="#bio"          data-section="bio">Home</a></li>
-      <li><a href="#education"    data-section="education">Education</a></li>
-      <li><a href="#publications" data-section="publications">Publications</a></li>
-      <li><a href="#teaching"     data-section="teaching">Teaching</a></li>
-      <li><a href="#projects"     data-section="projects">Projects</a></li>
-      <li><a href="#awards"       data-section="awards">Awards</a></li>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="Education.html">Education</a></li>
+      <li><a href="Publications.html">Publications</a></li>
+      <li><a href="Teaching.html">Teaching</a></li>
+      <li><a href="Projects.html">Projects</a></li>
+      <li><a href="Awards.html">Awards</a></li>
       <li><a href="memories.html">Memories</a></li>
     </ul>
   </div>
 </nav>
-
 <div class="page-wrap">
 <aside class="sidebar">
   <div class="sb-photo"><img src="files/aamaan1.png" alt="Akbar Ali"></div>
@@ -340,11 +405,10 @@ html { scroll-behavior: smooth; }
     </ul>
   </div>
 </aside>
-
   <main class="content">
+    <h1 class="page-title">Brief Bio</h1>
 
-    <section id="bio" class="section-anchor">
-      <p>I am a fourth-year Ph.D. student in Computer Science and Engineering at
+    <p>I am a fourth-year Ph.D. student in Computer Science and Engineering at
       <a href="https://iitgn.ac.in/" target="_blank">IIT Gandhinagar</a>, advised by
       <a href="https://iitgn.ac.in/faculty/cse/shanmuganathan" target="_blank">Prof. Shanmuganathan Raman</a>.
       My research is on <strong>generative priors for image restoration</strong> &mdash; latent inversion in
@@ -391,337 +455,6 @@ html { scroll-behavior: smooth; }
         </ul>
       </div>
     </div>
-    </section>
-
-  <section id="education" class="section-anchor">
-    <div class="section-divider"><h2>Education</h2></div>
-    <h3>Academic Snapshot</h3>
-    <div class="metric-grid">
-      <div class="metric-card"><div class="metric-number">9.14</div><div class="metric-label">Ph.D. CPI / 10</div></div>
-      <div class="metric-card"><div class="metric-number">9.03</div><div class="metric-label">M.Tech CPI / 10</div></div>
-      <div class="metric-card"><div class="metric-number">8.97</div><div class="metric-label">B.Tech CPI / 10</div></div>
-      <div class="metric-card"><div class="metric-number">6 mo.</div><div class="metric-label">Research stay in Germany</div></div>
-    </div>
-    <div class="callout">
-      <strong>Research progression.</strong> My training has moved from computer science and predictive modelling,
-      through hyperspectral sensing and field data acquisition, toward generative representations for image restoration and scientific imaging.
-    </div>
-
-    <div class="t-list">
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">Visiting Researcher &mdash; Helmholtz-Zentrum Dresden-Rossendorf (HZDR)</div>
-          <div class="t-date">Mar 2026 &mdash; Sep 2026</div>
-        </div>
-        <div class="t-where"><a href="https://www.hzdr.de" target="_blank">Helmholtz Institute Freiberg</a>, Germany &middot; Supervised by Prof. Dr. Richard Gloaguen &middot; Mentored by Dr. Sam T. Thiele</div>
-        <div class="t-desc">Research Lab Abroad Fellowship (Visvesvaraya PhD Scheme, MeitY). During this research stay, I focused on hyperspectral image restoration with generative models, using the opportunity to connect computer-vision methods with scientific imaging problems and to work in an interdisciplinary research environment.</div>
-      </div>
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">Ph.D., Computer Science and Engineering &mdash; CPI 9.14 / 10</div>
-          <div class="t-date">Dec 2022 &mdash; Present</div>
-        </div>
-        <div class="t-where"><a href="https://iitgn.ac.in/" target="_blank">IIT Gandhinagar</a> &middot; Advised by <a href="https://iitgn.ac.in/faculty/cse/shanmuganathan" target="_blank">Prof. Shanmuganathan Raman</a></div>
-        <div class="t-desc">My doctoral research focuses on visual learning and generative representations for image restoration and hyperspectral imaging. The work spans image restoration, hyperspectral reconstruction, super-resolution and emerging representations such as neural fields and Gaussian splatting, with an emphasis on building practical and physically meaningful reconstruction methods.</div>
-      </div>
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">Project Associate &mdash; IIT Ropar</div>
-          <div class="t-date">Sep 2021 &mdash; Nov 2022</div>
-        </div>
-        <div class="t-where"><a href="https://www.iitrpr.ac.in" target="_blank">IIT Ropar</a> &middot; with Prof. Neeraj Goel</div>
-        <div class="t-desc">Worked on computer-vision methods for industrial automation, combining hyperspectral imaging with stereo vision for volume estimation. This experience provided an early bridge between multimodal sensing, image analysis and applied vision systems.</div>
-      </div>
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">M.Tech, Computer Science and Engineering &mdash; CPI 9.03 / 10 &middot; 2nd Rank</div>
-          <div class="t-date">Aug 2019 &mdash; Jul 2021</div>
-        </div>
-        <div class="t-where"><a href="https://aliah.ac.in" target="_blank">Aliah University</a>, Kolkata &middot; with Prof. Saiyed Umar</div>
-        <div class="t-desc">Completed an M.Tech. thesis on a predictive framework for Parkinson's disease analysis. The work developed my experience in machine learning, predictive modelling and research-oriented experimentation, and was subsequently published by Springer Nature in 2023.</div>
-      </div>
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">B.Tech, Computer Science and Engineering &mdash; CPI 8.97 / 10 &middot; 1st Rank</div>
-          <div class="t-date">Jun 2015 &mdash; Jul 2019</div>
-        </div>
-        <div class="t-where"><a href="https://aliah.ac.in" target="_blank">Aliah University</a>, Kolkata</div>
-        <div class="t-desc">Completed a B.Tech. project on an IoT-based home automation system, combining sensor integration with wireless communication. The project gave me an early foundation in programming, system integration and building end-to-end technology prototypes.</div>
-      </div>
-    </div>
-  </section>
-
-  <section id="publications" class="section-anchor">
-    <div class="section-divider"><h2>Publications</h2></div>
-    <div class="metric-grid">
-      <div class="metric-card"><div class="metric-number">7</div><div class="metric-label">listed publications</div></div>
-      <div class="metric-card"><div class="metric-number">2</div><div class="metric-label">IEEE ICIP papers</div></div>
-      <div class="metric-card"><div class="metric-number">1</div><div class="metric-label">journal publication</div></div>
-      <div class="metric-card"><div class="metric-number">4</div><div class="metric-label">2026 submissions / reviews</div></div>
-    </div>
-    <p class="section-intro" style="margin:12px 0 8px;">Selected work spanning generative restoration, aerial imaging, scientific data and applied machine learning.</p>
-    <div class="filter-bar" aria-label="Filter publications">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="restoration">Restoration</button>
-      <button class="filter-btn" data-filter="hsi">Scientific / HSI</button>
-      <button class="filter-btn" data-filter="aerial">Aerial / Agriculture</button>
-      <button class="filter-btn" data-filter="other">Other</button>
-    </div>
-
-    <div class="paper hl" data-type="restoration">
-      <div class="paper-img"><img loading="lazy" src="files/daigram/denoi.gif" alt="GenR"></div>
-      <div>
-        <div class="ptitle"><a href="https://doi.org/10.1016/j.patrec.2026.04.021" target="_blank">GenR: Robust Generative Face Image Restoration in Latent Space</a></div>
-        <div class="pauthors"><strong>Akbar Ali</strong>, Indra Deep Mastan, Shanmuganathan Raman.</div>
-        <div class="pvenue">Pattern Recognition Letters, Elsevier &mdash; 2026</div>
-        <div class="plinks">
-          <a href="https://doi.org/10.1016/j.patrec.2026.04.021" target="_blank">paper</a>
-          <a href="https://github.com/aamaanakbar/GenR" target="_blank">code</a>
-        </div>
-        <p class="pabstract">A degradation-agnostic face restoration method that optimises in the latent space of a pretrained generator, handling denoising, deblurring and inpainting without retraining per degradation.</p>
-      </div>
-    </div>
-    <div class="paper" data-type="restoration">
-      <div class="paper-img"><img loading="lazy" src="files/daigram/blur.png" alt="Deblurring"></div>
-      <div>
-        <div class="ptitle">Unsupervised Image Deblurring in Latent Space using Pivotal Tuning Inversion</div>
-        <div class="pauthors"><strong>Akbar Ali</strong>, Indra Deep Mastan, Shanmuganathan Raman.</div>
-        <div class="pvenue">Under review &mdash; 2026</div>
-        <p class="pabstract">Pivotal tuning inversion anchors a blurred observation to a generator's latent manifold, recovering sharp detail without paired supervision or a known blur kernel.</p>
-      </div>
-    </div>
-    <div class="paper" data-type="restoration">
-      <div class="paper-img"><img loading="lazy" src="files/cvpr.png" alt="ZS-CLIP2Clean"></div>
-      <div>
-        <div class="ptitle">ZS-CLIP2Clean: Zero-Shot CLIP-Guided Training-Free Single-Image Denoising</div>
-        <div class="pauthors">Abhiyodaya Pandey, <strong>Akbar Ali</strong>, Indra Deep Mastan, Shanmuganathan Raman.</div>
-        <div class="pvenue">Under review &mdash; 2026</div>
-        <p class="pabstract">Denoising a single image with no training and no clean reference, using CLIP as a semantic critic to steer restoration towards a perceptually faithful result.</p>
-      </div>
-    </div>
-    <div class="paper" data-type="other">
-      <div class="paper-img"><img loading="lazy" src="files/daigram/jaidev.png" alt="InscriptionOCR"></div>
-      <div>
-        <div class="ptitle">InscriptionOCR: A Dataset and Method for Understanding Inscriptions</div>
-        <div class="pauthors">Jaidev Sanjay Khalane, <strong>Akbar Ali</strong>, V. N. Prabhakar, Shanmuganathan Raman.</div>
-        <div class="pvenue">Under review &mdash; 2026</div>
-        <p class="pabstract">A dataset and recognition pipeline for historical stone inscriptions, where weathering and archaic glyph forms break standard scene-text OCR.</p>
-      </div>
-    </div>
-    <div class="paper" data-type="restoration">
-      <div class="paper-img"><img loading="lazy" src="files/daigram/inpt.gif" alt="IRUSIR"></div>
-      <div>
-        <div class="ptitle"><a href="https://ieeexplore.ieee.org/document/11084742" target="_blank">Investigating Robustness of Unsupervised StyleGAN Image Restoration</a></div>
-        <div class="pauthors"><strong>Akbar Ali</strong>, Indra Deep Mastan, Shanmuganathan Raman.</div>
-        <div class="pvenue">IEEE ICIP &mdash; 2025</div>
-        <div class="plinks">
-          <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11084742" target="_blank">paper</a>
-          <a href="https://www.kaggle.com/datasets/aamaanakbar/cotton99-10" target="_blank">data</a>
-        </div>
-        <p class="pabstract">A stress test of unsupervised StyleGAN restoration under degradations it was never tuned for, showing where latent-space optimisation holds up and where it silently fails.</p>
-      </div>
-    </div>
-    <div class="paper" data-type="aerial">
-      <div class="paper-img"><img loading="lazy" src="files/daigram/cot-ad.gif" alt="COT-AD"></div>
-      <div>
-        <div class="ptitle"><a href="https://ieeexplore.ieee.org/document/11084734" target="_blank">COT-AD: Cotton Analysis Dataset</a></div>
-        <div class="pauthors"><strong>Akbar Ali</strong>, Pankaj Khanna, Subramanian Sankaranarayanan, Shanmuganathan Raman.</div>
-        <div class="pvenue">IEEE ICIP &mdash; 2025</div>
-        <div class="plinks">
-          <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11084734" target="_blank">paper</a>
-          <a href="https://www.kaggle.com/datasets/aamaanakbar/cot-ad1" target="_blank">data</a>
-        </div>
-        <p class="pabstract">An aerial and ground image dataset covering a full cotton growth cycle from weekly drone missions at 10 m, 15 m and 115 m, for crop health and pest analysis.</p>
-      </div>
-    </div>
-    <div class="paper" data-type="other">
-      <div class="paper-img"><img loading="lazy" src="files/daigram/imgpark.jpg" alt="Parkinson"></div>
-      <div>
-        <div class="ptitle"><a href="https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10" target="_blank">Descriptive Predictive Model for Parkinson's Disease Analysis</a></div>
-        <div class="pauthors"><strong>Akbar Ali</strong>, Ranjit Kumar Rout, Saiyed Umer.</div>
-        <div class="pvenue">Springer Nature &mdash; 2023</div>
-        <div class="plinks">
-          <a href="https://link.springer.com/chapter/10.1007/978-981-19-7346-8_10" target="_blank">paper</a>
-        </div>
-        <p class="pabstract">A predictive framework for Parkinson's disease analysis pairing classification accuracy with descriptive feature analysis so clinicians can see which measurements drive each prediction.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="teaching" class="section-anchor">
-    <div class="section-divider"><h2>Teaching and Mentoring</h2></div>
-    <p class="section-intro">My teaching combines fundamentals with hands-on computation and field experience. I particularly enjoy helping students turn an abstract method into something they can implement, visualize and test.</p>
-    <h3>Teaching Focus</h3>
-    <div class="skill-grid">
-      <div class="skill-card"><h4>Computing Fundamentals</h4><p>Data structures, algorithms, Python, SQL and practical data handling.</p></div>
-      <div class="skill-card"><h4>Data &amp; Machine Learning</h4><p>Probability, statistics, visualization and introductory machine-learning workflows.</p></div>
-      <div class="skill-card"><h4>Scientific Computing</h4><p>Working with image data, experiments, evaluation and reproducible computational workflows.</p></div>
-      <div class="skill-card"><h4>UAV &amp; Field Methods</h4><p>Mission planning, pre-flight procedures, field acquisition and responsible data collection.</p></div>
-    </div>
-    <h3>Teaching Experience</h3>
-    <div class="t-list">
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">Lead Teaching Assistant &mdash; ES 113, Data Centric Computing</div>
-          <div class="t-date">Jan &mdash; Apr 2025</div>
-        </div>
-        <div class="t-where"><a href="https://cs.iitgn.ac.in/" target="_blank">IIT Gandhinagar</a></div>
-        <div class="t-desc">The course introduces students to the practical foundations of working with data. Topics included data structures and algorithms, Python programming with Pandas and Matplotlib, SQL, data manipulation and introductory machine-learning workflows. As lead TA, I coordinated a 45-student TA team, helped establish the QA-session format and maintained consistent grading standards.</div>
-      </div>
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">Graduate Teaching Fellow &mdash; FP 602, Writing</div>
-          <div class="t-date">Aug &mdash; Nov 2024</div>
-        </div>
-        <div class="t-where"><a href="https://cs.iitgn.ac.in/" target="_blank">IIT Gandhinagar</a></div>
-        <div class="t-desc">This course focuses on developing clear and effective academic and technical writing. I guided 35 students through classwork and assessments, helped them improve the structure and communication of their writing, tracked progress and conducted individual reviews with students who needed additional support.</div>
-      </div>
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">Teaching Assistant &mdash; SC 333, Drone Data Acquisition and Processing</div>
-          <div class="t-date">June 2024</div>
-        </div>
-        <div class="t-where"><a href="https://cs.iitgn.ac.in/" target="_blank">IIT Gandhinagar</a></div>
-        <div class="t-desc">This hands-on course introduces students to drone-based data acquisition and the processing of imagery collected in the field. I ran flight-training and field sessions for around 30 students, covering pre-flight checks, mission preparation, responsible airspace practices, acquisition procedures and field safety.</div>
-        <div class="fig-pair">
-          <figure><img loading="lazy" src="files/course_drone.jpg" alt="Drone session"></figure>
-          <figure><img loading="lazy" src="files/dron1.jpeg" alt="Field session"></figure>
-        </div>
-      </div>
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">Teaching Assistant &mdash; ES 114, Probability, Statistics and Data Visualization</div>
-          <div class="t-date">Dec 2022 &mdash; Apr 2024</div>
-        </div>
-        <div class="t-where"><a href="https://cs.iitgn.ac.in/" target="_blank">IIT Gandhinagar</a></div>
-        <div class="t-desc">This course develops the statistical foundations needed for analysing and communicating data. I ran laboratories and tutorials for 50+ students across three semesters, using Python to demonstrate probability, descriptive and inferential statistics, data analysis and effective data visualization.</div>
-      </div>
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">Student Mentoring</div>
-          <div class="t-date">Ongoing</div>
-        </div>
-        <div class="t-where"><a href="https://cs.iitgn.ac.in/" target="_blank">IIT Gandhinagar</a></div>
-        <div class="t-desc">Supervise B.Tech and M.Tech students on hyperspectral imaging, image editing and GAN inversion. Two collaborations became co-authored submissions.</div>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects" class="section-anchor">
-    <div class="section-divider"><h2>Collaborations and Field Work</h2></div>
-    <p class="section-intro">From generative image restoration to hyperspectral sensing, my projects combine representation learning with real-world data and interdisciplinary collaboration.</p>
-
-    <h3>Current Research Directions</h3>
-    <div class="focus-grid">
-      <article class="focus-card"><h4>HyperPhys-LRGS</h4><p>Physics-aware low-rank hyperspectral Gaussian splatting for spectral reconstruction and super-resolution. The direction combines compact spectral bases with differentiable Gaussian representations.</p><div class="badge-row"><span class="badge">HSI</span><span class="badge">Gaussian Splatting</span><span class="badge">Low Rank</span></div></article>
-      <article class="focus-card"><h4>Hyperspectral Gaussian Splatting</h4><p>Exploring Gaussian representations for hyperspectral denoising and reconstruction, including spectral bases and residual restoration strategies.</p><div class="badge-row"><span class="badge">Denoising</span><span class="badge">Spectral Basis</span></div></article>
-      <article class="focus-card"><h4>Implicit HSI Super-Resolution</h4><p>Adapting implicit neural representations to continuous hyperspectral reconstruction so that spatial queries can recover spectrally consistent high-resolution signals.</p><div class="badge-row"><span class="badge">LIIF</span><span class="badge">Neural Field</span></div></article>
-      <article class="focus-card"><h4>Generative Restoration</h4><p>Developing latent-space and training-free approaches for difficult real-world image degradations, with emphasis on robustness and faithful reconstruction.</p><div class="badge-row"><span class="badge">StyleGAN</span><span class="badge">Diffusion</span></div></article>
-    </div>
-
-    <h3>Collaborations &amp; Field Work</h3>
-
-    <div class="t-list">
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">3D Geophysical Image Translation using GANs</div>
-          <div class="t-date">Feb 2024 &mdash; Jan 2025</div>
-        </div>
-        <div class="t-desc">A year-long collaboration with geoscientists, translating 3D geophysical scans into photorealistic virtual outcrop geology.</div>
-        <details class="research-detail"><summary>What this involved</summary><p>Interdisciplinary problem formulation, generative modelling and communication between geological interpretation and computer-vision representations.</p></details>
-      </div>
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">Smart Farming of Cotton using Aerial Imagery &mdash; COT-AD</div>
-          <div class="t-date">Jun 2023 &mdash; Jan 2024</div>
-        </div>
-        <div class="t-desc">Designed and ran a six-month acquisition campaign with agricultural researchers, flying weekly missions at 10 m, 15 m and 115 m. I owned the flight schedule, the multi-altitude protocol, and the dataset that became COT-AD.</div>
-        <details class="research-detail"><summary>Why the dataset matters</summary><p>The repeated multi-altitude observations follow the same field across a full cotton growth cycle, connecting acquisition strategy with downstream visual analysis.</p></details>
-        <div class="fig-wide">
-          <img loading="lazy" src="files/gif_cotton.gif" alt="Cotton growth monitoring">
-          <figcaption>Weekly flights tracking one field through a full growth cycle.</figcaption>
-        </div>
-      </div>
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">Drone and Core Data Acquisition &mdash; Earth Science, IIT Gandhinagar</div>
-          <div class="t-date">2023 &mdash; 2024</div>
-        </div>
-        <div class="t-desc">Planned and led three multi-day campaigns for aerial and core sample collection. Site names withheld for confidentiality.</div>
-        <div class="fig-pair">
-          <figure><img loading="lazy" src="files/field1.jpg" alt="Field campaign"></figure>
-          <figure><img loading="lazy" src="files/field2.jpg" alt="Field campaign"></figure>
-        </div>
-      </div>
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">3D Vision Summer School &mdash; IIIT Bangalore</div>
-          <div class="t-date">Jun 2024</div>
-        </div>
-        <div class="t-desc">Week-long school on deep learning for 3D vision. The Gaussian splatting sessions shaped the direction my hyperspectral work took afterwards.</div>
-        <div class="fig-pair">
-          <figure><img loading="lazy" src="files/iiit.jpg" alt="3D Vision Summer School"></figure>
-          <figure><img loading="lazy" src="files/iiitb1.jpg" alt="3D Vision Summer School"></figure>
-        </div>
-      </div>
-      <div class="t-row">
-        <div class="t-header">
-          <div class="t-title">Visvesvaraya PhD Scheme Workshop &mdash; IIT Mandi</div>
-          <div class="t-date">May 2024</div>
-        </div>
-        <div class="t-desc">Presented my work to an interdisciplinary audience of scholars from across engineering disciplines.</div>
-        <div class="fig-pair">
-          <figure><img loading="lazy" src="files/iitmandi2.jpg" alt="IIT Mandi workshop"></figure>
-          <figure><img loading="lazy" src="files/iitmandi1.jpg" alt="IIT Mandi workshop"></figure>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="awards" class="section-anchor">
-    <div class="section-divider"><h2>Awards and Certifications</h2></div>
-    <p class="section-intro">Selected academic distinctions, fellowships and professional certifications.</p>
-    <div class="callout"><strong>Research Lab Abroad Fellowship.</strong> Awarded the Visvesvaraya PhD Scheme Research Lab Abroad Fellowship in 2025, supporting a six-month research stay at Helmholtz Institute Freiberg, Germany, in 2026.</div>
-
-    <div class="awards-grid">
-      <div class="award-card">
-        <div class="award-year">2025</div>
-        <div class="award-title">Research Lab Abroad Fellowship</div>
-        <div class="award-sub">Visvesvaraya PhD Scheme, MeitY. Six-month research stay at Helmholtz Institute Freiberg, Germany.</div>
-      </div>
-      <div class="award-card">
-        <div class="award-year">2023</div>
-        <div class="award-title">UAV Pilot Licence</div>
-        <div class="award-sub">Certified for platforms up to 25 kg. DJI Mavic and Bajrang platforms.</div>
-      </div>
-      <div class="award-card">
-        <div class="award-year">2022</div>
-        <div class="award-title">UGC-NET</div>
-        <div class="award-sub">Computer Applications.</div>
-      </div>
-      <div class="award-card">
-        <div class="award-year">2021</div>
-        <div class="award-title">2nd Rank &mdash; M.Tech</div>
-        <div class="award-sub">Aliah University, Kolkata. CPI 9.03/10.</div>
-      </div>
-      <div class="award-card">
-        <div class="award-year">2019</div>
-        <div class="award-title">1st Rank &mdash; B.Tech</div>
-        <div class="award-sub">Aliah University, Kolkata. CPI 8.97/10. Also 1st rank in AUAT M.Tech entrance.</div>
-      </div>
-      <div class="award-card">
-        <div class="award-year">2015&ndash;21</div>
-        <div class="award-title">National Scholarship</div>
-        <div class="award-sub">Five times &mdash; three during B.Tech, two during M.Tech.</div>
-      </div>
-      <div class="award-card">
-        <div class="award-year">2015</div>
-        <div class="award-title">64th Rank &mdash; AUAT</div>
-        <div class="award-sub">B.Tech entrance. Also qualified BCECE, WBJEE and AIEEE.</div>
-      </div>
-    </div>
-  </section>
-
 
   </main>
 </div>
@@ -731,52 +464,15 @@ html { scroll-behavior: smooth; }
   <span><a href="index.html">Home</a> &middot; <a href="memories.html">Memories</a> &middot; <a href="mailto:akbar.ali@iitgn.ac.in">Email</a></span>
 </footer>
 
-<button class="top-button" id="topBtn" aria-label="Back to top">&#8593;</button>
-
 <script>
-/* back to top */
 (function(){
-  var btn=document.getElementById('topBtn');
-  window.addEventListener('scroll',function(){
-    btn.classList.toggle('show',window.scrollY>500);
-  },{passive:true});
-  btn.addEventListener('click',function(){
-    window.scrollTo({top:0,behavior:'smooth'});
-  });
-})();
-
-/* active nav link follows scroll */
-(function(){
-  var sections=document.querySelectorAll('section[id]');
-  var links=document.querySelectorAll('.nav-links a[data-section]');
-  var obs=new IntersectionObserver(function(entries){
-    entries.forEach(function(e){
-      if(e.isIntersecting){
-        var id=e.target.id;
-        links.forEach(function(l){
-          l.classList.toggle('active',l.dataset.section===id);
-        });
-      }
-    });
-  },{rootMargin:'-50px 0px -60% 0px',threshold:0});
-  sections.forEach(function(s){obs.observe(s);});
-})();
-
-/* publication filter */
-(function(){
-  var btns=document.querySelectorAll('.filter-btn');
-  var papers=document.querySelectorAll('.paper[data-type]');
-  btns.forEach(function(btn){
-    btn.addEventListener('click',function(){
-      btns.forEach(function(b){b.classList.remove('active');});
-      btn.classList.add('active');
-      var f=btn.dataset.filter;
-      papers.forEach(function(p){
-        p.style.display=(f==='all'||p.dataset.type===f)?'':'none';
-      });
-    });
-  });
+  const btn=document.createElement('button');
+  btn.className='top-button'; btn.setAttribute('aria-label','Back to top'); btn.textContent='↑';
+  document.body.appendChild(btn);
+  window.addEventListener('scroll',()=>btn.classList.toggle('show',window.scrollY>420),{passive:true});
+  btn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
 })();
 </script>
+
 </body>
 </html>
