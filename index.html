@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Akbar Ali &mdash; Academic Profile</title>
-<meta name="description" content="Akbar Ali, PhD Candidate at IIT Gandhinagar. Computer Vision, Generative Models, Hyperspectral Imaging.">
+<meta name="description" content="Akbar Ali, PhD Scholar at IIT Gandhinagar. Computer Vision, Generative Models, Hyperspectral Imaging.">
 <link rel="icon" href="files/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -255,6 +255,36 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
 .site-footer a{color:#8c959f;transition:color .15s}
 .site-footer a:hover{color:#0969da;text-decoration:none}
 
+/* RESEARCH INTERESTS */
+.research-interest-group {
+  margin: 18px 0;
+}
+
+.research-interest-group h4 {
+  margin: 0 0 9px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #666;
+}
+
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.research-tags span {
+  display: inline-block;
+  padding: 5px 9px;
+  border: 1px solid #cfc8bd;
+  border-radius: 3px;
+  background: #fff;
+  color: #536b7d;
+  font-size: 13px;
+  line-height: 1.2;
+}
+
 /* RESPONSIVE */
 @media(max-width:860px){
   .page-wrap{grid-template-columns:1fr;padding:22px 18px 55px}
@@ -348,54 +378,83 @@ html { scroll-behavior: smooth; }
 .top-button.show { opacity: 1; pointer-events: auto; }
 
 
-/* ── fellowship highlight box ── */
-.fellowship-box{
-  display:flex;gap:12px;align-items:flex-start;
-  background:#f0f7ff;border:1px solid #b6daff;
-  border-radius:8px;padding:14px 16px;margin:18px 0;
-  font-size:.88rem;line-height:1.65;color:#1a1a2e;
-}
-.fellowship-box .fellow-icon{font-size:1.3rem;flex-shrink:0;margin-top:1px}
-.fellowship-box strong{color:#18181b}
-
-/* ── research interests tag cloud ── */
-.ri-section{margin-bottom:4px}
-.ri-group{margin-bottom:14px}
-.ri-group-label{
-  display:flex;align-items:center;gap:7px;
-  font-size:.7rem;font-weight:700;color:#57606a;
-  letter-spacing:.1em;text-transform:uppercase;
-  margin-bottom:8px;
-}
-.ri-group-label svg{opacity:.6}
-.ri-tags{display:flex;flex-wrap:wrap;gap:6px}
-.ri-tag{
-  font-size:.8rem;color:#18181b;
-  background:#fff;border:1px solid #d0d7de;
-  padding:3px 11px;border-radius:6px;
-  transition:border-color .15s,background .15s;
-}
-.ri-tag:hover{background:#f0f7ff;border-color:#0969da;text-decoration:none;color:#0969da}
-
 /* ── media coverage ── */
 .media-list{display:flex;flex-direction:column;gap:10px;margin-top:4px}
 .media-item{
-  display:flex;align-items:flex-start;gap:12px;
+  display:flex;align-items:flex-start;gap:14px;
   background:#fff;border:1px solid #d0d7de;border-radius:8px;
-  padding:12px 14px;transition:box-shadow .15s;
+  padding:13px 15px;transition:box-shadow .15s;
 }
 .media-item:hover{box-shadow:0 2px 10px rgba(0,0,0,.08)}
 .media-logo{
-  width:38px;height:38px;border-radius:6px;background:#f6f8fa;
+  width:42px;height:42px;border-radius:6px;background:#f6f8fa;
   border:1px solid #e4e4e7;display:flex;align-items:center;
-  justify-content:center;flex-shrink:0;font-size:.65rem;
-  font-weight:700;color:#57606a;text-align:center;line-height:1.2;
+  justify-content:center;flex-shrink:0;
+  font-size:.62rem;font-weight:700;color:#57606a;
+  text-align:center;line-height:1.25;padding:2px;
 }
 .media-body{min-width:0}
-.media-title{font-size:.88rem;font-weight:600;color:#18181b;margin-bottom:2px;line-height:1.35}
+.media-title{font-size:.9rem;font-weight:600;color:#18181b;margin-bottom:3px;line-height:1.35}
 .media-title a{color:#18181b}
 .media-title a:hover{color:#0969da;text-decoration:none}
-.media-meta{font-size:.78rem;color:#57606a}
+.media-outlet{font-size:.79rem;font-weight:600;color:#0969da;margin-bottom:1px}
+.media-meta{font-size:.77rem;color:#8c959f}
+
+
+/* ── fellowship highlight (image reference style) ── */
+.fellow-highlight{
+  display:flex;align-items:flex-start;gap:11px;
+  background:#f0f6ff;
+  border:1px solid #c8deff;
+  border-radius:7px;
+  padding:13px 16px;
+  margin:16px 0;
+  font-size:.9rem;line-height:1.7;color:#1a1a2e;
+}
+.fellow-highlight .fellow-medal{font-size:1.25rem;flex-shrink:0;margin-top:1px}
+.fellow-highlight .fellow-text strong{color:#18181b}
+.fellow-highlight .fellow-text em{font-style:italic}
+
+
+/* ── research interests (grouped tags, image reference style) ── */
+.ri-block{margin-bottom:4px}
+.ri-group{margin-bottom:16px}
+.ri-group-label{
+  display:flex;align-items:center;gap:6px;
+  font-size:.7rem;font-weight:700;
+  color:#57606a;letter-spacing:.09em;
+  text-transform:uppercase;margin-bottom:8px;
+}
+.ri-tags{display:flex;flex-wrap:wrap;gap:6px}
+.ri-tag{
+  display:inline-block;
+  padding:5px 10px;
+  border:1px solid #cfc8bd;
+  border-radius:4px;
+  background:#fff;
+  color:#536b7d;
+  font-size:.82rem;line-height:1.2;
+  transition:border-color .14s,color .14s;
+}
+.ri-tag:hover{border-color:#0969da;color:#0969da}
+
+
+/* ── media coverage (updated layout) ── */
+.media-list{margin-top:8px}
+.media-item{
+  display:grid;grid-template-columns:78px 1fr;gap:16px;
+  padding:16px 0;border-bottom:1px solid #e5e7eb;
+}
+.media-item:last-child{border-bottom:none}
+.media-date{
+  display:inline-block;align-self:start;text-align:center;
+  padding:4px 7px;border:1px solid #b8cbd3;border-radius:3px;
+  background:#f3f8fa;color:#17637a;
+  font-size:.75rem;font-weight:600;white-space:nowrap;
+}
+.media-item strong{font-size:.95rem;color:#24292f;display:block;margin-bottom:3px}
+.media-item p{margin:4px 0 0;font-size:.9rem;line-height:1.65;color:#57606a}
+.media-item a{color:#0969da;font-weight:500}
 
 </style>
 </head>
@@ -408,7 +467,8 @@ html { scroll-behavior: smooth; }
       <li><a href="#bio"          data-section="bio">Home</a></li>
       <li><a href="#education"    data-section="education">Education</a></li>
       <li><a href="#publications" data-section="publications">Publications</a></li>
-      <li><a href="#teaching"     data-section="teaching">Teaching</a></li>
+      <li><a href="#teaching"     data-section="teaching">Teaching Assistantships</a></li>
+      <li><a href="#media"        data-section="media">Media</a></li>
       <li><a href="#projects"     data-section="projects">Projects</a></li>
       <li><a href="#awards"       data-section="awards">Awards</a></li>
       <li><a href="memories.html">Memories</a></li>
@@ -421,7 +481,7 @@ html { scroll-behavior: smooth; }
   <div class="sb-photo"><img src="files/aamaan1.png" alt="Akbar Ali"></div>
   <div>
     <div class="sb-name">Akbar Ali</div>
-    <div class="sb-role">PhD Candidate &middot; CSE</div>
+    <div class="sb-role">PhD Scholar &middot; Computer vision</div>
     <div class="sb-inst">IIT Gandhinagar, India</div>
     <hr class="sb-divider">
     <ul class="sb-links">
@@ -438,62 +498,83 @@ html { scroll-behavior: smooth; }
   <main class="content">
 
     <section id="bio" class="section-anchor">
-      <p>I am a fourth-year Ph.D. student in Computer Science and Engineering at
-      <a href="https://iitgn.ac.in/" target="_blank">IIT Gandhinagar</a>, advised by
-      <a href="https://iitgn.ac.in/faculty/cse/shanmuganathan" target="_blank">Prof. Shanmuganathan Raman</a>.
-      My research is on <strong>generative priors for image restoration</strong> &mdash; latent inversion in
-      StyleGAN and diffusion models, zero-shot restoration, and Gaussian splatting for hyperspectral imaging.</p>
-    <p>I collaborate with computer scientists, earth scientists and agricultural researchers, and I have
-      built and released datasets that serve all three. Before IIT Gandhinagar I was a Project Associate
-      at <a href="https://www.iitrpr.ac.in" target="_blank">IIT Ropar</a>. I hold an M.Tech (2nd rank)
-      and B.Tech (1st rank) from <a href="https://aliah.ac.in" target="_blank">Aliah University</a>,
-      Kolkata, and a UAV Pilot Licence for platforms up to 25 kg.</p>
-    <p>I am open to research positions at the boundary of visual learning, generative modelling and
-      real-world sensing. Reach me at <a href="mailto:akbar.ali@iitgn.ac.in">akbar.ali@iitgn.ac.in</a>.</p>
+<p>I am a Ph.D. researcher in Computer Science and Engineering at
+  <a href="https://iitgn.ac.in/" target="_blank">IIT Gandhinagar</a>, working under the guidance of
+  <a href="https://iitgn.ac.in/faculty/cse/shanmuganathan" target="_blank">Prof. Shanmuganathan Raman</a>.
+  My research focuses on <strong>computer vision, generative models, image restoration, and hyperspectral imaging</strong>,
+  with particular interest in generative priors, latent-space optimization, Gaussian splatting, image restoration,
+  and hyperspectral image denoising and super-resolution.</p>
 
-    <h3>Research Interests</h3>
-    <div class="ri-section">
-      <div class="ri-group">
-        <div class="ri-group-label">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm-1-5h2v2h-2zm0-8h2v6h-2z"/></svg>
-          Image Restoration
-        </div>
-        <div class="ri-tags">
-          <span class="ri-tag">Generative Priors</span>
-          <span class="ri-tag">Latent Inversion</span>
-          <span class="ri-tag">Zero-Shot Restoration</span>
-          <span class="ri-tag">Denoising</span>
-          <span class="ri-tag">Deblurring</span>
-          <span class="ri-tag">Inpainting</span>
-        </div>
-      </div>
-      <div class="ri-group">
-        <div class="ri-group-label">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M21 3H3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm-1 15H4V6h16v12z"/></svg>
-          Generative Models
-        </div>
-        <div class="ri-tags">
-          <span class="ri-tag">StyleGAN Inversion</span>
-          <span class="ri-tag">Diffusion Models</span>
-          <span class="ri-tag">Training-Free Methods</span>
-          <span class="ri-tag">Pivotal Tuning</span>
-        </div>
-      </div>
-      <div class="ri-group">
-        <div class="ri-group-label">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-8a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>
-          Hyperspectral Imaging
-        </div>
-        <div class="ri-tags">
-          <span class="ri-tag">Gaussian Splatting</span>
-          <span class="ri-tag">3D Reconstruction</span>
-          <span class="ri-tag">Spectral Super-Resolution</span>
-          <span class="ri-tag">Aerial Data Acquisition</span>
-        </div>
-      </div>
+<p>Before joining IIT Gandhinagar, I worked as a Project Associate at
+  <a href="https://www.iitrpr.ac.in" target="_blank">IIT Ropar</a>, where I worked on computer vision and
+  interdisciplinary sensing problems. I completed my M.Tech. in Computer Science and Engineering from
+  <a href="https://aliah.ac.in" target="_blank">Aliah University</a>, Kolkata, graduating second overall,
+  and my B.Tech. from the same university, graduating first overall. I also hold a UAV Pilot Licence
+  for platforms up to 25 kg.</p>
+
+<p>During my Ph.D., I have worked on a range of <strong>computer vision and computational imaging problems</strong>, 
+  with a focus on developing robust methods for real-world image restoration and understanding. My research explores generative models, 
+  latent-space optimization, Gaussian splatting, and hyperspectral image processing, with applications in image denoising, deblurring, 
+  inpainting, spectral reconstruction, and super-resolution. I also spent six months at 
+  the <a href="https://www.hzdr.de/" target="_blank">Helmholtz-Zentrum Dresden-Rossendorf: HZDR</a> through the <a href="https://phd.dic.gov.in/" target="_blank">Research 
+    Lab Abroad Fellowship</a>, where I further worked on computer vision and imaging problems involving real-world data.</p>
+<div class="fellow-highlight">
+  <span class="fellow-medal">🏅</span>
+  <span class="fellow-text">
+    <strong>Fellowships during PhD:</strong> Supported by the
+    <strong>Visvesvaraya PhD Scheme for Electronics &amp; IT</strong> (MeitY, Govt. of India),
+    supporting full-time PhD research in emerging technology areas.
+    I was also awarded the <strong>Research Lab Abroad Fellowship</strong>, which supported
+    a six-month research stay at <strong>Helmholtz-Zentrum Dresden-Rossendorf (HZDR), Germany</strong>,
+    for research in computer vision and hyperspectral image restoration.
+  </span>
+</div>
+
+<h3>Research Interests 🥸</h3>
+
+<div class="ri-block">
+  <div class="ri-group">
+    <div class="ri-group-label">🤖 Computer Vision</div>
+    <div class="ri-tags">
+      <span class="ri-tag">Image Restoration</span>
+      <span class="ri-tag">Image Reconstruction</span>
+      <span class="ri-tag">Visual Representation Learning</span>
+      <span class="ri-tag">Zero-shot Learning</span>
     </div>
+  </div>
+  <div class="ri-group">
+    <div class="ri-group-label">✨ Generative Models</div>
+    <div class="ri-tags">
+      <span class="ri-tag">Gaussian Splatting</span>
+      <span class="ri-tag">Generative Priors</span>
+      <span class="ri-tag">Latent Inversion</span>
+      <span class="ri-tag">Diffusion Models</span>
+      <span class="ri-tag">StyleGAN</span>
+      <span class="ri-tag">Generator Adaptation</span>
+    </div>
+  </div>
+  <div class="ri-group">
+    <div class="ri-group-label">🖼️ Image Restoration</div>
+    <div class="ri-tags">
+      <span class="ri-tag">Image Deblurring</span>
+      <span class="ri-tag">Image Denoising</span>
+      <span class="ri-tag">Image Inpainting</span>
+      <span class="ri-tag">Super-Resolution</span>
+      <span class="ri-tag">Blind Image Restoration</span>
+    </div>
+  </div>
+  <div class="ri-group">
+    <div class="ri-group-label">🌈 Hyperspectral Imaging</div>
+    <div class="ri-tags">
+      <span class="ri-tag">Hyperspectral Imaging</span>
+      <span class="ri-tag">Spectral Reconstruction</span>
+      <span class="ri-tag">Hyperspectral Denoising</span>
+      <span class="ri-tag">Hyperspectral Super-Resolution</span>
+    </div>
+  </div>
+</div>
 
-    <h3>News</h3>
+<h3>News</h3>
     <div class="news-box">
       <div class="news-scroll">
         <ul>
@@ -516,31 +597,6 @@ html { scroll-behavior: smooth; }
           <li><span class="news-tag">[Jul 2021]</span> Completed M.Tech at Aliah University, second rank overall.</li>
           <li><span class="news-tag">[Jul 2019]</span> Completed B.Tech at Aliah University, first rank overall.</li>
         </ul>
-      </div>
-    </div>
-
-    <h3>Media Coverage</h3>
-    <div class="media-list">
-      <div class="media-item">
-        <div class="media-logo">IIT GN</div>
-        <div class="media-body">
-          <div class="media-title"><a href="https://iitgn.ac.in" target="_blank">Research Lab Abroad Fellowship &mdash; IIT Gandhinagar Feature</a></div>
-          <div class="media-meta">IIT Gandhinagar &middot; 2025</div>
-        </div>
-      </div>
-      <div class="media-item">
-        <div class="media-logo">HZDR</div>
-        <div class="media-body">
-          <div class="media-title"><a href="https://www.hzdr.de" target="_blank">Visiting Researcher Profile &mdash; Helmholtz Institute Freiberg</a></div>
-          <div class="media-meta">HZDR, Germany &middot; 2026</div>
-        </div>
-      </div>
-      <div class="media-item">
-        <div class="media-logo">IEEE</div>
-        <div class="media-body">
-          <div class="media-title"><a href="https://2025.ieeeicip.org/" target="_blank">Two Papers Presented at IEEE ICIP 2025, Anchorage Alaska</a></div>
-          <div class="media-meta">IEEE ICIP &middot; Sep 2025</div>
-        </div>
       </div>
     </div>
     </section>
@@ -759,6 +815,40 @@ html { scroll-behavior: smooth; }
     </div>
   </section>
 
+  <section id="media" class="section-anchor">
+    <div class="section-divider"><h2>Media Coverage 📰</h2></div>
+    <p class="section-intro">Selected media coverage of my research and academic activities.</p>
+
+    <div class="media-list">
+
+      <div class="media-item">
+        <span class="media-date">2026</span>
+        <div>
+          <strong>GenR: AI-based Face Restoration</strong>
+          <p>IIT Gandhinagar featured <strong>GenR</strong>, our AI framework for blind face
+            restoration using StyleGAN3. The coverage highlights our three-stage restoration
+            approach and its applications to denoising, super-resolution, inpainting and
+            compression artefact removal.
+            <a href="https://www.instagram.com/p/DcLrv8nDbbM/?stkn=MjliNW9zc3M5am92" target="_blank" rel="noopener">Instagram ↗</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="media-item">
+        <span class="media-date">2024</span>
+        <div>
+          <strong>IITGN R&amp;D Horizon 62: Smart Farming</strong>
+          <p>IIT Gandhinagar featured our interdisciplinary smart farming project using
+            drone imagery, AI models and computer vision for crop monitoring, stress
+            detection, crop density analysis and yield prediction.
+            <a href="https://www.instagram.com/p/C_QWxplPpgZ/?stkn=bnN5ZjFyN3JxaWYy" target="_blank" rel="noopener">Instagram ↗</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
       <section id="projects" class="section-anchor">
     <div class="section-divider"><h2>Collaborations and Field Work</h2></div>
     <p class="section-intro">From generative image restoration to hyperspectral sensing, my projects combine representation learning with real-world data and interdisciplinary collaboration.</p>
@@ -833,10 +923,7 @@ html { scroll-behavior: smooth; }
       <section id="awards" class="section-anchor">
     <div class="section-divider"><h2>Awards and Certifications</h2></div>
     <p class="section-intro">Selected academic distinctions, fellowships and professional certifications.</p>
-    <div class="fellowship-box">
-      <span class="fellow-icon">🏅</span>
-      <span><strong>Research Lab Abroad Fellowship (2025):</strong> Awarded the Visvesvaraya PhD Scheme &mdash; Research Lab Abroad Fellowship supporting a six-month research stay at <strong>Helmholtz Institute Freiberg (HZDR), Germany</strong>. This fellowship is granted by the Ministry of Electronics and Information Technology (MeitY), Government of India, to support international research collaboration.</span>
-    </div>
+    <div class="callout"><strong>Research Lab Abroad Fellowship.</strong> Awarded the Visvesvaraya PhD Scheme Research Lab Abroad Fellowship in 2025, supporting a six-month research stay at Helmholtz Institute Freiberg, Germany, in 2026.</div>
 
     <div class="awards-grid">
       <div class="award-card">
