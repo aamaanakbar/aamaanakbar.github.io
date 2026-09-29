@@ -168,9 +168,11 @@ img{display:block;max-width:100%}
 }
 .paper.hl:hover{background:linear-gradient(100deg,#fef3c7 0%,#fffbf0 65%)}
 .paper-img img{
-  width:155px;height:95px;object-fit:cover;
+  width:155px;height:110px;object-fit:contain;
+  background:#fff;
   border-radius:5px;border:1px solid #d0d7de;
   box-shadow:0 1px 5px rgba(0,0,0,.08);
+  padding:4px;
 }
 .ptitle{font-size:.95rem;font-weight:600;color:#18181b;line-height:1.4;margin-bottom:3px}
 .ptitle a{color:#18181b}
@@ -207,15 +209,17 @@ img{display:block;max-width:100%}
 .fig-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
 .fig-pair figure{margin:0}
 .fig-pair img{
-  width:100%;height:230px;object-fit:cover;
+  width:100%;height:220px;object-fit:cover;object-position:center center;
   border-radius:7px;border:1px solid #d0d7de;
   box-shadow:0 2px 8px rgba(0,0,0,.08);
 }
 .fig-wide{margin-top:14px}
 .fig-wide img{
-  width:65%;height:200px;object-fit:cover;
+  width:70%;height:auto;max-height:220px;object-fit:contain;
+  background:#fff;
   border-radius:7px;border:1px solid #d0d7de;
   box-shadow:0 2px 8px rgba(0,0,0,.08);
+  padding:4px;
 }
 figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
 
@@ -265,24 +269,76 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
   .paper-img{display:none}
   .t-header{flex-direction:column;gap:4px}
   .fig-pair{grid-template-columns:1fr}
-  .fig-pair img{height:180px}
+  .fig-pair img{height:180px;object-position:center center}
   .awards-grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
   .site-footer{flex-direction:column;gap:5px;text-align:center;padding:12px 18px}
 }
 </style>
+
+<style>
+/* ---------- portfolio enhancements ---------- */
+.research-grid,.focus-grid,.skill-grid,.metric-grid{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0 6px;
+}
+.research-card,.focus-card,.skill-card,.metric-card{
+  background:#fff;border:1px solid #d8dee4;border-radius:10px;padding:16px;
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;
+}
+.research-card:hover,.focus-card:hover,.skill-card:hover,.metric-card:hover{
+  transform:translateY(-3px);box-shadow:0 8px 22px rgba(31,35,40,.08);border-color:#b7c5d3;
+}
+.research-card h4,.focus-card h4,.skill-card h4{margin:0 0 6px;font-size:.94rem;color:#18181b}
+.research-card p,.focus-card p,.skill-card p{margin:0!important;font-size:.84rem!important;line-height:1.6!important;text-align:left!important;color:#57606a!important}
+.badge-row{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0 4px}
+.badge{
+  display:inline-flex;align-items:center;padding:4px 9px;border-radius:999px;
+  background:#eef4ff;color:#3157a5;border:1px solid #d9e5ff;font-size:.72rem;font-weight:600;
+}
+.section-intro{font-size:.92rem!important;color:#57606a!important;text-align:left!important;margin-top:-10px}
+.callout{
+  margin:16px 0;padding:14px 16px;border-left:3px solid #6e40c9;
+  background:linear-gradient(90deg,#f7f3ff,#fff);border-radius:0 8px 8px 0;
+}
+.callout strong{color:#4c2f8f}
+.metric-grid{grid-template-columns:repeat(4,minmax(0,1fr));}
+.metric-card{text-align:center;padding:14px 10px}
+.metric-number{font-family:'Playfair Display',Georgia,serif;font-size:1.55rem;font-weight:700;color:#3157a5;line-height:1.1}
+.metric-label{font-size:.72rem;color:#6e7781;margin-top:4px}
+.filter-bar{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 14px}
+.filter-btn{
+  border:1px solid #d0d7de;background:#fff;color:#57606a;border-radius:999px;
+  padding:6px 11px;font:600 .74rem Inter,sans-serif;cursor:pointer;transition:.15s;
+}
+.filter-btn:hover,.filter-btn.active{background:#0969da;color:#fff;border-color:#0969da}
+.paper[data-type].is-hidden{display:none}
+details.research-detail{margin-top:10px;border-top:1px solid #edf0f2;padding-top:8px}
+details.research-detail summary{cursor:pointer;color:#0969da;font-size:.78rem;font-weight:600}
+details.research-detail p{margin-top:7px!important}
+.top-button{
+  position:fixed;right:20px;bottom:20px;width:38px;height:38px;border-radius:50%;
+  border:1px solid #d0d7de;background:#fff;color:#0969da;box-shadow:0 4px 14px rgba(0,0,0,.1);
+  cursor:pointer;opacity:0;pointer-events:none;transition:.2s;z-index:250;
+}
+.top-button.show{opacity:1;pointer-events:auto}
+@media(max-width:800px){
+  .research-grid,.focus-grid,.skill-grid{grid-template-columns:1fr}
+  .metric-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+</style>
+
 </head>
 <body>
 <nav class="nav">
   <div class="nav-inner">
-    <a class="nav-brand" href="index.html#about">Akbar Ali</a>
+    <a class="nav-brand" href="index.html">Akbar Ali</a>
     <ul class="nav-links">
-      <li><a href="index.html#about">Home</a></li>
-      <li><a href="index.html#education">Education</a></li>
-      <li><a href="index.html#publications">Publications</a></li>
-      <li><a href="index.html#teaching" class="active">Teaching</a></li>
-      <li><a href="index.html#projects">Projects</a></li>
-      <li><a href="index.html#awards">Awards</a></li>
-      <li><a href="index.html#memories">Memories</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Education.html">Education</a></li>
+      <li><a href="Publications.html">Publications</a></li>
+      <li><a href="Teaching.html" class="active">Teaching</a></li>
+      <li><a href="Projects.html">Projects</a></li>
+      <li><a href="Awards.html">Awards</a></li>
+      <li><a href="memories.html">Memories</a></li>
     </ul>
   </div>
 </nav>
@@ -307,6 +363,16 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
   <main class="content">
     <h1 class="page-title">Teaching and Mentoring</h1>
 
+
+    <p class="section-intro">My teaching combines fundamentals with hands-on computation and field experience. I particularly enjoy helping students turn an abstract method into something they can implement, visualize and test.</p>
+    <h3>Teaching Focus</h3>
+    <div class="skill-grid">
+      <div class="skill-card"><h4>Computing Fundamentals</h4><p>Data structures, algorithms, Python, SQL and practical data handling.</p></div>
+      <div class="skill-card"><h4>Data &amp; Machine Learning</h4><p>Probability, statistics, visualization and introductory machine-learning workflows.</p></div>
+      <div class="skill-card"><h4>Scientific Computing</h4><p>Working with image data, experiments, evaluation and reproducible computational workflows.</p></div>
+      <div class="skill-card"><h4>UAV &amp; Field Methods</h4><p>Mission planning, pre-flight procedures, field acquisition and responsible data collection.</p></div>
+    </div>
+    <h3>Teaching Experience</h3>
     <div class="t-list">
       <div class="t-row">
         <div class="t-header">
@@ -314,7 +380,7 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
           <div class="t-date">Jan &mdash; Apr 2025</div>
         </div>
         <div class="t-where"><a href="https://cs.iitgn.ac.in/" target="_blank">IIT Gandhinagar</a></div>
-        <div class="t-desc">Led the TA team for 45 students, covering data structures, algorithms, Python (Pandas, Matplotlib), SQL and introductory machine learning. Set QA session format and coordinated grading standards.</div>
+        <div class="t-desc">The course introduces students to the practical foundations of working with data. Topics included data structures and algorithms, Python programming with Pandas and Matplotlib, SQL, data manipulation and introductory machine-learning workflows. As lead TA, I coordinated a 45-student TA team, helped establish the QA-session format and maintained consistent grading standards.</div>
       </div>
       <div class="t-row">
         <div class="t-header">
@@ -322,7 +388,7 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
           <div class="t-date">Aug &mdash; Nov 2024</div>
         </div>
         <div class="t-where"><a href="https://cs.iitgn.ac.in/" target="_blank">IIT Gandhinagar</a></div>
-        <div class="t-desc">Guided 35 students through classwork, assessment and progress tracking, holding individual reviews with students falling behind.</div>
+        <div class="t-desc">This course focuses on developing clear and effective academic and technical writing. I guided 35 students through classwork and assessments, helped them improve the structure and communication of their writing, tracked progress and conducted individual reviews with students who needed additional support.</div>
       </div>
       <div class="t-row">
         <div class="t-header">
@@ -330,7 +396,7 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
           <div class="t-date">June 2024</div>
         </div>
         <div class="t-where"><a href="https://cs.iitgn.ac.in/" target="_blank">IIT Gandhinagar</a></div>
-        <div class="t-desc">Ran flight training and field sessions for around 30 students. Responsible for pre-flight checks, airspace discipline and student safety.</div>
+        <div class="t-desc">This hands-on course introduces students to drone-based data acquisition and the processing of imagery collected in the field. I ran flight-training and field sessions for around 30 students, covering pre-flight checks, mission preparation, responsible airspace practices, acquisition procedures and field safety.</div>
         <div class="fig-pair">
           <figure><img loading="lazy" src="files/course_drone.jpg" alt="Drone session"></figure>
           <figure><img loading="lazy" src="files/dron1.jpeg" alt="Field session"></figure>
@@ -342,7 +408,7 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
           <div class="t-date">Dec 2022 &mdash; Apr 2024</div>
         </div>
         <div class="t-where"><a href="https://cs.iitgn.ac.in/" target="_blank">IIT Gandhinagar</a></div>
-        <div class="t-desc">Ran labs and tutorials for 50+ students across three semesters using the Python data science stack.</div>
+        <div class="t-desc">This course develops the statistical foundations needed for analysing and communicating data. I ran laboratories and tutorials for 50+ students across three semesters, using Python to demonstrate probability, descriptive and inferential statistics, data analysis and effective data visualization.</div>
       </div>
       <div class="t-row">
         <div class="t-header">
@@ -357,7 +423,18 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
 </div>
 <footer class="site-footer">
   <span>Akbar Ali &mdash; aamaanakbar.github.io &mdash; updated September 2026</span>
-  <span><a href="index.html#about">Home</a> &middot; <a href="index.html#memories">Memories</a> &middot; <a href="mailto:akbar.ali@iitgn.ac.in">Email</a></span>
+  <span><a href="index.html">Home</a> &middot; <a href="memories.html">Memories</a> &middot; <a href="mailto:akbar.ali@iitgn.ac.in">Email</a></span>
 </footer>
+
+<script>
+(function(){
+  const btn=document.createElement('button');
+  btn.className='top-button'; btn.setAttribute('aria-label','Back to top'); btn.textContent='↑';
+  document.body.appendChild(btn);
+  window.addEventListener('scroll',()=>btn.classList.toggle('show',window.scrollY>420),{passive:true});
+  btn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+})();
+</script>
+
 </body>
 </html>
