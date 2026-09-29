@@ -257,33 +257,55 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
 
 /* RESEARCH INTERESTS */
 .research-interest-group {
-  margin: 18px 0;
+  margin: 14px 0;
+  padding: 14px 16px 15px;
+  background: #fff;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
 }
+.research-interest-group::before {
+  content: '';
+  position: absolute; top: 0; left: 0; bottom: 0; width: 3px;
+}
+.group-cv::before      { background: #0969da; }
+.group-gen::before     { background: #6e40c9; }
+.group-restore::before { background: #e3a008; }
+.group-hsi::before     { background: #1a9e77; }
 
 .research-interest-group h4 {
-  margin: 0 0 9px;
-  font-size: 12px;
+  margin: 0 0 10px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 1px;
-  color: #666;
+  letter-spacing: .09em;
+  color: #57606a;
 }
 
 .research-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 7px;
 }
 
 .research-tags span {
   display: inline-block;
-  padding: 5px 9px;
-  border: 1px solid #cfc8bd;
-  border-radius: 3px;
-  background: #fff;
-  color: #536b7d;
-  font-size: 13px;
-  line-height: 1.2;
+  padding: 5px 12px;
+  border-radius: 14px;
+  font-size: .78rem;
+  font-weight: 600;
+  line-height: 1.3;
+  background: #f6f8fa;
+  color: #24292f;
+  border: 1px solid #d8dee4;
+  transition: transform .12s, box-shadow .12s;
 }
+.research-tags span:hover { transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,.08); }
+
+.group-cv .research-tags span      { background: #ddf4ff; color: #0969da; border-color: #b6daff; }
+.group-gen .research-tags span     { background: #f2e9ff; color: #6e40c9; border-color: #dcc8ff; }
+.group-restore .research-tags span { background: #fff6dc; color: #8a5b00; border-color: #f0d896; }
+.group-hsi .research-tags span     { background: #e1f7ee; color: #0f6e56; border-color: #a9e6cd; }
 
 /* RESPONSIVE */
 @media(max-width:860px){
@@ -389,6 +411,7 @@ html { scroll-behavior: smooth; }
       <li><a href="#education"    data-section="education">Education</a></li>
       <li><a href="#publications" data-section="publications">Publications</a></li>
       <li><a href="#teaching"     data-section="teaching">Teaching Assistantships</a></li>
+      <li><a href="Media.html">Media Coverage</a></li>
       <li><a href="#projects"     data-section="projects">Projects</a></li>
       <li><a href="#awards"       data-section="awards">Awards</a></li>
       <li><a href="memories.html">Memories</a></li>
@@ -451,7 +474,7 @@ html { scroll-behavior: smooth; }
 
 <h3>Research Interests 🥸</h3>
 
-<div class="research-interest-group">
+<div class="research-interest-group group-cv">
   <h4>🤖 COMPUTER VISION</h4>
   <div class="research-tags">
     <span>Image Restoration</span>
@@ -461,7 +484,7 @@ html { scroll-behavior: smooth; }
   </div>
 </div>
 
-<div class="research-interest-group">
+<div class="research-interest-group group-gen">
   <h4>✨ GENERATIVE MODELS</h4>
   <div class="research-tags">
     <span>Gaussian Splatting</span>
@@ -473,7 +496,7 @@ html { scroll-behavior: smooth; }
   </div>
 </div>
 
-<div class="research-interest-group">
+<div class="research-interest-group group-restore">
   <h4>🖼️ IMAGE RESTORATION</h4>
   <div class="research-tags">
     <span>Image Deblurring</span>
@@ -484,7 +507,7 @@ html { scroll-behavior: smooth; }
   </div>
 </div>
 
-<div class="research-interest-group">
+<div class="research-interest-group group-hsi">
   <h4>🌈 HYPERSPECTRAL IMAGING</h4>
   <div class="research-tags">
     <span>Hyperspectral Imaging</span>
@@ -517,7 +540,7 @@ html { scroll-behavior: smooth; }
           <li><span class="news-tag">[Jul 2021]</span> Completed M.Tech at Aliah University, second rank overall.</li>
           <li><span class="news-tag">[Jul 2019]</span> Completed B.Tech at Aliah University, first rank overall.</li>
         </ul>
-      </div>
+      </div>s
     </div>
     </section>
 

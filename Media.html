@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akbar Ali — Media Coverage</title>
+<meta name="description" content="Media coverage of Akbar Ali's research and academic activities.">
+<link rel="icon" href="files/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;scroll-behavior:smooth}
+body{
+  font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  font-size:15px;line-height:1.72;color:#18181b;background:#f6f8fa;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:#0969da;text-decoration:none;transition:color .15s}
+a:hover{color:#0550ae;text-decoration:underline}
+img{display:block;max-width:100%}
+
+/* NAVBAR */
+.nav{
+  position:sticky;top:0;z-index:200;
+  background:rgba(246,248,250,.97);
+  backdrop-filter:saturate(180%) blur(12px);
+  -webkit-backdrop-filter:saturate(180%) blur(12px);
+  border-bottom:1px solid #d0d7de;
+  box-shadow:0 1px 0 rgba(0,0,0,.04);
+}
+.nav-inner{
+  max-width:1180px;margin:0 auto;padding:0 36px;
+  display:flex;align-items:stretch;
+}
+.nav-brand{
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:1.1rem;font-weight:700;color:#18181b;
+  display:flex;align-items:center;
+  padding:0 24px 0 0;margin-right:8px;
+  border-right:1px solid #d0d7de;
+  white-space:nowrap;letter-spacing:-.01em;
+}
+.nav-brand:hover{color:#0969da;text-decoration:none}
+.nav-links{display:flex;list-style:none;align-items:stretch;flex-wrap:wrap}
+.nav-links li a{
+  display:flex;align-items:center;
+  padding:0 13px;height:50px;
+  font-size:.83rem;font-weight:500;color:#57606a;
+  border-bottom:2px solid transparent;
+  transition:color .15s,border-color .2s;
+  white-space:nowrap;
+}
+.nav-links li a:hover{color:#18181b;border-bottom-color:#d0d7de;text-decoration:none}
+.nav-links li a.active{color:#0969da;font-weight:600;border-bottom-color:#0969da}
+
+/* LAYOUT */
+.page-wrap{
+  display:grid;grid-template-columns:218px 1fr;
+  max-width:1180px;margin:0 auto;
+  padding:40px 36px 90px;align-items:start;
+}
+
+/* SIDEBAR */
+.sidebar{position:sticky;top:60px;padding-right:34px}
+.sb-photo{margin-bottom:16px}
+.sb-photo img{
+  width:180px;height:180px;
+  object-fit:cover;object-position:center top;
+  border-radius:10px;
+  box-shadow:0 3px 14px rgba(0,0,0,.13);
+  border:3px solid #fff;
+}
+.sb-name{
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:1.2rem;font-weight:700;color:#18181b;
+  margin-bottom:4px;letter-spacing:-.01em;
+}
+.sb-role{
+  display:inline-block;font-size:.7rem;font-weight:600;color:#fff;
+  background:linear-gradient(135deg,#1e40af,#4f46e5);
+  padding:2px 10px;border-radius:20px;
+  letter-spacing:.07em;text-transform:uppercase;
+  margin-bottom:7px;
+}
+.sb-inst{font-size:.8rem;color:#57606a;margin-bottom:1px;line-height:1.4}
+.sb-divider{border:none;border-top:1px solid #d8dee4;margin:11px 0 9px}
+.sb-links{list-style:none;display:flex;flex-direction:column;gap:5px}
+.sb-links li a{
+  display:flex;align-items:center;gap:8px;
+  font-size:.82rem;font-weight:500;color:#24292f;
+  padding:3px 0;
+  transition:color .15s,transform .12s;
+}
+.sb-links li a:hover{color:#0969da;text-decoration:none;transform:translateX(2px)}
+.sb-icon{
+  width:26px;height:26px;border-radius:6px;
+  background:#eaeef2;
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;transition:background .15s;
+}
+.sb-links li a:hover .sb-icon{background:#ddf4ff}
+
+/* CONTENT */
+.content{min-width:0}
+.page-title{
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:1.85rem;font-weight:700;color:#18181b;
+  margin-bottom:22px;padding-bottom:14px;
+  border-bottom:1px solid #d0d7de;line-height:1.2;
+  letter-spacing:-.02em;
+}
+.section-intro{
+  font-size:.95rem;line-height:1.75;color:#57606a;
+  margin-bottom:22px;
+}
+
+/* MEDIA COVERAGE */
+.media-list{margin-top:8px}
+.media-item{
+  display:grid;
+  grid-template-columns:78px 1fr;
+  gap:16px;
+  padding:16px 0;
+  border-bottom:1px solid #e5e7eb;
+}
+.media-item:last-child{border-bottom:none}
+.media-date{
+  display:inline-block;
+  align-self:start;
+  text-align:center;
+  padding:4px 7px;
+  border:1px solid #b8cbd3;
+  border-radius:3px;
+  background:#f3f8fa;
+  color:#17637a;
+  font-size:12px;
+  font-weight:600;
+}
+.media-item strong{
+  font-size:.95rem;
+  color:#24292f;
+}
+.media-item p{
+  margin:4px 0 0;
+  font-size:.9rem;
+  line-height:1.65;
+  color:#57606a;
+}
+.media-item a{
+  color:#0969da;
+  font-weight:500;
+  white-space:nowrap;
+}
+
+/* FOOTER */
+.site-footer{
+  max-width:1180px;margin:0 auto;
+  padding:20px 36px 30px;
+  border-top:1px solid #d0d7de;
+  display:flex;justify-content:space-between;gap:20px;
+  font-size:.75rem;color:#8a939c;
+}
+
+/* MOBILE */
+@media (max-width:800px){
+  .nav-inner{padding:0 18px;overflow-x:auto}
+  .page-wrap{grid-template-columns:1fr;padding:28px 20px 60px}
+  .sidebar{position:static;padding-right:0;margin-bottom:30px}
+  .sb-photo img{width:140px;height:140px}
+  .site-footer{padding:18px 20px;display:block}
+  .site-footer span{display:block;margin-bottom:6px}
+}
+</style>
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">Akbar Ali</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Education.html">Education</a></li>
+      <li><a href="Publications.html">Publications</a></li>
+      <li><a href="Teaching.html">Teaching Assistantships</a></li>
+      <li><a class="active" href="Media.html">Media Coverage</a></li>
+      <li><a href="Projects.html">Projects</a></li>
+      <li><a href="Awards.html">Awards</a></li>
+      <li><a href="memories.html">Memories</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-wrap">
+
+  <aside class="sidebar">
+    <div class="sb-photo">
+      <img src="files/profile.jpg" alt="Akbar Ali">
+    </div>
+    <div class="sb-name">Akbar Ali</div>
+    <div class="sb-role">PhD Scholar · Computer Vision</div>
+    <div class="sb-inst">IIT Gandhinagar</div>
+
+    <hr class="sb-divider">
+
+    <ul class="sb-links">
+      <li><a href="mailto:akbar.ali@iitgn.ac.in"><span class="sb-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="#0969da"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.4-8 5-8-5V6l8 5 8-5v2.4z"/></svg></span>Email</a></li>
+      <li><a href="https://scholar.google.com/citations?user=g-2Aix8AAAAJ&hl=en" target="_blank" rel="noopener"><span class="sb-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="#0969da"><path d="M12 2 1 9l11 7 9-5.73V17h2V9L12 2zm0 9.27L5.74 9 12 4.73 18.26 9 12 11.27zM5 13v6l7 4 7-4v-6l-7 4-7-4z"/></svg></span>Google Scholar</a></li>
+      <li><a href="https://github.com/aamaanakbar" target="_blank" rel="noopener"><span class="sb-icon"><svg width="13" height="13" viewBox="0 0 16 16" fill="#0969da"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></span>GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/aamaanakbar" target="_blank" rel="noopener"><span class="sb-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="#0969da"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4v16h-4V8zm7.5 0h3.8v2.2h.1c.5-.9 1.7-2.2 3.7-2.2 4 0 4.7 2.6 4.7 6V24h-4v-7.5c0-1.8 0-4-2.5-4s-2.8 2-2.8 3.9V24h-4V8z"/></svg></span>LinkedIn</a></li>
+      <li><a href="https://x.com/AamaanAkbar" target="_blank" rel="noopener"><span class="sb-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="#0969da"><path d="M18.244 2H21.5l-7.42 8.49L23 22h-7.547l-5.288-6.634L4.64 22H1.5l7.93-9.07L2 2h7.664l4.713 5.927L18.244 2zM16.69 20h2.095L7.42 4H5.21l11.48 16z"/></svg></span>X / Twitter</a></li>
+      <li><a href="files/CV.pdf" target="_blank"><span class="sb-icon"><svg width="13" height="13" viewBox="0 0 24 24" fill="#0969da"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg></span>CV / Resume</a></li>
+    </ul>
+  </aside>
+
+  <main class="content">
+    <h1 class="page-title">Media Coverage 📰</h1>
+
+    <p class="section-intro">
+      Selected media coverage of my research and academic activities.
+    </p>
+
+    <div class="media-list">
+
+      <div class="media-item">
+        <span class="media-date">2026</span>
+        <div>
+          <strong>GenR: AI-based Face Restoration</strong>
+          <p>
+            IIT Gandhinagar featured <strong>GenR</strong>, our AI framework for blind face
+            restoration using StyleGAN3. The coverage highlights our three-stage restoration
+            approach and its applications to denoising, super-resolution, inpainting and
+            compression artefact removal.
+            <a href="https://www.instagram.com/p/DcLrv8nDbbM/?stkn=MjliNW9zc3M5am92"
+               target="_blank" rel="noopener">Instagram ↗</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="media-item">
+        <span class="media-date">2024</span>
+        <div>
+          <strong>IITGN R&amp;D Horizon 62: Smart Farming</strong>
+          <p>
+            IIT Gandhinagar featured our interdisciplinary smart farming project using
+            drone imagery, AI models and computer vision for crop monitoring, stress
+            detection, crop density analysis and yield prediction.
+            <a href="https://www.instagram.com/p/C_QWxplPpgZ/?stkn=bnN5ZjFyN3JxaWYy"
+               target="_blank" rel="noopener">Instagram ↗</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<footer class="site-footer">
+  <span>Akbar Ali &mdash; aamaanakbar.github.io</span>
+  <span><a href="index.html">Home</a> &middot; <a href="mailto:akbar.ali@iitgn.ac.in">Email</a></span>
+</footer>
+
+</body>
+</html>
