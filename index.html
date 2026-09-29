@@ -255,36 +255,6 @@ figcaption{font-size:.75rem;color:#8c959f;margin-top:6px}
 .site-footer a{color:#8c959f;transition:color .15s}
 .site-footer a:hover{color:#0969da;text-decoration:none}
 
-/* RESEARCH INTERESTS */
-.research-interest-group {
-  margin: 18px 0;
-}
-
-.research-interest-group h4 {
-  margin: 0 0 9px;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #666;
-}
-
-.research-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-}
-
-.research-tags span {
-  display: inline-block;
-  padding: 5px 9px;
-  border: 1px solid #cfc8bd;
-  border-radius: 3px;
-  background: #fff;
-  color: #536b7d;
-  font-size: 13px;
-  line-height: 1.2;
-}
-
 /* RESPONSIVE */
 @media(max-width:860px){
   .page-wrap{grid-template-columns:1fr;padding:22px 18px 55px}
@@ -416,29 +386,6 @@ html { scroll-behavior: smooth; }
 .fellow-highlight .fellow-text em{font-style:italic}
 
 
-/* ── research interests (grouped tags, image reference style) ── */
-.ri-block{margin-bottom:4px}
-.ri-group{margin-bottom:16px}
-.ri-group-label{
-  display:flex;align-items:center;gap:6px;
-  font-size:.7rem;font-weight:700;
-  color:#57606a;letter-spacing:.09em;
-  text-transform:uppercase;margin-bottom:8px;
-}
-.ri-tags{display:flex;flex-wrap:wrap;gap:6px}
-.ri-tag{
-  display:inline-block;
-  padding:5px 10px;
-  border:1px solid #cfc8bd;
-  border-radius:4px;
-  background:#fff;
-  color:#536b7d;
-  font-size:.82rem;line-height:1.2;
-  transition:border-color .14s,color .14s;
-}
-.ri-tag:hover{border-color:#0969da;color:#0969da}
-
-
 /* ── media coverage (updated layout) ── */
 .media-list{margin-top:8px}
 .media-item{
@@ -455,6 +402,39 @@ html { scroll-behavior: smooth; }
 .media-item strong{font-size:.95rem;color:#24292f;display:block;margin-bottom:3px}
 .media-item p{margin:4px 0 0;font-size:.9rem;line-height:1.65;color:#57606a}
 .media-item a{color:#0969da;font-weight:500}
+
+
+
+
+/* ── research interests ── */
+.ri-heading {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.3rem; font-weight: 700; color: #18181b;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d0d7de;
+  margin-bottom: 10px; margin-top: 20px;
+}
+.ri-block { margin-bottom: 2px; }
+.ri-group { margin-bottom: 9px; }
+.ri-group-label {
+  display: flex; align-items: center; gap: 5px;
+  font-size: .67rem; font-weight: 700;
+  color: #57606a; letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-family: 'Inter', sans-serif;
+}
+.ri-group-label::after { display: none !important; }
+.ri-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.ri-tag {
+  display: inline-block;
+  padding: 3px 8px;
+  border: 1px solid #d0d7de;
+  border-radius: 4px;
+  background: #fff;
+  color: #24292f;
+  font-size: .8rem; font-weight: 400; line-height: 1.2;
+}
 
 </style>
 </head>
@@ -497,7 +477,13 @@ html { scroll-behavior: smooth; }
 
   <main class="content">
 
-    <section id="bio" class="section-anchor">
+    
+
+<!-- ════════════════════════════════════════
+     SECTION: HOME / BIO
+     Edit: bio paragraphs, fellowship box, research interests, news
+     ════════════════════════════════════════ -->
+<section id="bio" class="section-anchor">
 <p>I am a Ph.D. researcher in Computer Science and Engineering at
   <a href="https://iitgn.ac.in/" target="_blank">IIT Gandhinagar</a>, working under the guidance of
   <a href="https://iitgn.ac.in/faculty/cse/shanmuganathan" target="_blank">Prof. Shanmuganathan Raman</a>.
@@ -530,46 +516,49 @@ html { scroll-behavior: smooth; }
   </span>
 </div>
 
-<h3>Research Interests 🥸</h3>
+<div class="ri-heading">Research Interests 🤓</div>
 
 <div class="ri-block">
+  <div class="ri-group">
+    <div class="ri-group-label">🧠 Machine Learning</div>
+    <div class="ri-tags">
+      <span class="ri-tag">Self-Supervised Learning</span>
+      <span class="ri-tag">Zero-Shot Learning</span>
+      <span class="ri-tag">Training-Free Inference</span>
+      <span class="ri-tag">Latent-Space Optimization</span>
+      <span class="ri-tag">Representation Learning</span>
+    </div>
+  </div>
   <div class="ri-group">
     <div class="ri-group-label">🤖 Computer Vision</div>
     <div class="ri-tags">
       <span class="ri-tag">Image Restoration</span>
       <span class="ri-tag">Image Reconstruction</span>
+      <span class="ri-tag">Blind Image Restoration</span>
       <span class="ri-tag">Visual Representation Learning</span>
-      <span class="ri-tag">Zero-shot Learning</span>
+      <span class="ri-tag">Zero-Shot Restoration</span>
     </div>
   </div>
   <div class="ri-group">
     <div class="ri-group-label">✨ Generative Models</div>
     <div class="ri-tags">
-      <span class="ri-tag">Gaussian Splatting</span>
       <span class="ri-tag">Generative Priors</span>
       <span class="ri-tag">Latent Inversion</span>
+      <span class="ri-tag">Gaussian Splatting</span>
       <span class="ri-tag">Diffusion Models</span>
       <span class="ri-tag">StyleGAN</span>
       <span class="ri-tag">Generator Adaptation</span>
+      <span class="ri-tag">Pivotal Tuning</span>
     </div>
   </div>
   <div class="ri-group">
-    <div class="ri-group-label">🖼️ Image Restoration</div>
-    <div class="ri-tags">
-      <span class="ri-tag">Image Deblurring</span>
-      <span class="ri-tag">Image Denoising</span>
-      <span class="ri-tag">Image Inpainting</span>
-      <span class="ri-tag">Super-Resolution</span>
-      <span class="ri-tag">Blind Image Restoration</span>
-    </div>
-  </div>
-  <div class="ri-group">
-    <div class="ri-group-label">🌈 Hyperspectral Imaging</div>
+    <div class="ri-group-label">🌈 Hyperspectral &amp; Aerial Imaging</div>
     <div class="ri-tags">
       <span class="ri-tag">Hyperspectral Imaging</span>
       <span class="ri-tag">Spectral Reconstruction</span>
-      <span class="ri-tag">Hyperspectral Denoising</span>
-      <span class="ri-tag">Hyperspectral Super-Resolution</span>
+      <span class="ri-tag">HSI Denoising</span>
+      <span class="ri-tag">HSI Super-Resolution</span>
+      <span class="ri-tag">UAV-based Imaging</span>
     </div>
   </div>
 </div>
@@ -601,7 +590,13 @@ html { scroll-behavior: smooth; }
     </div>
     </section>
 
-      <section id="education" class="section-anchor">
+      
+
+<!-- ════════════════════════════════════════
+     SECTION: EDUCATION
+     Edit: metric cards, timeline entries
+     ════════════════════════════════════════ -->
+<section id="education" class="section-anchor">
     <div class="section-divider"><h2>Education</h2></div>
     <h3>Academic Snapshot</h3>
     <div class="metric-grid">
@@ -659,7 +654,13 @@ html { scroll-behavior: smooth; }
     </div>
   </section>
 
-      <section id="publications" class="section-anchor">
+      
+
+<!-- ════════════════════════════════════════
+     SECTION: PUBLICATIONS
+     Edit: metric cards, filter buttons, paper entries
+     ════════════════════════════════════════ -->
+<section id="publications" class="section-anchor">
     <div class="section-divider"><h2>Publications</h2></div>
     <div class="metric-grid">
       <div class="metric-card"><div class="metric-number">7</div><div class="metric-label">listed publications</div></div>
@@ -756,7 +757,13 @@ html { scroll-behavior: smooth; }
     </div>
   </section>
 
-      <section id="teaching" class="section-anchor">
+      
+
+<!-- ════════════════════════════════════════
+     SECTION: TEACHING
+     Edit: skill cards, timeline entries
+     ════════════════════════════════════════ -->
+<section id="teaching" class="section-anchor">
     <div class="section-divider"><h2>Teaching and Mentoring</h2></div>
     <p class="section-intro">My teaching combines fundamentals with hands-on computation and field experience. I particularly enjoy helping students turn an abstract method into something they can implement, visualize and test.</p>
     <h3>Teaching Focus</h3>
@@ -815,7 +822,13 @@ html { scroll-behavior: smooth; }
     </div>
   </section>
 
-  <section id="media" class="section-anchor">
+  
+
+<!-- ════════════════════════════════════════
+     SECTION: MEDIA COVERAGE
+     Edit: media-item entries (date + title + description + link)
+     ════════════════════════════════════════ -->
+<section id="media" class="section-anchor">
     <div class="section-divider"><h2>Media Coverage 📰</h2></div>
     <p class="section-intro">Selected media coverage of my research and academic activities.</p>
 
@@ -849,7 +862,13 @@ html { scroll-behavior: smooth; }
     </div>
   </section>
 
-      <section id="projects" class="section-anchor">
+      
+
+<!-- ════════════════════════════════════════
+     SECTION: PROJECTS
+     Edit: focus-grid cards, timeline entries with photos
+     ════════════════════════════════════════ -->
+<section id="projects" class="section-anchor">
     <div class="section-divider"><h2>Collaborations and Field Work</h2></div>
     <p class="section-intro">From generative image restoration to hyperspectral sensing, my projects combine representation learning with real-world data and interdisciplinary collaboration.</p>
 
@@ -920,7 +939,13 @@ html { scroll-behavior: smooth; }
     </div>
   </section>
 
-      <section id="awards" class="section-anchor">
+      
+
+<!-- ════════════════════════════════════════
+     SECTION: AWARDS
+     Edit: callout box, award-card entries
+     ════════════════════════════════════════ -->
+<section id="awards" class="section-anchor">
     <div class="section-divider"><h2>Awards and Certifications</h2></div>
     <p class="section-intro">Selected academic distinctions, fellowships and professional certifications.</p>
     <div class="callout"><strong>Research Lab Abroad Fellowship.</strong> Awarded the Visvesvaraya PhD Scheme Research Lab Abroad Fellowship in 2025, supporting a six-month research stay at Helmholtz Institute Freiberg, Germany, in 2026.</div>
