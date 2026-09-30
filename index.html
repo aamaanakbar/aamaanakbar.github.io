@@ -129,6 +129,70 @@ img{display:block;max-width:100%}
 }
 .content li::before{content:'›';position:absolute;left:0;color:#6e40c9;font-weight:700;font-size:1rem}
 
+.ri-box {
+  border: 1px solid #d6dce3;
+  border-radius: 10px;
+  padding: 24px 26px;
+  margin: 24px 0;
+  background: #fafbfc;
+}
+
+.ri-heading {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #d6dce3;
+  margin-bottom: 20px;
+}
+
+.ri-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px 32px;
+}
+
+.ri-group {
+  padding: 4px 0;
+}
+
+.ri-group-label {
+  font-size: 15px;
+  font-weight: 700;
+  color: #59636e;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  margin-bottom: 10px;
+}
+
+.ri-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.ri-tag {
+  display: inline-block;
+  padding: 5px 9px;
+  border: 1px solid #d2d9e1;
+  border-radius: 5px;
+  background: #fff;
+  color: #303841;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+@media (max-width: 700px) {
+  .ri-block {
+    grid-template-columns: 1fr;
+  }
+
+  .ri-box {
+    padding: 20px;
+  }
+}
+
 /* NEWS BOX */
 .news-box{
   border:1px solid #d0d7de;border-radius:8px;
@@ -448,7 +512,7 @@ html { scroll-behavior: smooth; }
       <li><a href="#education"    data-section="education">Education</a></li>
       <li><a href="#publications" data-section="publications">Publications</a></li>
       <li><a href="#teaching"     data-section="teaching">Teaching Assistantships</a></li>
-      <li><a href="#media"        data-section="media">Media</a></li>
+      <li><a href="#media Coverage"        data-section="media">Media</a></li>
       <li><a href="#projects"     data-section="projects">Projects</a></li>
       <li><a href="#awards"       data-section="awards">Awards</a></li>
       <li><a href="memories.html">Memories</a></li>
@@ -516,48 +580,56 @@ html { scroll-behavior: smooth; }
   </span>
 </div>
 
-<div class="ri-heading">Research Interests 🤓</div>
+<div class="ri-box">
 
-<div class="ri-block">
-  <div class="ri-group">
-    <div class="ri-group-label">🧠 Machine Learning</div>
-    <div class="ri-tags">
-      <span class="ri-tag">Self-Supervised Learning</span>
-      <span class="ri-tag">Zero-Shot Learning</span>
-      <span class="ri-tag">Latent-Space Optimization</span>
+  <div class="ri-heading">Research Interests </div>
+
+  <div class="ri-block">
+
+    <div class="ri-group">
+      <div class="ri-group-label"> Machine Learning</div>
+      <div class="ri-tags">
+        <span class="ri-tag">Self-Supervised Learning</span>
+        <span class="ri-tag">Zero-Shot Learning</span>
+        <span class="ri-tag">Latent-Space Optimization</span>
+      </div>
     </div>
-  </div>
-  <div class="ri-group">
-    <div class="ri-group-label">🤖 Computer Vision</div>
-    <div class="ri-tags">
-      <span class="ri-tag">Image Restoration</span>
-      <span class="ri-tag">Image Reconstruction</span>
-      <span class="ri-tag">Blind Image Restoration</span>
+
+    <div class="ri-group">
+      <div class="ri-group-label"> Computer Vision</div>
+      <div class="ri-tags">
+        <span class="ri-tag">Image Restoration</span>
+        <span class="ri-tag">Image Reconstruction</span>
+        <span class="ri-tag">Blind Image Restoration</span>
+      </div>
     </div>
-  </div>
-  <div class="ri-group">
-    <div class="ri-group-label">✨ Generative Models</div>
-    <div class="ri-tags">
-      <span class="ri-tag">Generative Priors</span>
-      <span class="ri-tag">Latent Inversion</span>
-      <span class="ri-tag">Gaussian Splatting</span>
-      <span class="ri-tag">Diffusion Models</span>
-      <span class="ri-tag">StyleGAN</span>
-      <span class="ri-tag">Pivotal Tuning</span>
+
+    <div class="ri-group">
+      <div class="ri-group-label"> Generative Models</div>
+      <div class="ri-tags">
+        <span class="ri-tag">Generative Priors</span>
+        <span class="ri-tag">Latent Inversion</span>
+        <span class="ri-tag">Gaussian Splatting</span>
+        <span class="ri-tag">Diffusion Models</span>
+        <span class="ri-tag">StyleGAN</span>
+        <span class="ri-tag">Pivotal Tuning</span>
+      </div>
     </div>
-  </div>
-  <div class="ri-group">
-    <div class="ri-group-label">🌈 Hyperspectral &amp; Aerial Imaging</div>
-    <div class="ri-tags">
-      <span class="ri-tag">Hyperspectral Imaging</span>
-      <span class="ri-tag">Spectral Reconstruction</span>
-      <span class="ri-tag">HSI Denoising</span>
-      <span class="ri-tag">HSI Super-Resolution</span>
-      <span class="ri-tag">UAV-based Imaging</span>
+
+    <div class="ri-group">
+      <div class="ri-group-label"> Hyperspectral &amp; Aerial Imaging</div>
+      <div class="ri-tags">
+        <span class="ri-tag">Hyperspectral Imaging</span>
+        <span class="ri-tag">Spectral Reconstruction</span>
+        <span class="ri-tag">HSI Denoising</span>
+        <span class="ri-tag">HSI Super-Resolution</span>
+        <span class="ri-tag">UAV-based Imaging</span>
+      </div>
     </div>
+
   </div>
+
 </div>
-
 <h3>News</h3>
     <div class="news-box">
       <div class="news-scroll">
@@ -611,7 +683,7 @@ html { scroll-behavior: smooth; }
           <div class="t-title">Visiting Researcher &mdash; Helmholtz-Zentrum Dresden-Rossendorf (HZDR)</div>
           <div class="t-date">Mar 2026 &mdash; Sep 2026</div>
         </div>
-        <div class="t-where"><a href="https://www.hzdr.de" target="_blank">Helmholtz Institute Freiberg</a>, Germany &middot; Supervised by Prof. Dr. Richard Gloaguen &middot; Mentored by Dr. Sam T. Thiele</div>
+        <div class="t-where"><a href="https://www.hzdr.de" target="_blank">Helmholtz Institute Freiberg</a>, Germany &middot; Supervised by <a href="https://www.hzdr.de/db/!ContMan.Visi.Card?pUser=15927&pNid=2423&pLang=en" target="_blank">Prof. Richard Gloaguen</a> &middot; Mentored by <a href="https://www.hzdr.de/db/!ContMan.Visi.Card?pUser=140767&pNid=2423&pLang=en" target="_blank">Dr. Sam T. Thiele</a></div>
         <div class="t-desc">Research Lab Abroad Fellowship (Visvesvaraya PhD Scheme, MeitY). During this research stay, I focused on hyperspectral image restoration with generative models, using the opportunity to connect computer-vision methods with scientific imaging problems and to work in an interdisciplinary research environment.</div>
       </div>
       <div class="t-row">
@@ -627,7 +699,7 @@ html { scroll-behavior: smooth; }
           <div class="t-title">Project Associate &mdash; IIT Ropar</div>
           <div class="t-date">Sep 2021 &mdash; Nov 2022</div>
         </div>
-        <div class="t-where"><a href="https://www.iitrpr.ac.in" target="_blank">IIT Ropar</a> &middot; with Prof. Neeraj Goel</div>
+        <div class="t-where"><a href="https://www.iitrpr.ac.in" target="_blank">IIT Ropar</a> &middot; with <a href="https://sites.google.com/view/neerajgoel" target="_blank">Prof. Neeraj Goel</a></div>
         <div class="t-desc">Worked on computer-vision methods for industrial automation, combining hyperspectral imaging with stereo vision for volume estimation. This experience provided an early bridge between multimodal sensing, image analysis and applied vision systems.</div>
       </div>
       <div class="t-row">
@@ -635,7 +707,7 @@ html { scroll-behavior: smooth; }
           <div class="t-title">M.Tech, Computer Science and Engineering &mdash; CPI 9.03 / 10 &middot; 2nd Rank</div>
           <div class="t-date">Aug 2019 &mdash; Jul 2021</div>
         </div>
-        <div class="t-where"><a href="https://aliah.ac.in" target="_blank">Aliah University</a>, Kolkata &middot; with Prof. Saiyed Umar</div>
+        <div class="t-where"><a href="https://aliah.ac.in" target="_blank">Aliah University</a>, Kolkata &middot; with <a href="https://sites.google.com/view/dr-saiyed-umer/" target="_blank">Prof. Saiyed Umar</a></div>
         <div class="t-desc">Completed an M.Tech. thesis on a predictive framework for Parkinson's disease analysis. The work developed my experience in machine learning, predictive modelling and research-oriented experimentation, and was subsequently published by Springer Nature in 2023.</div>
       </div>
       <div class="t-row">
@@ -643,7 +715,7 @@ html { scroll-behavior: smooth; }
           <div class="t-title">B.Tech, Computer Science and Engineering &mdash; CPI 8.97 / 10 &middot; 1st Rank</div>
           <div class="t-date">Jun 2015 &mdash; Jul 2019</div>
         </div>
-        <div class="t-where"><a href="https://aliah.ac.in" target="_blank">Aliah University</a>, Kolkata</div>
+        <div class="t-where"><a href="https://aliah.ac.in" target="_blank">Aliah University</a>, Kolkata &middot; with <a href="https://aliah.ac.in/faculty-details.php?id=59" target="_blank">Prof. Zeenat Rehana</a></div>
         <div class="t-desc">Completed a B.Tech. project on an IoT-based home automation system, combining sensor integration with wireless communication. The project gave me an early foundation in programming, system integration and building end-to-end technology prototypes.</div>
       </div>
     </div>
@@ -837,6 +909,8 @@ html { scroll-behavior: smooth; }
             restoration using StyleGAN3. The coverage highlights our three-stage restoration
             approach and its applications to denoising, super-resolution, inpainting and
             compression artefact removal.
+            <a href="https://lnkd.in/p/dzHiDVyD" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="https://lnkd.in/p/dhSevHBN" target="_blank" rel="noopener">IITGN News ↗</a>
             <a href="https://www.instagram.com/p/DcLrv8nDbbM/?stkn=MjliNW9zc3M5am92" target="_blank" rel="noopener">Instagram ↗</a>
           </p>
         </div>
@@ -849,6 +923,7 @@ html { scroll-behavior: smooth; }
           <p>IIT Gandhinagar featured our interdisciplinary smart farming project using
             drone imagery, AI models and computer vision for crop monitoring, stress
             detection, crop density analysis and yield prediction.
+            <a href="https://www.linkedin.com/posts/indian-institute-of-technology-gandhinagar-iitgn-_csr-smartfarming-aerialimagery-activity-7234915488646971393-Vbk2?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWvnlIB8yfIdA457mJtBYet7nrN9aliCOc" target="_blank" rel="noopener">LinkedIn ↗</a>
             <a href="https://www.instagram.com/p/C_QWxplPpgZ/?stkn=bnN5ZjFyN3JxaWYy" target="_blank" rel="noopener">Instagram ↗</a>
           </p>
         </div>
